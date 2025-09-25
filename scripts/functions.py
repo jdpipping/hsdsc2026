@@ -2,7 +2,7 @@
 ### PACKAGES ###
 ################
 
-from .classes import Player, Team, League, Coach
+from classes import Player, Team, League, Coach
 import numpy as np
 import random
 from faker import Faker
@@ -145,7 +145,7 @@ def draft_teams(n_teams: int, players: list[Player], n_lines: int, n_pairs: int,
     random.shuffle(available_defenders)
     random.shuffle(available_goalies)
 
-    # Prepare unique team country names via Faker (required)
+    # Prepare unique team city names via Faker
     team_names: list[str] = []
     fake = Faker()
     # Seed faker deterministically based on Python RNG to honor random.seed in main
@@ -155,9 +155,9 @@ def draft_teams(n_teams: int, players: list[Player], n_lines: int, n_pairs: int,
     while len(team_names) < n_teams and tries < n_teams * 200:
         tries += 1
         try:
-            name = fake.unique.country()
+            name = fake.unique.city()
         except Exception:
-            name = fake.country()
+            name = fake.city()
         if name not in used:
             used.add(name)
             team_names.append(name)

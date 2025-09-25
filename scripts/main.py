@@ -5,8 +5,8 @@
 import csv
 import os
 import random
-from .functions import build_league, set_rng_seed
-from .classes import League
+from functions import build_league, set_rng_seed
+from classes import League
 
 ###################
 ### MAIN SCRIPT ###
