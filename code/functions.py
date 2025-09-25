@@ -1,8 +1,17 @@
-from classes import Player, Team, League, Coach
+################
+### PACKAGES ###
+################
+
+from .classes import Player, Team, League, Coach
 import numpy as np
 import random
 from faker import Faker
-# Helper: generate unique, title-free person names
+
+###############
+### HELPERS ###
+###############
+
+# Generate unique, title-free person names
 def _fake_unique_name(fake: Faker, seen: set[str], male: bool = False) -> str:
     """Return a unique full name without titles using first/last components.
 
@@ -217,4 +226,3 @@ def simulate_game_simple(home: Team, away: Team, mean_goals: float = 3.0) -> dic
         "score": {"home": home_goals, "away": away_goals},
         "lambdas": {"home": lambda_home, "away": lambda_away},
     }
-

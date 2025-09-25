@@ -5,8 +5,8 @@
 import csv
 import os
 import random
-from functions import build_league, set_rng_seed
-from classes import League
+from .functions import build_league, set_rng_seed
+from .classes import League
 
 ###################
 ### MAIN SCRIPT ###
@@ -18,7 +18,7 @@ set_rng_seed(SEED)   # NumPy RNG used inside simulation
 random.seed(SEED)    # Python RNG used for coaches, shuffles, etc.
 
 # Ensure data directory exists
-DATA_DIR = 'data'
+DATA_DIR = '../data'
 os.makedirs(DATA_DIR, exist_ok=True)
 
 # 1) Build a 30-team league
