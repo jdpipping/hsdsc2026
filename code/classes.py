@@ -459,7 +459,6 @@ class League:
             (game_rows, pbp_rows) where game_rows contains one row per game with
             basic results, and pbp_rows contains play-by-play for the requested weeks.
         """
-        from . import Game  # late import to avoid order concerns
 
         game_rows: List[Dict] = []
         pbp_rows: List[Dict] = []
