@@ -1,871 +1,871 @@
 game_id,week,home_team,away_team,home_score,away_score,went_ot,winner,loser
-1,1,Equatorial Guinea,Suriname,7,4,0,Equatorial Guinea,Suriname
-2,1,Portugal,Czech Republic,4,2,0,Portugal,Czech Republic
-3,1,Italy,Macao,2,3,1,Macao,Italy
-4,1,Iceland,Holy See (Vatican City State),6,1,0,Iceland,Holy See (Vatican City State)
-5,1,Anguilla,Syrian Arab Republic,2,3,1,Syrian Arab Republic,Anguilla
-6,1,Yemen,Rwanda,4,2,0,Yemen,Rwanda
-7,1,Solomon Islands,Belarus,2,3,0,Belarus,Solomon Islands
-8,1,Cocos (Keeling) Islands,Tunisia,4,1,0,Cocos (Keeling) Islands,Tunisia
-9,1,Zambia,Guyana,5,2,0,Zambia,Guyana
-10,1,Norway,India,1,5,0,India,Norway
-11,1,Bhutan,Luxembourg,2,4,0,Luxembourg,Bhutan
-12,1,Saint Barthelemy,Madagascar,4,2,0,Saint Barthelemy,Madagascar
-13,1,Palau,Ethiopia,2,5,0,Ethiopia,Palau
-14,1,Latvia,French Polynesia,2,0,0,Latvia,French Polynesia
-15,1,Canada,Jordan,1,5,0,Jordan,Canada
-16,2,Norway,Iceland,4,1,0,Norway,Iceland
-17,2,Saint Barthelemy,Portugal,4,3,0,Saint Barthelemy,Portugal
-18,2,Italy,Anguilla,2,5,0,Anguilla,Italy
-19,2,Solomon Islands,Palau,3,2,0,Solomon Islands,Palau
-20,2,Equatorial Guinea,Czech Republic,2,3,1,Czech Republic,Equatorial Guinea
-21,2,Ethiopia,Zambia,3,2,0,Ethiopia,Zambia
-22,2,Latvia,Bhutan,1,4,0,Bhutan,Latvia
-23,2,Luxembourg,Tunisia,5,3,0,Luxembourg,Tunisia
-24,2,Rwanda,India,0,4,0,India,Rwanda
-25,2,Holy See (Vatican City State),Madagascar,3,2,0,Holy See (Vatican City State),Madagascar
-26,2,Guyana,Jordan,2,5,0,Jordan,Guyana
-27,2,Macao,Suriname,3,0,0,Macao,Suriname
-28,2,Belarus,Syrian Arab Republic,3,2,1,Belarus,Syrian Arab Republic
-29,2,Yemen,French Polynesia,6,2,0,Yemen,French Polynesia
-30,2,Canada,Cocos (Keeling) Islands,2,6,0,Cocos (Keeling) Islands,Canada
-31,3,India,Anguilla,0,2,0,Anguilla,India
-32,3,Italy,Guyana,1,2,0,Guyana,Italy
-33,3,Holy See (Vatican City State),Portugal,1,2,0,Portugal,Holy See (Vatican City State)
-34,3,Jordan,Solomon Islands,2,3,1,Solomon Islands,Jordan
-35,3,Zambia,Madagascar,4,3,1,Zambia,Madagascar
-36,3,Luxembourg,Latvia,4,2,0,Luxembourg,Latvia
-37,3,Tunisia,French Polynesia,4,5,1,French Polynesia,Tunisia
-38,3,Syrian Arab Republic,Czech Republic,5,1,0,Syrian Arab Republic,Czech Republic
-39,3,Yemen,Iceland,6,2,0,Yemen,Iceland
-40,3,Equatorial Guinea,Canada,6,2,0,Equatorial Guinea,Canada
-41,3,Saint Barthelemy,Cocos (Keeling) Islands,5,1,0,Saint Barthelemy,Cocos (Keeling) Islands
-42,3,Bhutan,Ethiopia,3,2,1,Bhutan,Ethiopia
-43,3,Rwanda,Norway,2,3,1,Norway,Rwanda
-44,3,Belarus,Suriname,2,4,0,Suriname,Belarus
-45,3,Macao,Palau,4,3,1,Macao,Palau
-46,4,Equatorial Guinea,Portugal,3,1,0,Equatorial Guinea,Portugal
-47,4,Saint Barthelemy,Guyana,3,1,0,Saint Barthelemy,Guyana
-48,4,Latvia,Tunisia,2,3,1,Tunisia,Latvia
-49,4,Anguilla,Suriname,3,2,0,Anguilla,Suriname
-50,4,Holy See (Vatican City State),Iceland,5,3,0,Holy See (Vatican City State),Iceland
-51,4,Madagascar,Ethiopia,5,6,1,Ethiopia,Madagascar
-52,4,Jordan,Macao,1,3,0,Macao,Jordan
-53,4,Luxembourg,Zambia,8,0,0,Luxembourg,Zambia
-54,4,French Polynesia,Czech Republic,4,0,0,French Polynesia,Czech Republic
-55,4,Bhutan,Italy,6,3,0,Bhutan,Italy
-56,4,Solomon Islands,Rwanda,1,3,0,Rwanda,Solomon Islands
-57,4,Norway,Syrian Arab Republic,4,2,0,Norway,Syrian Arab Republic
-58,4,Cocos (Keeling) Islands,India,5,4,1,Cocos (Keeling) Islands,India
-59,4,Belarus,Canada,2,3,1,Canada,Belarus
-60,4,Yemen,Palau,5,3,0,Yemen,Palau
-61,5,Guyana,Latvia,0,4,0,Latvia,Guyana
-62,5,Madagascar,Portugal,1,2,1,Portugal,Madagascar
-63,5,Tunisia,Syrian Arab Republic,0,2,0,Syrian Arab Republic,Tunisia
-64,5,Solomon Islands,Holy See (Vatican City State),2,1,0,Solomon Islands,Holy See (Vatican City State)
-65,5,Anguilla,India,4,0,0,Anguilla,India
-66,5,Ethiopia,Iceland,2,5,0,Iceland,Ethiopia
-67,5,Cocos (Keeling) Islands,Macao,3,4,0,Macao,Cocos (Keeling) Islands
-68,5,Equatorial Guinea,Bhutan,3,2,1,Equatorial Guinea,Bhutan
-69,5,Italy,Czech Republic,4,3,1,Italy,Czech Republic
-70,5,Belarus,Zambia,6,1,0,Belarus,Zambia
-71,5,Suriname,Jordan,3,4,0,Jordan,Suriname
-72,5,Palau,Saint Barthelemy,4,1,0,Palau,Saint Barthelemy
-73,5,French Polynesia,Luxembourg,8,1,0,French Polynesia,Luxembourg
-74,5,Rwanda,Yemen,1,2,0,Yemen,Rwanda
-75,5,Norway,Canada,7,3,0,Norway,Canada
-76,6,Portugal,Jordan,1,3,0,Jordan,Portugal
-77,6,Latvia,Luxembourg,3,2,1,Latvia,Luxembourg
-78,6,Tunisia,Palau,1,0,0,Tunisia,Palau
-79,6,Equatorial Guinea,India,2,1,0,Equatorial Guinea,India
-80,6,Madagascar,Saint Barthelemy,1,2,0,Saint Barthelemy,Madagascar
-81,6,Syrian Arab Republic,Ethiopia,5,4,0,Syrian Arab Republic,Ethiopia
-82,6,Rwanda,Iceland,1,2,0,Iceland,Rwanda
-83,6,Anguilla,Bhutan,2,1,1,Anguilla,Bhutan
-84,6,French Polynesia,Solomon Islands,4,2,0,French Polynesia,Solomon Islands
-85,6,Czech Republic,Canada,2,5,0,Canada,Czech Republic
-86,6,Zambia,Norway,2,5,0,Norway,Zambia
-87,6,Macao,Cocos (Keeling) Islands,5,3,0,Macao,Cocos (Keeling) Islands
-88,6,Guyana,Italy,0,1,0,Italy,Guyana
-89,6,Yemen,Suriname,4,3,1,Yemen,Suriname
-90,6,Holy See (Vatican City State),Belarus,5,1,0,Holy See (Vatican City State),Belarus
-91,7,Portugal,Holy See (Vatican City State),1,2,0,Holy See (Vatican City State),Portugal
-92,7,India,Macao,5,4,0,India,Macao
-93,7,Ethiopia,Luxembourg,2,3,0,Luxembourg,Ethiopia
-94,7,Equatorial Guinea,Syrian Arab Republic,3,5,0,Syrian Arab Republic,Equatorial Guinea
-95,7,Belarus,Madagascar,5,1,0,Belarus,Madagascar
-96,7,Latvia,Saint Barthelemy,4,3,1,Latvia,Saint Barthelemy
-97,7,Cocos (Keeling) Islands,Iceland,2,1,1,Cocos (Keeling) Islands,Iceland
-98,7,Canada,Guyana,1,4,0,Guyana,Canada
-99,7,Norway,Suriname,5,1,0,Norway,Suriname
-100,7,Czech Republic,Yemen,1,10,0,Yemen,Czech Republic
-101,7,Rwanda,Tunisia,4,3,0,Rwanda,Tunisia
-102,7,French Polynesia,Bhutan,4,3,1,French Polynesia,Bhutan
-103,7,Zambia,Jordan,4,3,1,Zambia,Jordan
-104,7,Palau,Anguilla,4,5,1,Anguilla,Palau
-105,7,Italy,Solomon Islands,0,2,0,Solomon Islands,Italy
-106,8,Guyana,Equatorial Guinea,4,5,1,Equatorial Guinea,Guyana
-107,8,Portugal,Italy,3,2,1,Portugal,Italy
-108,8,Zambia,India,1,5,0,India,Zambia
-109,8,Holy See (Vatican City State),Ethiopia,7,1,0,Holy See (Vatican City State),Ethiopia
-110,8,Jordan,Belarus,1,0,0,Jordan,Belarus
-111,8,Saint Barthelemy,Solomon Islands,1,4,0,Solomon Islands,Saint Barthelemy
-112,8,Iceland,Cocos (Keeling) Islands,2,0,0,Iceland,Cocos (Keeling) Islands
-113,8,Madagascar,Latvia,2,3,1,Latvia,Madagascar
-114,8,Tunisia,Yemen,4,5,0,Yemen,Tunisia
-115,8,Rwanda,Bhutan,2,0,0,Rwanda,Bhutan
-116,8,Palau,Czech Republic,6,9,0,Czech Republic,Palau
-117,8,French Polynesia,Macao,1,0,0,French Polynesia,Macao
-118,8,Syrian Arab Republic,Norway,1,2,1,Norway,Syrian Arab Republic
-119,8,Suriname,Luxembourg,2,4,0,Luxembourg,Suriname
-120,8,Anguilla,Canada,2,1,0,Anguilla,Canada
-121,9,Equatorial Guinea,Solomon Islands,5,1,0,Equatorial Guinea,Solomon Islands
-122,9,Portugal,Cocos (Keeling) Islands,2,1,0,Portugal,Cocos (Keeling) Islands
-123,9,Palau,Holy See (Vatican City State),3,0,0,Palau,Holy See (Vatican City State)
-124,9,Suriname,Ethiopia,3,4,1,Ethiopia,Suriname
-125,9,Guyana,Canada,2,1,1,Guyana,Canada
-126,9,Macao,Saint Barthelemy,3,2,0,Macao,Saint Barthelemy
-127,9,Bhutan,India,0,5,0,India,Bhutan
-128,9,Czech Republic,Iceland,0,7,0,Iceland,Czech Republic
-129,9,Madagascar,Tunisia,3,1,0,Madagascar,Tunisia
-130,9,Latvia,Rwanda,2,0,0,Latvia,Rwanda
-131,9,Belarus,Luxembourg,7,3,0,Belarus,Luxembourg
-132,9,French Polynesia,Yemen,2,3,1,Yemen,French Polynesia
-133,9,Italy,Syrian Arab Republic,5,3,0,Italy,Syrian Arab Republic
-134,9,Jordan,Anguilla,2,4,0,Anguilla,Jordan
-135,9,Norway,Zambia,2,3,1,Zambia,Norway
-136,10,Palau,Equatorial Guinea,2,5,0,Equatorial Guinea,Palau
-137,10,Solomon Islands,Madagascar,6,2,0,Solomon Islands,Madagascar
-138,10,Iceland,Italy,3,1,0,Iceland,Italy
-139,10,Czech Republic,Ethiopia,5,9,0,Ethiopia,Czech Republic
-140,10,Yemen,Tunisia,4,7,0,Tunisia,Yemen
-141,10,Bhutan,Norway,1,3,0,Norway,Bhutan
-142,10,Syrian Arab Republic,Guyana,2,0,0,Syrian Arab Republic,Guyana
-143,10,Saint Barthelemy,Anguilla,4,2,0,Saint Barthelemy,Anguilla
-144,10,Holy See (Vatican City State),Luxembourg,2,4,0,Luxembourg,Holy See (Vatican City State)
-145,10,Portugal,Suriname,1,3,0,Suriname,Portugal
-146,10,Belarus,Rwanda,5,3,0,Belarus,Rwanda
-147,10,Macao,French Polynesia,3,2,0,Macao,French Polynesia
-148,10,Jordan,Latvia,2,1,0,Jordan,Latvia
-149,10,Cocos (Keeling) Islands,Zambia,5,4,0,Cocos (Keeling) Islands,Zambia
-150,10,India,Canada,7,1,0,India,Canada
-151,11,Zambia,Equatorial Guinea,3,7,0,Equatorial Guinea,Zambia
-152,11,Solomon Islands,Suriname,5,4,0,Solomon Islands,Suriname
-153,11,Guyana,Madagascar,3,2,0,Guyana,Madagascar
-154,11,Latvia,Iceland,1,3,0,Iceland,Latvia
-155,11,Ethiopia,Italy,2,3,0,Italy,Ethiopia
-156,11,Tunisia,India,3,4,0,India,Tunisia
-157,11,Bhutan,Cocos (Keeling) Islands,5,1,0,Bhutan,Cocos (Keeling) Islands
-158,11,Norway,Portugal,1,4,0,Portugal,Norway
-159,11,Rwanda,Palau,4,2,0,Rwanda,Palau
-160,11,Yemen,Anguilla,5,0,0,Yemen,Anguilla
-161,11,Saint Barthelemy,Belarus,1,2,0,Belarus,Saint Barthelemy
-162,11,Luxembourg,Czech Republic,8,2,0,Luxembourg,Czech Republic
-163,11,Holy See (Vatican City State),Canada,3,1,0,Holy See (Vatican City State),Canada
-164,11,Macao,Jordan,2,3,0,Jordan,Macao
-165,11,Syrian Arab Republic,French Polynesia,1,4,0,French Polynesia,Syrian Arab Republic
-166,12,Luxembourg,Solomon Islands,1,2,1,Solomon Islands,Luxembourg
-167,12,Cocos (Keeling) Islands,Equatorial Guinea,2,3,0,Equatorial Guinea,Cocos (Keeling) Islands
-168,12,Tunisia,Ethiopia,1,6,0,Ethiopia,Tunisia
-169,12,Italy,Bhutan,3,1,0,Italy,Bhutan
-170,12,Jordan,Madagascar,2,3,1,Madagascar,Jordan
-171,12,Latvia,Palau,5,0,0,Latvia,Palau
-172,12,Belarus,Portugal,3,1,0,Belarus,Portugal
-173,12,India,Saint Barthelemy,0,2,0,Saint Barthelemy,India
-174,12,Zambia,Holy See (Vatican City State),3,5,0,Holy See (Vatican City State),Zambia
-175,12,Syrian Arab Republic,Iceland,2,1,0,Syrian Arab Republic,Iceland
-176,12,Czech Republic,Anguilla,2,3,1,Anguilla,Czech Republic
-177,12,Suriname,Guyana,1,0,0,Suriname,Guyana
-178,12,Macao,Rwanda,1,2,0,Rwanda,Macao
-179,12,Norway,French Polynesia,2,4,0,French Polynesia,Norway
-180,12,Canada,Yemen,1,4,0,Yemen,Canada
-181,13,Holy See (Vatican City State),Solomon Islands,1,0,0,Holy See (Vatican City State),Solomon Islands
-182,13,Canada,Madagascar,4,1,0,Canada,Madagascar
-183,13,Syrian Arab Republic,Equatorial Guinea,2,3,1,Equatorial Guinea,Syrian Arab Republic
-184,13,Macao,Italy,6,1,0,Macao,Italy
-185,13,Yemen,Ethiopia,3,0,0,Yemen,Ethiopia
-186,13,Cocos (Keeling) Islands,Guyana,6,5,1,Cocos (Keeling) Islands,Guyana
-187,13,Iceland,Tunisia,1,0,0,Iceland,Tunisia
-188,13,Palau,Luxembourg,2,3,1,Luxembourg,Palau
-189,13,Belarus,Norway,4,1,0,Belarus,Norway
-190,13,Saint Barthelemy,Czech Republic,6,1,0,Saint Barthelemy,Czech Republic
-191,13,Zambia,Portugal,2,5,0,Portugal,Zambia
-192,13,Bhutan,Latvia,3,2,1,Bhutan,Latvia
-193,13,India,Jordan,3,2,1,India,Jordan
-194,13,Anguilla,Rwanda,6,1,0,Anguilla,Rwanda
-195,13,French Polynesia,Suriname,1,2,1,Suriname,French Polynesia
-196,14,Macao,Solomon Islands,3,0,0,Macao,Solomon Islands
-197,14,Luxembourg,Equatorial Guinea,2,1,1,Luxembourg,Equatorial Guinea
-198,14,Syrian Arab Republic,Latvia,3,4,0,Latvia,Syrian Arab Republic
-199,14,Madagascar,Suriname,1,5,0,Suriname,Madagascar
-200,14,Portugal,Ethiopia,5,3,0,Portugal,Ethiopia
-201,14,Canada,Tunisia,6,5,1,Canada,Tunisia
-202,14,Italy,Saint Barthelemy,2,4,0,Saint Barthelemy,Italy
-203,14,Jordan,Yemen,5,2,0,Jordan,Yemen
-204,14,India,Norway,3,1,0,India,Norway
-205,14,Belarus,Czech Republic,3,1,0,Belarus,Czech Republic
-206,14,Palau,Cocos (Keeling) Islands,2,5,0,Cocos (Keeling) Islands,Palau
-207,14,Anguilla,Zambia,7,4,0,Anguilla,Zambia
-208,14,Guyana,Iceland,0,5,0,Iceland,Guyana
-209,14,Rwanda,French Polynesia,5,2,0,Rwanda,French Polynesia
-210,14,Bhutan,Holy See (Vatican City State),2,1,1,Bhutan,Holy See (Vatican City State)
-211,15,Zambia,Solomon Islands,4,3,0,Zambia,Solomon Islands
-212,15,Tunisia,Equatorial Guinea,1,8,0,Equatorial Guinea,Tunisia
-213,15,Yemen,Latvia,4,1,0,Yemen,Latvia
-214,15,Ethiopia,Portugal,2,4,0,Portugal,Ethiopia
-215,15,Syrian Arab Republic,Madagascar,1,4,0,Madagascar,Syrian Arab Republic
-216,15,Canada,Italy,2,4,0,Italy,Canada
-217,15,Iceland,Jordan,0,1,0,Jordan,Iceland
-218,15,Guyana,Czech Republic,1,2,0,Czech Republic,Guyana
-219,15,Norway,Belarus,0,2,0,Belarus,Norway
-220,15,Cocos (Keeling) Islands,Palau,2,4,0,Palau,Cocos (Keeling) Islands
-221,15,Suriname,Saint Barthelemy,2,7,0,Saint Barthelemy,Suriname
-222,15,Luxembourg,French Polynesia,5,3,0,Luxembourg,French Polynesia
-223,15,Anguilla,Holy See (Vatican City State),2,1,1,Anguilla,Holy See (Vatican City State)
-224,15,Bhutan,Rwanda,2,4,0,Rwanda,Bhutan
-225,15,Macao,India,6,0,0,Macao,India
-226,16,Equatorial Guinea,Cocos (Keeling) Islands,6,0,0,Equatorial Guinea,Cocos (Keeling) Islands
-227,16,Zambia,Ethiopia,1,6,0,Ethiopia,Zambia
-228,16,Solomon Islands,Jordan,3,0,0,Solomon Islands,Jordan
-229,16,Tunisia,Belarus,3,4,1,Belarus,Tunisia
-230,16,Syrian Arab Republic,Palau,2,1,0,Syrian Arab Republic,Palau
-231,16,Suriname,Madagascar,3,1,0,Suriname,Madagascar
-232,16,Yemen,Bhutan,1,0,0,Yemen,Bhutan
-233,16,Italy,Portugal,1,2,0,Portugal,Italy
-234,16,Latvia,Guyana,4,1,0,Latvia,Guyana
-235,16,Saint Barthelemy,Iceland,2,4,0,Iceland,Saint Barthelemy
-236,16,Rwanda,Czech Republic,3,2,1,Rwanda,Czech Republic
-237,16,Norway,Macao,2,4,0,Macao,Norway
-238,16,Canada,Luxembourg,4,5,1,Luxembourg,Canada
-239,16,Holy See (Vatican City State),India,3,1,0,Holy See (Vatican City State),India
-240,16,French Polynesia,Anguilla,1,0,0,French Polynesia,Anguilla
-241,17,Holy See (Vatican City State),Equatorial Guinea,0,1,1,Equatorial Guinea,Holy See (Vatican City State)
-242,17,Solomon Islands,Guyana,4,1,0,Solomon Islands,Guyana
-243,17,Italy,Belarus,5,1,0,Italy,Belarus
-244,17,Yemen,Cocos (Keeling) Islands,2,1,1,Yemen,Cocos (Keeling) Islands
-245,17,Portugal,Syrian Arab Republic,5,1,0,Portugal,Syrian Arab Republic
-246,17,Ethiopia,Rwanda,4,3,0,Ethiopia,Rwanda
-247,17,Jordan,Iceland,0,2,0,Iceland,Jordan
-248,17,Canada,Bhutan,0,3,0,Bhutan,Canada
-249,17,Latvia,Anguilla,2,3,0,Anguilla,Latvia
-250,17,Madagascar,Palau,5,3,0,Madagascar,Palau
-251,17,Tunisia,Luxembourg,4,7,0,Luxembourg,Tunisia
-252,17,Macao,Czech Republic,5,1,0,Macao,Czech Republic
-253,17,French Polynesia,Saint Barthelemy,2,5,0,Saint Barthelemy,French Polynesia
-254,17,Zambia,Suriname,3,5,0,Suriname,Zambia
-255,18,Equatorial Guinea,Holy See (Vatican City State),2,0,0,Equatorial Guinea,Holy See (Vatican City State)
-256,18,Tunisia,Solomon Islands,5,2,0,Tunisia,Solomon Islands
-257,18,Madagascar,Italy,2,4,0,Italy,Madagascar
-258,18,Zambia,Syrian Arab Republic,2,3,1,Syrian Arab Republic,Zambia
-259,18,Portugal,Luxembourg,3,6,0,Luxembourg,Portugal
-260,18,Latvia,Belarus,4,3,0,Latvia,Belarus
-261,18,Rwanda,Ethiopia,3,2,0,Rwanda,Ethiopia
-262,18,Anguilla,Yemen,4,1,0,Anguilla,Yemen
-263,18,Palau,Canada,7,0,0,Palau,Canada
-264,18,Cocos (Keeling) Islands,Czech Republic,2,4,0,Czech Republic,Cocos (Keeling) Islands
-265,18,India,Guyana,4,3,1,India,Guyana
-266,18,French Polynesia,Jordan,3,2,0,French Polynesia,Jordan
-267,18,Iceland,Suriname,1,2,0,Suriname,Iceland
-268,18,Bhutan,Saint Barthelemy,5,2,0,Bhutan,Saint Barthelemy
-269,18,Macao,Norway,0,3,0,Norway,Macao
-270,19,Canada,Equatorial Guinea,1,6,0,Equatorial Guinea,Canada
-271,19,Italy,Latvia,4,1,0,Italy,Latvia
-272,19,Ethiopia,Syrian Arab Republic,3,2,1,Ethiopia,Syrian Arab Republic
-273,19,Zambia,Yemen,3,7,0,Yemen,Zambia
-274,19,Macao,Belarus,3,4,1,Belarus,Macao
-275,19,Tunisia,Madagascar,3,4,0,Madagascar,Tunisia
-276,19,Luxembourg,Guyana,2,3,0,Guyana,Luxembourg
-277,19,Solomon Islands,French Polynesia,1,2,1,French Polynesia,Solomon Islands
-278,19,Portugal,Saint Barthelemy,2,1,1,Portugal,Saint Barthelemy
-279,19,Holy See (Vatican City State),Cocos (Keeling) Islands,7,2,0,Holy See (Vatican City State),Cocos (Keeling) Islands
-280,19,Iceland,Palau,3,2,1,Iceland,Palau
-281,19,Anguilla,Norway,1,0,0,Anguilla,Norway
-282,19,Bhutan,Jordan,1,3,0,Jordan,Bhutan
-283,19,Czech Republic,India,2,3,0,India,Czech Republic
-284,19,Suriname,Rwanda,2,3,1,Rwanda,Suriname
-285,20,Equatorial Guinea,Ethiopia,10,3,0,Equatorial Guinea,Ethiopia
-286,20,Norway,Italy,5,0,0,Norway,Italy
-287,20,Syrian Arab Republic,Rwanda,3,1,0,Syrian Arab Republic,Rwanda
-288,20,Luxembourg,Yemen,3,1,0,Luxembourg,Yemen
-289,20,Latvia,Czech Republic,5,4,0,Latvia,Czech Republic
-290,20,Madagascar,Guyana,3,1,0,Madagascar,Guyana
-291,20,Jordan,Portugal,3,2,0,Jordan,Portugal
-292,20,Belarus,French Polynesia,5,6,1,French Polynesia,Belarus
-293,20,Palau,Zambia,4,2,0,Palau,Zambia
-294,20,Cocos (Keeling) Islands,Solomon Islands,5,2,0,Cocos (Keeling) Islands,Solomon Islands
-295,20,Bhutan,Tunisia,3,5,0,Tunisia,Bhutan
-296,20,Saint Barthelemy,Canada,5,1,0,Saint Barthelemy,Canada
-297,20,Suriname,Macao,0,4,0,Macao,Suriname
-298,20,Holy See (Vatican City State),Anguilla,2,3,1,Anguilla,Holy See (Vatican City State)
-299,20,India,Iceland,1,2,0,Iceland,India
-300,21,Portugal,Equatorial Guinea,4,2,0,Portugal,Equatorial Guinea
-301,21,Cocos (Keeling) Islands,Italy,0,3,0,Italy,Cocos (Keeling) Islands
-302,21,Ethiopia,Latvia,1,6,0,Latvia,Ethiopia
-303,21,Suriname,Syrian Arab Republic,6,5,0,Suriname,Syrian Arab Republic
-304,21,Yemen,India,1,4,0,India,Yemen
-305,21,Zambia,Luxembourg,2,4,0,Luxembourg,Zambia
-306,21,Rwanda,Canada,3,0,0,Rwanda,Canada
-307,21,Bhutan,Solomon Islands,2,3,0,Solomon Islands,Bhutan
-308,21,Macao,Tunisia,2,0,0,Macao,Tunisia
-309,21,Madagascar,Norway,3,2,1,Madagascar,Norway
-310,21,French Polynesia,Iceland,1,3,0,Iceland,French Polynesia
-311,21,Guyana,Anguilla,1,4,0,Anguilla,Guyana
-312,21,Holy See (Vatican City State),Czech Republic,3,2,1,Holy See (Vatican City State),Czech Republic
-313,21,Jordan,Palau,4,1,0,Jordan,Palau
-314,21,Belarus,Saint Barthelemy,3,1,0,Belarus,Saint Barthelemy
-315,22,French Polynesia,Equatorial Guinea,7,4,0,French Polynesia,Equatorial Guinea
-316,22,Ethiopia,Suriname,4,3,1,Ethiopia,Suriname
-317,22,Palau,Latvia,1,5,0,Latvia,Palau
-318,22,Czech Republic,Portugal,1,4,0,Portugal,Czech Republic
-319,22,Jordan,Syrian Arab Republic,3,2,0,Jordan,Syrian Arab Republic
-320,22,Yemen,Macao,4,2,0,Yemen,Macao
-321,22,Madagascar,Solomon Islands,2,3,0,Solomon Islands,Madagascar
-322,22,Zambia,Cocos (Keeling) Islands,3,6,0,Cocos (Keeling) Islands,Zambia
-323,22,Rwanda,Saint Barthelemy,4,3,1,Rwanda,Saint Barthelemy
-324,22,Iceland,Canada,4,2,0,Iceland,Canada
-325,22,Norway,Luxembourg,4,3,1,Norway,Luxembourg
-326,22,Holy See (Vatican City State),Guyana,4,1,0,Holy See (Vatican City State),Guyana
-327,22,Belarus,India,9,3,0,Belarus,India
-328,22,Tunisia,Italy,4,1,0,Tunisia,Italy
-329,22,Bhutan,Anguilla,1,9,0,Anguilla,Bhutan
-330,23,Equatorial Guinea,Tunisia,4,1,0,Equatorial Guinea,Tunisia
-331,23,Italy,French Polynesia,2,5,0,French Polynesia,Italy
-332,23,Ethiopia,Guyana,2,0,0,Ethiopia,Guyana
-333,23,Portugal,Anguilla,4,1,0,Portugal,Anguilla
-334,23,Syrian Arab Republic,Cocos (Keeling) Islands,2,3,0,Cocos (Keeling) Islands,Syrian Arab Republic
-335,23,Latvia,Solomon Islands,3,1,0,Latvia,Solomon Islands
-336,23,India,Yemen,3,6,0,Yemen,India
-337,23,Zambia,Canada,2,5,0,Canada,Zambia
-338,23,Palau,Suriname,3,6,0,Suriname,Palau
-339,23,Bhutan,Czech Republic,3,5,0,Czech Republic,Bhutan
-340,23,Macao,Holy See (Vatican City State),4,5,1,Holy See (Vatican City State),Macao
-341,23,Jordan,Rwanda,0,1,0,Rwanda,Jordan
-342,23,Iceland,Saint Barthelemy,2,0,0,Iceland,Saint Barthelemy
-343,23,Madagascar,Luxembourg,1,2,0,Luxembourg,Madagascar
-344,24,Equatorial Guinea,Yemen,4,1,0,Equatorial Guinea,Yemen
-345,24,India,Ethiopia,5,4,1,India,Ethiopia
-346,24,Portugal,Iceland,0,5,0,Iceland,Portugal
-347,24,Syrian Arab Republic,Tunisia,3,4,1,Tunisia,Syrian Arab Republic
-348,24,Cocos (Keeling) Islands,Saint Barthelemy,2,6,0,Saint Barthelemy,Cocos (Keeling) Islands
-349,24,Latvia,Macao,3,2,1,Latvia,Macao
-350,24,Rwanda,Zambia,4,1,0,Rwanda,Zambia
-351,24,Palau,Norway,4,3,0,Palau,Norway
-352,24,Canada,Belarus,3,4,0,Belarus,Canada
-353,24,Italy,Holy See (Vatican City State),2,1,0,Italy,Holy See (Vatican City State)
-354,24,Suriname,Anguilla,3,5,0,Anguilla,Suriname
-355,24,Madagascar,Bhutan,4,5,1,Bhutan,Madagascar
-356,24,Jordan,Luxembourg,4,3,1,Jordan,Luxembourg
-357,24,Guyana,Solomon Islands,6,7,1,Solomon Islands,Guyana
-358,24,Czech Republic,French Polynesia,3,2,0,Czech Republic,French Polynesia
-359,25,Equatorial Guinea,Jordan,1,5,0,Jordan,Equatorial Guinea
-360,25,Macao,Yemen,3,2,0,Macao,Yemen
-361,25,Saint Barthelemy,Syrian Arab Republic,2,1,1,Saint Barthelemy,Syrian Arab Republic
-362,25,Cocos (Keeling) Islands,Anguilla,5,1,0,Cocos (Keeling) Islands,Anguilla
-363,25,Iceland,Portugal,5,1,0,Iceland,Portugal
-364,25,Suriname,Tunisia,2,3,0,Tunisia,Suriname
-365,25,Solomon Islands,Ethiopia,5,3,0,Solomon Islands,Ethiopia
-366,25,Rwanda,Latvia,3,1,0,Rwanda,Latvia
-367,25,Guyana,Zambia,6,1,0,Guyana,Zambia
-368,25,Palau,Italy,3,0,0,Palau,Italy
-369,25,Luxembourg,Holy See (Vatican City State),2,3,0,Holy See (Vatican City State),Luxembourg
-370,25,Norway,Bhutan,3,2,0,Norway,Bhutan
-371,25,French Polynesia,Canada,4,1,0,French Polynesia,Canada
-372,25,Czech Republic,Madagascar,4,0,0,Czech Republic,Madagascar
-373,25,India,Belarus,5,3,0,India,Belarus
-374,26,Equatorial Guinea,Anguilla,2,0,0,Equatorial Guinea,Anguilla
-375,26,Suriname,Cocos (Keeling) Islands,0,3,0,Cocos (Keeling) Islands,Suriname
-376,26,Czech Republic,Syrian Arab Republic,2,5,0,Syrian Arab Republic,Czech Republic
-377,26,Ethiopia,Belarus,5,2,0,Ethiopia,Belarus
-378,26,Portugal,Madagascar,0,4,0,Madagascar,Portugal
-379,26,Solomon Islands,Zambia,3,2,1,Solomon Islands,Zambia
-380,26,Iceland,Yemen,2,5,0,Yemen,Iceland
-381,26,Tunisia,Holy See (Vatican City State),1,3,0,Holy See (Vatican City State),Tunisia
-382,26,French Polynesia,Palau,1,3,0,Palau,French Polynesia
-383,26,Saint Barthelemy,India,4,6,0,India,Saint Barthelemy
-384,26,Rwanda,Guyana,6,1,0,Rwanda,Guyana
-385,26,Luxembourg,Italy,8,0,0,Luxembourg,Italy
-386,26,Bhutan,Macao,3,2,1,Bhutan,Macao
-387,26,Jordan,Canada,3,1,0,Jordan,Canada
-388,26,Latvia,Norway,1,4,0,Norway,Latvia
-389,27,Rwanda,Equatorial Guinea,3,5,0,Equatorial Guinea,Rwanda
-390,27,Suriname,Portugal,4,3,1,Suriname,Portugal
-391,27,Yemen,Zambia,2,1,0,Yemen,Zambia
-392,27,Canada,Syrian Arab Republic,2,1,0,Canada,Syrian Arab Republic
-393,27,Jordan,Cocos (Keeling) Islands,8,1,0,Jordan,Cocos (Keeling) Islands
-394,27,Solomon Islands,Iceland,0,1,1,Iceland,Solomon Islands
-395,27,Belarus,Ethiopia,2,0,0,Belarus,Ethiopia
-396,27,Anguilla,Latvia,6,3,0,Anguilla,Latvia
-397,27,Saint Barthelemy,Italy,3,4,0,Italy,Saint Barthelemy
-398,27,Macao,Madagascar,3,1,0,Macao,Madagascar
-399,27,Guyana,French Polynesia,2,5,0,French Polynesia,Guyana
-400,27,Czech Republic,Tunisia,3,4,0,Tunisia,Czech Republic
-401,27,Holy See (Vatican City State),Norway,3,4,0,Norway,Holy See (Vatican City State)
-402,27,Palau,India,3,2,1,Palau,India
-403,27,Luxembourg,Bhutan,2,3,1,Bhutan,Luxembourg
-404,28,Italy,Equatorial Guinea,1,2,0,Equatorial Guinea,Italy
-405,28,Cocos (Keeling) Islands,Rwanda,1,3,0,Rwanda,Cocos (Keeling) Islands
-406,28,Belarus,Yemen,3,4,1,Yemen,Belarus
-407,28,Syrian Arab Republic,Solomon Islands,1,2,0,Solomon Islands,Syrian Arab Republic
-408,28,Zambia,Iceland,0,4,0,Iceland,Zambia
-409,28,Saint Barthelemy,Suriname,3,2,1,Saint Barthelemy,Suriname
-410,28,Portugal,Latvia,2,0,0,Portugal,Latvia
-411,28,Canada,Palau,0,3,0,Palau,Canada
-412,28,Norway,Ethiopia,2,1,1,Norway,Ethiopia
-413,28,Jordan,Holy See (Vatican City State),3,2,1,Jordan,Holy See (Vatican City State)
-414,28,Macao,Anguilla,3,2,0,Macao,Anguilla
-415,28,Madagascar,India,3,0,0,Madagascar,India
-416,28,Bhutan,French Polynesia,2,1,0,Bhutan,French Polynesia
-417,28,Czech Republic,Luxembourg,1,6,0,Luxembourg,Czech Republic
-418,28,Guyana,Tunisia,3,4,1,Tunisia,Guyana
-419,29,Equatorial Guinea,Iceland,1,0,0,Equatorial Guinea,Iceland
-420,29,Norway,Cocos (Keeling) Islands,4,1,0,Norway,Cocos (Keeling) Islands
-421,29,Rwanda,Anguilla,5,2,0,Rwanda,Anguilla
-422,29,Canada,Zambia,3,2,0,Canada,Zambia
-423,29,Holy See (Vatican City State),Syrian Arab Republic,3,2,0,Holy See (Vatican City State),Syrian Arab Republic
-424,29,Italy,Madagascar,4,5,1,Madagascar,Italy
-425,29,Guyana,Yemen,1,3,0,Yemen,Guyana
-426,29,Ethiopia,Jordan,3,2,0,Ethiopia,Jordan
-427,29,Suriname,Bhutan,0,1,1,Bhutan,Suriname
-428,29,Palau,Portugal,5,4,1,Palau,Portugal
-429,29,Solomon Islands,Latvia,4,0,0,Solomon Islands,Latvia
-430,29,Luxembourg,Macao,3,5,0,Macao,Luxembourg
-431,29,French Polynesia,India,4,2,0,French Polynesia,India
-432,29,Czech Republic,Belarus,2,5,0,Belarus,Czech Republic
-433,29,Saint Barthelemy,Tunisia,2,1,0,Saint Barthelemy,Tunisia
-434,30,Bhutan,Equatorial Guinea,1,7,0,Equatorial Guinea,Bhutan
-435,30,Cocos (Keeling) Islands,Belarus,1,4,0,Belarus,Cocos (Keeling) Islands
-436,30,Iceland,Syrian Arab Republic,3,1,0,Iceland,Syrian Arab Republic
-437,30,Solomon Islands,Norway,3,0,0,Solomon Islands,Norway
-438,30,Italy,Suriname,3,4,0,Suriname,Italy
-439,30,Czech Republic,Zambia,6,3,0,Czech Republic,Zambia
-440,30,Ethiopia,India,6,7,0,India,Ethiopia
-441,30,Portugal,Palau,3,5,0,Palau,Portugal
-442,30,Madagascar,Yemen,2,4,0,Yemen,Madagascar
-443,30,Holy See (Vatican City State),Macao,1,3,0,Macao,Holy See (Vatican City State)
-444,30,Saint Barthelemy,Rwanda,1,2,0,Rwanda,Saint Barthelemy
-445,30,Jordan,Tunisia,7,0,0,Jordan,Tunisia
-446,30,Canada,French Polynesia,1,5,0,French Polynesia,Canada
-447,30,Anguilla,Luxembourg,0,3,0,Luxembourg,Anguilla
-448,31,Jordan,Equatorial Guinea,3,2,1,Jordan,Equatorial Guinea
-449,31,Madagascar,Cocos (Keeling) Islands,3,0,0,Madagascar,Cocos (Keeling) Islands
-450,31,Canada,Solomon Islands,3,2,1,Canada,Solomon Islands
-451,31,Holy See (Vatican City State),Zambia,7,4,0,Holy See (Vatican City State),Zambia
-452,31,Rwanda,Belarus,7,5,0,Rwanda,Belarus
-453,31,Iceland,Ethiopia,5,0,0,Iceland,Ethiopia
-454,31,Yemen,Norway,5,2,0,Yemen,Norway
-455,31,Anguilla,Palau,2,4,0,Palau,Anguilla
-456,31,Czech Republic,Italy,3,5,0,Italy,Czech Republic
-457,31,Saint Barthelemy,Bhutan,7,4,0,Saint Barthelemy,Bhutan
-458,31,Macao,Portugal,2,5,0,Portugal,Macao
-459,31,Syrian Arab Republic,Luxembourg,1,2,0,Luxembourg,Syrian Arab Republic
-460,31,India,Latvia,3,2,0,India,Latvia
-461,31,Tunisia,Suriname,2,5,0,Suriname,Tunisia
-462,31,French Polynesia,Guyana,3,0,0,French Polynesia,Guyana
-463,32,Solomon Islands,Equatorial Guinea,4,2,0,Solomon Islands,Equatorial Guinea
-464,32,Madagascar,Zambia,6,2,0,Madagascar,Zambia
-465,32,Jordan,Suriname,2,1,0,Jordan,Suriname
-466,32,Syrian Arab Republic,Belarus,2,1,0,Syrian Arab Republic,Belarus
-467,32,Ethiopia,Palau,3,4,0,Palau,Ethiopia
-468,32,Bhutan,Iceland,5,2,0,Bhutan,Iceland
-469,32,India,Italy,3,2,0,India,Italy
-470,32,Cocos (Keeling) Islands,Latvia,3,2,1,Cocos (Keeling) Islands,Latvia
-471,32,Portugal,Norway,3,4,0,Norway,Portugal
-472,32,Yemen,Czech Republic,3,4,0,Czech Republic,Yemen
-473,32,Macao,Canada,2,1,1,Macao,Canada
-474,32,Holy See (Vatican City State),Saint Barthelemy,4,0,0,Holy See (Vatican City State),Saint Barthelemy
-475,32,French Polynesia,Rwanda,3,2,1,French Polynesia,Rwanda
-476,32,Anguilla,Guyana,2,0,0,Anguilla,Guyana
-477,33,Solomon Islands,Cocos (Keeling) Islands,2,1,0,Solomon Islands,Cocos (Keeling) Islands
-478,33,Equatorial Guinea,Zambia,5,2,0,Equatorial Guinea,Zambia
-479,33,Ethiopia,French Polynesia,0,1,0,French Polynesia,Ethiopia
-480,33,Suriname,Canada,3,4,1,Canada,Suriname
-481,33,Syrian Arab Republic,Italy,2,3,1,Italy,Syrian Arab Republic
-482,33,Yemen,Jordan,2,3,0,Jordan,Yemen
-483,33,Belarus,Anguilla,1,3,0,Anguilla,Belarus
-484,33,Madagascar,Macao,0,3,0,Macao,Madagascar
-485,33,Portugal,Bhutan,3,1,0,Portugal,Bhutan
-486,33,Czech Republic,Latvia,2,1,1,Czech Republic,Latvia
-487,33,Iceland,Norway,2,3,0,Norway,Iceland
-488,33,Saint Barthelemy,Palau,4,3,0,Saint Barthelemy,Palau
-489,33,India,Luxembourg,1,2,0,Luxembourg,India
-490,33,Guyana,Holy See (Vatican City State),1,3,0,Holy See (Vatican City State),Guyana
-491,33,Tunisia,Rwanda,3,0,0,Tunisia,Rwanda
-492,34,Equatorial Guinea,Palau,5,1,0,Equatorial Guinea,Palau
-493,34,Tunisia,Zambia,4,5,0,Zambia,Tunisia
-494,34,Anguilla,Solomon Islands,2,3,0,Solomon Islands,Anguilla
-495,34,Latvia,Italy,3,4,1,Italy,Latvia
-496,34,Ethiopia,Czech Republic,5,3,0,Ethiopia,Czech Republic
-497,34,Jordan,India,2,1,0,Jordan,India
-498,34,Bhutan,Portugal,2,3,0,Portugal,Bhutan
-499,34,Rwanda,Syrian Arab Republic,1,2,0,Syrian Arab Republic,Rwanda
-500,34,Iceland,French Polynesia,2,3,1,French Polynesia,Iceland
-501,34,Cocos (Keeling) Islands,Luxembourg,1,5,0,Luxembourg,Cocos (Keeling) Islands
-502,34,Yemen,Holy See (Vatican City State),5,1,0,Yemen,Holy See (Vatican City State)
-503,34,Canada,Saint Barthelemy,3,4,0,Saint Barthelemy,Canada
-504,34,Norway,Guyana,2,1,1,Norway,Guyana
-505,34,Belarus,Macao,1,2,0,Macao,Belarus
-506,35,Belarus,Equatorial Guinea,7,6,1,Belarus,Equatorial Guinea
-507,35,Italy,Zambia,3,1,0,Italy,Zambia
-508,35,Anguilla,Ethiopia,3,2,0,Anguilla,Ethiopia
-509,35,Rwanda,Madagascar,2,1,1,Rwanda,Madagascar
-510,35,Tunisia,Cocos (Keeling) Islands,2,4,0,Cocos (Keeling) Islands,Tunisia
-511,35,Czech Republic,Suriname,4,6,0,Suriname,Czech Republic
-512,35,Jordan,Bhutan,4,1,0,Jordan,Bhutan
-513,35,Macao,Latvia,2,1,1,Macao,Latvia
-514,35,Solomon Islands,Portugal,1,4,0,Portugal,Solomon Islands
-515,35,Iceland,Guyana,5,1,0,Iceland,Guyana
-516,35,Syrian Arab Republic,India,1,3,0,India,Syrian Arab Republic
-517,35,French Polynesia,Norway,3,2,0,French Polynesia,Norway
-518,35,Saint Barthelemy,Yemen,3,5,0,Yemen,Saint Barthelemy
-519,35,Luxembourg,Canada,1,3,0,Canada,Luxembourg
-520,35,Holy See (Vatican City State),Palau,2,5,0,Palau,Holy See (Vatican City State)
-521,36,Equatorial Guinea,Guyana,7,1,0,Equatorial Guinea,Guyana
-522,36,Zambia,French Polynesia,6,5,1,Zambia,French Polynesia
-523,36,Italy,Ethiopia,1,5,0,Ethiopia,Italy
-524,36,Bhutan,Belarus,3,0,0,Bhutan,Belarus
-525,36,India,Cocos (Keeling) Islands,2,5,0,Cocos (Keeling) Islands,India
-526,36,Tunisia,Portugal,1,2,0,Portugal,Tunisia
-527,36,Madagascar,Syrian Arab Republic,3,2,1,Madagascar,Syrian Arab Republic
-528,36,Rwanda,Jordan,3,4,1,Jordan,Rwanda
-529,36,Solomon Islands,Luxembourg,7,6,1,Solomon Islands,Luxembourg
-530,36,Canada,Czech Republic,1,2,0,Czech Republic,Canada
-531,36,Iceland,Macao,2,1,1,Iceland,Macao
-532,36,Suriname,Yemen,3,1,0,Suriname,Yemen
-533,36,Latvia,Holy See (Vatican City State),4,1,0,Latvia,Holy See (Vatican City State)
-534,36,Norway,Palau,3,0,0,Norway,Palau
-535,36,Anguilla,Saint Barthelemy,3,2,1,Anguilla,Saint Barthelemy
-536,37,Portugal,Zambia,3,4,0,Zambia,Portugal
-537,37,Yemen,Equatorial Guinea,4,3,1,Yemen,Equatorial Guinea
-538,37,Iceland,Belarus,5,2,0,Iceland,Belarus
-539,37,Cocos (Keeling) Islands,Ethiopia,3,4,0,Ethiopia,Cocos (Keeling) Islands
-540,37,Solomon Islands,Bhutan,1,2,0,Bhutan,Solomon Islands
-541,37,Madagascar,Rwanda,0,1,0,Rwanda,Madagascar
-542,37,Guyana,Syrian Arab Republic,3,6,0,Syrian Arab Republic,Guyana
-543,37,Suriname,Latvia,2,0,0,Suriname,Latvia
-544,37,Czech Republic,Jordan,1,4,0,Jordan,Czech Republic
-545,37,Italy,Canada,3,2,1,Italy,Canada
-546,37,Anguilla,Macao,0,1,0,Macao,Anguilla
-547,37,Luxembourg,Norway,1,3,0,Norway,Luxembourg
-548,37,French Polynesia,Holy See (Vatican City State),6,2,0,French Polynesia,Holy See (Vatican City State)
-549,37,India,Palau,3,2,0,India,Palau
-550,37,Tunisia,Saint Barthelemy,3,2,1,Tunisia,Saint Barthelemy
-551,38,Zambia,Palau,2,5,0,Palau,Zambia
-552,38,Belarus,Iceland,1,2,0,Iceland,Belarus
-553,38,Suriname,Equatorial Guinea,3,8,0,Equatorial Guinea,Suriname
-554,38,Cocos (Keeling) Islands,Portugal,1,2,1,Portugal,Cocos (Keeling) Islands
-555,38,French Polynesia,Madagascar,4,1,0,French Polynesia,Madagascar
-556,38,Macao,Ethiopia,3,2,0,Macao,Ethiopia
-557,38,Syrian Arab Republic,Jordan,4,2,0,Syrian Arab Republic,Jordan
-558,38,Norway,Solomon Islands,1,2,0,Solomon Islands,Norway
-559,38,Italy,Yemen,3,2,0,Italy,Yemen
-560,38,India,Rwanda,2,3,0,Rwanda,India
-561,38,Canada,Anguilla,2,4,0,Anguilla,Canada
-562,38,Tunisia,Latvia,3,2,0,Tunisia,Latvia
-563,38,Guyana,Bhutan,0,3,0,Bhutan,Guyana
-564,38,Luxembourg,Saint Barthelemy,9,2,0,Luxembourg,Saint Barthelemy
-565,38,Czech Republic,Holy See (Vatican City State),1,2,0,Holy See (Vatican City State),Czech Republic
-566,39,Zambia,Tunisia,5,7,0,Tunisia,Zambia
-567,39,Equatorial Guinea,Rwanda,3,5,0,Rwanda,Equatorial Guinea
-568,39,Portugal,Macao,2,5,0,Macao,Portugal
-569,39,Luxembourg,Cocos (Keeling) Islands,2,1,1,Luxembourg,Cocos (Keeling) Islands
-570,39,Bhutan,Palau,1,4,0,Palau,Bhutan
-571,39,Belarus,Solomon Islands,3,1,0,Belarus,Solomon Islands
-572,39,Ethiopia,Norway,3,4,1,Norway,Ethiopia
-573,39,Jordan,Guyana,4,1,0,Jordan,Guyana
-574,39,Iceland,India,3,2,1,Iceland,India
-575,39,Madagascar,Czech Republic,5,4,0,Madagascar,Czech Republic
-576,39,French Polynesia,Latvia,3,0,0,French Polynesia,Latvia
-577,39,Holy See (Vatican City State),Suriname,4,3,0,Holy See (Vatican City State),Suriname
-578,39,Yemen,Saint Barthelemy,6,2,0,Yemen,Saint Barthelemy
-579,39,Anguilla,Italy,3,2,1,Anguilla,Italy
-580,39,Syrian Arab Republic,Canada,3,1,0,Syrian Arab Republic,Canada
-581,40,Latvia,Zambia,3,8,0,Zambia,Latvia
-582,40,Portugal,French Polynesia,3,5,0,French Polynesia,Portugal
-583,40,Cocos (Keeling) Islands,Holy See (Vatican City State),5,8,0,Holy See (Vatican City State),Cocos (Keeling) Islands
-584,40,Macao,Syrian Arab Republic,2,1,1,Macao,Syrian Arab Republic
-585,40,Equatorial Guinea,Luxembourg,2,3,1,Luxembourg,Equatorial Guinea
-586,40,Belarus,Italy,5,3,0,Belarus,Italy
-587,40,Rwanda,Suriname,2,3,0,Suriname,Rwanda
-588,40,Palau,Madagascar,3,2,0,Palau,Madagascar
-589,40,Iceland,Solomon Islands,4,2,0,Iceland,Solomon Islands
-590,40,Ethiopia,Saint Barthelemy,1,3,0,Saint Barthelemy,Ethiopia
-591,40,Anguilla,Jordan,2,4,0,Jordan,Anguilla
-592,40,Guyana,India,0,3,0,India,Guyana
-593,40,Bhutan,Yemen,3,2,1,Bhutan,Yemen
-594,40,Tunisia,Norway,5,3,0,Tunisia,Norway
-595,41,Saint Barthelemy,Zambia,6,2,0,Saint Barthelemy,Zambia
-596,41,Anguilla,Portugal,4,5,1,Portugal,Anguilla
-597,41,Equatorial Guinea,Latvia,2,0,0,Equatorial Guinea,Latvia
-598,41,Belarus,Holy See (Vatican City State),1,5,0,Holy See (Vatican City State),Belarus
-599,41,Ethiopia,Macao,1,4,0,Macao,Ethiopia
-600,41,Bhutan,Suriname,3,1,0,Bhutan,Suriname
-601,41,Solomon Islands,Syrian Arab Republic,0,3,0,Syrian Arab Republic,Solomon Islands
-602,41,Yemen,Madagascar,2,5,0,Madagascar,Yemen
-603,41,French Polynesia,Cocos (Keeling) Islands,3,2,0,French Polynesia,Cocos (Keeling) Islands
-604,41,Rwanda,Italy,5,2,0,Rwanda,Italy
-605,41,Iceland,Czech Republic,7,1,0,Iceland,Czech Republic
-606,41,Palau,Guyana,3,1,0,Palau,Guyana
-607,41,Norway,Jordan,6,5,1,Norway,Jordan
-608,41,India,Tunisia,0,1,0,Tunisia,India
-609,42,Zambia,Italy,1,2,1,Italy,Zambia
-610,42,Belarus,Cocos (Keeling) Islands,8,0,0,Belarus,Cocos (Keeling) Islands
-611,42,Madagascar,Equatorial Guinea,2,3,1,Equatorial Guinea,Madagascar
-612,42,Portugal,Canada,4,2,0,Portugal,Canada
-613,42,Latvia,Ethiopia,3,2,1,Latvia,Ethiopia
-614,42,Suriname,India,3,1,0,Suriname,India
-615,42,Norway,Holy See (Vatican City State),2,1,0,Norway,Holy See (Vatican City State)
-616,42,Macao,Bhutan,9,1,0,Macao,Bhutan
-617,42,Czech Republic,Solomon Islands,2,4,0,Solomon Islands,Czech Republic
-618,42,Luxembourg,Rwanda,0,3,0,Rwanda,Luxembourg
-619,42,Palau,Yemen,2,4,0,Yemen,Palau
-620,42,Saint Barthelemy,French Polynesia,2,3,0,French Polynesia,Saint Barthelemy
-621,42,Anguilla,Tunisia,5,0,0,Anguilla,Tunisia
-622,43,Equatorial Guinea,Madagascar,8,2,0,Equatorial Guinea,Madagascar
-623,43,Belarus,Latvia,5,4,0,Belarus,Latvia
-624,43,Portugal,Rwanda,3,4,0,Rwanda,Portugal
-625,43,Ethiopia,Anguilla,0,1,0,Anguilla,Ethiopia
-626,43,Suriname,Iceland,0,3,0,Iceland,Suriname
-627,43,Italy,Jordan,2,3,1,Jordan,Italy
-628,43,French Polynesia,Zambia,1,3,0,Zambia,French Polynesia
-629,43,Solomon Islands,Macao,4,1,0,Solomon Islands,Macao
-630,43,Guyana,Cocos (Keeling) Islands,2,3,1,Cocos (Keeling) Islands,Guyana
-631,43,Palau,Bhutan,3,1,0,Palau,Bhutan
-632,43,Norway,Yemen,3,4,1,Yemen,Norway
-633,43,India,Syrian Arab Republic,4,1,0,India,Syrian Arab Republic
-634,43,Holy See (Vatican City State),Tunisia,3,0,0,Holy See (Vatican City State),Tunisia
-635,43,Saint Barthelemy,Luxembourg,2,5,0,Luxembourg,Saint Barthelemy
-636,44,Saint Barthelemy,Equatorial Guinea,2,3,0,Equatorial Guinea,Saint Barthelemy
-637,44,Latvia,Jordan,0,2,0,Jordan,Latvia
-638,44,Yemen,Portugal,2,1,0,Yemen,Portugal
-639,44,Rwanda,Macao,2,1,0,Rwanda,Macao
-640,44,Ethiopia,Bhutan,6,4,0,Ethiopia,Bhutan
-641,44,Suriname,Italy,2,1,0,Suriname,Italy
-642,44,India,French Polynesia,5,4,1,India,French Polynesia
-643,44,Palau,Solomon Islands,3,2,0,Palau,Solomon Islands
-644,44,Anguilla,Czech Republic,4,6,0,Czech Republic,Anguilla
-645,44,Luxembourg,Iceland,0,3,0,Iceland,Luxembourg
-646,44,Syrian Arab Republic,Zambia,5,4,0,Syrian Arab Republic,Zambia
-647,44,Cocos (Keeling) Islands,Norway,4,0,0,Cocos (Keeling) Islands,Norway
-648,44,Belarus,Guyana,5,1,0,Belarus,Guyana
-649,44,Madagascar,Canada,4,1,0,Madagascar,Canada
-650,45,Latvia,Equatorial Guinea,4,5,1,Equatorial Guinea,Latvia
-651,45,Portugal,Solomon Islands,5,2,0,Portugal,Solomon Islands
-652,45,Holy See (Vatican City State),Jordan,3,1,0,Holy See (Vatican City State),Jordan
-653,45,Rwanda,Luxembourg,3,1,0,Rwanda,Luxembourg
-654,45,India,Zambia,0,2,0,Zambia,India
-655,45,Italy,Tunisia,4,0,0,Italy,Tunisia
-656,45,Cocos (Keeling) Islands,Bhutan,3,0,0,Cocos (Keeling) Islands,Bhutan
-657,45,Canada,Suriname,2,3,0,Suriname,Canada
-658,45,Iceland,Madagascar,7,1,0,Iceland,Madagascar
-659,45,Palau,French Polynesia,3,2,0,Palau,French Polynesia
-660,45,Saint Barthelemy,Macao,0,3,0,Macao,Saint Barthelemy
-661,45,Guyana,Ethiopia,1,2,0,Ethiopia,Guyana
-662,45,Syrian Arab Republic,Anguilla,4,1,0,Syrian Arab Republic,Anguilla
-663,45,Yemen,Belarus,5,2,0,Yemen,Belarus
-664,45,Norway,Czech Republic,4,1,0,Norway,Czech Republic
-665,46,Equatorial Guinea,Italy,2,1,1,Equatorial Guinea,Italy
-666,46,Belarus,Jordan,2,1,0,Belarus,Jordan
-667,46,Palau,Rwanda,0,3,0,Rwanda,Palau
-668,46,Ethiopia,Holy See (Vatican City State),3,5,0,Holy See (Vatican City State),Ethiopia
-669,46,Anguilla,Madagascar,3,2,1,Anguilla,Madagascar
-670,46,Zambia,Czech Republic,6,4,0,Zambia,Czech Republic
-671,46,Cocos (Keeling) Islands,French Polynesia,1,2,0,French Polynesia,Cocos (Keeling) Islands
-672,46,Portugal,Guyana,2,4,0,Guyana,Portugal
-673,46,Suriname,Norway,5,6,1,Norway,Suriname
-674,46,Solomon Islands,India,0,4,0,India,Solomon Islands
-675,46,Tunisia,Bhutan,1,3,0,Bhutan,Tunisia
-676,46,Yemen,Luxembourg,1,0,1,Yemen,Luxembourg
-677,46,Latvia,Canada,5,2,0,Latvia,Canada
-678,46,Syrian Arab Republic,Saint Barthelemy,0,3,0,Saint Barthelemy,Syrian Arab Republic
-679,46,Macao,Iceland,2,5,0,Iceland,Macao
-680,47,India,Equatorial Guinea,3,1,0,India,Equatorial Guinea
-681,47,Jordan,Zambia,3,4,1,Zambia,Jordan
-682,47,Canada,Rwanda,3,4,1,Rwanda,Canada
-683,47,French Polynesia,Ethiopia,3,1,0,French Polynesia,Ethiopia
-684,47,Latvia,Madagascar,5,1,0,Latvia,Madagascar
-685,47,Yemen,Solomon Islands,7,0,0,Yemen,Solomon Islands
-686,47,Guyana,Portugal,0,4,0,Portugal,Guyana
-687,47,Suriname,Palau,4,5,0,Palau,Suriname
-688,47,Italy,Iceland,2,3,0,Iceland,Italy
-689,47,Czech Republic,Bhutan,2,4,0,Bhutan,Czech Republic
-690,47,Luxembourg,Syrian Arab Republic,9,2,0,Luxembourg,Syrian Arab Republic
-691,47,Norway,Tunisia,3,2,0,Norway,Tunisia
-692,47,Anguilla,Cocos (Keeling) Islands,5,0,0,Anguilla,Cocos (Keeling) Islands
-693,47,Saint Barthelemy,Holy See (Vatican City State),5,3,0,Saint Barthelemy,Holy See (Vatican City State)
-694,48,Ethiopia,Equatorial Guinea,2,7,0,Equatorial Guinea,Ethiopia
-695,48,Cocos (Keeling) Islands,Jordan,2,4,0,Jordan,Cocos (Keeling) Islands
-696,48,Rwanda,Holy See (Vatican City State),2,1,0,Rwanda,Holy See (Vatican City State)
-697,48,Norway,Latvia,1,4,0,Latvia,Norway
-698,48,India,Bhutan,1,3,0,Bhutan,India
-699,48,Solomon Islands,Anguilla,3,2,0,Solomon Islands,Anguilla
-700,48,Yemen,Italy,5,4,0,Yemen,Italy
-701,48,Luxembourg,Madagascar,2,0,0,Luxembourg,Madagascar
-702,48,Palau,Iceland,2,4,0,Iceland,Palau
-703,48,Guyana,Saint Barthelemy,4,1,0,Guyana,Saint Barthelemy
-704,48,Czech Republic,Macao,4,6,0,Macao,Czech Republic
-705,48,French Polynesia,Tunisia,5,1,0,French Polynesia,Tunisia
-706,48,Zambia,Belarus,3,4,0,Belarus,Zambia
-707,48,Syrian Arab Republic,Suriname,3,0,0,Syrian Arab Republic,Suriname
-708,48,Canada,Portugal,6,3,0,Canada,Portugal
-709,49,Madagascar,Jordan,1,4,0,Jordan,Madagascar
-710,49,Equatorial Guinea,French Polynesia,4,3,0,Equatorial Guinea,French Polynesia
-711,49,Guyana,Rwanda,2,1,1,Guyana,Rwanda
-712,49,Luxembourg,Ethiopia,4,3,0,Luxembourg,Ethiopia
-713,49,Italy,Palau,3,1,0,Italy,Palau
-714,49,Czech Republic,Cocos (Keeling) Islands,4,3,1,Czech Republic,Cocos (Keeling) Islands
-715,49,Portugal,Yemen,3,4,1,Yemen,Portugal
-716,49,Suriname,Holy See (Vatican City State),2,1,0,Suriname,Holy See (Vatican City State)
-717,49,Bhutan,Syrian Arab Republic,5,4,1,Bhutan,Syrian Arab Republic
-718,49,Canada,India,1,3,0,India,Canada
-719,49,Zambia,Latvia,3,4,1,Latvia,Zambia
-720,49,Solomon Islands,Tunisia,2,4,0,Tunisia,Solomon Islands
-721,49,Saint Barthelemy,Norway,0,3,0,Norway,Saint Barthelemy
-722,49,Anguilla,Belarus,0,2,0,Belarus,Anguilla
-723,50,Rwanda,Portugal,5,2,0,Rwanda,Portugal
-724,50,Saint Barthelemy,Ethiopia,3,2,1,Saint Barthelemy,Ethiopia
-725,50,Jordan,French Polynesia,2,1,0,Jordan,French Polynesia
-726,50,India,Madagascar,5,4,1,India,Madagascar
-727,50,Yemen,Guyana,2,1,1,Yemen,Guyana
-728,50,Iceland,Equatorial Guinea,3,2,1,Iceland,Equatorial Guinea
-729,50,Italy,Norway,1,6,0,Norway,Italy
-730,50,Luxembourg,Suriname,2,5,0,Suriname,Luxembourg
-731,50,Cocos (Keeling) Islands,Canada,6,0,0,Cocos (Keeling) Islands,Canada
-732,50,Palau,Macao,3,4,1,Macao,Palau
-733,50,Solomon Islands,Czech Republic,3,1,0,Solomon Islands,Czech Republic
-734,50,Zambia,Anguilla,1,3,0,Anguilla,Zambia
-735,50,Belarus,Tunisia,1,3,0,Tunisia,Belarus
-736,50,Holy See (Vatican City State),Latvia,2,1,0,Holy See (Vatican City State),Latvia
-737,50,Syrian Arab Republic,Bhutan,4,5,0,Bhutan,Syrian Arab Republic
-738,51,Holy See (Vatican City State),Rwanda,4,5,1,Rwanda,Holy See (Vatican City State)
-739,51,Ethiopia,Canada,4,3,1,Ethiopia,Canada
-740,51,Anguilla,French Polynesia,3,2,0,Anguilla,French Polynesia
-741,51,Cocos (Keeling) Islands,Suriname,2,5,0,Suriname,Cocos (Keeling) Islands
-742,51,India,Czech Republic,5,1,0,India,Czech Republic
-743,51,Luxembourg,Portugal,4,1,0,Luxembourg,Portugal
-744,51,Norway,Equatorial Guinea,1,2,1,Equatorial Guinea,Norway
-745,51,Guyana,Palau,2,6,0,Palau,Guyana
-746,51,Zambia,Saint Barthelemy,4,5,0,Saint Barthelemy,Zambia
-747,51,Solomon Islands,Yemen,6,3,0,Solomon Islands,Yemen
-748,51,Iceland,Latvia,4,1,0,Iceland,Latvia
-749,51,Syrian Arab Republic,Macao,0,3,0,Macao,Syrian Arab Republic
-750,51,Jordan,Italy,2,4,0,Italy,Jordan
-751,51,Madagascar,Belarus,0,5,0,Belarus,Madagascar
-752,52,Rwanda,Cocos (Keeling) Islands,0,1,0,Cocos (Keeling) Islands,Rwanda
-753,52,Holy See (Vatican City State),Yemen,2,3,1,Yemen,Holy See (Vatican City State)
-754,52,Suriname,Solomon Islands,0,1,0,Solomon Islands,Suriname
-755,52,Latvia,Portugal,3,2,0,Latvia,Portugal
-756,52,Bhutan,Guyana,4,3,1,Bhutan,Guyana
-757,52,Ethiopia,Tunisia,3,1,0,Ethiopia,Tunisia
-758,52,Palau,Belarus,0,6,0,Belarus,Palau
-759,52,Canada,Norway,3,2,1,Canada,Norway
-760,52,Equatorial Guinea,Saint Barthelemy,3,5,0,Saint Barthelemy,Equatorial Guinea
-761,52,Zambia,Macao,2,3,0,Macao,Zambia
-762,52,Iceland,Luxembourg,5,1,0,Iceland,Luxembourg
-763,52,Madagascar,Anguilla,2,4,0,Anguilla,Madagascar
-764,52,French Polynesia,Italy,2,3,1,Italy,French Polynesia
-765,52,Jordan,Czech Republic,7,0,0,Jordan,Czech Republic
-766,53,Iceland,Rwanda,7,3,0,Iceland,Rwanda
-767,53,India,Holy See (Vatican City State),2,3,1,Holy See (Vatican City State),India
-768,53,Latvia,Suriname,3,4,0,Suriname,Latvia
-769,53,Cocos (Keeling) Islands,Syrian Arab Republic,6,3,0,Cocos (Keeling) Islands,Syrian Arab Republic
-770,53,Guyana,Luxembourg,3,4,0,Luxembourg,Guyana
-771,53,Portugal,Tunisia,5,3,0,Portugal,Tunisia
-772,53,Saint Barthelemy,Jordan,1,3,0,Jordan,Saint Barthelemy
-773,53,Yemen,Canada,5,4,1,Yemen,Canada
-774,53,Equatorial Guinea,Belarus,2,1,1,Equatorial Guinea,Belarus
-775,53,Norway,Madagascar,3,4,0,Madagascar,Norway
-776,53,Zambia,Bhutan,4,2,0,Zambia,Bhutan
-777,53,Ethiopia,Solomon Islands,1,3,0,Solomon Islands,Ethiopia
-778,53,Czech Republic,Palau,3,6,0,Palau,Czech Republic
-779,54,Zambia,Rwanda,3,0,0,Zambia,Rwanda
-780,54,Palau,Tunisia,1,2,0,Tunisia,Palau
-781,54,Holy See (Vatican City State),Italy,4,1,0,Holy See (Vatican City State),Italy
-782,54,Latvia,Cocos (Keeling) Islands,2,3,1,Cocos (Keeling) Islands,Latvia
-783,54,Czech Republic,Guyana,6,1,0,Czech Republic,Guyana
-784,54,Jordan,Norway,3,6,0,Norway,Jordan
-785,54,Syrian Arab Republic,Yemen,0,1,1,Yemen,Syrian Arab Republic
-786,54,Bhutan,Canada,4,0,0,Bhutan,Canada
-787,54,Luxembourg,India,4,0,0,Luxembourg,India
-788,54,Iceland,Anguilla,5,0,0,Iceland,Anguilla
-789,54,Macao,Equatorial Guinea,7,3,0,Macao,Equatorial Guinea
-790,54,French Polynesia,Belarus,4,1,0,French Polynesia,Belarus
-791,54,Solomon Islands,Saint Barthelemy,2,1,1,Solomon Islands,Saint Barthelemy
-792,54,Ethiopia,Madagascar,4,0,0,Ethiopia,Madagascar
-793,55,Italy,Rwanda,1,2,1,Rwanda,Italy
-794,55,Canada,Latvia,2,3,0,Latvia,Canada
-795,55,Macao,Guyana,5,2,0,Macao,Guyana
-796,55,Palau,Syrian Arab Republic,3,6,0,Syrian Arab Republic,Palau
-797,55,Holy See (Vatican City State),French Polynesia,4,0,0,Holy See (Vatican City State),French Polynesia
-798,55,Norway,Saint Barthelemy,3,4,0,Saint Barthelemy,Norway
-799,55,Luxembourg,Jordan,3,2,1,Luxembourg,Jordan
-800,55,Cocos (Keeling) Islands,Madagascar,0,3,0,Madagascar,Cocos (Keeling) Islands
-801,55,India,Solomon Islands,3,0,0,India,Solomon Islands
-802,55,Tunisia,Iceland,0,3,0,Iceland,Tunisia
-803,55,Suriname,Zambia,0,4,0,Zambia,Suriname
-804,55,Portugal,Belarus,2,1,1,Portugal,Belarus
-805,55,Czech Republic,Equatorial Guinea,1,6,0,Equatorial Guinea,Czech Republic
-806,55,Ethiopia,Yemen,0,4,0,Yemen,Ethiopia
-807,56,Rwanda,Solomon Islands,4,1,0,Rwanda,Solomon Islands
-808,56,Saint Barthelemy,Latvia,5,1,0,Saint Barthelemy,Latvia
-809,56,Tunisia,Canada,2,1,0,Tunisia,Canada
-810,56,Guyana,Macao,1,7,0,Macao,Guyana
-811,56,Madagascar,Iceland,2,5,0,Iceland,Madagascar
-812,56,Equatorial Guinea,Norway,3,2,0,Equatorial Guinea,Norway
-813,56,Palau,Jordan,1,3,0,Jordan,Palau
-814,56,India,Portugal,2,1,1,India,Portugal
-815,56,Italy,Cocos (Keeling) Islands,4,6,0,Cocos (Keeling) Islands,Italy
-816,56,Yemen,Syrian Arab Republic,4,3,1,Yemen,Syrian Arab Republic
-817,56,Suriname,Belarus,2,3,1,Belarus,Suriname
-818,56,Bhutan,Zambia,5,1,0,Bhutan,Zambia
-819,56,Luxembourg,Anguilla,5,1,0,Luxembourg,Anguilla
-820,57,Czech Republic,Rwanda,3,2,0,Czech Republic,Rwanda
-821,57,Guyana,Belarus,1,3,0,Belarus,Guyana
-822,57,Tunisia,Jordan,2,4,0,Jordan,Tunisia
-823,57,Solomon Islands,Canada,2,1,0,Solomon Islands,Canada
-824,57,Latvia,Yemen,4,3,1,Latvia,Yemen
-825,57,French Polynesia,Portugal,3,1,0,French Polynesia,Portugal
-826,57,Norway,Anguilla,3,2,0,Norway,Anguilla
-827,57,Luxembourg,Palau,3,2,0,Luxembourg,Palau
-828,57,Macao,Zambia,5,2,0,Macao,Zambia
-829,57,Bhutan,Madagascar,5,2,0,Bhutan,Madagascar
-830,57,Syrian Arab Republic,Holy See (Vatican City State),3,1,0,Syrian Arab Republic,Holy See (Vatican City State)
-831,57,Ethiopia,Cocos (Keeling) Islands,4,3,0,Ethiopia,Cocos (Keeling) Islands
-832,57,India,Suriname,6,0,0,India,Suriname
-833,58,Tunisia,Guyana,5,4,1,Tunisia,Guyana
-834,58,Canada,Macao,1,6,0,Macao,Canada
-835,58,Latvia,India,6,5,1,Latvia,India
-836,58,Anguilla,Iceland,1,4,0,Iceland,Anguilla
-837,58,Belarus,Palau,2,3,1,Palau,Belarus
-838,58,Madagascar,French Polynesia,2,1,0,Madagascar,French Polynesia
-839,58,Syrian Arab Republic,Portugal,4,2,0,Syrian Arab Republic,Portugal
-840,58,Norway,Rwanda,2,3,0,Rwanda,Norway
-841,58,Suriname,Czech Republic,4,1,0,Suriname,Czech Republic
-842,58,Cocos (Keeling) Islands,Yemen,3,2,0,Cocos (Keeling) Islands,Yemen
-843,58,Italy,Luxembourg,1,2,0,Luxembourg,Italy
-844,58,Holy See (Vatican City State),Bhutan,5,0,0,Holy See (Vatican City State),Bhutan
-845,58,Jordan,Saint Barthelemy,3,1,0,Jordan,Saint Barthelemy
-846,59,Canada,Iceland,3,2,0,Canada,Iceland
-847,59,Portugal,India,3,4,0,India,Portugal
-848,59,Guyana,Norway,1,3,0,Norway,Guyana
-849,59,Macao,Luxembourg,1,2,0,Luxembourg,Macao
-850,59,Czech Republic,Saint Barthelemy,1,6,0,Saint Barthelemy,Czech Republic
-851,59,Latvia,Syrian Arab Republic,2,3,1,Syrian Arab Republic,Latvia
-852,59,Suriname,French Polynesia,5,0,0,Suriname,French Polynesia
-853,59,Anguilla,Equatorial Guinea,5,1,0,Anguilla,Equatorial Guinea
-854,59,Madagascar,Holy See (Vatican City State),2,0,0,Madagascar,Holy See (Vatican City State)
-855,59,Belarus,Bhutan,4,3,0,Belarus,Bhutan
-856,59,Solomon Islands,Italy,2,3,0,Italy,Solomon Islands
-857,59,Jordan,Ethiopia,3,0,0,Jordan,Ethiopia
-858,60,Iceland,Zambia,6,5,1,Iceland,Zambia
-859,60,Canada,Ethiopia,3,1,0,Canada,Ethiopia
-860,60,Czech Republic,Norway,0,8,0,Norway,Czech Republic
-861,60,Italy,India,0,2,0,India,Italy
-862,60,Tunisia,Macao,0,4,0,Macao,Tunisia
-863,60,Luxembourg,Belarus,5,3,0,Luxembourg,Belarus
-864,60,French Polynesia,Syrian Arab Republic,2,1,0,French Polynesia,Syrian Arab Republic
-865,60,Guyana,Suriname,0,4,0,Suriname,Guyana
-866,61,Tunisia,Anguilla,1,2,1,Anguilla,Tunisia
-867,61,Iceland,Bhutan,7,1,0,Iceland,Bhutan
-868,61,Canada,Holy See (Vatican City State),1,2,0,Holy See (Vatican City State),Canada
-869,61,Equatorial Guinea,Macao,3,2,0,Equatorial Guinea,Macao
-870,62,Tunisia,Czech Republic,3,1,0,Tunisia,Czech Republic
+1,1,Kramerville,Theodoreberg,7,4,0,Kramerville,Theodoreberg
+2,1,Port Christiebury,Codyfurt,4,2,0,Port Christiebury,Codyfurt
+3,1,New Jose,West Patriciaside,2,3,1,West Patriciaside,New Jose
+4,1,Port Shannon,Bobbyborough,6,1,0,Port Shannon,Bobbyborough
+5,1,West Robertfort,Port Scott,2,3,1,Port Scott,West Robertfort
+6,1,Millerport,Riosstad,4,2,0,Millerport,Riosstad
+7,1,Debraside,North Garymouth,2,3,0,North Garymouth,Debraside
+8,1,Port Stacey,Pachecofurt,4,1,0,Port Stacey,Pachecofurt
+9,1,Port Lisa,Lake Eric,5,2,0,Port Lisa,Lake Eric
+10,1,Torresport,Port Haroldberg,1,5,0,Port Haroldberg,Torresport
+11,1,Montgomeryburgh,Amberfurt,2,4,0,Amberfurt,Montgomeryburgh
+12,1,New Paul,Laurenview,4,2,0,New Paul,Laurenview
+13,1,North Keithchester,Barnesport,2,5,0,Barnesport,North Keithchester
+14,1,Williamview,Bensonshire,2,0,0,Williamview,Bensonshire
+15,1,New Jeffrey,Robertsonport,1,5,0,Robertsonport,New Jeffrey
+16,2,Torresport,Port Shannon,4,1,0,Torresport,Port Shannon
+17,2,New Paul,Port Christiebury,4,3,0,New Paul,Port Christiebury
+18,2,New Jose,West Robertfort,2,5,0,West Robertfort,New Jose
+19,2,Debraside,North Keithchester,3,2,0,Debraside,North Keithchester
+20,2,Kramerville,Codyfurt,2,3,1,Codyfurt,Kramerville
+21,2,Barnesport,Port Lisa,3,2,0,Barnesport,Port Lisa
+22,2,Williamview,Montgomeryburgh,1,4,0,Montgomeryburgh,Williamview
+23,2,Amberfurt,Pachecofurt,5,3,0,Amberfurt,Pachecofurt
+24,2,Riosstad,Port Haroldberg,0,4,0,Port Haroldberg,Riosstad
+25,2,Bobbyborough,Laurenview,3,2,0,Bobbyborough,Laurenview
+26,2,Lake Eric,Robertsonport,2,5,0,Robertsonport,Lake Eric
+27,2,West Patriciaside,Theodoreberg,3,0,0,West Patriciaside,Theodoreberg
+28,2,North Garymouth,Port Scott,3,2,1,North Garymouth,Port Scott
+29,2,Millerport,Bensonshire,6,2,0,Millerport,Bensonshire
+30,2,New Jeffrey,Port Stacey,2,6,0,Port Stacey,New Jeffrey
+31,3,Port Haroldberg,West Robertfort,0,2,0,West Robertfort,Port Haroldberg
+32,3,New Jose,Lake Eric,1,2,0,Lake Eric,New Jose
+33,3,Bobbyborough,Port Christiebury,1,2,0,Port Christiebury,Bobbyborough
+34,3,Robertsonport,Debraside,2,3,1,Debraside,Robertsonport
+35,3,Port Lisa,Laurenview,4,3,1,Port Lisa,Laurenview
+36,3,Amberfurt,Williamview,4,2,0,Amberfurt,Williamview
+37,3,Pachecofurt,Bensonshire,4,5,1,Bensonshire,Pachecofurt
+38,3,Port Scott,Codyfurt,5,1,0,Port Scott,Codyfurt
+39,3,Millerport,Port Shannon,6,2,0,Millerport,Port Shannon
+40,3,Kramerville,New Jeffrey,6,2,0,Kramerville,New Jeffrey
+41,3,New Paul,Port Stacey,5,1,0,New Paul,Port Stacey
+42,3,Montgomeryburgh,Barnesport,3,2,1,Montgomeryburgh,Barnesport
+43,3,Riosstad,Torresport,2,3,1,Torresport,Riosstad
+44,3,North Garymouth,Theodoreberg,2,4,0,Theodoreberg,North Garymouth
+45,3,West Patriciaside,North Keithchester,4,3,1,West Patriciaside,North Keithchester
+46,4,Kramerville,Port Christiebury,3,1,0,Kramerville,Port Christiebury
+47,4,New Paul,Lake Eric,3,1,0,New Paul,Lake Eric
+48,4,Williamview,Pachecofurt,2,3,1,Pachecofurt,Williamview
+49,4,West Robertfort,Theodoreberg,3,2,0,West Robertfort,Theodoreberg
+50,4,Bobbyborough,Port Shannon,5,3,0,Bobbyborough,Port Shannon
+51,4,Laurenview,Barnesport,5,6,1,Barnesport,Laurenview
+52,4,Robertsonport,West Patriciaside,1,3,0,West Patriciaside,Robertsonport
+53,4,Amberfurt,Port Lisa,8,0,0,Amberfurt,Port Lisa
+54,4,Bensonshire,Codyfurt,4,0,0,Bensonshire,Codyfurt
+55,4,Montgomeryburgh,New Jose,6,3,0,Montgomeryburgh,New Jose
+56,4,Debraside,Riosstad,1,3,0,Riosstad,Debraside
+57,4,Torresport,Port Scott,4,2,0,Torresport,Port Scott
+58,4,Port Stacey,Port Haroldberg,5,4,1,Port Stacey,Port Haroldberg
+59,4,North Garymouth,New Jeffrey,2,3,1,New Jeffrey,North Garymouth
+60,4,Millerport,North Keithchester,5,3,0,Millerport,North Keithchester
+61,5,Lake Eric,Williamview,0,4,0,Williamview,Lake Eric
+62,5,Laurenview,Port Christiebury,1,2,1,Port Christiebury,Laurenview
+63,5,Pachecofurt,Port Scott,0,2,0,Port Scott,Pachecofurt
+64,5,Debraside,Bobbyborough,2,1,0,Debraside,Bobbyborough
+65,5,West Robertfort,Port Haroldberg,4,0,0,West Robertfort,Port Haroldberg
+66,5,Barnesport,Port Shannon,2,5,0,Port Shannon,Barnesport
+67,5,Port Stacey,West Patriciaside,3,4,0,West Patriciaside,Port Stacey
+68,5,Kramerville,Montgomeryburgh,3,2,1,Kramerville,Montgomeryburgh
+69,5,New Jose,Codyfurt,4,3,1,New Jose,Codyfurt
+70,5,North Garymouth,Port Lisa,6,1,0,North Garymouth,Port Lisa
+71,5,Theodoreberg,Robertsonport,3,4,0,Robertsonport,Theodoreberg
+72,5,North Keithchester,New Paul,4,1,0,North Keithchester,New Paul
+73,5,Bensonshire,Amberfurt,8,1,0,Bensonshire,Amberfurt
+74,5,Riosstad,Millerport,1,2,0,Millerport,Riosstad
+75,5,Torresport,New Jeffrey,7,3,0,Torresport,New Jeffrey
+76,6,Port Christiebury,Robertsonport,1,3,0,Robertsonport,Port Christiebury
+77,6,Williamview,Amberfurt,3,2,1,Williamview,Amberfurt
+78,6,Pachecofurt,North Keithchester,1,0,0,Pachecofurt,North Keithchester
+79,6,Kramerville,Port Haroldberg,2,1,0,Kramerville,Port Haroldberg
+80,6,Laurenview,New Paul,1,2,0,New Paul,Laurenview
+81,6,Port Scott,Barnesport,5,4,0,Port Scott,Barnesport
+82,6,Riosstad,Port Shannon,1,2,0,Port Shannon,Riosstad
+83,6,West Robertfort,Montgomeryburgh,2,1,1,West Robertfort,Montgomeryburgh
+84,6,Bensonshire,Debraside,4,2,0,Bensonshire,Debraside
+85,6,Codyfurt,New Jeffrey,2,5,0,New Jeffrey,Codyfurt
+86,6,Port Lisa,Torresport,2,5,0,Torresport,Port Lisa
+87,6,West Patriciaside,Port Stacey,5,3,0,West Patriciaside,Port Stacey
+88,6,Lake Eric,New Jose,0,1,0,New Jose,Lake Eric
+89,6,Millerport,Theodoreberg,4,3,1,Millerport,Theodoreberg
+90,6,Bobbyborough,North Garymouth,5,1,0,Bobbyborough,North Garymouth
+91,7,Port Christiebury,Bobbyborough,1,2,0,Bobbyborough,Port Christiebury
+92,7,Port Haroldberg,West Patriciaside,5,4,0,Port Haroldberg,West Patriciaside
+93,7,Barnesport,Amberfurt,2,3,0,Amberfurt,Barnesport
+94,7,Kramerville,Port Scott,3,5,0,Port Scott,Kramerville
+95,7,North Garymouth,Laurenview,5,1,0,North Garymouth,Laurenview
+96,7,Williamview,New Paul,4,3,1,Williamview,New Paul
+97,7,Port Stacey,Port Shannon,2,1,1,Port Stacey,Port Shannon
+98,7,New Jeffrey,Lake Eric,1,4,0,Lake Eric,New Jeffrey
+99,7,Torresport,Theodoreberg,5,1,0,Torresport,Theodoreberg
+100,7,Codyfurt,Millerport,1,10,0,Millerport,Codyfurt
+101,7,Riosstad,Pachecofurt,4,3,0,Riosstad,Pachecofurt
+102,7,Bensonshire,Montgomeryburgh,4,3,1,Bensonshire,Montgomeryburgh
+103,7,Port Lisa,Robertsonport,4,3,1,Port Lisa,Robertsonport
+104,7,North Keithchester,West Robertfort,4,5,1,West Robertfort,North Keithchester
+105,7,New Jose,Debraside,0,2,0,Debraside,New Jose
+106,8,Lake Eric,Kramerville,4,5,1,Kramerville,Lake Eric
+107,8,Port Christiebury,New Jose,3,2,1,Port Christiebury,New Jose
+108,8,Port Lisa,Port Haroldberg,1,5,0,Port Haroldberg,Port Lisa
+109,8,Bobbyborough,Barnesport,7,1,0,Bobbyborough,Barnesport
+110,8,Robertsonport,North Garymouth,1,0,0,Robertsonport,North Garymouth
+111,8,New Paul,Debraside,1,4,0,Debraside,New Paul
+112,8,Port Shannon,Port Stacey,2,0,0,Port Shannon,Port Stacey
+113,8,Laurenview,Williamview,2,3,1,Williamview,Laurenview
+114,8,Pachecofurt,Millerport,4,5,0,Millerport,Pachecofurt
+115,8,Riosstad,Montgomeryburgh,2,0,0,Riosstad,Montgomeryburgh
+116,8,North Keithchester,Codyfurt,6,9,0,Codyfurt,North Keithchester
+117,8,Bensonshire,West Patriciaside,1,0,0,Bensonshire,West Patriciaside
+118,8,Port Scott,Torresport,1,2,1,Torresport,Port Scott
+119,8,Theodoreberg,Amberfurt,2,4,0,Amberfurt,Theodoreberg
+120,8,West Robertfort,New Jeffrey,2,1,0,West Robertfort,New Jeffrey
+121,9,Kramerville,Debraside,5,1,0,Kramerville,Debraside
+122,9,Port Christiebury,Port Stacey,2,1,0,Port Christiebury,Port Stacey
+123,9,North Keithchester,Bobbyborough,3,0,0,North Keithchester,Bobbyborough
+124,9,Theodoreberg,Barnesport,3,4,1,Barnesport,Theodoreberg
+125,9,Lake Eric,New Jeffrey,2,1,1,Lake Eric,New Jeffrey
+126,9,West Patriciaside,New Paul,3,2,0,West Patriciaside,New Paul
+127,9,Montgomeryburgh,Port Haroldberg,0,5,0,Port Haroldberg,Montgomeryburgh
+128,9,Codyfurt,Port Shannon,0,7,0,Port Shannon,Codyfurt
+129,9,Laurenview,Pachecofurt,3,1,0,Laurenview,Pachecofurt
+130,9,Williamview,Riosstad,2,0,0,Williamview,Riosstad
+131,9,North Garymouth,Amberfurt,7,3,0,North Garymouth,Amberfurt
+132,9,Bensonshire,Millerport,2,3,1,Millerport,Bensonshire
+133,9,New Jose,Port Scott,5,3,0,New Jose,Port Scott
+134,9,Robertsonport,West Robertfort,2,4,0,West Robertfort,Robertsonport
+135,9,Torresport,Port Lisa,2,3,1,Port Lisa,Torresport
+136,10,North Keithchester,Kramerville,2,5,0,Kramerville,North Keithchester
+137,10,Debraside,Laurenview,6,2,0,Debraside,Laurenview
+138,10,Port Shannon,New Jose,3,1,0,Port Shannon,New Jose
+139,10,Codyfurt,Barnesport,5,9,0,Barnesport,Codyfurt
+140,10,Millerport,Pachecofurt,4,7,0,Pachecofurt,Millerport
+141,10,Montgomeryburgh,Torresport,1,3,0,Torresport,Montgomeryburgh
+142,10,Port Scott,Lake Eric,2,0,0,Port Scott,Lake Eric
+143,10,New Paul,West Robertfort,4,2,0,New Paul,West Robertfort
+144,10,Bobbyborough,Amberfurt,2,4,0,Amberfurt,Bobbyborough
+145,10,Port Christiebury,Theodoreberg,1,3,0,Theodoreberg,Port Christiebury
+146,10,North Garymouth,Riosstad,5,3,0,North Garymouth,Riosstad
+147,10,West Patriciaside,Bensonshire,3,2,0,West Patriciaside,Bensonshire
+148,10,Robertsonport,Williamview,2,1,0,Robertsonport,Williamview
+149,10,Port Stacey,Port Lisa,5,4,0,Port Stacey,Port Lisa
+150,10,Port Haroldberg,New Jeffrey,7,1,0,Port Haroldberg,New Jeffrey
+151,11,Port Lisa,Kramerville,3,7,0,Kramerville,Port Lisa
+152,11,Debraside,Theodoreberg,5,4,0,Debraside,Theodoreberg
+153,11,Lake Eric,Laurenview,3,2,0,Lake Eric,Laurenview
+154,11,Williamview,Port Shannon,1,3,0,Port Shannon,Williamview
+155,11,Barnesport,New Jose,2,3,0,New Jose,Barnesport
+156,11,Pachecofurt,Port Haroldberg,3,4,0,Port Haroldberg,Pachecofurt
+157,11,Montgomeryburgh,Port Stacey,5,1,0,Montgomeryburgh,Port Stacey
+158,11,Torresport,Port Christiebury,1,4,0,Port Christiebury,Torresport
+159,11,Riosstad,North Keithchester,4,2,0,Riosstad,North Keithchester
+160,11,Millerport,West Robertfort,5,0,0,Millerport,West Robertfort
+161,11,New Paul,North Garymouth,1,2,0,North Garymouth,New Paul
+162,11,Amberfurt,Codyfurt,8,2,0,Amberfurt,Codyfurt
+163,11,Bobbyborough,New Jeffrey,3,1,0,Bobbyborough,New Jeffrey
+164,11,West Patriciaside,Robertsonport,2,3,0,Robertsonport,West Patriciaside
+165,11,Port Scott,Bensonshire,1,4,0,Bensonshire,Port Scott
+166,12,Amberfurt,Debraside,1,2,1,Debraside,Amberfurt
+167,12,Port Stacey,Kramerville,2,3,0,Kramerville,Port Stacey
+168,12,Pachecofurt,Barnesport,1,6,0,Barnesport,Pachecofurt
+169,12,New Jose,Montgomeryburgh,3,1,0,New Jose,Montgomeryburgh
+170,12,Robertsonport,Laurenview,2,3,1,Laurenview,Robertsonport
+171,12,Williamview,North Keithchester,5,0,0,Williamview,North Keithchester
+172,12,North Garymouth,Port Christiebury,3,1,0,North Garymouth,Port Christiebury
+173,12,Port Haroldberg,New Paul,0,2,0,New Paul,Port Haroldberg
+174,12,Port Lisa,Bobbyborough,3,5,0,Bobbyborough,Port Lisa
+175,12,Port Scott,Port Shannon,2,1,0,Port Scott,Port Shannon
+176,12,Codyfurt,West Robertfort,2,3,1,West Robertfort,Codyfurt
+177,12,Theodoreberg,Lake Eric,1,0,0,Theodoreberg,Lake Eric
+178,12,West Patriciaside,Riosstad,1,2,0,Riosstad,West Patriciaside
+179,12,Torresport,Bensonshire,2,4,0,Bensonshire,Torresport
+180,12,New Jeffrey,Millerport,1,4,0,Millerport,New Jeffrey
+181,13,Bobbyborough,Debraside,1,0,0,Bobbyborough,Debraside
+182,13,New Jeffrey,Laurenview,4,1,0,New Jeffrey,Laurenview
+183,13,Port Scott,Kramerville,2,3,1,Kramerville,Port Scott
+184,13,West Patriciaside,New Jose,6,1,0,West Patriciaside,New Jose
+185,13,Millerport,Barnesport,3,0,0,Millerport,Barnesport
+186,13,Port Stacey,Lake Eric,6,5,1,Port Stacey,Lake Eric
+187,13,Port Shannon,Pachecofurt,1,0,0,Port Shannon,Pachecofurt
+188,13,North Keithchester,Amberfurt,2,3,1,Amberfurt,North Keithchester
+189,13,North Garymouth,Torresport,4,1,0,North Garymouth,Torresport
+190,13,New Paul,Codyfurt,6,1,0,New Paul,Codyfurt
+191,13,Port Lisa,Port Christiebury,2,5,0,Port Christiebury,Port Lisa
+192,13,Montgomeryburgh,Williamview,3,2,1,Montgomeryburgh,Williamview
+193,13,Port Haroldberg,Robertsonport,3,2,1,Port Haroldberg,Robertsonport
+194,13,West Robertfort,Riosstad,6,1,0,West Robertfort,Riosstad
+195,13,Bensonshire,Theodoreberg,1,2,1,Theodoreberg,Bensonshire
+196,14,West Patriciaside,Debraside,3,0,0,West Patriciaside,Debraside
+197,14,Amberfurt,Kramerville,2,1,1,Amberfurt,Kramerville
+198,14,Port Scott,Williamview,3,4,0,Williamview,Port Scott
+199,14,Laurenview,Theodoreberg,1,5,0,Theodoreberg,Laurenview
+200,14,Port Christiebury,Barnesport,5,3,0,Port Christiebury,Barnesport
+201,14,New Jeffrey,Pachecofurt,6,5,1,New Jeffrey,Pachecofurt
+202,14,New Jose,New Paul,2,4,0,New Paul,New Jose
+203,14,Robertsonport,Millerport,5,2,0,Robertsonport,Millerport
+204,14,Port Haroldberg,Torresport,3,1,0,Port Haroldberg,Torresport
+205,14,North Garymouth,Codyfurt,3,1,0,North Garymouth,Codyfurt
+206,14,North Keithchester,Port Stacey,2,5,0,Port Stacey,North Keithchester
+207,14,West Robertfort,Port Lisa,7,4,0,West Robertfort,Port Lisa
+208,14,Lake Eric,Port Shannon,0,5,0,Port Shannon,Lake Eric
+209,14,Riosstad,Bensonshire,5,2,0,Riosstad,Bensonshire
+210,14,Montgomeryburgh,Bobbyborough,2,1,1,Montgomeryburgh,Bobbyborough
+211,15,Port Lisa,Debraside,4,3,0,Port Lisa,Debraside
+212,15,Pachecofurt,Kramerville,1,8,0,Kramerville,Pachecofurt
+213,15,Millerport,Williamview,4,1,0,Millerport,Williamview
+214,15,Barnesport,Port Christiebury,2,4,0,Port Christiebury,Barnesport
+215,15,Port Scott,Laurenview,1,4,0,Laurenview,Port Scott
+216,15,New Jeffrey,New Jose,2,4,0,New Jose,New Jeffrey
+217,15,Port Shannon,Robertsonport,0,1,0,Robertsonport,Port Shannon
+218,15,Lake Eric,Codyfurt,1,2,0,Codyfurt,Lake Eric
+219,15,Torresport,North Garymouth,0,2,0,North Garymouth,Torresport
+220,15,Port Stacey,North Keithchester,2,4,0,North Keithchester,Port Stacey
+221,15,Theodoreberg,New Paul,2,7,0,New Paul,Theodoreberg
+222,15,Amberfurt,Bensonshire,5,3,0,Amberfurt,Bensonshire
+223,15,West Robertfort,Bobbyborough,2,1,1,West Robertfort,Bobbyborough
+224,15,Montgomeryburgh,Riosstad,2,4,0,Riosstad,Montgomeryburgh
+225,15,West Patriciaside,Port Haroldberg,6,0,0,West Patriciaside,Port Haroldberg
+226,16,Kramerville,Port Stacey,6,0,0,Kramerville,Port Stacey
+227,16,Port Lisa,Barnesport,1,6,0,Barnesport,Port Lisa
+228,16,Debraside,Robertsonport,3,0,0,Debraside,Robertsonport
+229,16,Pachecofurt,North Garymouth,3,4,1,North Garymouth,Pachecofurt
+230,16,Port Scott,North Keithchester,2,1,0,Port Scott,North Keithchester
+231,16,Theodoreberg,Laurenview,3,1,0,Theodoreberg,Laurenview
+232,16,Millerport,Montgomeryburgh,1,0,0,Millerport,Montgomeryburgh
+233,16,New Jose,Port Christiebury,1,2,0,Port Christiebury,New Jose
+234,16,Williamview,Lake Eric,4,1,0,Williamview,Lake Eric
+235,16,New Paul,Port Shannon,2,4,0,Port Shannon,New Paul
+236,16,Riosstad,Codyfurt,3,2,1,Riosstad,Codyfurt
+237,16,Torresport,West Patriciaside,2,4,0,West Patriciaside,Torresport
+238,16,New Jeffrey,Amberfurt,4,5,1,Amberfurt,New Jeffrey
+239,16,Bobbyborough,Port Haroldberg,3,1,0,Bobbyborough,Port Haroldberg
+240,16,Bensonshire,West Robertfort,1,0,0,Bensonshire,West Robertfort
+241,17,Bobbyborough,Kramerville,0,1,1,Kramerville,Bobbyborough
+242,17,Debraside,Lake Eric,4,1,0,Debraside,Lake Eric
+243,17,New Jose,North Garymouth,5,1,0,New Jose,North Garymouth
+244,17,Millerport,Port Stacey,2,1,1,Millerport,Port Stacey
+245,17,Port Christiebury,Port Scott,5,1,0,Port Christiebury,Port Scott
+246,17,Barnesport,Riosstad,4,3,0,Barnesport,Riosstad
+247,17,Robertsonport,Port Shannon,0,2,0,Port Shannon,Robertsonport
+248,17,New Jeffrey,Montgomeryburgh,0,3,0,Montgomeryburgh,New Jeffrey
+249,17,Williamview,West Robertfort,2,3,0,West Robertfort,Williamview
+250,17,Laurenview,North Keithchester,5,3,0,Laurenview,North Keithchester
+251,17,Pachecofurt,Amberfurt,4,7,0,Amberfurt,Pachecofurt
+252,17,West Patriciaside,Codyfurt,5,1,0,West Patriciaside,Codyfurt
+253,17,Bensonshire,New Paul,2,5,0,New Paul,Bensonshire
+254,17,Port Lisa,Theodoreberg,3,5,0,Theodoreberg,Port Lisa
+255,18,Kramerville,Bobbyborough,2,0,0,Kramerville,Bobbyborough
+256,18,Pachecofurt,Debraside,5,2,0,Pachecofurt,Debraside
+257,18,Laurenview,New Jose,2,4,0,New Jose,Laurenview
+258,18,Port Lisa,Port Scott,2,3,1,Port Scott,Port Lisa
+259,18,Port Christiebury,Amberfurt,3,6,0,Amberfurt,Port Christiebury
+260,18,Williamview,North Garymouth,4,3,0,Williamview,North Garymouth
+261,18,Riosstad,Barnesport,3,2,0,Riosstad,Barnesport
+262,18,West Robertfort,Millerport,4,1,0,West Robertfort,Millerport
+263,18,North Keithchester,New Jeffrey,7,0,0,North Keithchester,New Jeffrey
+264,18,Port Stacey,Codyfurt,2,4,0,Codyfurt,Port Stacey
+265,18,Port Haroldberg,Lake Eric,4,3,1,Port Haroldberg,Lake Eric
+266,18,Bensonshire,Robertsonport,3,2,0,Bensonshire,Robertsonport
+267,18,Port Shannon,Theodoreberg,1,2,0,Theodoreberg,Port Shannon
+268,18,Montgomeryburgh,New Paul,5,2,0,Montgomeryburgh,New Paul
+269,18,West Patriciaside,Torresport,0,3,0,Torresport,West Patriciaside
+270,19,New Jeffrey,Kramerville,1,6,0,Kramerville,New Jeffrey
+271,19,New Jose,Williamview,4,1,0,New Jose,Williamview
+272,19,Barnesport,Port Scott,3,2,1,Barnesport,Port Scott
+273,19,Port Lisa,Millerport,3,7,0,Millerport,Port Lisa
+274,19,West Patriciaside,North Garymouth,3,4,1,North Garymouth,West Patriciaside
+275,19,Pachecofurt,Laurenview,3,4,0,Laurenview,Pachecofurt
+276,19,Amberfurt,Lake Eric,2,3,0,Lake Eric,Amberfurt
+277,19,Debraside,Bensonshire,1,2,1,Bensonshire,Debraside
+278,19,Port Christiebury,New Paul,2,1,1,Port Christiebury,New Paul
+279,19,Bobbyborough,Port Stacey,7,2,0,Bobbyborough,Port Stacey
+280,19,Port Shannon,North Keithchester,3,2,1,Port Shannon,North Keithchester
+281,19,West Robertfort,Torresport,1,0,0,West Robertfort,Torresport
+282,19,Montgomeryburgh,Robertsonport,1,3,0,Robertsonport,Montgomeryburgh
+283,19,Codyfurt,Port Haroldberg,2,3,0,Port Haroldberg,Codyfurt
+284,19,Theodoreberg,Riosstad,2,3,1,Riosstad,Theodoreberg
+285,20,Kramerville,Barnesport,10,3,0,Kramerville,Barnesport
+286,20,Torresport,New Jose,5,0,0,Torresport,New Jose
+287,20,Port Scott,Riosstad,3,1,0,Port Scott,Riosstad
+288,20,Amberfurt,Millerport,3,1,0,Amberfurt,Millerport
+289,20,Williamview,Codyfurt,5,4,0,Williamview,Codyfurt
+290,20,Laurenview,Lake Eric,3,1,0,Laurenview,Lake Eric
+291,20,Robertsonport,Port Christiebury,3,2,0,Robertsonport,Port Christiebury
+292,20,North Garymouth,Bensonshire,5,6,1,Bensonshire,North Garymouth
+293,20,North Keithchester,Port Lisa,4,2,0,North Keithchester,Port Lisa
+294,20,Port Stacey,Debraside,5,2,0,Port Stacey,Debraside
+295,20,Montgomeryburgh,Pachecofurt,3,5,0,Pachecofurt,Montgomeryburgh
+296,20,New Paul,New Jeffrey,5,1,0,New Paul,New Jeffrey
+297,20,Theodoreberg,West Patriciaside,0,4,0,West Patriciaside,Theodoreberg
+298,20,Bobbyborough,West Robertfort,2,3,1,West Robertfort,Bobbyborough
+299,20,Port Haroldberg,Port Shannon,1,2,0,Port Shannon,Port Haroldberg
+300,21,Port Christiebury,Kramerville,4,2,0,Port Christiebury,Kramerville
+301,21,Port Stacey,New Jose,0,3,0,New Jose,Port Stacey
+302,21,Barnesport,Williamview,1,6,0,Williamview,Barnesport
+303,21,Theodoreberg,Port Scott,6,5,0,Theodoreberg,Port Scott
+304,21,Millerport,Port Haroldberg,1,4,0,Port Haroldberg,Millerport
+305,21,Port Lisa,Amberfurt,2,4,0,Amberfurt,Port Lisa
+306,21,Riosstad,New Jeffrey,3,0,0,Riosstad,New Jeffrey
+307,21,Montgomeryburgh,Debraside,2,3,0,Debraside,Montgomeryburgh
+308,21,West Patriciaside,Pachecofurt,2,0,0,West Patriciaside,Pachecofurt
+309,21,Laurenview,Torresport,3,2,1,Laurenview,Torresport
+310,21,Bensonshire,Port Shannon,1,3,0,Port Shannon,Bensonshire
+311,21,Lake Eric,West Robertfort,1,4,0,West Robertfort,Lake Eric
+312,21,Bobbyborough,Codyfurt,3,2,1,Bobbyborough,Codyfurt
+313,21,Robertsonport,North Keithchester,4,1,0,Robertsonport,North Keithchester
+314,21,North Garymouth,New Paul,3,1,0,North Garymouth,New Paul
+315,22,Bensonshire,Kramerville,7,4,0,Bensonshire,Kramerville
+316,22,Barnesport,Theodoreberg,4,3,1,Barnesport,Theodoreberg
+317,22,North Keithchester,Williamview,1,5,0,Williamview,North Keithchester
+318,22,Codyfurt,Port Christiebury,1,4,0,Port Christiebury,Codyfurt
+319,22,Robertsonport,Port Scott,3,2,0,Robertsonport,Port Scott
+320,22,Millerport,West Patriciaside,4,2,0,Millerport,West Patriciaside
+321,22,Laurenview,Debraside,2,3,0,Debraside,Laurenview
+322,22,Port Lisa,Port Stacey,3,6,0,Port Stacey,Port Lisa
+323,22,Riosstad,New Paul,4,3,1,Riosstad,New Paul
+324,22,Port Shannon,New Jeffrey,4,2,0,Port Shannon,New Jeffrey
+325,22,Torresport,Amberfurt,4,3,1,Torresport,Amberfurt
+326,22,Bobbyborough,Lake Eric,4,1,0,Bobbyborough,Lake Eric
+327,22,North Garymouth,Port Haroldberg,9,3,0,North Garymouth,Port Haroldberg
+328,22,Pachecofurt,New Jose,4,1,0,Pachecofurt,New Jose
+329,22,Montgomeryburgh,West Robertfort,1,9,0,West Robertfort,Montgomeryburgh
+330,23,Kramerville,Pachecofurt,4,1,0,Kramerville,Pachecofurt
+331,23,New Jose,Bensonshire,2,5,0,Bensonshire,New Jose
+332,23,Barnesport,Lake Eric,2,0,0,Barnesport,Lake Eric
+333,23,Port Christiebury,West Robertfort,4,1,0,Port Christiebury,West Robertfort
+334,23,Port Scott,Port Stacey,2,3,0,Port Stacey,Port Scott
+335,23,Williamview,Debraside,3,1,0,Williamview,Debraside
+336,23,Port Haroldberg,Millerport,3,6,0,Millerport,Port Haroldberg
+337,23,Port Lisa,New Jeffrey,2,5,0,New Jeffrey,Port Lisa
+338,23,North Keithchester,Theodoreberg,3,6,0,Theodoreberg,North Keithchester
+339,23,Montgomeryburgh,Codyfurt,3,5,0,Codyfurt,Montgomeryburgh
+340,23,West Patriciaside,Bobbyborough,4,5,1,Bobbyborough,West Patriciaside
+341,23,Robertsonport,Riosstad,0,1,0,Riosstad,Robertsonport
+342,23,Port Shannon,New Paul,2,0,0,Port Shannon,New Paul
+343,23,Laurenview,Amberfurt,1,2,0,Amberfurt,Laurenview
+344,24,Kramerville,Millerport,4,1,0,Kramerville,Millerport
+345,24,Port Haroldberg,Barnesport,5,4,1,Port Haroldberg,Barnesport
+346,24,Port Christiebury,Port Shannon,0,5,0,Port Shannon,Port Christiebury
+347,24,Port Scott,Pachecofurt,3,4,1,Pachecofurt,Port Scott
+348,24,Port Stacey,New Paul,2,6,0,New Paul,Port Stacey
+349,24,Williamview,West Patriciaside,3,2,1,Williamview,West Patriciaside
+350,24,Riosstad,Port Lisa,4,1,0,Riosstad,Port Lisa
+351,24,North Keithchester,Torresport,4,3,0,North Keithchester,Torresport
+352,24,New Jeffrey,North Garymouth,3,4,0,North Garymouth,New Jeffrey
+353,24,New Jose,Bobbyborough,2,1,0,New Jose,Bobbyborough
+354,24,Theodoreberg,West Robertfort,3,5,0,West Robertfort,Theodoreberg
+355,24,Laurenview,Montgomeryburgh,4,5,1,Montgomeryburgh,Laurenview
+356,24,Robertsonport,Amberfurt,4,3,1,Robertsonport,Amberfurt
+357,24,Lake Eric,Debraside,6,7,1,Debraside,Lake Eric
+358,24,Codyfurt,Bensonshire,3,2,0,Codyfurt,Bensonshire
+359,25,Kramerville,Robertsonport,1,5,0,Robertsonport,Kramerville
+360,25,West Patriciaside,Millerport,3,2,0,West Patriciaside,Millerport
+361,25,New Paul,Port Scott,2,1,1,New Paul,Port Scott
+362,25,Port Stacey,West Robertfort,5,1,0,Port Stacey,West Robertfort
+363,25,Port Shannon,Port Christiebury,5,1,0,Port Shannon,Port Christiebury
+364,25,Theodoreberg,Pachecofurt,2,3,0,Pachecofurt,Theodoreberg
+365,25,Debraside,Barnesport,5,3,0,Debraside,Barnesport
+366,25,Riosstad,Williamview,3,1,0,Riosstad,Williamview
+367,25,Lake Eric,Port Lisa,6,1,0,Lake Eric,Port Lisa
+368,25,North Keithchester,New Jose,3,0,0,North Keithchester,New Jose
+369,25,Amberfurt,Bobbyborough,2,3,0,Bobbyborough,Amberfurt
+370,25,Torresport,Montgomeryburgh,3,2,0,Torresport,Montgomeryburgh
+371,25,Bensonshire,New Jeffrey,4,1,0,Bensonshire,New Jeffrey
+372,25,Codyfurt,Laurenview,4,0,0,Codyfurt,Laurenview
+373,25,Port Haroldberg,North Garymouth,5,3,0,Port Haroldberg,North Garymouth
+374,26,Kramerville,West Robertfort,2,0,0,Kramerville,West Robertfort
+375,26,Theodoreberg,Port Stacey,0,3,0,Port Stacey,Theodoreberg
+376,26,Codyfurt,Port Scott,2,5,0,Port Scott,Codyfurt
+377,26,Barnesport,North Garymouth,5,2,0,Barnesport,North Garymouth
+378,26,Port Christiebury,Laurenview,0,4,0,Laurenview,Port Christiebury
+379,26,Debraside,Port Lisa,3,2,1,Debraside,Port Lisa
+380,26,Port Shannon,Millerport,2,5,0,Millerport,Port Shannon
+381,26,Pachecofurt,Bobbyborough,1,3,0,Bobbyborough,Pachecofurt
+382,26,Bensonshire,North Keithchester,1,3,0,North Keithchester,Bensonshire
+383,26,New Paul,Port Haroldberg,4,6,0,Port Haroldberg,New Paul
+384,26,Riosstad,Lake Eric,6,1,0,Riosstad,Lake Eric
+385,26,Amberfurt,New Jose,8,0,0,Amberfurt,New Jose
+386,26,Montgomeryburgh,West Patriciaside,3,2,1,Montgomeryburgh,West Patriciaside
+387,26,Robertsonport,New Jeffrey,3,1,0,Robertsonport,New Jeffrey
+388,26,Williamview,Torresport,1,4,0,Torresport,Williamview
+389,27,Riosstad,Kramerville,3,5,0,Kramerville,Riosstad
+390,27,Theodoreberg,Port Christiebury,4,3,1,Theodoreberg,Port Christiebury
+391,27,Millerport,Port Lisa,2,1,0,Millerport,Port Lisa
+392,27,New Jeffrey,Port Scott,2,1,0,New Jeffrey,Port Scott
+393,27,Robertsonport,Port Stacey,8,1,0,Robertsonport,Port Stacey
+394,27,Debraside,Port Shannon,0,1,1,Port Shannon,Debraside
+395,27,North Garymouth,Barnesport,2,0,0,North Garymouth,Barnesport
+396,27,West Robertfort,Williamview,6,3,0,West Robertfort,Williamview
+397,27,New Paul,New Jose,3,4,0,New Jose,New Paul
+398,27,West Patriciaside,Laurenview,3,1,0,West Patriciaside,Laurenview
+399,27,Lake Eric,Bensonshire,2,5,0,Bensonshire,Lake Eric
+400,27,Codyfurt,Pachecofurt,3,4,0,Pachecofurt,Codyfurt
+401,27,Bobbyborough,Torresport,3,4,0,Torresport,Bobbyborough
+402,27,North Keithchester,Port Haroldberg,3,2,1,North Keithchester,Port Haroldberg
+403,27,Amberfurt,Montgomeryburgh,2,3,1,Montgomeryburgh,Amberfurt
+404,28,New Jose,Kramerville,1,2,0,Kramerville,New Jose
+405,28,Port Stacey,Riosstad,1,3,0,Riosstad,Port Stacey
+406,28,North Garymouth,Millerport,3,4,1,Millerport,North Garymouth
+407,28,Port Scott,Debraside,1,2,0,Debraside,Port Scott
+408,28,Port Lisa,Port Shannon,0,4,0,Port Shannon,Port Lisa
+409,28,New Paul,Theodoreberg,3,2,1,New Paul,Theodoreberg
+410,28,Port Christiebury,Williamview,2,0,0,Port Christiebury,Williamview
+411,28,New Jeffrey,North Keithchester,0,3,0,North Keithchester,New Jeffrey
+412,28,Torresport,Barnesport,2,1,1,Torresport,Barnesport
+413,28,Robertsonport,Bobbyborough,3,2,1,Robertsonport,Bobbyborough
+414,28,West Patriciaside,West Robertfort,3,2,0,West Patriciaside,West Robertfort
+415,28,Laurenview,Port Haroldberg,3,0,0,Laurenview,Port Haroldberg
+416,28,Montgomeryburgh,Bensonshire,2,1,0,Montgomeryburgh,Bensonshire
+417,28,Codyfurt,Amberfurt,1,6,0,Amberfurt,Codyfurt
+418,28,Lake Eric,Pachecofurt,3,4,1,Pachecofurt,Lake Eric
+419,29,Kramerville,Port Shannon,1,0,0,Kramerville,Port Shannon
+420,29,Torresport,Port Stacey,4,1,0,Torresport,Port Stacey
+421,29,Riosstad,West Robertfort,5,2,0,Riosstad,West Robertfort
+422,29,New Jeffrey,Port Lisa,3,2,0,New Jeffrey,Port Lisa
+423,29,Bobbyborough,Port Scott,3,2,0,Bobbyborough,Port Scott
+424,29,New Jose,Laurenview,4,5,1,Laurenview,New Jose
+425,29,Lake Eric,Millerport,1,3,0,Millerport,Lake Eric
+426,29,Barnesport,Robertsonport,3,2,0,Barnesport,Robertsonport
+427,29,Theodoreberg,Montgomeryburgh,0,1,1,Montgomeryburgh,Theodoreberg
+428,29,North Keithchester,Port Christiebury,5,4,1,North Keithchester,Port Christiebury
+429,29,Debraside,Williamview,4,0,0,Debraside,Williamview
+430,29,Amberfurt,West Patriciaside,3,5,0,West Patriciaside,Amberfurt
+431,29,Bensonshire,Port Haroldberg,4,2,0,Bensonshire,Port Haroldberg
+432,29,Codyfurt,North Garymouth,2,5,0,North Garymouth,Codyfurt
+433,29,New Paul,Pachecofurt,2,1,0,New Paul,Pachecofurt
+434,30,Montgomeryburgh,Kramerville,1,7,0,Kramerville,Montgomeryburgh
+435,30,Port Stacey,North Garymouth,1,4,0,North Garymouth,Port Stacey
+436,30,Port Shannon,Port Scott,3,1,0,Port Shannon,Port Scott
+437,30,Debraside,Torresport,3,0,0,Debraside,Torresport
+438,30,New Jose,Theodoreberg,3,4,0,Theodoreberg,New Jose
+439,30,Codyfurt,Port Lisa,6,3,0,Codyfurt,Port Lisa
+440,30,Barnesport,Port Haroldberg,6,7,0,Port Haroldberg,Barnesport
+441,30,Port Christiebury,North Keithchester,3,5,0,North Keithchester,Port Christiebury
+442,30,Laurenview,Millerport,2,4,0,Millerport,Laurenview
+443,30,Bobbyborough,West Patriciaside,1,3,0,West Patriciaside,Bobbyborough
+444,30,New Paul,Riosstad,1,2,0,Riosstad,New Paul
+445,30,Robertsonport,Pachecofurt,7,0,0,Robertsonport,Pachecofurt
+446,30,New Jeffrey,Bensonshire,1,5,0,Bensonshire,New Jeffrey
+447,30,West Robertfort,Amberfurt,0,3,0,Amberfurt,West Robertfort
+448,31,Robertsonport,Kramerville,3,2,1,Robertsonport,Kramerville
+449,31,Laurenview,Port Stacey,3,0,0,Laurenview,Port Stacey
+450,31,New Jeffrey,Debraside,3,2,1,New Jeffrey,Debraside
+451,31,Bobbyborough,Port Lisa,7,4,0,Bobbyborough,Port Lisa
+452,31,Riosstad,North Garymouth,7,5,0,Riosstad,North Garymouth
+453,31,Port Shannon,Barnesport,5,0,0,Port Shannon,Barnesport
+454,31,Millerport,Torresport,5,2,0,Millerport,Torresport
+455,31,West Robertfort,North Keithchester,2,4,0,North Keithchester,West Robertfort
+456,31,Codyfurt,New Jose,3,5,0,New Jose,Codyfurt
+457,31,New Paul,Montgomeryburgh,7,4,0,New Paul,Montgomeryburgh
+458,31,West Patriciaside,Port Christiebury,2,5,0,Port Christiebury,West Patriciaside
+459,31,Port Scott,Amberfurt,1,2,0,Amberfurt,Port Scott
+460,31,Port Haroldberg,Williamview,3,2,0,Port Haroldberg,Williamview
+461,31,Pachecofurt,Theodoreberg,2,5,0,Theodoreberg,Pachecofurt
+462,31,Bensonshire,Lake Eric,3,0,0,Bensonshire,Lake Eric
+463,32,Debraside,Kramerville,4,2,0,Debraside,Kramerville
+464,32,Laurenview,Port Lisa,6,2,0,Laurenview,Port Lisa
+465,32,Robertsonport,Theodoreberg,2,1,0,Robertsonport,Theodoreberg
+466,32,Port Scott,North Garymouth,2,1,0,Port Scott,North Garymouth
+467,32,Barnesport,North Keithchester,3,4,0,North Keithchester,Barnesport
+468,32,Montgomeryburgh,Port Shannon,5,2,0,Montgomeryburgh,Port Shannon
+469,32,Port Haroldberg,New Jose,3,2,0,Port Haroldberg,New Jose
+470,32,Port Stacey,Williamview,3,2,1,Port Stacey,Williamview
+471,32,Port Christiebury,Torresport,3,4,0,Torresport,Port Christiebury
+472,32,Millerport,Codyfurt,3,4,0,Codyfurt,Millerport
+473,32,West Patriciaside,New Jeffrey,2,1,1,West Patriciaside,New Jeffrey
+474,32,Bobbyborough,New Paul,4,0,0,Bobbyborough,New Paul
+475,32,Bensonshire,Riosstad,3,2,1,Bensonshire,Riosstad
+476,32,West Robertfort,Lake Eric,2,0,0,West Robertfort,Lake Eric
+477,33,Debraside,Port Stacey,2,1,0,Debraside,Port Stacey
+478,33,Kramerville,Port Lisa,5,2,0,Kramerville,Port Lisa
+479,33,Barnesport,Bensonshire,0,1,0,Bensonshire,Barnesport
+480,33,Theodoreberg,New Jeffrey,3,4,1,New Jeffrey,Theodoreberg
+481,33,Port Scott,New Jose,2,3,1,New Jose,Port Scott
+482,33,Millerport,Robertsonport,2,3,0,Robertsonport,Millerport
+483,33,North Garymouth,West Robertfort,1,3,0,West Robertfort,North Garymouth
+484,33,Laurenview,West Patriciaside,0,3,0,West Patriciaside,Laurenview
+485,33,Port Christiebury,Montgomeryburgh,3,1,0,Port Christiebury,Montgomeryburgh
+486,33,Codyfurt,Williamview,2,1,1,Codyfurt,Williamview
+487,33,Port Shannon,Torresport,2,3,0,Torresport,Port Shannon
+488,33,New Paul,North Keithchester,4,3,0,New Paul,North Keithchester
+489,33,Port Haroldberg,Amberfurt,1,2,0,Amberfurt,Port Haroldberg
+490,33,Lake Eric,Bobbyborough,1,3,0,Bobbyborough,Lake Eric
+491,33,Pachecofurt,Riosstad,3,0,0,Pachecofurt,Riosstad
+492,34,Kramerville,North Keithchester,5,1,0,Kramerville,North Keithchester
+493,34,Pachecofurt,Port Lisa,4,5,0,Port Lisa,Pachecofurt
+494,34,West Robertfort,Debraside,2,3,0,Debraside,West Robertfort
+495,34,Williamview,New Jose,3,4,1,New Jose,Williamview
+496,34,Barnesport,Codyfurt,5,3,0,Barnesport,Codyfurt
+497,34,Robertsonport,Port Haroldberg,2,1,0,Robertsonport,Port Haroldberg
+498,34,Montgomeryburgh,Port Christiebury,2,3,0,Port Christiebury,Montgomeryburgh
+499,34,Riosstad,Port Scott,1,2,0,Port Scott,Riosstad
+500,34,Port Shannon,Bensonshire,2,3,1,Bensonshire,Port Shannon
+501,34,Port Stacey,Amberfurt,1,5,0,Amberfurt,Port Stacey
+502,34,Millerport,Bobbyborough,5,1,0,Millerport,Bobbyborough
+503,34,New Jeffrey,New Paul,3,4,0,New Paul,New Jeffrey
+504,34,Torresport,Lake Eric,2,1,1,Torresport,Lake Eric
+505,34,North Garymouth,West Patriciaside,1,2,0,West Patriciaside,North Garymouth
+506,35,North Garymouth,Kramerville,7,6,1,North Garymouth,Kramerville
+507,35,New Jose,Port Lisa,3,1,0,New Jose,Port Lisa
+508,35,West Robertfort,Barnesport,3,2,0,West Robertfort,Barnesport
+509,35,Riosstad,Laurenview,2,1,1,Riosstad,Laurenview
+510,35,Pachecofurt,Port Stacey,2,4,0,Port Stacey,Pachecofurt
+511,35,Codyfurt,Theodoreberg,4,6,0,Theodoreberg,Codyfurt
+512,35,Robertsonport,Montgomeryburgh,4,1,0,Robertsonport,Montgomeryburgh
+513,35,West Patriciaside,Williamview,2,1,1,West Patriciaside,Williamview
+514,35,Debraside,Port Christiebury,1,4,0,Port Christiebury,Debraside
+515,35,Port Shannon,Lake Eric,5,1,0,Port Shannon,Lake Eric
+516,35,Port Scott,Port Haroldberg,1,3,0,Port Haroldberg,Port Scott
+517,35,Bensonshire,Torresport,3,2,0,Bensonshire,Torresport
+518,35,New Paul,Millerport,3,5,0,Millerport,New Paul
+519,35,Amberfurt,New Jeffrey,1,3,0,New Jeffrey,Amberfurt
+520,35,Bobbyborough,North Keithchester,2,5,0,North Keithchester,Bobbyborough
+521,36,Kramerville,Lake Eric,7,1,0,Kramerville,Lake Eric
+522,36,Port Lisa,Bensonshire,6,5,1,Port Lisa,Bensonshire
+523,36,New Jose,Barnesport,1,5,0,Barnesport,New Jose
+524,36,Montgomeryburgh,North Garymouth,3,0,0,Montgomeryburgh,North Garymouth
+525,36,Port Haroldberg,Port Stacey,2,5,0,Port Stacey,Port Haroldberg
+526,36,Pachecofurt,Port Christiebury,1,2,0,Port Christiebury,Pachecofurt
+527,36,Laurenview,Port Scott,3,2,1,Laurenview,Port Scott
+528,36,Riosstad,Robertsonport,3,4,1,Robertsonport,Riosstad
+529,36,Debraside,Amberfurt,7,6,1,Debraside,Amberfurt
+530,36,New Jeffrey,Codyfurt,1,2,0,Codyfurt,New Jeffrey
+531,36,Port Shannon,West Patriciaside,2,1,1,Port Shannon,West Patriciaside
+532,36,Theodoreberg,Millerport,3,1,0,Theodoreberg,Millerport
+533,36,Williamview,Bobbyborough,4,1,0,Williamview,Bobbyborough
+534,36,Torresport,North Keithchester,3,0,0,Torresport,North Keithchester
+535,36,West Robertfort,New Paul,3,2,1,West Robertfort,New Paul
+536,37,Port Christiebury,Port Lisa,3,4,0,Port Lisa,Port Christiebury
+537,37,Millerport,Kramerville,4,3,1,Millerport,Kramerville
+538,37,Port Shannon,North Garymouth,5,2,0,Port Shannon,North Garymouth
+539,37,Port Stacey,Barnesport,3,4,0,Barnesport,Port Stacey
+540,37,Debraside,Montgomeryburgh,1,2,0,Montgomeryburgh,Debraside
+541,37,Laurenview,Riosstad,0,1,0,Riosstad,Laurenview
+542,37,Lake Eric,Port Scott,3,6,0,Port Scott,Lake Eric
+543,37,Theodoreberg,Williamview,2,0,0,Theodoreberg,Williamview
+544,37,Codyfurt,Robertsonport,1,4,0,Robertsonport,Codyfurt
+545,37,New Jose,New Jeffrey,3,2,1,New Jose,New Jeffrey
+546,37,West Robertfort,West Patriciaside,0,1,0,West Patriciaside,West Robertfort
+547,37,Amberfurt,Torresport,1,3,0,Torresport,Amberfurt
+548,37,Bensonshire,Bobbyborough,6,2,0,Bensonshire,Bobbyborough
+549,37,Port Haroldberg,North Keithchester,3,2,0,Port Haroldberg,North Keithchester
+550,37,Pachecofurt,New Paul,3,2,1,Pachecofurt,New Paul
+551,38,Port Lisa,North Keithchester,2,5,0,North Keithchester,Port Lisa
+552,38,North Garymouth,Port Shannon,1,2,0,Port Shannon,North Garymouth
+553,38,Theodoreberg,Kramerville,3,8,0,Kramerville,Theodoreberg
+554,38,Port Stacey,Port Christiebury,1,2,1,Port Christiebury,Port Stacey
+555,38,Bensonshire,Laurenview,4,1,0,Bensonshire,Laurenview
+556,38,West Patriciaside,Barnesport,3,2,0,West Patriciaside,Barnesport
+557,38,Port Scott,Robertsonport,4,2,0,Port Scott,Robertsonport
+558,38,Torresport,Debraside,1,2,0,Debraside,Torresport
+559,38,New Jose,Millerport,3,2,0,New Jose,Millerport
+560,38,Port Haroldberg,Riosstad,2,3,0,Riosstad,Port Haroldberg
+561,38,New Jeffrey,West Robertfort,2,4,0,West Robertfort,New Jeffrey
+562,38,Pachecofurt,Williamview,3,2,0,Pachecofurt,Williamview
+563,38,Lake Eric,Montgomeryburgh,0,3,0,Montgomeryburgh,Lake Eric
+564,38,Amberfurt,New Paul,9,2,0,Amberfurt,New Paul
+565,38,Codyfurt,Bobbyborough,1,2,0,Bobbyborough,Codyfurt
+566,39,Port Lisa,Pachecofurt,5,7,0,Pachecofurt,Port Lisa
+567,39,Kramerville,Riosstad,3,5,0,Riosstad,Kramerville
+568,39,Port Christiebury,West Patriciaside,2,5,0,West Patriciaside,Port Christiebury
+569,39,Amberfurt,Port Stacey,2,1,1,Amberfurt,Port Stacey
+570,39,Montgomeryburgh,North Keithchester,1,4,0,North Keithchester,Montgomeryburgh
+571,39,North Garymouth,Debraside,3,1,0,North Garymouth,Debraside
+572,39,Barnesport,Torresport,3,4,1,Torresport,Barnesport
+573,39,Robertsonport,Lake Eric,4,1,0,Robertsonport,Lake Eric
+574,39,Port Shannon,Port Haroldberg,3,2,1,Port Shannon,Port Haroldberg
+575,39,Laurenview,Codyfurt,5,4,0,Laurenview,Codyfurt
+576,39,Bensonshire,Williamview,3,0,0,Bensonshire,Williamview
+577,39,Bobbyborough,Theodoreberg,4,3,0,Bobbyborough,Theodoreberg
+578,39,Millerport,New Paul,6,2,0,Millerport,New Paul
+579,39,West Robertfort,New Jose,3,2,1,West Robertfort,New Jose
+580,39,Port Scott,New Jeffrey,3,1,0,Port Scott,New Jeffrey
+581,40,Williamview,Port Lisa,3,8,0,Port Lisa,Williamview
+582,40,Port Christiebury,Bensonshire,3,5,0,Bensonshire,Port Christiebury
+583,40,Port Stacey,Bobbyborough,5,8,0,Bobbyborough,Port Stacey
+584,40,West Patriciaside,Port Scott,2,1,1,West Patriciaside,Port Scott
+585,40,Kramerville,Amberfurt,2,3,1,Amberfurt,Kramerville
+586,40,North Garymouth,New Jose,5,3,0,North Garymouth,New Jose
+587,40,Riosstad,Theodoreberg,2,3,0,Theodoreberg,Riosstad
+588,40,North Keithchester,Laurenview,3,2,0,North Keithchester,Laurenview
+589,40,Port Shannon,Debraside,4,2,0,Port Shannon,Debraside
+590,40,Barnesport,New Paul,1,3,0,New Paul,Barnesport
+591,40,West Robertfort,Robertsonport,2,4,0,Robertsonport,West Robertfort
+592,40,Lake Eric,Port Haroldberg,0,3,0,Port Haroldberg,Lake Eric
+593,40,Montgomeryburgh,Millerport,3,2,1,Montgomeryburgh,Millerport
+594,40,Pachecofurt,Torresport,5,3,0,Pachecofurt,Torresport
+595,41,New Paul,Port Lisa,6,2,0,New Paul,Port Lisa
+596,41,West Robertfort,Port Christiebury,4,5,1,Port Christiebury,West Robertfort
+597,41,Kramerville,Williamview,2,0,0,Kramerville,Williamview
+598,41,North Garymouth,Bobbyborough,1,5,0,Bobbyborough,North Garymouth
+599,41,Barnesport,West Patriciaside,1,4,0,West Patriciaside,Barnesport
+600,41,Montgomeryburgh,Theodoreberg,3,1,0,Montgomeryburgh,Theodoreberg
+601,41,Debraside,Port Scott,0,3,0,Port Scott,Debraside
+602,41,Millerport,Laurenview,2,5,0,Laurenview,Millerport
+603,41,Bensonshire,Port Stacey,3,2,0,Bensonshire,Port Stacey
+604,41,Riosstad,New Jose,5,2,0,Riosstad,New Jose
+605,41,Port Shannon,Codyfurt,7,1,0,Port Shannon,Codyfurt
+606,41,North Keithchester,Lake Eric,3,1,0,North Keithchester,Lake Eric
+607,41,Torresport,Robertsonport,6,5,1,Torresport,Robertsonport
+608,41,Port Haroldberg,Pachecofurt,0,1,0,Pachecofurt,Port Haroldberg
+609,42,Port Lisa,New Jose,1,2,1,New Jose,Port Lisa
+610,42,North Garymouth,Port Stacey,8,0,0,North Garymouth,Port Stacey
+611,42,Laurenview,Kramerville,2,3,1,Kramerville,Laurenview
+612,42,Port Christiebury,New Jeffrey,4,2,0,Port Christiebury,New Jeffrey
+613,42,Williamview,Barnesport,3,2,1,Williamview,Barnesport
+614,42,Theodoreberg,Port Haroldberg,3,1,0,Theodoreberg,Port Haroldberg
+615,42,Torresport,Bobbyborough,2,1,0,Torresport,Bobbyborough
+616,42,West Patriciaside,Montgomeryburgh,9,1,0,West Patriciaside,Montgomeryburgh
+617,42,Codyfurt,Debraside,2,4,0,Debraside,Codyfurt
+618,42,Amberfurt,Riosstad,0,3,0,Riosstad,Amberfurt
+619,42,North Keithchester,Millerport,2,4,0,Millerport,North Keithchester
+620,42,New Paul,Bensonshire,2,3,0,Bensonshire,New Paul
+621,42,West Robertfort,Pachecofurt,5,0,0,West Robertfort,Pachecofurt
+622,43,Kramerville,Laurenview,8,2,0,Kramerville,Laurenview
+623,43,North Garymouth,Williamview,5,4,0,North Garymouth,Williamview
+624,43,Port Christiebury,Riosstad,3,4,0,Riosstad,Port Christiebury
+625,43,Barnesport,West Robertfort,0,1,0,West Robertfort,Barnesport
+626,43,Theodoreberg,Port Shannon,0,3,0,Port Shannon,Theodoreberg
+627,43,New Jose,Robertsonport,2,3,1,Robertsonport,New Jose
+628,43,Bensonshire,Port Lisa,1,3,0,Port Lisa,Bensonshire
+629,43,Debraside,West Patriciaside,4,1,0,Debraside,West Patriciaside
+630,43,Lake Eric,Port Stacey,2,3,1,Port Stacey,Lake Eric
+631,43,North Keithchester,Montgomeryburgh,3,1,0,North Keithchester,Montgomeryburgh
+632,43,Torresport,Millerport,3,4,1,Millerport,Torresport
+633,43,Port Haroldberg,Port Scott,4,1,0,Port Haroldberg,Port Scott
+634,43,Bobbyborough,Pachecofurt,3,0,0,Bobbyborough,Pachecofurt
+635,43,New Paul,Amberfurt,2,5,0,Amberfurt,New Paul
+636,44,New Paul,Kramerville,2,3,0,Kramerville,New Paul
+637,44,Williamview,Robertsonport,0,2,0,Robertsonport,Williamview
+638,44,Millerport,Port Christiebury,2,1,0,Millerport,Port Christiebury
+639,44,Riosstad,West Patriciaside,2,1,0,Riosstad,West Patriciaside
+640,44,Barnesport,Montgomeryburgh,6,4,0,Barnesport,Montgomeryburgh
+641,44,Theodoreberg,New Jose,2,1,0,Theodoreberg,New Jose
+642,44,Port Haroldberg,Bensonshire,5,4,1,Port Haroldberg,Bensonshire
+643,44,North Keithchester,Debraside,3,2,0,North Keithchester,Debraside
+644,44,West Robertfort,Codyfurt,4,6,0,Codyfurt,West Robertfort
+645,44,Amberfurt,Port Shannon,0,3,0,Port Shannon,Amberfurt
+646,44,Port Scott,Port Lisa,5,4,0,Port Scott,Port Lisa
+647,44,Port Stacey,Torresport,4,0,0,Port Stacey,Torresport
+648,44,North Garymouth,Lake Eric,5,1,0,North Garymouth,Lake Eric
+649,44,Laurenview,New Jeffrey,4,1,0,Laurenview,New Jeffrey
+650,45,Williamview,Kramerville,4,5,1,Kramerville,Williamview
+651,45,Port Christiebury,Debraside,5,2,0,Port Christiebury,Debraside
+652,45,Bobbyborough,Robertsonport,3,1,0,Bobbyborough,Robertsonport
+653,45,Riosstad,Amberfurt,3,1,0,Riosstad,Amberfurt
+654,45,Port Haroldberg,Port Lisa,0,2,0,Port Lisa,Port Haroldberg
+655,45,New Jose,Pachecofurt,4,0,0,New Jose,Pachecofurt
+656,45,Port Stacey,Montgomeryburgh,3,0,0,Port Stacey,Montgomeryburgh
+657,45,New Jeffrey,Theodoreberg,2,3,0,Theodoreberg,New Jeffrey
+658,45,Port Shannon,Laurenview,7,1,0,Port Shannon,Laurenview
+659,45,North Keithchester,Bensonshire,3,2,0,North Keithchester,Bensonshire
+660,45,New Paul,West Patriciaside,0,3,0,West Patriciaside,New Paul
+661,45,Lake Eric,Barnesport,1,2,0,Barnesport,Lake Eric
+662,45,Port Scott,West Robertfort,4,1,0,Port Scott,West Robertfort
+663,45,Millerport,North Garymouth,5,2,0,Millerport,North Garymouth
+664,45,Torresport,Codyfurt,4,1,0,Torresport,Codyfurt
+665,46,Kramerville,New Jose,2,1,1,Kramerville,New Jose
+666,46,North Garymouth,Robertsonport,2,1,0,North Garymouth,Robertsonport
+667,46,North Keithchester,Riosstad,0,3,0,Riosstad,North Keithchester
+668,46,Barnesport,Bobbyborough,3,5,0,Bobbyborough,Barnesport
+669,46,West Robertfort,Laurenview,3,2,1,West Robertfort,Laurenview
+670,46,Port Lisa,Codyfurt,6,4,0,Port Lisa,Codyfurt
+671,46,Port Stacey,Bensonshire,1,2,0,Bensonshire,Port Stacey
+672,46,Port Christiebury,Lake Eric,2,4,0,Lake Eric,Port Christiebury
+673,46,Theodoreberg,Torresport,5,6,1,Torresport,Theodoreberg
+674,46,Debraside,Port Haroldberg,0,4,0,Port Haroldberg,Debraside
+675,46,Pachecofurt,Montgomeryburgh,1,3,0,Montgomeryburgh,Pachecofurt
+676,46,Millerport,Amberfurt,1,0,1,Millerport,Amberfurt
+677,46,Williamview,New Jeffrey,5,2,0,Williamview,New Jeffrey
+678,46,Port Scott,New Paul,0,3,0,New Paul,Port Scott
+679,46,West Patriciaside,Port Shannon,2,5,0,Port Shannon,West Patriciaside
+680,47,Port Haroldberg,Kramerville,3,1,0,Port Haroldberg,Kramerville
+681,47,Robertsonport,Port Lisa,3,4,1,Port Lisa,Robertsonport
+682,47,New Jeffrey,Riosstad,3,4,1,Riosstad,New Jeffrey
+683,47,Bensonshire,Barnesport,3,1,0,Bensonshire,Barnesport
+684,47,Williamview,Laurenview,5,1,0,Williamview,Laurenview
+685,47,Millerport,Debraside,7,0,0,Millerport,Debraside
+686,47,Lake Eric,Port Christiebury,0,4,0,Port Christiebury,Lake Eric
+687,47,Theodoreberg,North Keithchester,4,5,0,North Keithchester,Theodoreberg
+688,47,New Jose,Port Shannon,2,3,0,Port Shannon,New Jose
+689,47,Codyfurt,Montgomeryburgh,2,4,0,Montgomeryburgh,Codyfurt
+690,47,Amberfurt,Port Scott,9,2,0,Amberfurt,Port Scott
+691,47,Torresport,Pachecofurt,3,2,0,Torresport,Pachecofurt
+692,47,West Robertfort,Port Stacey,5,0,0,West Robertfort,Port Stacey
+693,47,New Paul,Bobbyborough,5,3,0,New Paul,Bobbyborough
+694,48,Barnesport,Kramerville,2,7,0,Kramerville,Barnesport
+695,48,Port Stacey,Robertsonport,2,4,0,Robertsonport,Port Stacey
+696,48,Riosstad,Bobbyborough,2,1,0,Riosstad,Bobbyborough
+697,48,Torresport,Williamview,1,4,0,Williamview,Torresport
+698,48,Port Haroldberg,Montgomeryburgh,1,3,0,Montgomeryburgh,Port Haroldberg
+699,48,Debraside,West Robertfort,3,2,0,Debraside,West Robertfort
+700,48,Millerport,New Jose,5,4,0,Millerport,New Jose
+701,48,Amberfurt,Laurenview,2,0,0,Amberfurt,Laurenview
+702,48,North Keithchester,Port Shannon,2,4,0,Port Shannon,North Keithchester
+703,48,Lake Eric,New Paul,4,1,0,Lake Eric,New Paul
+704,48,Codyfurt,West Patriciaside,4,6,0,West Patriciaside,Codyfurt
+705,48,Bensonshire,Pachecofurt,5,1,0,Bensonshire,Pachecofurt
+706,48,Port Lisa,North Garymouth,3,4,0,North Garymouth,Port Lisa
+707,48,Port Scott,Theodoreberg,3,0,0,Port Scott,Theodoreberg
+708,48,New Jeffrey,Port Christiebury,6,3,0,New Jeffrey,Port Christiebury
+709,49,Laurenview,Robertsonport,1,4,0,Robertsonport,Laurenview
+710,49,Kramerville,Bensonshire,4,3,0,Kramerville,Bensonshire
+711,49,Lake Eric,Riosstad,2,1,1,Lake Eric,Riosstad
+712,49,Amberfurt,Barnesport,4,3,0,Amberfurt,Barnesport
+713,49,New Jose,North Keithchester,3,1,0,New Jose,North Keithchester
+714,49,Codyfurt,Port Stacey,4,3,1,Codyfurt,Port Stacey
+715,49,Port Christiebury,Millerport,3,4,1,Millerport,Port Christiebury
+716,49,Theodoreberg,Bobbyborough,2,1,0,Theodoreberg,Bobbyborough
+717,49,Montgomeryburgh,Port Scott,5,4,1,Montgomeryburgh,Port Scott
+718,49,New Jeffrey,Port Haroldberg,1,3,0,Port Haroldberg,New Jeffrey
+719,49,Port Lisa,Williamview,3,4,1,Williamview,Port Lisa
+720,49,Debraside,Pachecofurt,2,4,0,Pachecofurt,Debraside
+721,49,New Paul,Torresport,0,3,0,Torresport,New Paul
+722,49,West Robertfort,North Garymouth,0,2,0,North Garymouth,West Robertfort
+723,50,Riosstad,Port Christiebury,5,2,0,Riosstad,Port Christiebury
+724,50,New Paul,Barnesport,3,2,1,New Paul,Barnesport
+725,50,Robertsonport,Bensonshire,2,1,0,Robertsonport,Bensonshire
+726,50,Port Haroldberg,Laurenview,5,4,1,Port Haroldberg,Laurenview
+727,50,Millerport,Lake Eric,2,1,1,Millerport,Lake Eric
+728,50,Port Shannon,Kramerville,3,2,1,Port Shannon,Kramerville
+729,50,New Jose,Torresport,1,6,0,Torresport,New Jose
+730,50,Amberfurt,Theodoreberg,2,5,0,Theodoreberg,Amberfurt
+731,50,Port Stacey,New Jeffrey,6,0,0,Port Stacey,New Jeffrey
+732,50,North Keithchester,West Patriciaside,3,4,1,West Patriciaside,North Keithchester
+733,50,Debraside,Codyfurt,3,1,0,Debraside,Codyfurt
+734,50,Port Lisa,West Robertfort,1,3,0,West Robertfort,Port Lisa
+735,50,North Garymouth,Pachecofurt,1,3,0,Pachecofurt,North Garymouth
+736,50,Bobbyborough,Williamview,2,1,0,Bobbyborough,Williamview
+737,50,Port Scott,Montgomeryburgh,4,5,0,Montgomeryburgh,Port Scott
+738,51,Bobbyborough,Riosstad,4,5,1,Riosstad,Bobbyborough
+739,51,Barnesport,New Jeffrey,4,3,1,Barnesport,New Jeffrey
+740,51,West Robertfort,Bensonshire,3,2,0,West Robertfort,Bensonshire
+741,51,Port Stacey,Theodoreberg,2,5,0,Theodoreberg,Port Stacey
+742,51,Port Haroldberg,Codyfurt,5,1,0,Port Haroldberg,Codyfurt
+743,51,Amberfurt,Port Christiebury,4,1,0,Amberfurt,Port Christiebury
+744,51,Torresport,Kramerville,1,2,1,Kramerville,Torresport
+745,51,Lake Eric,North Keithchester,2,6,0,North Keithchester,Lake Eric
+746,51,Port Lisa,New Paul,4,5,0,New Paul,Port Lisa
+747,51,Debraside,Millerport,6,3,0,Debraside,Millerport
+748,51,Port Shannon,Williamview,4,1,0,Port Shannon,Williamview
+749,51,Port Scott,West Patriciaside,0,3,0,West Patriciaside,Port Scott
+750,51,Robertsonport,New Jose,2,4,0,New Jose,Robertsonport
+751,51,Laurenview,North Garymouth,0,5,0,North Garymouth,Laurenview
+752,52,Riosstad,Port Stacey,0,1,0,Port Stacey,Riosstad
+753,52,Bobbyborough,Millerport,2,3,1,Millerport,Bobbyborough
+754,52,Theodoreberg,Debraside,0,1,0,Debraside,Theodoreberg
+755,52,Williamview,Port Christiebury,3,2,0,Williamview,Port Christiebury
+756,52,Montgomeryburgh,Lake Eric,4,3,1,Montgomeryburgh,Lake Eric
+757,52,Barnesport,Pachecofurt,3,1,0,Barnesport,Pachecofurt
+758,52,North Keithchester,North Garymouth,0,6,0,North Garymouth,North Keithchester
+759,52,New Jeffrey,Torresport,3,2,1,New Jeffrey,Torresport
+760,52,Kramerville,New Paul,3,5,0,New Paul,Kramerville
+761,52,Port Lisa,West Patriciaside,2,3,0,West Patriciaside,Port Lisa
+762,52,Port Shannon,Amberfurt,5,1,0,Port Shannon,Amberfurt
+763,52,Laurenview,West Robertfort,2,4,0,West Robertfort,Laurenview
+764,52,Bensonshire,New Jose,2,3,1,New Jose,Bensonshire
+765,52,Robertsonport,Codyfurt,7,0,0,Robertsonport,Codyfurt
+766,53,Port Shannon,Riosstad,7,3,0,Port Shannon,Riosstad
+767,53,Port Haroldberg,Bobbyborough,2,3,1,Bobbyborough,Port Haroldberg
+768,53,Williamview,Theodoreberg,3,4,0,Theodoreberg,Williamview
+769,53,Port Stacey,Port Scott,6,3,0,Port Stacey,Port Scott
+770,53,Lake Eric,Amberfurt,3,4,0,Amberfurt,Lake Eric
+771,53,Port Christiebury,Pachecofurt,5,3,0,Port Christiebury,Pachecofurt
+772,53,New Paul,Robertsonport,1,3,0,Robertsonport,New Paul
+773,53,Millerport,New Jeffrey,5,4,1,Millerport,New Jeffrey
+774,53,Kramerville,North Garymouth,2,1,1,Kramerville,North Garymouth
+775,53,Torresport,Laurenview,3,4,0,Laurenview,Torresport
+776,53,Port Lisa,Montgomeryburgh,4,2,0,Port Lisa,Montgomeryburgh
+777,53,Barnesport,Debraside,1,3,0,Debraside,Barnesport
+778,53,Codyfurt,North Keithchester,3,6,0,North Keithchester,Codyfurt
+779,54,Port Lisa,Riosstad,3,0,0,Port Lisa,Riosstad
+780,54,North Keithchester,Pachecofurt,1,2,0,Pachecofurt,North Keithchester
+781,54,Bobbyborough,New Jose,4,1,0,Bobbyborough,New Jose
+782,54,Williamview,Port Stacey,2,3,1,Port Stacey,Williamview
+783,54,Codyfurt,Lake Eric,6,1,0,Codyfurt,Lake Eric
+784,54,Robertsonport,Torresport,3,6,0,Torresport,Robertsonport
+785,54,Port Scott,Millerport,0,1,1,Millerport,Port Scott
+786,54,Montgomeryburgh,New Jeffrey,4,0,0,Montgomeryburgh,New Jeffrey
+787,54,Amberfurt,Port Haroldberg,4,0,0,Amberfurt,Port Haroldberg
+788,54,Port Shannon,West Robertfort,5,0,0,Port Shannon,West Robertfort
+789,54,West Patriciaside,Kramerville,7,3,0,West Patriciaside,Kramerville
+790,54,Bensonshire,North Garymouth,4,1,0,Bensonshire,North Garymouth
+791,54,Debraside,New Paul,2,1,1,Debraside,New Paul
+792,54,Barnesport,Laurenview,4,0,0,Barnesport,Laurenview
+793,55,New Jose,Riosstad,1,2,1,Riosstad,New Jose
+794,55,New Jeffrey,Williamview,2,3,0,Williamview,New Jeffrey
+795,55,West Patriciaside,Lake Eric,5,2,0,West Patriciaside,Lake Eric
+796,55,North Keithchester,Port Scott,3,6,0,Port Scott,North Keithchester
+797,55,Bobbyborough,Bensonshire,4,0,0,Bobbyborough,Bensonshire
+798,55,Torresport,New Paul,3,4,0,New Paul,Torresport
+799,55,Amberfurt,Robertsonport,3,2,1,Amberfurt,Robertsonport
+800,55,Port Stacey,Laurenview,0,3,0,Laurenview,Port Stacey
+801,55,Port Haroldberg,Debraside,3,0,0,Port Haroldberg,Debraside
+802,55,Pachecofurt,Port Shannon,0,3,0,Port Shannon,Pachecofurt
+803,55,Theodoreberg,Port Lisa,0,4,0,Port Lisa,Theodoreberg
+804,55,Port Christiebury,North Garymouth,2,1,1,Port Christiebury,North Garymouth
+805,55,Codyfurt,Kramerville,1,6,0,Kramerville,Codyfurt
+806,55,Barnesport,Millerport,0,4,0,Millerport,Barnesport
+807,56,Riosstad,Debraside,4,1,0,Riosstad,Debraside
+808,56,New Paul,Williamview,5,1,0,New Paul,Williamview
+809,56,Pachecofurt,New Jeffrey,2,1,0,Pachecofurt,New Jeffrey
+810,56,Lake Eric,West Patriciaside,1,7,0,West Patriciaside,Lake Eric
+811,56,Laurenview,Port Shannon,2,5,0,Port Shannon,Laurenview
+812,56,Kramerville,Torresport,3,2,0,Kramerville,Torresport
+813,56,North Keithchester,Robertsonport,1,3,0,Robertsonport,North Keithchester
+814,56,Port Haroldberg,Port Christiebury,2,1,1,Port Haroldberg,Port Christiebury
+815,56,New Jose,Port Stacey,4,6,0,Port Stacey,New Jose
+816,56,Millerport,Port Scott,4,3,1,Millerport,Port Scott
+817,56,Theodoreberg,North Garymouth,2,3,1,North Garymouth,Theodoreberg
+818,56,Montgomeryburgh,Port Lisa,5,1,0,Montgomeryburgh,Port Lisa
+819,56,Amberfurt,West Robertfort,5,1,0,Amberfurt,West Robertfort
+820,57,Codyfurt,Riosstad,3,2,0,Codyfurt,Riosstad
+821,57,Lake Eric,North Garymouth,1,3,0,North Garymouth,Lake Eric
+822,57,Pachecofurt,Robertsonport,2,4,0,Robertsonport,Pachecofurt
+823,57,Debraside,New Jeffrey,2,1,0,Debraside,New Jeffrey
+824,57,Williamview,Millerport,4,3,1,Williamview,Millerport
+825,57,Bensonshire,Port Christiebury,3,1,0,Bensonshire,Port Christiebury
+826,57,Torresport,West Robertfort,3,2,0,Torresport,West Robertfort
+827,57,Amberfurt,North Keithchester,3,2,0,Amberfurt,North Keithchester
+828,57,West Patriciaside,Port Lisa,5,2,0,West Patriciaside,Port Lisa
+829,57,Montgomeryburgh,Laurenview,5,2,0,Montgomeryburgh,Laurenview
+830,57,Port Scott,Bobbyborough,3,1,0,Port Scott,Bobbyborough
+831,57,Barnesport,Port Stacey,4,3,0,Barnesport,Port Stacey
+832,57,Port Haroldberg,Theodoreberg,6,0,0,Port Haroldberg,Theodoreberg
+833,58,Pachecofurt,Lake Eric,5,4,1,Pachecofurt,Lake Eric
+834,58,New Jeffrey,West Patriciaside,1,6,0,West Patriciaside,New Jeffrey
+835,58,Williamview,Port Haroldberg,6,5,1,Williamview,Port Haroldberg
+836,58,West Robertfort,Port Shannon,1,4,0,Port Shannon,West Robertfort
+837,58,North Garymouth,North Keithchester,2,3,1,North Keithchester,North Garymouth
+838,58,Laurenview,Bensonshire,2,1,0,Laurenview,Bensonshire
+839,58,Port Scott,Port Christiebury,4,2,0,Port Scott,Port Christiebury
+840,58,Torresport,Riosstad,2,3,0,Riosstad,Torresport
+841,58,Theodoreberg,Codyfurt,4,1,0,Theodoreberg,Codyfurt
+842,58,Port Stacey,Millerport,3,2,0,Port Stacey,Millerport
+843,58,New Jose,Amberfurt,1,2,0,Amberfurt,New Jose
+844,58,Bobbyborough,Montgomeryburgh,5,0,0,Bobbyborough,Montgomeryburgh
+845,58,Robertsonport,New Paul,3,1,0,Robertsonport,New Paul
+846,59,New Jeffrey,Port Shannon,3,2,0,New Jeffrey,Port Shannon
+847,59,Port Christiebury,Port Haroldberg,3,4,0,Port Haroldberg,Port Christiebury
+848,59,Lake Eric,Torresport,1,3,0,Torresport,Lake Eric
+849,59,West Patriciaside,Amberfurt,1,2,0,Amberfurt,West Patriciaside
+850,59,Codyfurt,New Paul,1,6,0,New Paul,Codyfurt
+851,59,Williamview,Port Scott,2,3,1,Port Scott,Williamview
+852,59,Theodoreberg,Bensonshire,5,0,0,Theodoreberg,Bensonshire
+853,59,West Robertfort,Kramerville,5,1,0,West Robertfort,Kramerville
+854,59,Laurenview,Bobbyborough,2,0,0,Laurenview,Bobbyborough
+855,59,North Garymouth,Montgomeryburgh,4,3,0,North Garymouth,Montgomeryburgh
+856,59,Debraside,New Jose,2,3,0,New Jose,Debraside
+857,59,Robertsonport,Barnesport,3,0,0,Robertsonport,Barnesport
+858,60,Port Shannon,Port Lisa,6,5,1,Port Shannon,Port Lisa
+859,60,New Jeffrey,Barnesport,3,1,0,New Jeffrey,Barnesport
+860,60,Codyfurt,Torresport,0,8,0,Torresport,Codyfurt
+861,60,New Jose,Port Haroldberg,0,2,0,Port Haroldberg,New Jose
+862,60,Pachecofurt,West Patriciaside,0,4,0,West Patriciaside,Pachecofurt
+863,60,Amberfurt,North Garymouth,5,3,0,Amberfurt,North Garymouth
+864,60,Bensonshire,Port Scott,2,1,0,Bensonshire,Port Scott
+865,60,Lake Eric,Theodoreberg,0,4,0,Theodoreberg,Lake Eric
+866,61,Pachecofurt,West Robertfort,1,2,1,West Robertfort,Pachecofurt
+867,61,Port Shannon,Montgomeryburgh,7,1,0,Port Shannon,Montgomeryburgh
+868,61,New Jeffrey,Bobbyborough,1,2,0,Bobbyborough,New Jeffrey
+869,61,Kramerville,West Patriciaside,3,2,0,Kramerville,West Patriciaside
+870,62,Pachecofurt,Codyfurt,3,1,0,Pachecofurt,Codyfurt
