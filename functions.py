@@ -2,6 +2,25 @@ from classes import Player, Team, League, Coach
 import numpy as np
 import random
 from faker import Faker
+# Helper: generate unique, title-free person names
+def _fake_unique_name(fake: Faker, seen: set[str], male: bool = False) -> str:
+    """Return a unique full name without titles using first/last components.
+
+    Uses male first names if male=True; otherwise generic first names. Ensures
+    uniqueness against the provided 'seen' set; appends a numeric suffix on rare collisions.
+    """
+    base = f"{fake.first_name_male()} {fake.last_name()}" if male else f"{fake.first_name()} {fake.last_name()}"
+    if base not in seen:
+        seen.add(base)
+        return base
+    # Resolve collision with a short numeric suffix
+    i = 2
+    while True:
+        candidate = f"{base} {i}"
+        if candidate not in seen:
+            seen.add(candidate)
+            return candidate
+        i += 1
 
 # Central RNG for reproducibility across modules
 RNG = np.random.default_rng()
@@ -12,18 +31,16 @@ def set_rng_seed(seed: int):
     RNG = np.random.default_rng(seed)
 
 def create_coaches(n_teams: int) -> list[Coach]:
-    """Create one coach per team with a random playstyle and unique Faker name."""
+    """Create one coach per team with a random playstyle and unique title-free name."""
     playstyles = ["star-centric", "balanced", "complementary", "hyper-offensive", "hyper-defensive"]
     fake = Faker()
     # tie Faker to Python RNG seeding for determinism
     Faker.seed(random.randrange(1_000_000_000))
     coaches = []
+    seen: set[str] = set()
     for _ in range(n_teams):
         playstyle = random.choice(playstyles)
-        try:
-            name = fake.unique.name()
-        except Exception:
-            name = fake.name()
+        name = _fake_unique_name(fake, seen, male=False)
         coaches.append(Coach(name, playstyle))
     # reset unique tracker
     try:
@@ -33,21 +50,23 @@ def create_coaches(n_teams: int) -> list[Coach]:
     return coaches
 
 def create_players(n_teams: int, n_lines: int, n_pairs: int, n_goalies: int) -> list[Player]:
-    """Create enough players by position with unique Faker names to build n_teams squads."""
+    """Create enough players by position with unique Faker names to build n_teams squads.
+
+    Players receive male first names to avoid unexpected titles (e.g., DDS), and names are
+    constructed as First Last to ensure no prefixes/suffixes.
+    """
     fake = Faker()
     # tie Faker to Python RNG seeding for determinism
     Faker.seed(random.randrange(1_000_000_000))
     players = []
+    seen: set[str] = set()
     total_forwards = n_teams * n_lines * 3
     total_defenders = n_teams * n_pairs * 2
     total_goalies = n_teams * n_goalies
 
     # Forwards
     for _ in range(total_forwards):
-        try:
-            pname = fake.unique.name()
-        except Exception:
-            pname = fake.name()
+        pname = _fake_unique_name(fake, seen, male=True)
         players.append(Player(
             name = pname,
             position = "F",
@@ -59,10 +78,7 @@ def create_players(n_teams: int, n_lines: int, n_pairs: int, n_goalies: int) -> 
 
     # Defensemen
     for _ in range(total_defenders):
-        try:
-            pname = fake.unique.name()
-        except Exception:
-            pname = fake.name()
+        pname = _fake_unique_name(fake, seen, male=True)
         players.append(Player(
             name = pname,
             position = "D",
@@ -74,10 +90,7 @@ def create_players(n_teams: int, n_lines: int, n_pairs: int, n_goalies: int) -> 
 
     # Goalies
     for _ in range(total_goalies):
-        try:
-            pname = fake.unique.name()
-        except Exception:
-            pname = fake.name()
+        pname = _fake_unique_name(fake, seen, male=True)
         players.append(Player(
             name = pname,
             position = "G",
@@ -123,22 +136,22 @@ def draft_teams(n_teams: int, players: list[Player], n_lines: int, n_pairs: int,
     random.shuffle(available_defenders)
     random.shuffle(available_goalies)
 
-    # Prepare unique team city names via Faker (required)
+    # Prepare unique team country names via Faker (required)
     team_names: list[str] = []
     fake = Faker()
     # Seed faker deterministically based on Python RNG to honor random.seed in main
     Faker.seed(random.randrange(1_000_000_000))
     used = set()
     tries = 0
-    while len(team_names) < n_teams and tries < n_teams * 50:
+    while len(team_names) < n_teams and tries < n_teams * 200:
         tries += 1
         try:
-            city = fake.unique.city()
+            name = fake.unique.country()
         except Exception:
-            city = fake.city()
-        if city not in used:
-            used.add(city)
-            team_names.append(city)
+            name = fake.country()
+        if name not in used:
+            used.add(name)
+            team_names.append(name)
     # reset unique tracker for future calls
     try:
         fake.unique.clear()

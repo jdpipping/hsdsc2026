@@ -6,6 +6,7 @@ import csv
 import os
 import random
 from functions import build_league, set_rng_seed
+from classes import League
 
 ###################
 ### MAIN SCRIPT ###
@@ -72,8 +73,37 @@ with open(os.path.join(DATA_DIR, 'standings.csv'), 'w', newline='') as f:
 
 # 9) Write PBP for first 5 weeks
 with open(os.path.join(DATA_DIR, 'pbp_first_5_weeks.csv'), 'w', newline='') as f:
-    w = csv.DictWriter(f, fieldnames=['game_id','week','home_team','away_team','period','time_seconds','event_type','description','home_score','away_score','tag'])
+    w = csv.DictWriter(f, fieldnames=['game_id','week','home_team','away_team','period','time_seconds','event_type','description','home_score','away_score','tag','home_on_ice','away_on_ice'])
     w.writeheader()
     w.writerows(pbp_rows)
 
-print('Outputs written to data/: rosters.csv, schedule.csv, game_results.csv, standings.csv, pbp_first_5_weeks.csv')
+print()
+
+# 10) Player rankings (via League)
+def write_rank_csv(rank_type: str, key: str, n: int = 50) -> None:
+    rows = []
+    top = league.player_rankings(n, key)
+    for i, row in enumerate(top, start=1):
+        rows.append({ 'rank': i, **row })
+    with open(os.path.join(DATA_DIR, f'{rank_type}_rankings.csv'), 'w', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=['rank','player','position','team','offense','defense','stamina','discipline','total'])
+        w.writeheader()
+        w.writerows(rows)
+
+write_rank_csv('offense', 'offense', 50)
+write_rank_csv('defense', 'defense', 50)
+write_rank_csv('stamina', 'stamina', 50)
+write_rank_csv('discipline', 'discipline', 50)
+print()
+
+# 11) Team attribute sums (via League)
+team_rows = league.get_teams()
+# Sort by total_sum desc, then offense_sum as tie-breaker
+team_rows.sort(key=lambda r: (r['total_sum'], r['offense_sum']), reverse=True)
+with open(os.path.join(DATA_DIR, 'teams.csv'), 'w', newline='') as f:
+    w = csv.DictWriter(f, fieldnames=['team','coach','playstyle','offense_sum','defense_sum','stamina_sum','discipline_sum','total_sum'])
+    w.writeheader()
+    w.writerows(team_rows)
+print(f"Outputs written to data/: "
+      f"rosters.csv, schedule.csv, game_results.csv, standings.csv, pbp_first_5_weeks.csv, "
+      f"offense_rankings.csv, defense_rankings.csv, stamina_rankings.csv, discipline_rankings.csv, teams.csv")

@@ -91,34 +91,42 @@ class Coach:
         return groupings
     
     def _balanced_groupings(self, players: List[Player], group_size: int) -> Dict[int, List[Player]]:
-        """Make groupings as equal as possible in talent."""
+        """Make groupings as equal as possible in talent.
+
+        Create exactly N = floor(len(players)/group_size) groups of size group_size
+        using round-robin assignment to balance totals, avoiding 3x4 errors.
+        """
         sorted_players = sorted(players, key=lambda p: p.offense + p.defense, reverse=True)
-        groupings = {}
-        for i in range(group_size):
-            groupings[i + 1] = sorted_players[i::group_size]
-        return groupings
+        num_groups = max(1, len(sorted_players) // group_size)
+        groups: List[List[Player]] = [[] for _ in range(num_groups)]
+        # Round-robin best-available into groups to balance sums
+        for idx, p in enumerate(sorted_players[: num_groups * group_size]):
+            groups[idx % num_groups].append(p)
+        return {i + 1: grp for i, grp in enumerate(groups)}
     
     def _complementary_groupings(self, players: List[Player], group_size: int) -> Dict[int, List[Player]]:
         """Groupings contain a mix of offensive and defensive players."""
         offensive = sorted([p for p in players if p.offense > p.defense], key=lambda p: p.offense, reverse=True)
         defensive = sorted([p for p in players if p.defense >= p.offense], key=lambda p: p.defense, reverse=True)
-        groupings = {}
-        for i in range(0, len(players), group_size):
-            line_num = (i // group_size) + 1
-            group = []
-            for j in range(group_size):
-                if j % 2 == 0:  # alternate between offensive and defensive
-                    if len(offensive) > 0:
-                        group.append(offensive.pop(0))
-                    elif len(defensive) > 0:
-                        group.append(defensive.pop(0))
-                else:
-                    if len(defensive) > 0:
-                        group.append(defensive.pop(0))
-                    elif len(offensive) > 0:
-                        group.append(offensive.pop(0))
-            groupings[line_num] = group
-        return groupings
+        num_groups = max(1, len(players) // group_size)
+        groups: List[List[Player]] = [[] for _ in range(num_groups)]
+        # Build alternating pools of size group_size per group
+        idx = 0
+        while any([offensive, defensive]) and idx < num_groups * group_size:
+            g = idx % num_groups
+            # Alternate offense/defense per slot within group
+            slot = len(groups[g])
+            if slot % 2 == 0:
+                pick = offensive.pop(0) if offensive else (defensive.pop(0) if defensive else None)
+            else:
+                pick = defensive.pop(0) if defensive else (offensive.pop(0) if offensive else None)
+            if pick is None:
+                break
+            groups[g].append(pick)
+            idx += 1
+        # Trim to exact group_size
+        groups = [grp[:group_size] for grp in groups]
+        return {i + 1: grp for i, grp in enumerate(groups)}
     
     def _hyper_offensive_groupings(self, players: List[Player], group_size: int) -> Dict[int, List[Player]]:
         """Greedy search for best offensive attributes, stack groupings accordingly."""
@@ -363,6 +371,49 @@ class League:
             self.weeks = self.build_weeks(self.schedule)
         return games
 
+    def player_rankings(self, top_n: int, key: str) -> List[Dict]:
+        """Return top N players across the league sorted by the given key.
+
+        key should be one of: 'offense', 'defense', 'stamina', 'discipline', or 'total'.
+        """
+        rows: List[Dict] = []
+        for team in self.teams:
+            for p in team.roster:
+                rows.append({
+                    'team': team.name,
+                    'player': p.name,
+                    'position': p.position,
+                    'offense': p.offense,
+                    'defense': p.defense,
+                    'stamina': p.stamina,
+                    'discipline': p.discipline,
+                    'total': p.offense + p.defense
+                })
+        if key not in {'offense','defense','stamina','discipline','total'}:
+            key = 'offense'
+        rows.sort(key=lambda r: r[key], reverse=True)
+        return rows[:top_n]
+
+    def get_teams(self) -> List[Dict]:
+        """Return per-team summary: coach, playstyle, and sums of roster attributes."""
+        out: List[Dict] = []
+        for team in self.teams:
+            off = sum(p.offense for p in team.roster)
+            deff = sum(p.defense for p in team.roster)
+            sta = sum(p.stamina for p in team.roster)
+            dis = sum(p.discipline for p in team.roster)
+            out.append({
+                'team': team.name,
+                'coach': team.coach.name,
+                'playstyle': team.coach.playstyle,
+                'offense_sum': off,
+                'defense_sum': deff,
+                'stamina_sum': sta,
+                'discipline_sum': dis,
+                'total_sum': off + deff
+            })
+        return out
+
     def simulate_game(self, home: Team, away: Team) -> Dict:
         """Simulate a single game between two teams and return the Game result dict."""
         g = Game(home, away)
@@ -473,6 +524,8 @@ class League:
                         hs_e = e[3] if len(e) >= 4 else None
                         as_e = e[4] if len(e) >= 5 else None
                         tag = e[5] if len(e) >= 6 else ''
+                        home_on_ice = e[6] if len(e) >= 7 else []
+                        away_on_ice = e[7] if len(e) >= 8 else []
                         period = int(t // 1200.0) + 1
                         pbp_rows.append({
                             'game_id': game_id,
@@ -485,7 +538,9 @@ class League:
                             'description': desc,
                             'home_score': hs_e,
                             'away_score': as_e,
-                            'tag': tag
+                            'tag': tag,
+                            'home_on_ice': '|'.join(home_on_ice) if home_on_ice else '',
+                            'away_on_ice': '|'.join(away_on_ice) if away_on_ice else ''
                         })
 
         return game_rows, pbp_rows
@@ -668,6 +723,12 @@ class Game:
         self._rebuild_on_ice_caches()
         self._resample_clocks()
 
+    def _current_on_ice_names(self) -> Tuple[List[str], List[str]]:
+        """Return current on-ice player name lists for home and away."""
+        home_names = [p.name for p in getattr(self, 'home_players', [])]
+        away_names = [p.name for p in getattr(self, 'away_players', [])]
+        return home_names, away_names
+
     def _rebuild_on_ice_caches(self) -> None:
         """Rebuild on-ice units and caches without touching line-change clocks."""
         home_override = self.special_home_skaters
@@ -744,7 +805,14 @@ class Game:
             # PK for home, PP for away
             self.special_home_skaters = self.home_team.penalty_kill_unit(unavailable=self.unavailable_home)
             self.special_away_skaters = self.away_team.power_play_unit(unavailable=self.unavailable_away)
-            self.events.append((self.current_time, 'pp_start', 'Away power play starts (home shorthanded)', self.home_score, self.away_score, 'away_pp'))
+            # Label 4v4 or 3v3 correctly
+            n_home = max(3, 5 - sum(1 for p in self.home_penalties if p['segment_end'] > self.current_time))
+            n_away = max(3, 5 - sum(1 for p in self.away_penalties if p['segment_end'] > self.current_time))
+            h_oi, a_oi = self._current_on_ice_names()
+            if n_home == n_away and n_home < 5:
+                self.events.append((self.current_time, 'pp_start', f'{n_home}v{n_away} starts', self.home_score, self.away_score, f'{n_home}v{n_away}', h_oi, a_oi))
+            else:
+                self.events.append((self.current_time, 'pp_start', 'Away power play starts (home shorthanded)', self.home_score, self.away_score, 'away_pp', h_oi, a_oi))
         else:
             penalized = self._select_penalized_skater('away')
             self.away_penalties.append({'player': penalized, 'type': ptype, 'segments_left': segments, 'segment_end': segment_end})
@@ -753,7 +821,13 @@ class Game:
             # PK for away, PP for home
             self.special_home_skaters = self.home_team.power_play_unit(unavailable=self.unavailable_home)
             self.special_away_skaters = self.away_team.penalty_kill_unit(unavailable=self.unavailable_away)
-            self.events.append((self.current_time, 'pp_start', 'Home power play starts (away shorthanded)', self.home_score, self.away_score, 'home_pp'))
+            n_home = max(3, 5 - sum(1 for p in self.home_penalties if p['segment_end'] > self.current_time))
+            n_away = max(3, 5 - sum(1 for p in self.away_penalties if p['segment_end'] > self.current_time))
+            h_oi, a_oi = self._current_on_ice_names()
+            if n_home == n_away and n_home < 5:
+                self.events.append((self.current_time, 'pp_start', f'{n_home}v{n_away} starts', self.home_score, self.away_score, f'{n_home}v{n_away}', h_oi, a_oi))
+            else:
+                self.events.append((self.current_time, 'pp_start', 'Home power play starts (away shorthanded)', self.home_score, self.away_score, 'home_pp', h_oi, a_oi))
 
     def _end_one_penalty(self, side: str) -> None:
         """Expire the oldest minor for the given side ('home' or 'away')."""
@@ -789,10 +863,18 @@ class Game:
                     if p is not None:
                         self.unavailable_away.discard(p)
         # If no active penalties remain for a side, log full strength
-        if side == 'home' and not [p for p in self.home_penalties if p['segment_end'] > self.current_time]:
-            self.events.append((self.current_time, 'pp_end', 'Home back to full strength', self.home_score, self.away_score, 'home_full'))
-        if side == 'away' and not [p for p in self.away_penalties if p['segment_end'] > self.current_time]:
-            self.events.append((self.current_time, 'pp_end', 'Away back to full strength', self.home_score, self.away_score, 'away_full'))
+        # Announce correct state at this moment
+        n_home = max(3, 5 - sum(1 for p in self.home_penalties if p['segment_end'] > self.current_time))
+        n_away = max(3, 5 - sum(1 for p in self.away_penalties if p['segment_end'] > self.current_time))
+        h_oi, a_oi = self._current_on_ice_names()
+        if n_home == 5 and n_away == 5:
+            self.events.append((self.current_time, 'pp_end', 'Back to full strength (5v5)', self.home_score, self.away_score, 'full', h_oi, a_oi))
+        elif n_home == n_away:
+            self.events.append((self.current_time, 'pp_end', f'{n_home}v{n_away} continues', self.home_score, self.away_score, f'{n_home}v{n_away}', h_oi, a_oi))
+        elif n_home > n_away:
+            self.events.append((self.current_time, 'pp_end', 'Home power play begins', self.home_score, self.away_score, 'home_pp', h_oi, a_oi))
+        else:
+            self.events.append((self.current_time, 'pp_end', 'Away power play begins', self.home_score, self.away_score, 'away_pp', h_oi, a_oi))
         # Recompute special units based on remaining penalties
         self._recompute_special_units()
 
@@ -998,11 +1080,13 @@ class Game:
                 if diff < 0 and abs(diff) <= 2:
                     self.pulled_team = 'home'
                     # Log goalie pulled
-                    self.events.append((self.current_time, 'goalie_pulled', 'Home pulls the goalie for an extra attacker', self.home_score, self.away_score, 'home_pulled'))
+                    h_oi, a_oi = self._current_on_ice_names()
+                    self.events.append((self.current_time, 'goalie_pulled', 'Home pulls the goalie for an extra attacker', self.home_score, self.away_score, 'home_pulled', h_oi, a_oi))
                 elif diff > 0 and abs(diff) <= 2:
                     self.pulled_team = 'away'
                     # Log goalie pulled
-                    self.events.append((self.current_time, 'goalie_pulled', 'Away pulls the goalie for an extra attacker', self.home_score, self.away_score, 'away_pulled'))
+                    h_oi, a_oi = self._current_on_ice_names()
+                    self.events.append((self.current_time, 'goalie_pulled', 'Away pulls the goalie for an extra attacker', self.home_score, self.away_score, 'away_pulled', h_oi, a_oi))
                 if self.pulled_team is not None:
                     self._rebuild_on_ice_caches()
         
@@ -1082,50 +1166,58 @@ class Game:
         if event_type == 'home_goal':
             self.home_score += 1
             context = 'home_pp_goal' if self.penalized_team == 'away' else ('away_pp_against' if self.penalized_team == 'home' else 'even')
-            self.events.append((self.current_time, 'goal', f'Home team scores! {self.home_score}-{self.away_score}', self.home_score, self.away_score, context))
+            h_oi, a_oi = self._current_on_ice_names()
+            self.events.append((self.current_time, 'goal', f'Home team scores! {self.home_score}-{self.away_score}', self.home_score, self.away_score, context, h_oi, a_oi))
             # If away was shorthanded, release oldest away minor (oldest-minor rule)
             if self.penalized_team == 'away':
                 self._end_one_penalty('away')
             # If away had pulled and conceded EN against them, revert to normal
             if self.pulled_team == 'away' and self.penalized_team is None:
                 self.pulled_team = None
-                self.events.append((self.current_time, 'goalie_in', 'Away goalie returns after empty-net against', self.home_score, self.away_score, 'away_in'))
+                h_oi, a_oi = self._current_on_ice_names()
+                self.events.append((self.current_time, 'goalie_in', 'Away goalie returns after empty-net against', self.home_score, self.away_score, 'away_in', h_oi, a_oi))
                 self._rebuild_on_ice_caches()
             # If home had pulled and just tied the game, revert to normal
             if self.pulled_team == 'home' and self.home_score == self.away_score:
                 self.pulled_team = None
-                self.events.append((self.current_time, 'goalie_in', 'Home goalie returns after tying the game', self.home_score, self.away_score, 'home_in'))
+                h_oi, a_oi = self._current_on_ice_names()
+                self.events.append((self.current_time, 'goalie_in', 'Home goalie returns after tying the game', self.home_score, self.away_score, 'home_in', h_oi, a_oi))
                 self._rebuild_on_ice_caches()
             self._handle_line_change()  # New shift after goal
             
         elif event_type == 'away_goal':
             self.away_score += 1
             context = 'away_pp_goal' if self.penalized_team == 'home' else ('home_pp_against' if self.penalized_team == 'away' else 'even')
-            self.events.append((self.current_time, 'goal', f'Away team scores! {self.home_score}-{self.away_score}', self.home_score, self.away_score, context))
+            h_oi, a_oi = self._current_on_ice_names()
+            self.events.append((self.current_time, 'goal', f'Away team scores! {self.home_score}-{self.away_score}', self.home_score, self.away_score, context, h_oi, a_oi))
             # If home was shorthanded, release oldest home minor
             if self.penalized_team == 'home':
                 self._end_one_penalty('home')
             # If home had pulled and conceded EN against them, revert to normal
             if self.pulled_team == 'home' and self.penalized_team is None:
                 self.pulled_team = None
-                self.events.append((self.current_time, 'goalie_in', 'Home goalie returns after empty-net against', self.home_score, self.away_score, 'home_in'))
+                h_oi, a_oi = self._current_on_ice_names()
+                self.events.append((self.current_time, 'goalie_in', 'Home goalie returns after empty-net against', self.home_score, self.away_score, 'home_in', h_oi, a_oi))
                 self._rebuild_on_ice_caches()
             # If away had pulled and just tied the game, revert to normal
             if self.pulled_team == 'away' and self.home_score == self.away_score:
                 self.pulled_team = None
-                self.events.append((self.current_time, 'goalie_in', 'Away goalie returns after tying the game', self.home_score, self.away_score, 'away_in'))
+                h_oi, a_oi = self._current_on_ice_names()
+                self.events.append((self.current_time, 'goalie_in', 'Away goalie returns after tying the game', self.home_score, self.away_score, 'away_in', h_oi, a_oi))
                 self._rebuild_on_ice_caches()
             self._handle_line_change()  # New shift after goal
             
         elif event_type == 'home_penalty':
             # Simplified penalty handling
-            self.events.append((self.current_time, 'penalty', 'Home team penalty', self.home_score, self.away_score, 'home_penalty'))
+            h_oi, a_oi = self._current_on_ice_names()
+            self.events.append((self.current_time, 'penalty', 'Home team penalty', self.home_score, self.away_score, 'home_penalty', h_oi, a_oi))
             # Enter power play state before changing lines so special teams deploy
             self._enter_power_play('home')
             self._handle_line_change()
             
         elif event_type == 'away_penalty':
-            self.events.append((self.current_time, 'penalty', 'Away team penalty', self.home_score, self.away_score, 'away_penalty'))
+            h_oi, a_oi = self._current_on_ice_names()
+            self.events.append((self.current_time, 'penalty', 'Away team penalty', self.home_score, self.away_score, 'away_penalty', h_oi, a_oi))
             self._enter_power_play('away')
             self._handle_line_change()
             
@@ -1155,7 +1247,8 @@ class Game:
             self._rotate_defense('away')
             self._rebuild_on_ice_caches()
             self._resample_clocks()
-            self.events.append((self.current_time, 'line_change', 'Both teams change forwards and defense', self.home_score, self.away_score))
+            h_oi, a_oi = self._current_on_ice_names()
+            self.events.append((self.current_time, 'line_change', 'Both teams change forwards and defense', self.home_score, self.away_score, '', h_oi, a_oi))
             return
 
         # Team-specific change
@@ -1169,7 +1262,8 @@ class Game:
         self._resample_clocks(unit_key)
         label_team = 'Home' if team == 'home' else 'Away'
         label_unit = 'forward line' if unit == 'forward' else ('defensive pair' if unit == 'defense' else 'lines and pairs')
-        self.events.append((self.current_time, 'line_change', f'{label_team} {label_unit} change', self.home_score, self.away_score))
+        h_oi, a_oi = self._current_on_ice_names()
+        self.events.append((self.current_time, 'line_change', f'{label_team} {label_unit} change', self.home_score, self.away_score, '', h_oi, a_oi))
     
     def simulate_game(self) -> Dict:
         """Simulate the entire game."""
@@ -1198,7 +1292,8 @@ class Game:
         # Stagger start slightly to avoid same-timestamp with prior end
         start_t = self.current_time + (1e-6 if self.events and self.events[-1][1] == 'period_end' else 0.0)
         period.start_period(start_t)
-        self.events.append((start_t, 'period_start', f'Start of Period {period.period_number}', self.home_score, self.away_score))
+        h_oi, a_oi = self._current_on_ice_names()
+        self.events.append((start_t, 'period_start', f'Start of Period {period.period_number}', self.home_score, self.away_score, '', h_oi, a_oi))
         
         # Simulate shifts until period ends
         while not period.is_finished(self.current_time):
@@ -1206,7 +1301,8 @@ class Game:
         
         # End the period
         period.end_period(self.current_time)
-        self.events.append((self.current_time, 'period_end', f'End of Period {period.period_number}', self.home_score, self.away_score))
+        h_oi, a_oi = self._current_on_ice_names()
+        self.events.append((self.current_time, 'period_end', f'End of Period {period.period_number}', self.home_score, self.away_score, '', h_oi, a_oi))
     
     def _simulate_overtime(self) -> None:
         """Simulate sudden-death overtime with repeated periods until a goal is scored."""
@@ -1216,15 +1312,18 @@ class Game:
             overtime = Period(3 + ot_idx, 1200.0, is_overtime=True)
             self.current_period = overtime
             overtime.start_period(self.current_time)
-            self.events.append((self.current_time, 'overtime_start', f'Overtime {ot_idx} begins - sudden death', self.home_score, self.away_score))
+            h_oi, a_oi = self._current_on_ice_names()
+            self.events.append((self.current_time, 'overtime_start', f'Overtime {ot_idx} begins - sudden death', self.home_score, self.away_score, '', h_oi, a_oi))
 
             while not overtime.is_finished(self.current_time):
                 self.simulate_shift()
                 if self.home_score != self.away_score:
-                    self.events.append((self.current_time, 'overtime_goal', 'Overtime goal - game over!', self.home_score, self.away_score))
+                    h_oi, a_oi = self._current_on_ice_names()
+                    self.events.append((self.current_time, 'overtime_goal', 'Overtime goal - game over!', self.home_score, self.away_score, '', h_oi, a_oi))
                     return
 
             # Period ended without a goal; mark end and loop to another OT period
             overtime.end_period(self.current_time)
-            self.events.append((self.current_time, 'period_end', f'End of Overtime {ot_idx}', self.home_score, self.away_score))
+            h_oi, a_oi = self._current_on_ice_names()
+            self.events.append((self.current_time, 'period_end', f'End of Overtime {ot_idx}', self.home_score, self.away_score, '', h_oi, a_oi))
             ot_idx += 1
