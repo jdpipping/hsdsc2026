@@ -1,0 +1,871 @@
+game_id,week,home_team,away_team,home_score,away_score,went_ot,winner,loser
+1,1,Richardhaven,Pennytown,4,1,0,Richardhaven,Pennytown
+2,1,Davistown,Port Kristieberg,4,2,0,Davistown,Port Kristieberg
+3,1,West Susanchester,Lake David,4,3,0,West Susanchester,Lake David
+4,1,West Zachary,Jordanland,3,2,0,West Zachary,Jordanland
+5,1,Port David,West Kimfurt,0,1,0,West Kimfurt,Port David
+6,1,North Connorchester,North Chelseamouth,7,1,0,North Connorchester,North Chelseamouth
+7,1,West Erin,Jamesmouth,2,3,1,Jamesmouth,West Erin
+8,1,West Michaelview,North Brianside,3,2,1,West Michaelview,North Brianside
+9,1,Port Chris,Barnesburgh,4,3,0,Port Chris,Barnesburgh
+10,1,Jeffreyville,Christopherhaven,2,3,0,Christopherhaven,Jeffreyville
+11,1,North Susanberg,Nelsonhaven,4,2,0,North Susanberg,Nelsonhaven
+12,1,East Sarahhaven,Hunterborough,6,1,0,East Sarahhaven,Hunterborough
+13,1,Luistown,South Lauren,3,4,0,South Lauren,Luistown
+14,1,South Samuelberg,South Kelseyton,3,2,1,South Samuelberg,South Kelseyton
+15,1,Danielsburgh,Lake Shaunfort,2,4,0,Lake Shaunfort,Danielsburgh
+16,2,Jeffreyville,West Zachary,2,3,0,West Zachary,Jeffreyville
+17,2,East Sarahhaven,Davistown,2,4,0,Davistown,East Sarahhaven
+18,2,West Susanchester,Port David,6,4,0,West Susanchester,Port David
+19,2,West Erin,Luistown,4,1,0,West Erin,Luistown
+20,2,Richardhaven,Port Kristieberg,5,3,0,Richardhaven,Port Kristieberg
+21,2,South Lauren,Port Chris,5,4,1,South Lauren,Port Chris
+22,2,South Samuelberg,North Susanberg,4,5,1,North Susanberg,South Samuelberg
+23,2,Nelsonhaven,North Brianside,5,6,0,North Brianside,Nelsonhaven
+24,2,North Chelseamouth,Christopherhaven,1,2,0,Christopherhaven,North Chelseamouth
+25,2,Jordanland,Hunterborough,2,5,0,Hunterborough,Jordanland
+26,2,Barnesburgh,Lake Shaunfort,3,4,1,Lake Shaunfort,Barnesburgh
+27,2,Lake David,Pennytown,3,2,1,Lake David,Pennytown
+28,2,Jamesmouth,West Kimfurt,3,0,0,Jamesmouth,West Kimfurt
+29,2,North Connorchester,South Kelseyton,0,1,0,South Kelseyton,North Connorchester
+30,2,Danielsburgh,West Michaelview,4,3,0,Danielsburgh,West Michaelview
+31,3,Christopherhaven,Port David,3,4,1,Port David,Christopherhaven
+32,3,West Susanchester,Barnesburgh,3,0,0,West Susanchester,Barnesburgh
+33,3,Jordanland,Davistown,4,2,0,Jordanland,Davistown
+34,3,Lake Shaunfort,West Erin,4,0,0,Lake Shaunfort,West Erin
+35,3,Port Chris,Hunterborough,2,7,0,Hunterborough,Port Chris
+36,3,Nelsonhaven,South Samuelberg,2,3,1,South Samuelberg,Nelsonhaven
+37,3,North Brianside,South Kelseyton,1,3,0,South Kelseyton,North Brianside
+38,3,West Kimfurt,Port Kristieberg,6,5,0,West Kimfurt,Port Kristieberg
+39,3,North Connorchester,West Zachary,1,3,0,West Zachary,North Connorchester
+40,3,Richardhaven,Danielsburgh,7,4,0,Richardhaven,Danielsburgh
+41,3,East Sarahhaven,West Michaelview,5,0,0,East Sarahhaven,West Michaelview
+42,3,North Susanberg,South Lauren,2,3,0,South Lauren,North Susanberg
+43,3,North Chelseamouth,Jeffreyville,4,3,0,North Chelseamouth,Jeffreyville
+44,3,Jamesmouth,Pennytown,3,5,0,Pennytown,Jamesmouth
+45,3,Lake David,Luistown,4,3,0,Lake David,Luistown
+46,4,Richardhaven,Davistown,4,2,0,Richardhaven,Davistown
+47,4,East Sarahhaven,Barnesburgh,7,1,0,East Sarahhaven,Barnesburgh
+48,4,South Samuelberg,North Brianside,2,4,0,North Brianside,South Samuelberg
+49,4,Port David,Pennytown,4,3,1,Port David,Pennytown
+50,4,Jordanland,West Zachary,0,5,0,West Zachary,Jordanland
+51,4,Hunterborough,South Lauren,5,1,0,Hunterborough,South Lauren
+52,4,Lake Shaunfort,Lake David,4,3,1,Lake Shaunfort,Lake David
+53,4,Nelsonhaven,Port Chris,3,2,1,Nelsonhaven,Port Chris
+54,4,South Kelseyton,Port Kristieberg,1,5,0,Port Kristieberg,South Kelseyton
+55,4,North Susanberg,West Susanchester,4,1,0,North Susanberg,West Susanchester
+56,4,West Erin,North Chelseamouth,3,2,1,West Erin,North Chelseamouth
+57,4,Jeffreyville,West Kimfurt,2,1,0,Jeffreyville,West Kimfurt
+58,4,West Michaelview,Christopherhaven,6,5,0,West Michaelview,Christopherhaven
+59,4,Jamesmouth,Danielsburgh,2,3,0,Danielsburgh,Jamesmouth
+60,4,North Connorchester,Luistown,3,2,0,North Connorchester,Luistown
+61,5,Barnesburgh,South Samuelberg,5,1,0,Barnesburgh,South Samuelberg
+62,5,Hunterborough,Davistown,4,1,0,Hunterborough,Davistown
+63,5,North Brianside,West Kimfurt,3,6,0,West Kimfurt,North Brianside
+64,5,West Erin,Jordanland,3,2,0,West Erin,Jordanland
+65,5,Port David,Christopherhaven,3,0,0,Port David,Christopherhaven
+66,5,South Lauren,West Zachary,1,3,0,West Zachary,South Lauren
+67,5,West Michaelview,Lake David,4,5,0,Lake David,West Michaelview
+68,5,Richardhaven,North Susanberg,2,3,1,North Susanberg,Richardhaven
+69,5,West Susanchester,Port Kristieberg,2,7,0,Port Kristieberg,West Susanchester
+70,5,Jamesmouth,Port Chris,4,5,0,Port Chris,Jamesmouth
+71,5,Pennytown,Lake Shaunfort,4,3,0,Pennytown,Lake Shaunfort
+72,5,Luistown,East Sarahhaven,2,1,1,Luistown,East Sarahhaven
+73,5,South Kelseyton,Nelsonhaven,7,3,0,South Kelseyton,Nelsonhaven
+74,5,North Chelseamouth,North Connorchester,2,7,0,North Connorchester,North Chelseamouth
+75,5,Jeffreyville,Danielsburgh,2,3,0,Danielsburgh,Jeffreyville
+76,6,Davistown,Lake Shaunfort,3,2,0,Davistown,Lake Shaunfort
+77,6,South Samuelberg,Nelsonhaven,4,2,0,South Samuelberg,Nelsonhaven
+78,6,North Brianside,Luistown,4,2,0,North Brianside,Luistown
+79,6,Richardhaven,Christopherhaven,6,5,1,Richardhaven,Christopherhaven
+80,6,Hunterborough,East Sarahhaven,9,3,0,Hunterborough,East Sarahhaven
+81,6,West Kimfurt,South Lauren,5,4,0,West Kimfurt,South Lauren
+82,6,North Chelseamouth,West Zachary,7,6,1,North Chelseamouth,West Zachary
+83,6,Port David,North Susanberg,2,1,1,Port David,North Susanberg
+84,6,South Kelseyton,West Erin,6,5,1,South Kelseyton,West Erin
+85,6,Port Kristieberg,Danielsburgh,4,2,0,Port Kristieberg,Danielsburgh
+86,6,Port Chris,Jeffreyville,0,1,0,Jeffreyville,Port Chris
+87,6,Lake David,West Michaelview,2,1,1,Lake David,West Michaelview
+88,6,Barnesburgh,West Susanchester,5,6,0,West Susanchester,Barnesburgh
+89,6,North Connorchester,Pennytown,6,5,1,North Connorchester,Pennytown
+90,6,Jordanland,Jamesmouth,2,1,0,Jordanland,Jamesmouth
+91,7,Davistown,Jordanland,6,1,0,Davistown,Jordanland
+92,7,Christopherhaven,Lake David,4,3,1,Christopherhaven,Lake David
+93,7,South Lauren,Nelsonhaven,5,2,0,South Lauren,Nelsonhaven
+94,7,Richardhaven,West Kimfurt,5,6,1,West Kimfurt,Richardhaven
+95,7,Jamesmouth,Hunterborough,4,5,1,Hunterborough,Jamesmouth
+96,7,South Samuelberg,East Sarahhaven,3,0,0,South Samuelberg,East Sarahhaven
+97,7,West Michaelview,West Zachary,3,2,0,West Michaelview,West Zachary
+98,7,Danielsburgh,Barnesburgh,5,6,1,Barnesburgh,Danielsburgh
+99,7,Jeffreyville,Pennytown,4,2,0,Jeffreyville,Pennytown
+100,7,Port Kristieberg,North Connorchester,6,4,0,Port Kristieberg,North Connorchester
+101,7,North Chelseamouth,North Brianside,4,5,0,North Brianside,North Chelseamouth
+102,7,South Kelseyton,North Susanberg,3,1,0,South Kelseyton,North Susanberg
+103,7,Port Chris,Lake Shaunfort,4,3,0,Port Chris,Lake Shaunfort
+104,7,Luistown,Port David,0,6,0,Port David,Luistown
+105,7,West Susanchester,West Erin,5,6,0,West Erin,West Susanchester
+106,8,Barnesburgh,Richardhaven,2,3,1,Richardhaven,Barnesburgh
+107,8,Davistown,West Susanchester,7,3,0,Davistown,West Susanchester
+108,8,Port Chris,Christopherhaven,4,0,0,Port Chris,Christopherhaven
+109,8,Jordanland,South Lauren,0,6,0,South Lauren,Jordanland
+110,8,Lake Shaunfort,Jamesmouth,4,3,1,Lake Shaunfort,Jamesmouth
+111,8,East Sarahhaven,West Erin,1,0,0,East Sarahhaven,West Erin
+112,8,West Zachary,West Michaelview,1,9,0,West Michaelview,West Zachary
+113,8,Hunterborough,South Samuelberg,6,4,0,Hunterborough,South Samuelberg
+114,8,North Brianside,North Connorchester,4,5,0,North Connorchester,North Brianside
+115,8,North Chelseamouth,North Susanberg,2,1,0,North Chelseamouth,North Susanberg
+116,8,Luistown,Port Kristieberg,4,3,1,Luistown,Port Kristieberg
+117,8,South Kelseyton,Lake David,6,5,0,South Kelseyton,Lake David
+118,8,West Kimfurt,Jeffreyville,3,2,0,West Kimfurt,Jeffreyville
+119,8,Pennytown,Nelsonhaven,3,7,0,Nelsonhaven,Pennytown
+120,8,Port David,Danielsburgh,3,2,0,Port David,Danielsburgh
+121,9,Richardhaven,West Erin,1,5,0,West Erin,Richardhaven
+122,9,Davistown,West Michaelview,1,2,0,West Michaelview,Davistown
+123,9,Luistown,Jordanland,3,2,1,Luistown,Jordanland
+124,9,Pennytown,South Lauren,4,3,0,Pennytown,South Lauren
+125,9,Barnesburgh,Danielsburgh,1,2,1,Danielsburgh,Barnesburgh
+126,9,Lake David,East Sarahhaven,4,1,0,Lake David,East Sarahhaven
+127,9,North Susanberg,Christopherhaven,6,1,0,North Susanberg,Christopherhaven
+128,9,Port Kristieberg,West Zachary,2,6,0,West Zachary,Port Kristieberg
+129,9,Hunterborough,North Brianside,6,3,0,Hunterborough,North Brianside
+130,9,South Samuelberg,North Chelseamouth,3,4,0,North Chelseamouth,South Samuelberg
+131,9,Jamesmouth,Nelsonhaven,1,7,0,Nelsonhaven,Jamesmouth
+132,9,South Kelseyton,North Connorchester,3,2,0,South Kelseyton,North Connorchester
+133,9,West Susanchester,West Kimfurt,3,4,0,West Kimfurt,West Susanchester
+134,9,Lake Shaunfort,Port David,2,0,0,Lake Shaunfort,Port David
+135,9,Jeffreyville,Port Chris,6,2,0,Jeffreyville,Port Chris
+136,10,Luistown,Richardhaven,2,5,0,Richardhaven,Luistown
+137,10,West Erin,Hunterborough,3,2,0,West Erin,Hunterborough
+138,10,West Zachary,West Susanchester,2,3,0,West Susanchester,West Zachary
+139,10,Port Kristieberg,South Lauren,3,4,1,South Lauren,Port Kristieberg
+140,10,North Connorchester,North Brianside,4,2,0,North Connorchester,North Brianside
+141,10,North Susanberg,Jeffreyville,5,4,0,North Susanberg,Jeffreyville
+142,10,West Kimfurt,Barnesburgh,4,3,1,West Kimfurt,Barnesburgh
+143,10,East Sarahhaven,Port David,2,5,0,Port David,East Sarahhaven
+144,10,Jordanland,Nelsonhaven,5,2,0,Jordanland,Nelsonhaven
+145,10,Davistown,Pennytown,5,3,0,Davistown,Pennytown
+146,10,Jamesmouth,North Chelseamouth,3,4,1,North Chelseamouth,Jamesmouth
+147,10,Lake David,South Kelseyton,0,4,0,South Kelseyton,Lake David
+148,10,Lake Shaunfort,South Samuelberg,0,6,0,South Samuelberg,Lake Shaunfort
+149,10,West Michaelview,Port Chris,1,2,0,Port Chris,West Michaelview
+150,10,Christopherhaven,Danielsburgh,3,5,0,Danielsburgh,Christopherhaven
+151,11,Port Chris,Richardhaven,4,3,1,Port Chris,Richardhaven
+152,11,West Erin,Pennytown,2,4,0,Pennytown,West Erin
+153,11,Barnesburgh,Hunterborough,2,3,0,Hunterborough,Barnesburgh
+154,11,South Samuelberg,West Zachary,5,3,0,South Samuelberg,West Zachary
+155,11,South Lauren,West Susanchester,6,3,0,South Lauren,West Susanchester
+156,11,North Brianside,Christopherhaven,5,4,0,North Brianside,Christopherhaven
+157,11,North Susanberg,West Michaelview,1,2,0,West Michaelview,North Susanberg
+158,11,Jeffreyville,Davistown,0,2,0,Davistown,Jeffreyville
+159,11,North Chelseamouth,Luistown,8,2,0,North Chelseamouth,Luistown
+160,11,North Connorchester,Port David,2,4,0,Port David,North Connorchester
+161,11,East Sarahhaven,Jamesmouth,6,4,0,East Sarahhaven,Jamesmouth
+162,11,Nelsonhaven,Port Kristieberg,4,3,1,Nelsonhaven,Port Kristieberg
+163,11,Jordanland,Danielsburgh,3,7,0,Danielsburgh,Jordanland
+164,11,Lake David,Lake Shaunfort,3,0,0,Lake David,Lake Shaunfort
+165,11,West Kimfurt,South Kelseyton,2,5,0,South Kelseyton,West Kimfurt
+166,12,Nelsonhaven,West Erin,5,6,0,West Erin,Nelsonhaven
+167,12,West Michaelview,Richardhaven,2,3,0,Richardhaven,West Michaelview
+168,12,North Brianside,South Lauren,3,2,1,North Brianside,South Lauren
+169,12,West Susanchester,North Susanberg,2,5,0,North Susanberg,West Susanchester
+170,12,Lake Shaunfort,Hunterborough,3,0,0,Lake Shaunfort,Hunterborough
+171,12,South Samuelberg,Luistown,5,2,0,South Samuelberg,Luistown
+172,12,Jamesmouth,Davistown,2,3,1,Davistown,Jamesmouth
+173,12,Christopherhaven,East Sarahhaven,2,3,0,East Sarahhaven,Christopherhaven
+174,12,Port Chris,Jordanland,6,3,0,Port Chris,Jordanland
+175,12,West Kimfurt,West Zachary,3,0,0,West Kimfurt,West Zachary
+176,12,Port Kristieberg,Port David,3,4,1,Port David,Port Kristieberg
+177,12,Pennytown,Barnesburgh,2,1,0,Pennytown,Barnesburgh
+178,12,Lake David,North Chelseamouth,5,6,1,North Chelseamouth,Lake David
+179,12,Jeffreyville,South Kelseyton,2,6,0,South Kelseyton,Jeffreyville
+180,12,Danielsburgh,North Connorchester,1,7,0,North Connorchester,Danielsburgh
+181,13,Jordanland,West Erin,4,3,1,Jordanland,West Erin
+182,13,Danielsburgh,Hunterborough,0,4,0,Hunterborough,Danielsburgh
+183,13,West Kimfurt,Richardhaven,2,6,0,Richardhaven,West Kimfurt
+184,13,Lake David,West Susanchester,4,6,0,West Susanchester,Lake David
+185,13,North Connorchester,South Lauren,2,6,0,South Lauren,North Connorchester
+186,13,West Michaelview,Barnesburgh,1,2,0,Barnesburgh,West Michaelview
+187,13,West Zachary,North Brianside,6,5,1,West Zachary,North Brianside
+188,13,Luistown,Nelsonhaven,1,7,0,Nelsonhaven,Luistown
+189,13,Jamesmouth,Jeffreyville,3,1,0,Jamesmouth,Jeffreyville
+190,13,East Sarahhaven,Port Kristieberg,6,2,0,East Sarahhaven,Port Kristieberg
+191,13,Port Chris,Davistown,4,5,0,Davistown,Port Chris
+192,13,North Susanberg,South Samuelberg,5,2,0,North Susanberg,South Samuelberg
+193,13,Christopherhaven,Lake Shaunfort,1,5,0,Lake Shaunfort,Christopherhaven
+194,13,Port David,North Chelseamouth,0,4,0,North Chelseamouth,Port David
+195,13,South Kelseyton,Pennytown,4,3,0,South Kelseyton,Pennytown
+196,14,Lake David,West Erin,5,4,1,Lake David,West Erin
+197,14,Nelsonhaven,Richardhaven,1,5,0,Richardhaven,Nelsonhaven
+198,14,West Kimfurt,South Samuelberg,4,0,0,West Kimfurt,South Samuelberg
+199,14,Hunterborough,Pennytown,5,6,1,Pennytown,Hunterborough
+200,14,Davistown,South Lauren,2,0,0,Davistown,South Lauren
+201,14,Danielsburgh,North Brianside,5,2,0,Danielsburgh,North Brianside
+202,14,West Susanchester,East Sarahhaven,3,1,0,West Susanchester,East Sarahhaven
+203,14,Lake Shaunfort,North Connorchester,3,5,0,North Connorchester,Lake Shaunfort
+204,14,Christopherhaven,Jeffreyville,5,2,0,Christopherhaven,Jeffreyville
+205,14,Jamesmouth,Port Kristieberg,1,3,0,Port Kristieberg,Jamesmouth
+206,14,Luistown,West Michaelview,2,5,0,West Michaelview,Luistown
+207,14,Port David,Port Chris,6,1,0,Port David,Port Chris
+208,14,Barnesburgh,West Zachary,6,5,1,Barnesburgh,West Zachary
+209,14,North Chelseamouth,South Kelseyton,3,4,0,South Kelseyton,North Chelseamouth
+210,14,North Susanberg,Jordanland,4,1,0,North Susanberg,Jordanland
+211,15,Port Chris,West Erin,3,2,1,Port Chris,West Erin
+212,15,North Brianside,Richardhaven,4,2,0,North Brianside,Richardhaven
+213,15,North Connorchester,South Samuelberg,1,7,0,South Samuelberg,North Connorchester
+214,15,South Lauren,Davistown,6,1,0,South Lauren,Davistown
+215,15,West Kimfurt,Hunterborough,3,2,0,West Kimfurt,Hunterborough
+216,15,Danielsburgh,West Susanchester,6,5,1,Danielsburgh,West Susanchester
+217,15,West Zachary,Lake Shaunfort,5,3,0,West Zachary,Lake Shaunfort
+218,15,Barnesburgh,Port Kristieberg,4,6,0,Port Kristieberg,Barnesburgh
+219,15,Jeffreyville,Jamesmouth,6,3,0,Jeffreyville,Jamesmouth
+220,15,West Michaelview,Luistown,3,2,1,West Michaelview,Luistown
+221,15,Pennytown,East Sarahhaven,3,5,0,East Sarahhaven,Pennytown
+222,15,Nelsonhaven,South Kelseyton,4,2,0,Nelsonhaven,South Kelseyton
+223,15,Port David,Jordanland,4,3,1,Port David,Jordanland
+224,15,North Susanberg,North Chelseamouth,0,5,0,North Chelseamouth,North Susanberg
+225,15,Lake David,Christopherhaven,5,2,0,Lake David,Christopherhaven
+226,16,Richardhaven,West Michaelview,2,3,1,West Michaelview,Richardhaven
+227,16,Port Chris,South Lauren,2,1,0,Port Chris,South Lauren
+228,16,West Erin,Lake Shaunfort,2,3,1,Lake Shaunfort,West Erin
+229,16,North Brianside,Jamesmouth,7,8,1,Jamesmouth,North Brianside
+230,16,West Kimfurt,Luistown,2,3,0,Luistown,West Kimfurt
+231,16,Pennytown,Hunterborough,2,1,0,Pennytown,Hunterborough
+232,16,North Connorchester,North Susanberg,8,7,0,North Connorchester,North Susanberg
+233,16,West Susanchester,Davistown,4,3,0,West Susanchester,Davistown
+234,16,South Samuelberg,Barnesburgh,4,5,0,Barnesburgh,South Samuelberg
+235,16,East Sarahhaven,West Zachary,3,2,0,East Sarahhaven,West Zachary
+236,16,North Chelseamouth,Port Kristieberg,3,4,1,Port Kristieberg,North Chelseamouth
+237,16,Jeffreyville,Lake David,7,5,0,Jeffreyville,Lake David
+238,16,Danielsburgh,Nelsonhaven,6,5,1,Danielsburgh,Nelsonhaven
+239,16,Jordanland,Christopherhaven,2,4,0,Christopherhaven,Jordanland
+240,16,South Kelseyton,Port David,6,5,1,South Kelseyton,Port David
+241,17,Jordanland,Richardhaven,4,10,0,Richardhaven,Jordanland
+242,17,West Erin,Barnesburgh,5,2,0,West Erin,Barnesburgh
+243,17,West Susanchester,Jamesmouth,1,4,0,Jamesmouth,West Susanchester
+244,17,North Connorchester,West Michaelview,3,5,0,West Michaelview,North Connorchester
+245,17,Davistown,West Kimfurt,4,1,0,Davistown,West Kimfurt
+246,17,South Lauren,North Chelseamouth,3,1,0,South Lauren,North Chelseamouth
+247,17,Lake Shaunfort,West Zachary,5,6,0,West Zachary,Lake Shaunfort
+248,17,Danielsburgh,North Susanberg,5,7,0,North Susanberg,Danielsburgh
+249,17,South Samuelberg,Port David,3,2,1,South Samuelberg,Port David
+250,17,Hunterborough,Luistown,3,1,0,Hunterborough,Luistown
+251,17,North Brianside,Nelsonhaven,2,3,1,Nelsonhaven,North Brianside
+252,17,Lake David,Port Kristieberg,2,3,0,Port Kristieberg,Lake David
+253,17,South Kelseyton,East Sarahhaven,3,2,1,South Kelseyton,East Sarahhaven
+254,17,Port Chris,Pennytown,1,2,0,Pennytown,Port Chris
+255,18,Richardhaven,Jordanland,6,4,0,Richardhaven,Jordanland
+256,18,North Brianside,West Erin,1,2,0,West Erin,North Brianside
+257,18,Hunterborough,West Susanchester,5,3,0,Hunterborough,West Susanchester
+258,18,Port Chris,West Kimfurt,5,3,0,Port Chris,West Kimfurt
+259,18,Davistown,Nelsonhaven,3,2,1,Davistown,Nelsonhaven
+260,18,South Samuelberg,Jamesmouth,2,3,0,Jamesmouth,South Samuelberg
+261,18,North Chelseamouth,South Lauren,5,4,1,North Chelseamouth,South Lauren
+262,18,Port David,North Connorchester,6,3,0,Port David,North Connorchester
+263,18,Luistown,Danielsburgh,3,0,0,Luistown,Danielsburgh
+264,18,West Michaelview,Port Kristieberg,5,2,0,West Michaelview,Port Kristieberg
+265,18,Christopherhaven,Barnesburgh,1,7,0,Barnesburgh,Christopherhaven
+266,18,South Kelseyton,Lake Shaunfort,3,4,1,Lake Shaunfort,South Kelseyton
+267,18,West Zachary,Pennytown,4,0,0,West Zachary,Pennytown
+268,18,North Susanberg,East Sarahhaven,2,1,0,North Susanberg,East Sarahhaven
+269,18,Lake David,Jeffreyville,8,1,0,Lake David,Jeffreyville
+270,19,Danielsburgh,Richardhaven,5,2,0,Danielsburgh,Richardhaven
+271,19,West Susanchester,South Samuelberg,3,4,1,South Samuelberg,West Susanchester
+272,19,South Lauren,West Kimfurt,3,4,1,West Kimfurt,South Lauren
+273,19,Port Chris,North Connorchester,3,2,1,Port Chris,North Connorchester
+274,19,Lake David,Jamesmouth,1,3,0,Jamesmouth,Lake David
+275,19,North Brianside,Hunterborough,3,1,0,North Brianside,Hunterborough
+276,19,Nelsonhaven,Barnesburgh,5,4,1,Nelsonhaven,Barnesburgh
+277,19,West Erin,South Kelseyton,3,4,1,South Kelseyton,West Erin
+278,19,Davistown,East Sarahhaven,3,1,0,Davistown,East Sarahhaven
+279,19,Jordanland,West Michaelview,2,1,1,Jordanland,West Michaelview
+280,19,West Zachary,Luistown,1,4,0,Luistown,West Zachary
+281,19,Port David,Jeffreyville,2,1,0,Port David,Jeffreyville
+282,19,North Susanberg,Lake Shaunfort,4,5,1,Lake Shaunfort,North Susanberg
+283,19,Port Kristieberg,Christopherhaven,3,2,1,Port Kristieberg,Christopherhaven
+284,19,Pennytown,North Chelseamouth,3,2,0,Pennytown,North Chelseamouth
+285,20,Richardhaven,South Lauren,5,2,0,Richardhaven,South Lauren
+286,20,Jeffreyville,West Susanchester,4,3,1,Jeffreyville,West Susanchester
+287,20,West Kimfurt,North Chelseamouth,2,3,0,North Chelseamouth,West Kimfurt
+288,20,Nelsonhaven,North Connorchester,3,5,0,North Connorchester,Nelsonhaven
+289,20,South Samuelberg,Port Kristieberg,1,3,0,Port Kristieberg,South Samuelberg
+290,20,Hunterborough,Barnesburgh,8,1,0,Hunterborough,Barnesburgh
+291,20,Lake Shaunfort,Davistown,5,2,0,Lake Shaunfort,Davistown
+292,20,Jamesmouth,South Kelseyton,2,3,1,South Kelseyton,Jamesmouth
+293,20,Luistown,Port Chris,5,4,1,Luistown,Port Chris
+294,20,West Michaelview,West Erin,3,2,0,West Michaelview,West Erin
+295,20,North Susanberg,North Brianside,2,5,0,North Brianside,North Susanberg
+296,20,East Sarahhaven,Danielsburgh,7,2,0,East Sarahhaven,Danielsburgh
+297,20,Pennytown,Lake David,2,3,1,Lake David,Pennytown
+298,20,Jordanland,Port David,2,6,0,Port David,Jordanland
+299,20,Christopherhaven,West Zachary,2,6,0,West Zachary,Christopherhaven
+300,21,Davistown,Richardhaven,5,1,0,Davistown,Richardhaven
+301,21,West Michaelview,West Susanchester,4,5,0,West Susanchester,West Michaelview
+302,21,South Lauren,South Samuelberg,3,2,0,South Lauren,South Samuelberg
+303,21,Pennytown,West Kimfurt,6,3,0,Pennytown,West Kimfurt
+304,21,North Connorchester,Christopherhaven,8,4,0,North Connorchester,Christopherhaven
+305,21,Port Chris,Nelsonhaven,4,5,0,Nelsonhaven,Port Chris
+306,21,North Chelseamouth,Danielsburgh,7,1,0,North Chelseamouth,Danielsburgh
+307,21,North Susanberg,West Erin,2,3,1,West Erin,North Susanberg
+308,21,Lake David,North Brianside,1,3,0,North Brianside,Lake David
+309,21,Hunterborough,Jeffreyville,7,6,1,Hunterborough,Jeffreyville
+310,21,South Kelseyton,West Zachary,4,1,0,South Kelseyton,West Zachary
+311,21,Barnesburgh,Port David,6,2,0,Barnesburgh,Port David
+312,21,Jordanland,Port Kristieberg,4,3,1,Jordanland,Port Kristieberg
+313,21,Lake Shaunfort,Luistown,8,2,0,Lake Shaunfort,Luistown
+314,21,Jamesmouth,East Sarahhaven,7,4,0,Jamesmouth,East Sarahhaven
+315,22,South Kelseyton,Richardhaven,6,4,0,South Kelseyton,Richardhaven
+316,22,South Lauren,Pennytown,3,2,1,South Lauren,Pennytown
+317,22,Luistown,South Samuelberg,2,3,0,South Samuelberg,Luistown
+318,22,Port Kristieberg,Davistown,4,3,0,Port Kristieberg,Davistown
+319,22,Lake Shaunfort,West Kimfurt,3,1,0,Lake Shaunfort,West Kimfurt
+320,22,North Connorchester,Lake David,3,4,1,Lake David,North Connorchester
+321,22,Hunterborough,West Erin,3,1,0,Hunterborough,West Erin
+322,22,Port Chris,West Michaelview,3,2,0,Port Chris,West Michaelview
+323,22,North Chelseamouth,East Sarahhaven,6,2,0,North Chelseamouth,East Sarahhaven
+324,22,West Zachary,Danielsburgh,4,3,0,West Zachary,Danielsburgh
+325,22,Jeffreyville,Nelsonhaven,1,3,0,Nelsonhaven,Jeffreyville
+326,22,Jordanland,Barnesburgh,0,3,0,Barnesburgh,Jordanland
+327,22,Jamesmouth,Christopherhaven,0,3,0,Christopherhaven,Jamesmouth
+328,22,North Brianside,West Susanchester,4,5,0,West Susanchester,North Brianside
+329,22,North Susanberg,Port David,6,5,0,North Susanberg,Port David
+330,23,Richardhaven,North Brianside,5,1,0,Richardhaven,North Brianside
+331,23,West Susanchester,South Kelseyton,9,2,0,West Susanchester,South Kelseyton
+332,23,South Lauren,Barnesburgh,1,2,0,Barnesburgh,South Lauren
+333,23,Davistown,Port David,2,3,0,Port David,Davistown
+334,23,West Kimfurt,West Michaelview,2,3,0,West Michaelview,West Kimfurt
+335,23,South Samuelberg,West Erin,4,3,1,South Samuelberg,West Erin
+336,23,Christopherhaven,North Connorchester,2,1,1,Christopherhaven,North Connorchester
+337,23,Port Chris,Danielsburgh,3,2,1,Port Chris,Danielsburgh
+338,23,Luistown,Pennytown,6,7,1,Pennytown,Luistown
+339,23,North Susanberg,Port Kristieberg,8,3,0,North Susanberg,Port Kristieberg
+340,23,Lake David,Jordanland,7,2,0,Lake David,Jordanland
+341,23,Lake Shaunfort,North Chelseamouth,2,7,0,North Chelseamouth,Lake Shaunfort
+342,23,West Zachary,East Sarahhaven,0,2,0,East Sarahhaven,West Zachary
+343,23,Hunterborough,Nelsonhaven,6,2,0,Hunterborough,Nelsonhaven
+344,24,Richardhaven,North Connorchester,5,2,0,Richardhaven,North Connorchester
+345,24,Christopherhaven,South Lauren,2,5,0,South Lauren,Christopherhaven
+346,24,Davistown,West Zachary,2,4,0,West Zachary,Davistown
+347,24,West Kimfurt,North Brianside,3,4,1,North Brianside,West Kimfurt
+348,24,West Michaelview,East Sarahhaven,3,2,1,West Michaelview,East Sarahhaven
+349,24,South Samuelberg,Lake David,3,1,0,South Samuelberg,Lake David
+350,24,North Chelseamouth,Port Chris,4,5,0,Port Chris,North Chelseamouth
+351,24,Luistown,Jeffreyville,1,2,1,Jeffreyville,Luistown
+352,24,Danielsburgh,Jamesmouth,5,4,1,Danielsburgh,Jamesmouth
+353,24,West Susanchester,Jordanland,7,1,0,West Susanchester,Jordanland
+354,24,Pennytown,Port David,3,2,0,Pennytown,Port David
+355,24,Hunterborough,North Susanberg,3,4,0,North Susanberg,Hunterborough
+356,24,Lake Shaunfort,Nelsonhaven,3,5,0,Nelsonhaven,Lake Shaunfort
+357,24,Barnesburgh,West Erin,3,1,0,Barnesburgh,West Erin
+358,24,Port Kristieberg,South Kelseyton,3,4,1,South Kelseyton,Port Kristieberg
+359,25,Richardhaven,Lake Shaunfort,3,2,0,Richardhaven,Lake Shaunfort
+360,25,Lake David,North Connorchester,4,3,1,Lake David,North Connorchester
+361,25,East Sarahhaven,West Kimfurt,7,1,0,East Sarahhaven,West Kimfurt
+362,25,West Michaelview,Port David,6,4,0,West Michaelview,Port David
+363,25,West Zachary,Davistown,0,2,0,Davistown,West Zachary
+364,25,Pennytown,North Brianside,4,1,0,Pennytown,North Brianside
+365,25,West Erin,South Lauren,2,1,0,West Erin,South Lauren
+366,25,North Chelseamouth,South Samuelberg,1,3,0,South Samuelberg,North Chelseamouth
+367,25,Barnesburgh,Port Chris,1,2,1,Port Chris,Barnesburgh
+368,25,Luistown,West Susanchester,3,1,0,Luistown,West Susanchester
+369,25,Nelsonhaven,Jordanland,5,3,0,Nelsonhaven,Jordanland
+370,25,Jeffreyville,North Susanberg,1,3,0,North Susanberg,Jeffreyville
+371,25,South Kelseyton,Danielsburgh,4,1,0,South Kelseyton,Danielsburgh
+372,25,Port Kristieberg,Hunterborough,2,1,0,Port Kristieberg,Hunterborough
+373,25,Christopherhaven,Jamesmouth,5,6,1,Jamesmouth,Christopherhaven
+374,26,Richardhaven,Port David,4,6,0,Port David,Richardhaven
+375,26,Pennytown,West Michaelview,2,5,0,West Michaelview,Pennytown
+376,26,Port Kristieberg,West Kimfurt,5,6,0,West Kimfurt,Port Kristieberg
+377,26,South Lauren,Jamesmouth,4,3,0,South Lauren,Jamesmouth
+378,26,Davistown,Hunterborough,2,3,1,Hunterborough,Davistown
+379,26,West Erin,Port Chris,4,5,0,Port Chris,West Erin
+380,26,West Zachary,North Connorchester,4,3,0,West Zachary,North Connorchester
+381,26,North Brianside,Jordanland,5,1,0,North Brianside,Jordanland
+382,26,South Kelseyton,Luistown,6,2,0,South Kelseyton,Luistown
+383,26,East Sarahhaven,Christopherhaven,6,1,0,East Sarahhaven,Christopherhaven
+384,26,North Chelseamouth,Barnesburgh,5,6,1,Barnesburgh,North Chelseamouth
+385,26,Nelsonhaven,West Susanchester,3,0,0,Nelsonhaven,West Susanchester
+386,26,North Susanberg,Lake David,0,1,0,Lake David,North Susanberg
+387,26,Lake Shaunfort,Danielsburgh,5,4,0,Lake Shaunfort,Danielsburgh
+388,26,South Samuelberg,Jeffreyville,1,5,0,Jeffreyville,South Samuelberg
+389,27,North Chelseamouth,Richardhaven,4,2,0,North Chelseamouth,Richardhaven
+390,27,Pennytown,Davistown,2,5,0,Davistown,Pennytown
+391,27,North Connorchester,Port Chris,6,2,0,North Connorchester,Port Chris
+392,27,Danielsburgh,West Kimfurt,2,5,0,West Kimfurt,Danielsburgh
+393,27,Lake Shaunfort,West Michaelview,3,0,0,Lake Shaunfort,West Michaelview
+394,27,West Erin,West Zachary,2,3,1,West Zachary,West Erin
+395,27,Jamesmouth,South Lauren,1,6,0,South Lauren,Jamesmouth
+396,27,Port David,South Samuelberg,2,3,1,South Samuelberg,Port David
+397,27,East Sarahhaven,West Susanchester,1,5,0,West Susanchester,East Sarahhaven
+398,27,Lake David,Hunterborough,4,1,0,Lake David,Hunterborough
+399,27,Barnesburgh,South Kelseyton,4,6,0,South Kelseyton,Barnesburgh
+400,27,Port Kristieberg,North Brianside,3,4,0,North Brianside,Port Kristieberg
+401,27,Jordanland,Jeffreyville,4,2,0,Jordanland,Jeffreyville
+402,27,Luistown,Christopherhaven,4,5,1,Christopherhaven,Luistown
+403,27,Nelsonhaven,North Susanberg,5,7,0,North Susanberg,Nelsonhaven
+404,28,West Susanchester,Richardhaven,4,5,0,Richardhaven,West Susanchester
+405,28,West Michaelview,North Chelseamouth,3,4,0,North Chelseamouth,West Michaelview
+406,28,Jamesmouth,North Connorchester,7,6,1,Jamesmouth,North Connorchester
+407,28,West Kimfurt,West Erin,2,1,0,West Kimfurt,West Erin
+408,28,Port Chris,West Zachary,1,6,0,West Zachary,Port Chris
+409,28,East Sarahhaven,Pennytown,5,1,0,East Sarahhaven,Pennytown
+410,28,Davistown,South Samuelberg,2,1,1,Davistown,South Samuelberg
+411,28,Danielsburgh,Luistown,2,3,0,Luistown,Danielsburgh
+412,28,Jeffreyville,South Lauren,3,2,1,Jeffreyville,South Lauren
+413,28,Lake Shaunfort,Jordanland,8,1,0,Lake Shaunfort,Jordanland
+414,28,Lake David,Port David,4,3,0,Lake David,Port David
+415,28,Hunterborough,Christopherhaven,3,0,0,Hunterborough,Christopherhaven
+416,28,North Susanberg,South Kelseyton,1,2,0,South Kelseyton,North Susanberg
+417,28,Port Kristieberg,Nelsonhaven,3,2,0,Port Kristieberg,Nelsonhaven
+418,28,Barnesburgh,North Brianside,4,3,1,Barnesburgh,North Brianside
+419,29,Richardhaven,West Zachary,5,4,1,Richardhaven,West Zachary
+420,29,Jeffreyville,West Michaelview,2,3,0,West Michaelview,Jeffreyville
+421,29,North Chelseamouth,Port David,1,6,0,Port David,North Chelseamouth
+422,29,Danielsburgh,Port Chris,4,2,0,Danielsburgh,Port Chris
+423,29,Jordanland,West Kimfurt,3,4,0,West Kimfurt,Jordanland
+424,29,West Susanchester,Hunterborough,1,5,0,Hunterborough,West Susanchester
+425,29,Barnesburgh,North Connorchester,2,5,0,North Connorchester,Barnesburgh
+426,29,South Lauren,Lake Shaunfort,3,6,0,Lake Shaunfort,South Lauren
+427,29,Pennytown,North Susanberg,3,2,1,Pennytown,North Susanberg
+428,29,Luistown,Davistown,1,2,0,Davistown,Luistown
+429,29,West Erin,South Samuelberg,3,7,0,South Samuelberg,West Erin
+430,29,Nelsonhaven,Lake David,5,2,0,Nelsonhaven,Lake David
+431,29,South Kelseyton,Christopherhaven,7,6,1,South Kelseyton,Christopherhaven
+432,29,Port Kristieberg,Jamesmouth,4,3,0,Port Kristieberg,Jamesmouth
+433,29,East Sarahhaven,North Brianside,5,2,0,East Sarahhaven,North Brianside
+434,30,North Susanberg,Richardhaven,2,0,0,North Susanberg,Richardhaven
+435,30,West Michaelview,Jamesmouth,2,4,0,Jamesmouth,West Michaelview
+436,30,West Zachary,West Kimfurt,4,1,0,West Zachary,West Kimfurt
+437,30,West Erin,Jeffreyville,3,4,1,Jeffreyville,West Erin
+438,30,West Susanchester,Pennytown,2,3,0,Pennytown,West Susanchester
+439,30,Port Kristieberg,Port Chris,5,4,0,Port Kristieberg,Port Chris
+440,30,South Lauren,Christopherhaven,4,2,0,South Lauren,Christopherhaven
+441,30,Davistown,Luistown,4,2,0,Davistown,Luistown
+442,30,Hunterborough,North Connorchester,2,3,1,North Connorchester,Hunterborough
+443,30,Jordanland,Lake David,1,2,0,Lake David,Jordanland
+444,30,East Sarahhaven,North Chelseamouth,5,4,0,East Sarahhaven,North Chelseamouth
+445,30,Lake Shaunfort,North Brianside,6,2,0,Lake Shaunfort,North Brianside
+446,30,Danielsburgh,South Kelseyton,6,5,0,Danielsburgh,South Kelseyton
+447,30,Port David,Nelsonhaven,3,2,0,Port David,Nelsonhaven
+448,31,Lake Shaunfort,Richardhaven,1,4,0,Richardhaven,Lake Shaunfort
+449,31,Hunterborough,West Michaelview,5,4,0,Hunterborough,West Michaelview
+450,31,Danielsburgh,West Erin,0,4,0,West Erin,Danielsburgh
+451,31,Jordanland,Port Chris,6,3,0,Jordanland,Port Chris
+452,31,North Chelseamouth,Jamesmouth,1,3,0,Jamesmouth,North Chelseamouth
+453,31,West Zachary,South Lauren,1,0,0,West Zachary,South Lauren
+454,31,North Connorchester,Jeffreyville,1,2,1,Jeffreyville,North Connorchester
+455,31,Port David,Luistown,4,3,1,Port David,Luistown
+456,31,Port Kristieberg,West Susanchester,3,6,0,West Susanchester,Port Kristieberg
+457,31,East Sarahhaven,North Susanberg,3,2,0,East Sarahhaven,North Susanberg
+458,31,Lake David,Davistown,3,2,1,Lake David,Davistown
+459,31,West Kimfurt,Nelsonhaven,4,5,0,Nelsonhaven,West Kimfurt
+460,31,Christopherhaven,South Samuelberg,7,4,0,Christopherhaven,South Samuelberg
+461,31,North Brianside,Pennytown,12,4,0,North Brianside,Pennytown
+462,31,South Kelseyton,Barnesburgh,3,4,0,Barnesburgh,South Kelseyton
+463,32,West Erin,Richardhaven,3,2,0,West Erin,Richardhaven
+464,32,Hunterborough,Port Chris,4,1,0,Hunterborough,Port Chris
+465,32,Lake Shaunfort,Pennytown,2,1,0,Lake Shaunfort,Pennytown
+466,32,West Kimfurt,Jamesmouth,3,2,1,West Kimfurt,Jamesmouth
+467,32,South Lauren,Luistown,0,3,0,Luistown,South Lauren
+468,32,North Susanberg,West Zachary,1,2,1,West Zachary,North Susanberg
+469,32,Christopherhaven,West Susanchester,5,2,0,Christopherhaven,West Susanchester
+470,32,West Michaelview,South Samuelberg,6,7,0,South Samuelberg,West Michaelview
+471,32,Davistown,Jeffreyville,4,1,0,Davistown,Jeffreyville
+472,32,North Connorchester,Port Kristieberg,1,7,0,Port Kristieberg,North Connorchester
+473,32,Lake David,Danielsburgh,3,2,0,Lake David,Danielsburgh
+474,32,Jordanland,East Sarahhaven,2,7,0,East Sarahhaven,Jordanland
+475,32,South Kelseyton,North Chelseamouth,5,4,0,South Kelseyton,North Chelseamouth
+476,32,Port David,Barnesburgh,5,2,0,Port David,Barnesburgh
+477,33,West Erin,West Michaelview,2,5,0,West Michaelview,West Erin
+478,33,Richardhaven,Port Chris,0,3,0,Port Chris,Richardhaven
+479,33,South Lauren,South Kelseyton,3,0,0,South Lauren,South Kelseyton
+480,33,Pennytown,Danielsburgh,6,7,1,Danielsburgh,Pennytown
+481,33,West Kimfurt,West Susanchester,0,6,0,West Susanchester,West Kimfurt
+482,33,North Connorchester,Lake Shaunfort,2,1,0,North Connorchester,Lake Shaunfort
+483,33,Jamesmouth,Port David,4,1,0,Jamesmouth,Port David
+484,33,Hunterborough,Lake David,4,5,0,Lake David,Hunterborough
+485,33,Davistown,North Susanberg,2,1,1,Davistown,North Susanberg
+486,33,Port Kristieberg,South Samuelberg,1,4,0,South Samuelberg,Port Kristieberg
+487,33,West Zachary,Jeffreyville,1,3,0,Jeffreyville,West Zachary
+488,33,East Sarahhaven,Luistown,0,3,0,Luistown,East Sarahhaven
+489,33,Christopherhaven,Nelsonhaven,5,4,1,Christopherhaven,Nelsonhaven
+490,33,Barnesburgh,Jordanland,5,2,0,Barnesburgh,Jordanland
+491,33,North Brianside,North Chelseamouth,6,4,0,North Brianside,North Chelseamouth
+492,34,Richardhaven,Luistown,7,5,0,Richardhaven,Luistown
+493,34,North Brianside,Port Chris,7,6,1,North Brianside,Port Chris
+494,34,Port David,West Erin,1,4,0,West Erin,Port David
+495,34,South Samuelberg,West Susanchester,4,3,1,South Samuelberg,West Susanchester
+496,34,South Lauren,Port Kristieberg,5,4,0,South Lauren,Port Kristieberg
+497,34,Lake Shaunfort,Christopherhaven,5,2,0,Lake Shaunfort,Christopherhaven
+498,34,North Susanberg,Davistown,3,4,0,Davistown,North Susanberg
+499,34,North Chelseamouth,West Kimfurt,6,5,0,North Chelseamouth,West Kimfurt
+500,34,West Zachary,South Kelseyton,1,5,0,South Kelseyton,West Zachary
+501,34,West Michaelview,Nelsonhaven,5,1,0,West Michaelview,Nelsonhaven
+502,34,North Connorchester,Jordanland,3,2,0,North Connorchester,Jordanland
+503,34,Danielsburgh,East Sarahhaven,4,2,0,Danielsburgh,East Sarahhaven
+504,34,Jeffreyville,Barnesburgh,3,2,1,Jeffreyville,Barnesburgh
+505,34,Jamesmouth,Lake David,1,2,0,Lake David,Jamesmouth
+506,35,Jamesmouth,Richardhaven,6,1,0,Jamesmouth,Richardhaven
+507,35,West Susanchester,Port Chris,3,4,0,Port Chris,West Susanchester
+508,35,Port David,South Lauren,2,1,0,Port David,South Lauren
+509,35,North Chelseamouth,Hunterborough,3,2,0,North Chelseamouth,Hunterborough
+510,35,North Brianside,West Michaelview,3,5,0,West Michaelview,North Brianside
+511,35,Port Kristieberg,Pennytown,7,6,1,Port Kristieberg,Pennytown
+512,35,Lake Shaunfort,North Susanberg,3,4,0,North Susanberg,Lake Shaunfort
+513,35,Lake David,South Samuelberg,5,3,0,Lake David,South Samuelberg
+514,35,West Erin,Davistown,2,3,0,Davistown,West Erin
+515,35,West Zachary,Barnesburgh,3,2,0,West Zachary,Barnesburgh
+516,35,West Kimfurt,Christopherhaven,2,3,1,Christopherhaven,West Kimfurt
+517,35,South Kelseyton,Jeffreyville,5,1,0,South Kelseyton,Jeffreyville
+518,35,East Sarahhaven,North Connorchester,6,5,1,East Sarahhaven,North Connorchester
+519,35,Nelsonhaven,Danielsburgh,2,5,0,Danielsburgh,Nelsonhaven
+520,35,Jordanland,Luistown,3,1,0,Jordanland,Luistown
+521,36,Richardhaven,Barnesburgh,3,2,1,Richardhaven,Barnesburgh
+522,36,Port Chris,South Kelseyton,1,2,1,South Kelseyton,Port Chris
+523,36,West Susanchester,South Lauren,3,1,0,West Susanchester,South Lauren
+524,36,North Susanberg,Jamesmouth,1,4,0,Jamesmouth,North Susanberg
+525,36,Christopherhaven,West Michaelview,2,1,1,Christopherhaven,West Michaelview
+526,36,North Brianside,Davistown,7,6,1,North Brianside,Davistown
+527,36,Hunterborough,West Kimfurt,2,1,0,Hunterborough,West Kimfurt
+528,36,North Chelseamouth,Lake Shaunfort,4,2,0,North Chelseamouth,Lake Shaunfort
+529,36,West Erin,Nelsonhaven,5,9,0,Nelsonhaven,West Erin
+530,36,Danielsburgh,Port Kristieberg,0,3,0,Port Kristieberg,Danielsburgh
+531,36,West Zachary,Lake David,2,0,0,West Zachary,Lake David
+532,36,Pennytown,North Connorchester,4,5,1,North Connorchester,Pennytown
+533,36,South Samuelberg,Jordanland,4,3,1,South Samuelberg,Jordanland
+534,36,Jeffreyville,Luistown,1,0,0,Jeffreyville,Luistown
+535,36,Port David,East Sarahhaven,3,0,0,Port David,East Sarahhaven
+536,37,Davistown,Port Chris,7,2,0,Davistown,Port Chris
+537,37,North Connorchester,Richardhaven,3,5,0,Richardhaven,North Connorchester
+538,37,West Zachary,Jamesmouth,3,2,1,West Zachary,Jamesmouth
+539,37,West Michaelview,South Lauren,2,3,1,South Lauren,West Michaelview
+540,37,West Erin,North Susanberg,2,1,1,West Erin,North Susanberg
+541,37,Hunterborough,North Chelseamouth,3,2,0,Hunterborough,North Chelseamouth
+542,37,Barnesburgh,West Kimfurt,1,4,0,West Kimfurt,Barnesburgh
+543,37,Pennytown,South Samuelberg,5,2,0,Pennytown,South Samuelberg
+544,37,Port Kristieberg,Lake Shaunfort,5,4,1,Port Kristieberg,Lake Shaunfort
+545,37,West Susanchester,Danielsburgh,3,5,0,Danielsburgh,West Susanchester
+546,37,Port David,Lake David,2,3,0,Lake David,Port David
+547,37,Nelsonhaven,Jeffreyville,4,3,1,Nelsonhaven,Jeffreyville
+548,37,South Kelseyton,Jordanland,4,3,1,South Kelseyton,Jordanland
+549,37,Christopherhaven,Luistown,4,5,1,Luistown,Christopherhaven
+550,37,North Brianside,East Sarahhaven,3,2,0,North Brianside,East Sarahhaven
+551,38,Port Chris,Luistown,5,2,0,Port Chris,Luistown
+552,38,Jamesmouth,West Zachary,6,4,0,Jamesmouth,West Zachary
+553,38,Pennytown,Richardhaven,6,3,0,Pennytown,Richardhaven
+554,38,West Michaelview,Davistown,1,2,1,Davistown,West Michaelview
+555,38,South Kelseyton,Hunterborough,4,0,0,South Kelseyton,Hunterborough
+556,38,Lake David,South Lauren,0,8,0,South Lauren,Lake David
+557,38,West Kimfurt,Lake Shaunfort,1,2,0,Lake Shaunfort,West Kimfurt
+558,38,Jeffreyville,West Erin,2,3,0,West Erin,Jeffreyville
+559,38,West Susanchester,North Connorchester,3,4,1,North Connorchester,West Susanchester
+560,38,Christopherhaven,North Chelseamouth,5,4,1,Christopherhaven,North Chelseamouth
+561,38,Danielsburgh,Port David,3,2,0,Danielsburgh,Port David
+562,38,North Brianside,South Samuelberg,4,5,1,South Samuelberg,North Brianside
+563,38,Barnesburgh,North Susanberg,1,6,0,North Susanberg,Barnesburgh
+564,38,Nelsonhaven,East Sarahhaven,1,5,0,East Sarahhaven,Nelsonhaven
+565,38,Port Kristieberg,Jordanland,12,2,0,Port Kristieberg,Jordanland
+566,39,Port Chris,North Brianside,4,3,0,Port Chris,North Brianside
+567,39,Richardhaven,North Chelseamouth,2,1,0,Richardhaven,North Chelseamouth
+568,39,Davistown,Lake David,2,3,0,Lake David,Davistown
+569,39,Nelsonhaven,West Michaelview,3,7,0,West Michaelview,Nelsonhaven
+570,39,North Susanberg,Luistown,3,2,1,North Susanberg,Luistown
+571,39,Jamesmouth,West Erin,5,4,0,Jamesmouth,West Erin
+572,39,South Lauren,Jeffreyville,2,3,1,Jeffreyville,South Lauren
+573,39,Lake Shaunfort,Barnesburgh,3,0,0,Lake Shaunfort,Barnesburgh
+574,39,West Zachary,Christopherhaven,7,3,0,West Zachary,Christopherhaven
+575,39,Hunterborough,Port Kristieberg,5,4,1,Hunterborough,Port Kristieberg
+576,39,South Kelseyton,South Samuelberg,1,2,1,South Samuelberg,South Kelseyton
+577,39,Jordanland,Pennytown,0,4,0,Pennytown,Jordanland
+578,39,North Connorchester,East Sarahhaven,5,3,0,North Connorchester,East Sarahhaven
+579,39,Port David,West Susanchester,9,3,0,Port David,West Susanchester
+580,39,West Kimfurt,Danielsburgh,2,3,0,Danielsburgh,West Kimfurt
+581,40,South Samuelberg,Port Chris,5,2,0,South Samuelberg,Port Chris
+582,40,Davistown,South Kelseyton,2,3,0,South Kelseyton,Davistown
+583,40,West Michaelview,Jordanland,3,4,1,Jordanland,West Michaelview
+584,40,Lake David,West Kimfurt,2,3,0,West Kimfurt,Lake David
+585,40,Richardhaven,Nelsonhaven,2,5,0,Nelsonhaven,Richardhaven
+586,40,Jamesmouth,West Susanchester,2,5,0,West Susanchester,Jamesmouth
+587,40,North Chelseamouth,Pennytown,6,2,0,North Chelseamouth,Pennytown
+588,40,Luistown,Hunterborough,4,1,0,Luistown,Hunterborough
+589,40,West Zachary,West Erin,4,1,0,West Zachary,West Erin
+590,40,South Lauren,East Sarahhaven,3,1,0,South Lauren,East Sarahhaven
+591,40,Port David,Lake Shaunfort,6,7,1,Lake Shaunfort,Port David
+592,40,Barnesburgh,Christopherhaven,5,3,0,Barnesburgh,Christopherhaven
+593,40,North Susanberg,North Connorchester,3,2,1,North Susanberg,North Connorchester
+594,40,North Brianside,Jeffreyville,7,6,1,North Brianside,Jeffreyville
+595,41,East Sarahhaven,Port Chris,4,2,0,East Sarahhaven,Port Chris
+596,41,Port David,Davistown,3,2,0,Port David,Davistown
+597,41,Richardhaven,South Samuelberg,4,3,1,Richardhaven,South Samuelberg
+598,41,Jamesmouth,Jordanland,5,1,0,Jamesmouth,Jordanland
+599,41,South Lauren,Lake David,4,1,0,South Lauren,Lake David
+600,41,North Susanberg,Pennytown,3,2,0,North Susanberg,Pennytown
+601,41,West Erin,West Kimfurt,3,5,0,West Kimfurt,West Erin
+602,41,North Connorchester,Hunterborough,5,4,0,North Connorchester,Hunterborough
+603,41,South Kelseyton,West Michaelview,1,3,0,West Michaelview,South Kelseyton
+604,41,North Chelseamouth,West Susanchester,3,5,0,West Susanchester,North Chelseamouth
+605,41,West Zachary,Port Kristieberg,4,7,0,Port Kristieberg,West Zachary
+606,41,Luistown,Barnesburgh,3,7,0,Barnesburgh,Luistown
+607,41,Jeffreyville,Lake Shaunfort,4,1,0,Jeffreyville,Lake Shaunfort
+608,41,Christopherhaven,North Brianside,6,5,0,Christopherhaven,North Brianside
+609,42,Port Chris,West Susanchester,2,4,0,West Susanchester,Port Chris
+610,42,Jamesmouth,West Michaelview,5,4,1,Jamesmouth,West Michaelview
+611,42,Hunterborough,Richardhaven,5,4,0,Hunterborough,Richardhaven
+612,42,Davistown,Danielsburgh,0,7,0,Danielsburgh,Davistown
+613,42,South Samuelberg,South Lauren,1,2,0,South Lauren,South Samuelberg
+614,42,Pennytown,Christopherhaven,1,4,0,Christopherhaven,Pennytown
+615,42,Jeffreyville,Jordanland,5,2,0,Jeffreyville,Jordanland
+616,42,Lake David,North Susanberg,2,1,0,Lake David,North Susanberg
+617,42,Port Kristieberg,West Erin,3,5,0,West Erin,Port Kristieberg
+618,42,Nelsonhaven,North Chelseamouth,1,4,0,North Chelseamouth,Nelsonhaven
+619,42,Luistown,North Connorchester,4,5,0,North Connorchester,Luistown
+620,42,East Sarahhaven,South Kelseyton,2,5,0,South Kelseyton,East Sarahhaven
+621,42,Port David,North Brianside,2,6,0,North Brianside,Port David
+622,43,Richardhaven,Hunterborough,2,4,0,Hunterborough,Richardhaven
+623,43,Jamesmouth,South Samuelberg,1,2,1,South Samuelberg,Jamesmouth
+624,43,Davistown,North Chelseamouth,3,0,0,Davistown,North Chelseamouth
+625,43,South Lauren,Port David,2,5,0,Port David,South Lauren
+626,43,Pennytown,West Zachary,0,5,0,West Zachary,Pennytown
+627,43,West Susanchester,Lake Shaunfort,4,3,1,West Susanchester,Lake Shaunfort
+628,43,South Kelseyton,Port Chris,6,3,0,South Kelseyton,Port Chris
+629,43,West Erin,Lake David,4,2,0,West Erin,Lake David
+630,43,Barnesburgh,West Michaelview,3,4,1,West Michaelview,Barnesburgh
+631,43,Luistown,North Susanberg,3,2,1,Luistown,North Susanberg
+632,43,Jeffreyville,North Connorchester,3,2,0,Jeffreyville,North Connorchester
+633,43,Christopherhaven,West Kimfurt,4,5,0,West Kimfurt,Christopherhaven
+634,43,Jordanland,North Brianside,5,4,0,Jordanland,North Brianside
+635,43,East Sarahhaven,Nelsonhaven,6,5,0,East Sarahhaven,Nelsonhaven
+636,44,East Sarahhaven,Richardhaven,1,2,0,Richardhaven,East Sarahhaven
+637,44,South Samuelberg,Lake Shaunfort,1,2,0,Lake Shaunfort,South Samuelberg
+638,44,North Connorchester,Davistown,2,1,0,North Connorchester,Davistown
+639,44,North Chelseamouth,Lake David,5,0,0,North Chelseamouth,Lake David
+640,44,South Lauren,North Susanberg,4,0,0,South Lauren,North Susanberg
+641,44,Pennytown,West Susanchester,2,3,0,West Susanchester,Pennytown
+642,44,Christopherhaven,South Kelseyton,5,3,0,Christopherhaven,South Kelseyton
+643,44,Luistown,West Erin,5,3,0,Luistown,West Erin
+644,44,Port David,Port Kristieberg,6,5,0,Port David,Port Kristieberg
+645,44,Nelsonhaven,West Zachary,1,5,0,West Zachary,Nelsonhaven
+646,44,West Kimfurt,Port Chris,3,2,1,West Kimfurt,Port Chris
+647,44,West Michaelview,Jeffreyville,7,2,0,West Michaelview,Jeffreyville
+648,44,Jamesmouth,Barnesburgh,2,3,1,Barnesburgh,Jamesmouth
+649,44,Hunterborough,Danielsburgh,5,6,1,Danielsburgh,Hunterborough
+650,45,South Samuelberg,Richardhaven,5,1,0,South Samuelberg,Richardhaven
+651,45,Davistown,West Erin,2,4,0,West Erin,Davistown
+652,45,Jordanland,Lake Shaunfort,2,0,0,Jordanland,Lake Shaunfort
+653,45,North Chelseamouth,Nelsonhaven,3,4,0,Nelsonhaven,North Chelseamouth
+654,45,Christopherhaven,Port Chris,2,5,0,Port Chris,Christopherhaven
+655,45,West Susanchester,North Brianside,1,2,0,North Brianside,West Susanchester
+656,45,West Michaelview,North Susanberg,2,0,0,West Michaelview,North Susanberg
+657,45,Danielsburgh,Pennytown,4,3,1,Danielsburgh,Pennytown
+658,45,West Zachary,Hunterborough,5,4,0,West Zachary,Hunterborough
+659,45,Luistown,South Kelseyton,3,4,1,South Kelseyton,Luistown
+660,45,East Sarahhaven,Lake David,4,3,1,East Sarahhaven,Lake David
+661,45,Barnesburgh,South Lauren,1,0,0,Barnesburgh,South Lauren
+662,45,West Kimfurt,Port David,2,1,0,West Kimfurt,Port David
+663,45,North Connorchester,Jamesmouth,0,2,0,Jamesmouth,North Connorchester
+664,45,Jeffreyville,Port Kristieberg,1,2,0,Port Kristieberg,Jeffreyville
+665,46,Richardhaven,West Susanchester,5,4,1,Richardhaven,West Susanchester
+666,46,Jamesmouth,Lake Shaunfort,4,0,0,Jamesmouth,Lake Shaunfort
+667,46,Luistown,North Chelseamouth,2,5,0,North Chelseamouth,Luistown
+668,46,South Lauren,Jordanland,5,2,0,South Lauren,Jordanland
+669,46,Port David,Hunterborough,1,3,0,Hunterborough,Port David
+670,46,Port Chris,Port Kristieberg,2,4,0,Port Kristieberg,Port Chris
+671,46,West Michaelview,South Kelseyton,0,3,0,South Kelseyton,West Michaelview
+672,46,Davistown,Barnesburgh,3,2,0,Davistown,Barnesburgh
+673,46,Pennytown,Jeffreyville,3,4,0,Jeffreyville,Pennytown
+674,46,West Erin,Christopherhaven,2,4,0,Christopherhaven,West Erin
+675,46,North Brianside,North Susanberg,6,3,0,North Brianside,North Susanberg
+676,46,North Connorchester,Nelsonhaven,3,6,0,Nelsonhaven,North Connorchester
+677,46,South Samuelberg,Danielsburgh,0,6,0,Danielsburgh,South Samuelberg
+678,46,West Kimfurt,East Sarahhaven,3,2,1,West Kimfurt,East Sarahhaven
+679,46,Lake David,West Zachary,5,3,0,Lake David,West Zachary
+680,47,Christopherhaven,Richardhaven,4,3,1,Christopherhaven,Richardhaven
+681,47,Lake Shaunfort,Port Chris,8,1,0,Lake Shaunfort,Port Chris
+682,47,Danielsburgh,North Chelseamouth,2,3,0,North Chelseamouth,Danielsburgh
+683,47,South Kelseyton,South Lauren,4,2,0,South Kelseyton,South Lauren
+684,47,South Samuelberg,Hunterborough,2,3,0,Hunterborough,South Samuelberg
+685,47,North Connorchester,West Erin,2,4,0,West Erin,North Connorchester
+686,47,Barnesburgh,Davistown,2,1,0,Barnesburgh,Davistown
+687,47,Pennytown,Luistown,4,0,0,Pennytown,Luistown
+688,47,West Susanchester,West Zachary,2,3,1,West Zachary,West Susanchester
+689,47,Port Kristieberg,North Susanberg,0,4,0,North Susanberg,Port Kristieberg
+690,47,Nelsonhaven,West Kimfurt,1,2,1,West Kimfurt,Nelsonhaven
+691,47,Jeffreyville,North Brianside,1,6,0,North Brianside,Jeffreyville
+692,47,Port David,West Michaelview,4,0,0,Port David,West Michaelview
+693,47,East Sarahhaven,Jordanland,3,2,1,East Sarahhaven,Jordanland
+694,48,South Lauren,Richardhaven,2,4,0,Richardhaven,South Lauren
+695,48,West Michaelview,Lake Shaunfort,2,3,1,Lake Shaunfort,West Michaelview
+696,48,North Chelseamouth,Jordanland,4,5,0,Jordanland,North Chelseamouth
+697,48,Jeffreyville,South Samuelberg,3,4,0,South Samuelberg,Jeffreyville
+698,48,Christopherhaven,North Susanberg,2,6,0,North Susanberg,Christopherhaven
+699,48,West Erin,Port David,3,4,1,Port David,West Erin
+700,48,North Connorchester,West Susanchester,4,5,1,West Susanchester,North Connorchester
+701,48,Nelsonhaven,Hunterborough,3,4,1,Hunterborough,Nelsonhaven
+702,48,Luistown,West Zachary,0,1,0,West Zachary,Luistown
+703,48,Barnesburgh,East Sarahhaven,2,6,0,East Sarahhaven,Barnesburgh
+704,48,Port Kristieberg,Lake David,2,1,0,Port Kristieberg,Lake David
+705,48,South Kelseyton,North Brianside,4,1,0,South Kelseyton,North Brianside
+706,48,Port Chris,Jamesmouth,3,2,1,Port Chris,Jamesmouth
+707,48,West Kimfurt,Pennytown,3,4,0,Pennytown,West Kimfurt
+708,48,Danielsburgh,Davistown,2,3,1,Davistown,Danielsburgh
+709,49,Hunterborough,Lake Shaunfort,1,0,0,Hunterborough,Lake Shaunfort
+710,49,Richardhaven,South Kelseyton,1,4,0,South Kelseyton,Richardhaven
+711,49,Barnesburgh,North Chelseamouth,3,4,0,North Chelseamouth,Barnesburgh
+712,49,Nelsonhaven,South Lauren,5,4,0,Nelsonhaven,South Lauren
+713,49,West Susanchester,Luistown,4,3,0,West Susanchester,Luistown
+714,49,Port Kristieberg,West Michaelview,1,3,0,West Michaelview,Port Kristieberg
+715,49,Davistown,North Connorchester,5,4,0,Davistown,North Connorchester
+716,49,Pennytown,Jordanland,0,1,0,Jordanland,Pennytown
+717,49,North Susanberg,West Kimfurt,3,2,0,North Susanberg,West Kimfurt
+718,49,Danielsburgh,Christopherhaven,7,4,0,Danielsburgh,Christopherhaven
+719,49,Port Chris,South Samuelberg,2,3,0,South Samuelberg,Port Chris
+720,49,West Erin,North Brianside,6,4,0,West Erin,North Brianside
+721,49,East Sarahhaven,Jeffreyville,4,3,1,East Sarahhaven,Jeffreyville
+722,49,Port David,Jamesmouth,4,3,0,Port David,Jamesmouth
+723,50,North Chelseamouth,Davistown,4,5,1,Davistown,North Chelseamouth
+724,50,East Sarahhaven,South Lauren,4,2,0,East Sarahhaven,South Lauren
+725,50,Lake Shaunfort,South Kelseyton,5,6,1,South Kelseyton,Lake Shaunfort
+726,50,Christopherhaven,Hunterborough,3,5,0,Hunterborough,Christopherhaven
+727,50,North Connorchester,Barnesburgh,2,6,0,Barnesburgh,North Connorchester
+728,50,West Zachary,Richardhaven,2,4,0,Richardhaven,West Zachary
+729,50,West Susanchester,Jeffreyville,3,2,0,West Susanchester,Jeffreyville
+730,50,Nelsonhaven,Pennytown,0,1,0,Pennytown,Nelsonhaven
+731,50,West Michaelview,Danielsburgh,4,1,0,West Michaelview,Danielsburgh
+732,50,Luistown,Lake David,5,6,1,Lake David,Luistown
+733,50,West Erin,Port Kristieberg,7,3,0,West Erin,Port Kristieberg
+734,50,Port Chris,Port David,2,3,0,Port David,Port Chris
+735,50,Jamesmouth,North Brianside,4,3,0,Jamesmouth,North Brianside
+736,50,Jordanland,South Samuelberg,3,5,0,South Samuelberg,Jordanland
+737,50,West Kimfurt,North Susanberg,3,2,0,West Kimfurt,North Susanberg
+738,51,Jordanland,North Chelseamouth,2,6,0,North Chelseamouth,Jordanland
+739,51,South Lauren,Danielsburgh,3,2,0,South Lauren,Danielsburgh
+740,51,Port David,South Kelseyton,6,4,0,Port David,South Kelseyton
+741,51,West Michaelview,Pennytown,5,4,0,West Michaelview,Pennytown
+742,51,Christopherhaven,Port Kristieberg,3,4,0,Port Kristieberg,Christopherhaven
+743,51,Nelsonhaven,Davistown,2,1,0,Nelsonhaven,Davistown
+744,51,Jeffreyville,Richardhaven,5,2,0,Jeffreyville,Richardhaven
+745,51,Barnesburgh,Luistown,2,3,0,Luistown,Barnesburgh
+746,51,Port Chris,East Sarahhaven,2,1,1,Port Chris,East Sarahhaven
+747,51,West Erin,North Connorchester,1,2,1,North Connorchester,West Erin
+748,51,West Zachary,South Samuelberg,4,1,0,West Zachary,South Samuelberg
+749,51,West Kimfurt,Lake David,1,4,0,Lake David,West Kimfurt
+750,51,Lake Shaunfort,West Susanchester,5,4,1,Lake Shaunfort,West Susanchester
+751,51,Hunterborough,Jamesmouth,5,4,1,Hunterborough,Jamesmouth
+752,52,North Chelseamouth,West Michaelview,3,4,1,West Michaelview,North Chelseamouth
+753,52,Jordanland,North Connorchester,5,3,0,Jordanland,North Connorchester
+754,52,Pennytown,West Erin,3,9,0,West Erin,Pennytown
+755,52,South Samuelberg,Davistown,3,0,0,South Samuelberg,Davistown
+756,52,North Susanberg,Barnesburgh,2,3,1,Barnesburgh,North Susanberg
+757,52,South Lauren,North Brianside,4,3,0,South Lauren,North Brianside
+758,52,Luistown,Jamesmouth,3,5,0,Jamesmouth,Luistown
+759,52,Danielsburgh,Jeffreyville,2,6,0,Jeffreyville,Danielsburgh
+760,52,Richardhaven,East Sarahhaven,3,1,0,Richardhaven,East Sarahhaven
+761,52,Port Chris,Lake David,4,1,0,Port Chris,Lake David
+762,52,West Zachary,Nelsonhaven,3,4,1,Nelsonhaven,West Zachary
+763,52,Hunterborough,Port David,10,2,0,Hunterborough,Port David
+764,52,South Kelseyton,West Susanchester,4,2,0,South Kelseyton,West Susanchester
+765,52,Lake Shaunfort,Port Kristieberg,2,6,0,Port Kristieberg,Lake Shaunfort
+766,53,West Zachary,North Chelseamouth,1,6,0,North Chelseamouth,West Zachary
+767,53,Christopherhaven,Jordanland,2,4,0,Jordanland,Christopherhaven
+768,53,South Samuelberg,Pennytown,4,3,0,South Samuelberg,Pennytown
+769,53,West Michaelview,West Kimfurt,2,4,0,West Kimfurt,West Michaelview
+770,53,Barnesburgh,Nelsonhaven,2,3,1,Nelsonhaven,Barnesburgh
+771,53,Davistown,North Brianside,1,4,0,North Brianside,Davistown
+772,53,East Sarahhaven,Lake Shaunfort,3,4,1,Lake Shaunfort,East Sarahhaven
+773,53,North Connorchester,Danielsburgh,3,4,0,Danielsburgh,North Connorchester
+774,53,Richardhaven,Jamesmouth,8,3,0,Richardhaven,Jamesmouth
+775,53,Jeffreyville,Hunterborough,3,7,0,Hunterborough,Jeffreyville
+776,53,Port Chris,North Susanberg,4,3,0,Port Chris,North Susanberg
+777,53,South Lauren,West Erin,4,1,0,South Lauren,West Erin
+778,53,Port Kristieberg,Luistown,1,5,0,Luistown,Port Kristieberg
+779,54,Port Chris,North Chelseamouth,1,3,0,North Chelseamouth,Port Chris
+780,54,Luistown,North Brianside,2,1,0,Luistown,North Brianside
+781,54,Jordanland,West Susanchester,2,3,0,West Susanchester,Jordanland
+782,54,South Samuelberg,West Michaelview,4,3,0,South Samuelberg,West Michaelview
+783,54,Port Kristieberg,Barnesburgh,5,1,0,Port Kristieberg,Barnesburgh
+784,54,Lake Shaunfort,Jeffreyville,7,3,0,Lake Shaunfort,Jeffreyville
+785,54,West Kimfurt,North Connorchester,1,0,0,West Kimfurt,North Connorchester
+786,54,North Susanberg,Danielsburgh,7,2,0,North Susanberg,Danielsburgh
+787,54,Nelsonhaven,Christopherhaven,3,2,0,Nelsonhaven,Christopherhaven
+788,54,West Zachary,Port David,2,6,0,Port David,West Zachary
+789,54,Lake David,Richardhaven,3,4,1,Richardhaven,Lake David
+790,54,South Kelseyton,Jamesmouth,2,1,1,South Kelseyton,Jamesmouth
+791,54,West Erin,East Sarahhaven,4,3,1,West Erin,East Sarahhaven
+792,54,South Lauren,Hunterborough,3,4,1,Hunterborough,South Lauren
+793,55,West Susanchester,North Chelseamouth,4,3,1,West Susanchester,North Chelseamouth
+794,55,Danielsburgh,South Samuelberg,7,6,1,Danielsburgh,South Samuelberg
+795,55,Lake David,Barnesburgh,0,6,0,Barnesburgh,Lake David
+796,55,Luistown,West Kimfurt,7,6,1,Luistown,West Kimfurt
+797,55,Jordanland,South Kelseyton,1,6,0,South Kelseyton,Jordanland
+798,55,Jeffreyville,East Sarahhaven,6,1,0,Jeffreyville,East Sarahhaven
+799,55,Nelsonhaven,Lake Shaunfort,4,3,1,Nelsonhaven,Lake Shaunfort
+800,55,West Michaelview,Hunterborough,4,3,1,West Michaelview,Hunterborough
+801,55,Christopherhaven,West Erin,4,3,0,Christopherhaven,West Erin
+802,55,North Brianside,West Zachary,3,1,0,North Brianside,West Zachary
+803,55,Pennytown,Port Chris,3,2,0,Pennytown,Port Chris
+804,55,Davistown,Jamesmouth,5,1,0,Davistown,Jamesmouth
+805,55,Port Kristieberg,Richardhaven,4,2,0,Port Kristieberg,Richardhaven
+806,55,South Lauren,North Connorchester,4,3,1,South Lauren,North Connorchester
+807,56,North Chelseamouth,West Erin,0,3,0,West Erin,North Chelseamouth
+808,56,East Sarahhaven,South Samuelberg,5,4,0,East Sarahhaven,South Samuelberg
+809,56,North Brianside,Danielsburgh,5,3,0,North Brianside,Danielsburgh
+810,56,Barnesburgh,Lake David,4,0,0,Barnesburgh,Lake David
+811,56,Hunterborough,West Zachary,4,3,1,Hunterborough,West Zachary
+812,56,Richardhaven,Jeffreyville,4,2,0,Richardhaven,Jeffreyville
+813,56,Luistown,Lake Shaunfort,2,4,0,Lake Shaunfort,Luistown
+814,56,Christopherhaven,Davistown,4,3,0,Christopherhaven,Davistown
+815,56,West Susanchester,West Michaelview,1,2,0,West Michaelview,West Susanchester
+816,56,North Connorchester,West Kimfurt,1,2,0,West Kimfurt,North Connorchester
+817,56,Pennytown,Jamesmouth,1,5,0,Jamesmouth,Pennytown
+818,56,North Susanberg,Port Chris,5,3,0,North Susanberg,Port Chris
+819,56,Nelsonhaven,Port David,7,3,0,Nelsonhaven,Port David
+820,57,Port Kristieberg,North Chelseamouth,2,3,0,North Chelseamouth,Port Kristieberg
+821,57,Barnesburgh,Jamesmouth,3,4,0,Jamesmouth,Barnesburgh
+822,57,North Brianside,Lake Shaunfort,5,3,0,North Brianside,Lake Shaunfort
+823,57,West Erin,Danielsburgh,2,4,0,Danielsburgh,West Erin
+824,57,South Samuelberg,North Connorchester,0,3,0,North Connorchester,South Samuelberg
+825,57,South Kelseyton,Davistown,3,2,0,South Kelseyton,Davistown
+826,57,Jeffreyville,Port David,4,3,0,Jeffreyville,Port David
+827,57,Nelsonhaven,Luistown,6,2,0,Nelsonhaven,Luistown
+828,57,Lake David,Port Chris,3,4,0,Port Chris,Lake David
+829,57,North Susanberg,Hunterborough,2,3,1,Hunterborough,North Susanberg
+830,57,West Kimfurt,Jordanland,1,2,0,Jordanland,West Kimfurt
+831,57,South Lauren,West Michaelview,2,3,1,West Michaelview,South Lauren
+832,57,Christopherhaven,Pennytown,2,3,0,Pennytown,Christopherhaven
+833,58,North Brianside,Barnesburgh,1,3,0,Barnesburgh,North Brianside
+834,58,Danielsburgh,Lake David,3,7,0,Lake David,Danielsburgh
+835,58,South Samuelberg,Christopherhaven,5,4,0,South Samuelberg,Christopherhaven
+836,58,Port David,West Zachary,2,5,0,West Zachary,Port David
+837,58,Jamesmouth,Luistown,4,2,0,Jamesmouth,Luistown
+838,58,Hunterborough,South Kelseyton,1,4,0,South Kelseyton,Hunterborough
+839,58,West Kimfurt,Davistown,3,2,1,West Kimfurt,Davistown
+840,58,Jeffreyville,North Chelseamouth,3,2,0,Jeffreyville,North Chelseamouth
+841,58,Pennytown,Port Kristieberg,4,5,0,Port Kristieberg,Pennytown
+842,58,West Michaelview,North Connorchester,1,3,0,North Connorchester,West Michaelview
+843,58,West Susanchester,Nelsonhaven,2,5,0,Nelsonhaven,West Susanchester
+844,58,Jordanland,North Susanberg,1,3,0,North Susanberg,Jordanland
+845,58,Lake Shaunfort,East Sarahhaven,2,1,0,Lake Shaunfort,East Sarahhaven
+846,59,Danielsburgh,West Zachary,4,1,0,Danielsburgh,West Zachary
+847,59,Davistown,Christopherhaven,4,1,0,Davistown,Christopherhaven
+848,59,Barnesburgh,Jeffreyville,2,3,1,Jeffreyville,Barnesburgh
+849,59,Lake David,Nelsonhaven,3,4,1,Nelsonhaven,Lake David
+850,59,Port Kristieberg,East Sarahhaven,5,1,0,Port Kristieberg,East Sarahhaven
+851,59,South Samuelberg,West Kimfurt,3,1,0,South Samuelberg,West Kimfurt
+852,59,Pennytown,South Kelseyton,3,4,0,South Kelseyton,Pennytown
+853,59,Port David,Richardhaven,4,5,0,Richardhaven,Port David
+854,59,Hunterborough,Jordanland,7,1,0,Hunterborough,Jordanland
+855,59,Jamesmouth,North Susanberg,7,3,0,Jamesmouth,North Susanberg
+856,59,West Erin,West Susanchester,3,4,1,West Susanchester,West Erin
+857,59,Lake Shaunfort,South Lauren,3,1,0,Lake Shaunfort,South Lauren
+858,60,West Zachary,Port Chris,5,4,1,West Zachary,Port Chris
+859,60,Danielsburgh,South Lauren,4,3,0,Danielsburgh,South Lauren
+860,60,Port Kristieberg,Jeffreyville,4,5,0,Jeffreyville,Port Kristieberg
+861,60,West Susanchester,Christopherhaven,1,3,0,Christopherhaven,West Susanchester
+862,60,North Brianside,Lake David,1,7,0,Lake David,North Brianside
+863,60,Nelsonhaven,Jamesmouth,4,3,0,Nelsonhaven,Jamesmouth
+864,60,South Kelseyton,West Kimfurt,3,5,0,West Kimfurt,South Kelseyton
+865,60,Barnesburgh,Pennytown,5,1,0,Barnesburgh,Pennytown
+866,61,North Brianside,Port David,5,6,0,Port David,North Brianside
+867,61,West Zachary,North Susanberg,2,1,0,West Zachary,North Susanberg
+868,61,Danielsburgh,Jordanland,2,3,0,Jordanland,Danielsburgh
+869,61,Richardhaven,Lake David,3,4,0,Lake David,Richardhaven
+870,62,North Brianside,Port Kristieberg,4,3,0,North Brianside,Port Kristieberg
