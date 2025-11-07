@@ -79,8 +79,11 @@ def create_players(n_teams: int, n_lines: int, n_pairs: int, n_goalies: int) -> 
         players.append(Player(
             name = pname,
             position = "F",
-            offense = random.gauss(0, 1),
-            defense = random.gauss(0, 1),
+            creation = random.gauss(0, 1),
+            conversion = random.gauss(0, 1),
+            suppression = random.gauss(0, 1),
+            prevention = random.gauss(0, 1),
+            goalkeeping = 0.0,
             stamina = random.gauss(0, 1),
             discipline = random.gauss(0, 1)
         ))
@@ -91,8 +94,11 @@ def create_players(n_teams: int, n_lines: int, n_pairs: int, n_goalies: int) -> 
         players.append(Player(
             name = pname,
             position = "D",
-            offense = random.gauss(0, 1),
-            defense = random.gauss(0, 1),
+            creation = random.gauss(0, 1),
+            conversion = random.gauss(0, 1),
+            suppression = random.gauss(0, 1),
+            prevention = random.gauss(0, 1),
+            goalkeeping = 0.0,
             stamina = random.gauss(0, 1),
             discipline = random.gauss(0, 1)
         ))
@@ -103,8 +109,11 @@ def create_players(n_teams: int, n_lines: int, n_pairs: int, n_goalies: int) -> 
         players.append(Player(
             name = pname,
             position = "G",
-            offense = random.gauss(0, 1),
-            defense = random.gauss(0, 1),
+            creation = 0.0,
+            conversion = 0.0,
+            suppression = 0.0,
+            prevention = 0.0,
+            goalkeeping = random.gauss(0, 1),
             stamina = random.gauss(0, 1),
             discipline = random.gauss(0, 1)
         ))
@@ -211,7 +220,7 @@ def simulate_game_simple(home: Team, away: Team, mean_goals: float = 3.0) -> dic
     def team_strength(t: Team) -> float:
         total = 0.0
         for p in t.roster:
-            total += (p.offense + p.defense)
+            total += (p.creation + p.conversion + p.suppression + p.prevention + p.goalkeeping)
         return total / len(t.roster)
 
     lambda_home = mean_goals + team_strength(home) + getattr(home, "home_rink", 0.0)
