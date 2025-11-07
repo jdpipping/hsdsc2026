@@ -1,3 +1,13 @@
+########################
+### INTERNAL SCRIPTS ###
+########################
+
+# local testing
+scripts/check-box-scores.py
+scripts/test-box-scores.py
+scripts/test-line-attribution.py
+scripts/tune-parameters.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
