@@ -1,0 +1,1313 @@
+game_id,week,home_team,away_team,home_score,away_score,went_ot,winner,loser
+1,1,China,Kazakhstan,2,3,0,Kazakhstan,China
+2,1,Denmark,Poland,4,3,1,Denmark,Poland
+3,1,Great Britain,Canada,4,5,1,Canada,Great Britain
+4,1,Ukraine,Norway,3,2,1,Ukraine,Norway
+5,1,Belarus,Russia,2,3,1,Russia,Belarus
+6,1,Netherlands,Croatia,3,2,0,Netherlands,Croatia
+7,1,Slovenia,Finland,1,6,0,Finland,Slovenia
+8,1,Czech Republic,Japan,4,1,0,Czech Republic,Japan
+9,1,Austria,France,4,7,0,France,Austria
+10,1,Italy,Germany,1,4,0,Germany,Italy
+11,1,Sweden,Switzerland,4,3,0,Sweden,Switzerland
+12,1,Hungary,South Korea,1,7,0,South Korea,Hungary
+13,1,Belgium,United States,2,5,0,United States,Belgium
+14,1,Estonia,Latvia,3,2,0,Estonia,Latvia
+15,1,Lithuania,Romania,3,2,0,Lithuania,Romania
+16,1,Spain,Slovakia,2,1,1,Spain,Slovakia
+17,2,Denmark,Russia,3,5,0,Russia,Denmark
+18,2,Austria,Poland,1,5,0,Poland,Austria
+19,2,Croatia,Spain,4,8,0,Spain,Croatia
+20,2,Canada,Norway,3,2,1,Canada,Norway
+21,2,Sweden,Kazakhstan,1,5,0,Kazakhstan,Sweden
+22,2,Great Britain,United States,2,5,0,United States,Great Britain
+23,2,Japan,Belarus,4,5,1,Belarus,Japan
+24,2,Slovenia,Italy,5,7,0,Italy,Slovenia
+25,2,China,Belgium,1,5,0,Belgium,China
+26,2,Estonia,Czech Republic,5,0,0,Estonia,Czech Republic
+27,2,Finland,Switzerland,2,6,0,Switzerland,Finland
+28,2,Ukraine,Germany,3,2,1,Ukraine,Germany
+29,2,Latvia,France,5,4,1,Latvia,France
+30,2,Netherlands,South Korea,2,1,1,Netherlands,South Korea
+31,2,Hungary,Slovakia,0,2,0,Slovakia,Hungary
+32,2,Romania,Lithuania,1,3,0,Lithuania,Romania
+33,3,Czech Republic,Russia,1,2,0,Russia,Czech Republic
+34,3,Croatia,Hungary,3,2,0,Croatia,Hungary
+35,3,Belgium,Denmark,6,1,0,Belgium,Denmark
+36,3,Spain,China,3,5,0,China,Spain
+37,3,Italy,France,4,5,0,France,Italy
+38,3,Canada,Estonia,2,1,1,Canada,Estonia
+39,3,Japan,South Korea,4,5,0,South Korea,Japan
+40,3,Netherlands,Finland,2,3,1,Finland,Netherlands
+41,3,Lithuania,Austria,2,1,0,Lithuania,Austria
+42,3,United States,Kazakhstan,2,1,0,United States,Kazakhstan
+43,3,Poland,Slovakia,4,3,1,Poland,Slovakia
+44,3,Belarus,Slovenia,2,3,0,Slovenia,Belarus
+45,3,Switzerland,Romania,6,1,0,Switzerland,Romania
+46,3,Norway,Ukraine,5,4,1,Norway,Ukraine
+47,3,Sweden,Germany,6,4,0,Sweden,Germany
+48,3,Great Britain,Latvia,5,4,0,Great Britain,Latvia
+49,4,Slovenia,Russia,2,5,0,Russia,Slovenia
+50,4,Czech Republic,Lithuania,2,0,0,Czech Republic,Lithuania
+51,4,Ukraine,Denmark,4,2,0,Ukraine,Denmark
+52,4,France,Estonia,2,4,0,Estonia,France
+53,4,Austria,Sweden,5,6,1,Sweden,Austria
+54,4,China,Croatia,1,3,0,Croatia,China
+55,4,Italy,Germany,6,1,0,Italy,Germany
+56,4,Finland,Great Britain,2,4,0,Great Britain,Finland
+57,4,South Korea,Norway,2,7,0,Norway,South Korea
+58,4,Latvia,Hungary,4,1,0,Latvia,Hungary
+59,4,Spain,Canada,5,0,0,Spain,Canada
+60,4,Slovakia,Japan,3,2,1,Slovakia,Japan
+61,4,Belarus,Kazakhstan,3,2,1,Belarus,Kazakhstan
+62,4,United States,Switzerland,2,3,1,Switzerland,United States
+63,4,Poland,Netherlands,4,3,1,Poland,Netherlands
+64,4,Belgium,Romania,1,2,0,Romania,Belgium
+65,5,Sweden,Russia,2,6,0,Russia,Sweden
+66,5,Norway,Denmark,6,0,0,Norway,Denmark
+67,5,Slovenia,Croatia,4,5,0,Croatia,Slovenia
+68,5,Austria,South Korea,2,7,0,South Korea,Austria
+69,5,Latvia,Italy,2,5,0,Italy,Latvia
+70,5,Estonia,China,0,1,0,China,Estonia
+71,5,Belgium,Great Britain,2,3,1,Great Britain,Belgium
+72,5,Germany,Czech Republic,4,2,0,Germany,Czech Republic
+73,5,Finland,United States,5,2,0,Finland,United States
+74,5,Spain,France,2,6,0,France,Spain
+75,5,Japan,Lithuania,1,2,1,Lithuania,Japan
+76,5,Ukraine,Belarus,3,0,0,Ukraine,Belarus
+77,5,Netherlands,Canada,6,7,0,Canada,Netherlands
+78,5,Poland,Switzerland,1,3,0,Switzerland,Poland
+79,5,Romania,Slovakia,2,3,1,Slovakia,Romania
+80,5,Hungary,Kazakhstan,5,4,1,Hungary,Kazakhstan
+81,6,Lithuania,Russia,2,3,0,Russia,Lithuania
+82,6,Denmark,Belgium,4,5,0,Belgium,Denmark
+83,6,France,Sweden,6,4,0,France,Sweden
+84,6,Belarus,Norway,1,2,0,Norway,Belarus
+85,6,China,Hungary,4,3,1,China,Hungary
+86,6,Switzerland,Austria,4,6,0,Austria,Switzerland
+87,6,Czech Republic,Slovakia,3,1,0,Czech Republic,Slovakia
+88,6,Germany,South Korea,3,2,1,Germany,South Korea
+89,6,Slovenia,Spain,0,2,0,Spain,Slovenia
+90,6,Italy,Romania,4,1,0,Italy,Romania
+91,6,Kazakhstan,Japan,4,1,0,Kazakhstan,Japan
+92,6,Great Britain,United States,6,5,1,Great Britain,United States
+93,6,Poland,Croatia,3,5,0,Croatia,Poland
+94,6,Finland,Canada,4,3,1,Finland,Canada
+95,6,Estonia,Latvia,4,3,0,Estonia,Latvia
+96,6,Netherlands,Ukraine,2,5,0,Ukraine,Netherlands
+97,7,Russia,Austria,5,3,0,Russia,Austria
+98,7,Denmark,Great Britain,3,2,1,Denmark,Great Britain
+99,7,Belgium,China,3,2,0,Belgium,China
+100,7,Slovakia,Sweden,3,1,0,Slovakia,Sweden
+101,7,Norway,France,3,1,0,Norway,France
+102,7,Spain,Finland,5,4,0,Spain,Finland
+103,7,Japan,Canada,2,7,0,Canada,Japan
+104,7,Lithuania,Ukraine,3,1,0,Lithuania,Ukraine
+105,7,Croatia,South Korea,4,1,0,Croatia,South Korea
+106,7,Kazakhstan,Italy,5,4,0,Kazakhstan,Italy
+107,7,Estonia,Slovenia,3,2,0,Estonia,Slovenia
+108,7,Germany,Switzerland,3,4,0,Switzerland,Germany
+109,7,United States,Poland,4,2,0,United States,Poland
+110,7,Hungary,Latvia,4,5,0,Latvia,Hungary
+111,7,Belarus,Romania,2,1,0,Belarus,Romania
+112,7,Netherlands,Czech Republic,7,3,0,Netherlands,Czech Republic
+113,8,Russia,Canada,3,1,0,Russia,Canada
+114,8,Sweden,Denmark,5,4,0,Sweden,Denmark
+115,8,Kazakhstan,China,4,5,0,China,Kazakhstan
+116,8,Belgium,Estonia,4,1,0,Belgium,Estonia
+117,8,Finland,France,2,3,0,France,Finland
+118,8,South Korea,Spain,2,3,1,Spain,South Korea
+119,8,Slovakia,Slovenia,4,5,1,Slovenia,Slovakia
+120,8,Austria,Norway,3,4,0,Norway,Austria
+121,8,Ukraine,Italy,5,2,0,Ukraine,Italy
+122,8,Hungary,Japan,2,3,1,Japan,Hungary
+123,8,Belarus,Germany,2,3,1,Germany,Belarus
+124,8,Switzerland,Lithuania,2,3,1,Lithuania,Switzerland
+125,8,Netherlands,Great Britain,2,3,1,Great Britain,Netherlands
+126,8,United States,Latvia,3,6,0,Latvia,United States
+127,8,Croatia,Romania,7,1,0,Croatia,Romania
+128,8,Poland,Czech Republic,1,3,0,Czech Republic,Poland
+129,9,Norway,Russia,7,2,0,Norway,Russia
+130,9,Denmark,Ukraine,4,3,1,Denmark,Ukraine
+131,9,Estonia,Belgium,2,3,0,Belgium,Estonia
+132,9,France,Japan,1,4,0,Japan,France
+133,9,Hungary,China,2,3,1,China,Hungary
+134,9,Austria,Italy,3,5,0,Italy,Austria
+135,9,Sweden,Finland,3,4,0,Finland,Sweden
+136,9,Slovakia,Croatia,1,4,0,Croatia,Slovakia
+137,9,Lithuania,Poland,2,1,1,Lithuania,Poland
+138,9,Kazakhstan,South Korea,1,3,0,South Korea,Kazakhstan
+139,9,Canada,Great Britain,1,5,0,Great Britain,Canada
+140,9,Romania,Switzerland,2,4,0,Switzerland,Romania
+141,9,Slovenia,Germany,5,4,0,Slovenia,Germany
+142,9,Latvia,Belarus,1,3,0,Belarus,Latvia
+143,9,Netherlands,United States,5,4,0,Netherlands,United States
+144,9,Czech Republic,Spain,3,8,0,Spain,Czech Republic
+145,10,Russia,Hungary,2,3,0,Hungary,Russia
+146,10,Slovakia,Belgium,3,4,1,Belgium,Slovakia
+147,10,Canada,Norway,4,2,0,Canada,Norway
+148,10,China,Ukraine,3,4,1,Ukraine,China
+149,10,France,Italy,2,4,0,Italy,France
+150,10,Austria,Denmark,1,5,0,Denmark,Austria
+151,10,Latvia,Finland,2,5,0,Finland,Latvia
+152,10,Slovenia,Japan,1,2,0,Japan,Slovenia
+153,10,Spain,Sweden,2,3,1,Sweden,Spain
+154,10,Lithuania,Switzerland,3,4,1,Switzerland,Lithuania
+155,10,Kazakhstan,Croatia,2,1,0,Kazakhstan,Croatia
+156,10,Germany,Great Britain,4,3,1,Germany,Great Britain
+157,10,Estonia,Netherlands,1,0,0,Estonia,Netherlands
+158,10,Belarus,Czech Republic,4,2,0,Belarus,Czech Republic
+159,10,United States,Romania,1,2,0,Romania,United States
+160,10,Poland,South Korea,4,5,0,South Korea,Poland
+161,11,Japan,Russia,4,3,0,Japan,Russia
+162,11,Belgium,Belarus,4,1,0,Belgium,Belarus
+163,11,Finland,Poland,5,1,0,Finland,Poland
+164,11,United States,China,1,6,0,China,United States
+165,11,Romania,Norway,1,5,0,Norway,Romania
+166,11,Canada,Slovakia,1,3,0,Slovakia,Canada
+167,11,Ukraine,Spain,5,3,0,Ukraine,Spain
+168,11,Croatia,Slovenia,4,5,1,Slovenia,Croatia
+169,11,France,Italy,2,1,1,France,Italy
+170,11,Germany,Hungary,1,2,1,Hungary,Germany
+171,11,Denmark,Czech Republic,2,6,0,Czech Republic,Denmark
+172,11,Switzerland,Great Britain,2,5,0,Great Britain,Switzerland
+173,11,Estonia,Latvia,2,1,0,Estonia,Latvia
+174,11,Kazakhstan,South Korea,2,4,0,South Korea,Kazakhstan
+175,11,Austria,Netherlands,4,3,1,Austria,Netherlands
+176,11,Sweden,Lithuania,0,3,0,Lithuania,Sweden
+177,12,Denmark,Russia,0,7,0,Russia,Denmark
+178,12,Slovakia,Czech Republic,0,3,0,Czech Republic,Slovakia
+179,12,Hungary,Ukraine,1,2,0,Ukraine,Hungary
+180,12,Norway,Belarus,4,0,0,Norway,Belarus
+181,12,Romania,Finland,5,3,0,Romania,Finland
+182,12,Japan,Slovenia,3,4,1,Slovenia,Japan
+183,12,Canada,Netherlands,3,4,0,Netherlands,Canada
+184,12,South Korea,Spain,6,4,0,South Korea,Spain
+185,12,United States,Sweden,4,7,0,Sweden,United States
+186,12,Croatia,Austria,5,6,1,Austria,Croatia
+187,12,France,Kazakhstan,2,4,0,Kazakhstan,France
+188,12,Great Britain,Estonia,3,5,0,Estonia,Great Britain
+189,12,Germany,Poland,6,1,0,Germany,Poland
+190,12,Switzerland,Latvia,5,2,0,Switzerland,Latvia
+191,12,Belgium,Lithuania,2,3,0,Lithuania,Belgium
+192,12,Italy,China,6,7,0,China,Italy
+193,13,Estonia,Slovakia,1,2,0,Slovakia,Estonia
+194,13,Denmark,Finland,5,4,0,Denmark,Finland
+195,13,Russia,Norway,5,3,0,Russia,Norway
+196,13,France,Belarus,2,1,0,France,Belarus
+197,13,Spain,Hungary,3,4,0,Hungary,Spain
+198,13,Japan,Great Britain,4,5,0,Great Britain,Japan
+199,13,China,Romania,2,1,0,China,Romania
+200,13,Lithuania,Canada,1,3,0,Canada,Lithuania
+201,13,South Korea,Italy,5,6,1,Italy,South Korea
+202,13,Slovenia,Latvia,6,4,0,Slovenia,Latvia
+203,13,Czech Republic,Belgium,1,3,0,Belgium,Czech Republic
+204,13,Switzerland,Sweden,2,3,1,Sweden,Switzerland
+205,13,Poland,Ukraine,4,5,1,Ukraine,Poland
+206,13,Germany,Austria,3,2,0,Germany,Austria
+207,13,Croatia,Kazakhstan,5,4,0,Croatia,Kazakhstan
+208,13,United States,Netherlands,9,3,0,United States,Netherlands
+209,14,Sweden,Slovakia,1,7,0,Slovakia,Sweden
+210,14,Finland,Germany,5,4,0,Finland,Germany
+211,14,Russia,Belarus,2,1,0,Russia,Belarus
+212,14,Norway,Romania,2,3,1,Romania,Norway
+213,14,Belgium,Spain,3,4,0,Spain,Belgium
+214,14,Hungary,Estonia,3,1,0,Hungary,Estonia
+215,14,Czech Republic,Canada,2,8,0,Canada,Czech Republic
+216,14,Japan,South Korea,4,2,0,Japan,South Korea
+217,14,China,Ukraine,4,0,0,China,Ukraine
+218,14,Great Britain,Austria,3,2,1,Great Britain,Austria
+219,14,France,Slovenia,7,3,0,France,Slovenia
+220,14,Netherlands,Denmark,1,0,1,Netherlands,Denmark
+221,14,Poland,Lithuania,0,5,0,Lithuania,Poland
+222,14,Italy,Switzerland,4,3,1,Italy,Switzerland
+223,14,Croatia,Kazakhstan,4,3,1,Croatia,Kazakhstan
+224,14,Latvia,United States,3,2,1,Latvia,United States
+225,15,Slovakia,Czech Republic,5,1,0,Slovakia,Czech Republic
+226,15,Croatia,Russia,4,3,0,Croatia,Russia
+227,15,China,Spain,2,0,0,China,Spain
+228,15,Romania,Ukraine,7,1,0,Romania,Ukraine
+229,15,Austria,Finland,3,2,0,Austria,Finland
+230,15,Italy,Japan,3,5,0,Japan,Italy
+231,15,Denmark,Belarus,5,4,0,Denmark,Belarus
+232,15,Poland,Norway,1,8,0,Norway,Poland
+233,15,Lithuania,Estonia,2,0,0,Lithuania,Estonia
+234,15,Belgium,Hungary,6,7,1,Hungary,Belgium
+235,15,Sweden,Great Britain,4,5,1,Great Britain,Sweden
+236,15,France,Canada,4,3,1,France,Canada
+237,15,Slovenia,South Korea,4,3,0,Slovenia,South Korea
+238,15,Kazakhstan,Germany,6,5,0,Kazakhstan,Germany
+239,15,Netherlands,Switzerland,5,4,1,Netherlands,Switzerland
+240,16,China,Slovakia,2,1,1,China,Slovakia
+241,16,Finland,Norway,5,2,0,Finland,Norway
+242,16,Czech Republic,Great Britain,1,4,0,Great Britain,Czech Republic
+243,16,Ukraine,Romania,3,4,1,Romania,Ukraine
+244,16,Hungary,Croatia,3,1,0,Hungary,Croatia
+245,16,Russia,Switzerland,4,2,0,Russia,Switzerland
+246,16,Lithuania,Slovenia,1,3,0,Slovenia,Lithuania
+247,16,Italy,Austria,7,3,0,Italy,Austria
+248,16,Spain,Belgium,1,3,0,Belgium,Spain
+249,16,Latvia,Poland,5,4,0,Latvia,Poland
+250,16,Belarus,France,2,1,0,Belarus,France
+251,16,Estonia,Denmark,2,3,1,Denmark,Estonia
+252,16,South Korea,Netherlands,2,4,0,Netherlands,South Korea
+253,16,Canada,Germany,2,3,1,Germany,Canada
+254,16,Kazakhstan,Japan,0,3,0,Japan,Kazakhstan
+255,16,Sweden,United States,2,3,1,United States,Sweden
+256,17,Canada,China,6,3,0,Canada,China
+257,17,Slovakia,Russia,2,5,0,Russia,Slovakia
+258,17,Norway,Czech Republic,4,3,1,Norway,Czech Republic
+259,17,Croatia,Belarus,7,2,0,Croatia,Belarus
+260,17,Ukraine,Lithuania,2,4,0,Lithuania,Ukraine
+261,17,Hungary,Poland,1,5,0,Poland,Hungary
+262,17,Finland,Slovenia,1,3,0,Slovenia,Finland
+263,17,Switzerland,Denmark,3,0,0,Switzerland,Denmark
+264,17,Japan,Romania,2,4,0,Romania,Japan
+265,17,Belgium,Germany,3,1,0,Belgium,Germany
+266,17,Great Britain,Italy,4,1,0,Great Britain,Italy
+267,17,Estonia,Sweden,6,3,0,Estonia,Sweden
+268,17,Austria,Spain,3,4,1,Spain,Austria
+269,17,United States,France,3,4,1,France,United States
+270,17,Kazakhstan,Latvia,3,4,0,Latvia,Kazakhstan
+271,17,Netherlands,South Korea,0,2,0,South Korea,Netherlands
+272,18,Germany,Slovakia,4,1,0,Germany,Slovakia
+273,18,Belarus,China,6,4,0,Belarus,China
+274,18,Norway,Switzerland,4,3,0,Norway,Switzerland
+275,18,Lithuania,Czech Republic,3,1,0,Lithuania,Czech Republic
+276,18,Russia,Sweden,4,0,0,Russia,Sweden
+277,18,Croatia,Hungary,3,2,0,Croatia,Hungary
+278,18,Finland,Estonia,3,1,0,Finland,Estonia
+279,18,Ukraine,Great Britain,3,4,1,Great Britain,Ukraine
+280,18,Romania,Denmark,0,1,0,Denmark,Romania
+281,18,Belgium,Japan,2,1,0,Belgium,Japan
+282,18,Italy,Poland,6,5,0,Italy,Poland
+283,18,Canada,Austria,2,7,0,Austria,Canada
+284,18,United States,France,6,2,0,United States,France
+285,18,Slovenia,Netherlands,4,3,0,Slovenia,Netherlands
+286,18,Latvia,Spain,4,5,1,Spain,Latvia
+287,18,South Korea,Kazakhstan,0,6,0,Kazakhstan,South Korea
+288,19,Switzerland,Slovakia,3,4,1,Slovakia,Switzerland
+289,19,Netherlands,China,5,2,0,Netherlands,China
+290,19,Norway,Kazakhstan,5,4,0,Norway,Kazakhstan
+291,19,Ukraine,Japan,4,2,0,Ukraine,Japan
+292,19,Lithuania,Denmark,5,2,0,Lithuania,Denmark
+293,19,Hungary,Germany,2,6,0,Germany,Hungary
+294,19,Spain,Russia,2,3,0,Russia,Spain
+295,19,France,Romania,3,4,0,Romania,France
+296,19,Belarus,United States,3,6,0,United States,Belarus
+297,19,Canada,Finland,4,3,0,Canada,Finland
+298,19,Sweden,Belgium,0,5,0,Belgium,Sweden
+299,19,Italy,Great Britain,3,5,0,Great Britain,Italy
+300,19,Poland,Slovenia,4,1,0,Poland,Slovenia
+301,19,South Korea,Austria,3,2,0,South Korea,Austria
+302,19,Latvia,Estonia,6,3,0,Latvia,Estonia
+303,19,Croatia,Czech Republic,5,4,0,Croatia,Czech Republic
+304,20,France,Slovakia,1,2,0,Slovakia,France
+305,20,China,Czech Republic,1,4,0,Czech Republic,China
+306,20,Canada,Ukraine,5,2,0,Canada,Ukraine
+307,20,Denmark,Switzerland,2,3,0,Switzerland,Denmark
+308,20,Kazakhstan,Finland,0,4,0,Finland,Kazakhstan
+309,20,Great Britain,Norway,4,3,1,Great Britain,Norway
+310,20,Russia,Latvia,7,0,0,Russia,Latvia
+311,20,Estonia,Japan,7,2,0,Estonia,Japan
+312,20,Lithuania,Belarus,2,1,0,Lithuania,Belarus
+313,20,Italy,Sweden,8,3,0,Italy,Sweden
+314,20,Hungary,Spain,5,2,0,Hungary,Spain
+315,20,Romania,Netherlands,2,3,1,Netherlands,Romania
+316,20,South Korea,Germany,4,3,1,South Korea,Germany
+317,20,Austria,Belgium,2,3,1,Belgium,Austria
+318,20,United States,Slovenia,4,3,1,United States,Slovenia
+319,20,Croatia,Poland,4,3,1,Croatia,Poland
+320,21,France,Slovakia,2,5,0,Slovakia,France
+321,21,Czech Republic,Denmark,3,2,0,Czech Republic,Denmark
+322,21,Norway,Lithuania,3,5,0,Lithuania,Norway
+323,21,Finland,Austria,4,3,1,Finland,Austria
+324,21,China,Belarus,3,5,0,Belarus,China
+325,21,United States,Great Britain,4,5,1,Great Britain,United States
+326,21,Croatia,Ukraine,0,1,0,Ukraine,Croatia
+327,21,Estonia,Romania,2,3,0,Romania,Estonia
+328,21,Hungary,Slovenia,6,5,1,Hungary,Slovenia
+329,21,Netherlands,Belgium,2,5,0,Belgium,Netherlands
+330,21,Italy,Sweden,5,2,0,Italy,Sweden
+331,21,Spain,Poland,3,2,0,Spain,Poland
+332,21,Germany,Switzerland,1,3,0,Switzerland,Germany
+333,21,Japan,Kazakhstan,2,3,0,Kazakhstan,Japan
+334,21,Canada,Latvia,5,4,0,Canada,Latvia
+335,21,Russia,South Korea,1,2,0,South Korea,Russia
+336,22,France,China,5,0,0,France,China
+337,22,Denmark,Norway,2,3,0,Norway,Denmark
+338,22,Czech Republic,Germany,2,5,0,Germany,Czech Republic
+339,22,Slovakia,Sweden,4,2,0,Slovakia,Sweden
+340,22,South Korea,Belarus,3,4,0,Belarus,South Korea
+341,22,Finland,Croatia,7,0,0,Finland,Croatia
+342,22,Hungary,United States,4,3,1,Hungary,United States
+343,22,Slovenia,Ukraine,0,4,0,Ukraine,Slovenia
+344,22,Great Britain,Canada,2,1,0,Great Britain,Canada
+345,22,Austria,Switzerland,5,1,0,Austria,Switzerland
+346,22,Lithuania,Latvia,4,3,0,Lithuania,Latvia
+347,22,Estonia,Poland,2,1,1,Estonia,Poland
+348,22,Romania,Russia,3,1,0,Romania,Russia
+349,22,Japan,Netherlands,4,3,1,Japan,Netherlands
+350,22,Spain,Italy,5,6,1,Italy,Spain
+351,22,Belgium,Kazakhstan,2,1,0,Belgium,Kazakhstan
+352,23,Romania,France,3,4,0,France,Romania
+353,23,Norway,Finland,3,2,0,Norway,Finland
+354,23,China,Austria,9,3,0,China,Austria
+355,23,Denmark,Slovenia,5,6,0,Slovenia,Denmark
+356,23,Czech Republic,Switzerland,7,3,0,Czech Republic,Switzerland
+357,23,Slovakia,United States,3,1,0,Slovakia,United States
+358,23,South Korea,Ukraine,4,5,0,Ukraine,South Korea
+359,23,Belarus,Estonia,4,1,0,Belarus,Estonia
+360,23,Great Britain,Germany,4,3,1,Great Britain,Germany
+361,23,Russia,Belgium,5,2,0,Russia,Belgium
+362,23,Lithuania,Japan,2,1,0,Lithuania,Japan
+363,23,Kazakhstan,Sweden,5,3,0,Kazakhstan,Sweden
+364,23,Canada,Poland,3,1,0,Canada,Poland
+365,23,Croatia,Netherlands,5,1,0,Croatia,Netherlands
+366,23,Italy,Latvia,5,6,1,Latvia,Italy
+367,23,Hungary,Spain,5,4,1,Hungary,Spain
+368,24,France,Russia,0,1,0,Russia,France
+369,24,China,Switzerland,3,4,1,Switzerland,China
+370,24,Belarus,Czech Republic,3,0,0,Belarus,Czech Republic
+371,24,Denmark,Canada,4,1,0,Denmark,Canada
+372,24,Finland,United States,3,2,1,Finland,United States
+373,24,Slovakia,Norway,0,1,0,Norway,Slovakia
+374,24,Slovenia,Romania,4,5,1,Romania,Slovenia
+375,24,Germany,Sweden,2,7,0,Sweden,Germany
+376,24,Kazakhstan,Lithuania,0,1,0,Lithuania,Kazakhstan
+377,24,Poland,Great Britain,2,1,1,Poland,Great Britain
+378,24,Belgium,Ukraine,6,3,0,Belgium,Ukraine
+379,24,Estonia,South Korea,4,3,0,Estonia,South Korea
+380,24,Austria,Hungary,3,0,0,Austria,Hungary
+381,24,Netherlands,Spain,5,4,0,Netherlands,Spain
+382,24,Japan,Italy,5,4,1,Japan,Italy
+383,24,Latvia,Croatia,6,2,0,Latvia,Croatia
+384,25,China,Netherlands,5,4,0,China,Netherlands
+385,25,Great Britain,Denmark,5,4,0,Great Britain,Denmark
+386,25,Slovenia,Slovakia,2,1,0,Slovenia,Slovakia
+387,25,Czech Republic,Romania,3,2,0,Czech Republic,Romania
+388,25,Spain,Norway,2,4,0,Norway,Spain
+389,25,Poland,France,4,6,0,France,Poland
+390,25,United States,Canada,3,2,0,United States,Canada
+391,25,Hungary,Switzerland,3,1,0,Hungary,Switzerland
+392,25,Austria,Russia,1,5,0,Russia,Austria
+393,25,Germany,Croatia,5,3,0,Germany,Croatia
+394,25,Lithuania,Italy,3,0,0,Lithuania,Italy
+395,25,Estonia,Finland,1,2,0,Finland,Estonia
+396,25,Kazakhstan,Ukraine,2,4,0,Ukraine,Kazakhstan
+397,25,Sweden,Japan,2,3,1,Japan,Sweden
+398,25,Belgium,South Korea,2,3,1,South Korea,Belgium
+399,25,Belarus,Latvia,3,7,0,Latvia,Belarus
+400,26,Switzerland,China,2,1,0,Switzerland,China
+401,26,Russia,Czech Republic,5,0,0,Russia,Czech Republic
+402,26,Great Britain,France,3,2,1,Great Britain,France
+403,26,Slovakia,Ukraine,3,1,0,Slovakia,Ukraine
+404,26,Denmark,United States,2,1,0,Denmark,United States
+405,26,Belarus,Norway,1,4,0,Norway,Belarus
+406,26,Romania,Slovenia,4,6,0,Slovenia,Romania
+407,26,Finland,Netherlands,1,5,0,Netherlands,Finland
+408,26,Hungary,Belgium,4,2,0,Hungary,Belgium
+409,26,Poland,Spain,4,3,1,Poland,Spain
+410,26,Austria,Germany,4,3,1,Austria,Germany
+411,26,South Korea,Croatia,3,4,0,Croatia,South Korea
+412,26,Italy,Estonia,3,0,0,Italy,Estonia
+413,26,Sweden,Latvia,2,4,0,Latvia,Sweden
+414,26,Canada,Japan,3,1,0,Canada,Japan
+415,26,Kazakhstan,Lithuania,3,5,0,Lithuania,Kazakhstan
+416,27,China,Kazakhstan,4,3,1,China,Kazakhstan
+417,27,Czech Republic,Great Britain,0,5,0,Great Britain,Czech Republic
+418,27,Norway,Switzerland,4,5,1,Switzerland,Norway
+419,27,Lithuania,Slovakia,2,5,0,Slovakia,Lithuania
+420,27,Denmark,Italy,3,4,1,Italy,Denmark
+421,27,Germany,France,3,6,0,France,Germany
+422,27,Hungary,Belarus,1,2,0,Belarus,Hungary
+423,27,Ukraine,Canada,3,4,1,Canada,Ukraine
+424,27,Latvia,Slovenia,5,2,0,Latvia,Slovenia
+425,27,Belgium,Poland,2,3,0,Poland,Belgium
+426,27,Austria,United States,5,6,0,United States,Austria
+427,27,Russia,Finland,7,4,0,Russia,Finland
+428,27,Sweden,South Korea,4,5,0,South Korea,Sweden
+429,27,Estonia,Spain,5,4,1,Estonia,Spain
+430,27,Croatia,Romania,1,3,0,Romania,Croatia
+431,27,Japan,Netherlands,6,2,0,Japan,Netherlands
+432,28,Belgium,China,2,3,0,China,Belgium
+433,28,Switzerland,Czech Republic,3,2,0,Switzerland,Czech Republic
+434,28,Romania,Great Britain,4,2,0,Romania,Great Britain
+435,28,Norway,Denmark,3,4,1,Denmark,Norway
+436,28,Slovakia,Latvia,4,0,0,Slovakia,Latvia
+437,28,France,Netherlands,5,6,1,Netherlands,France
+438,28,Poland,Finland,4,6,0,Finland,Poland
+439,28,United States,Estonia,3,4,1,Estonia,United States
+440,28,Hungary,Lithuania,5,6,0,Lithuania,Hungary
+441,28,Ukraine,Japan,7,4,0,Ukraine,Japan
+442,28,Belarus,Italy,5,1,0,Belarus,Italy
+443,28,South Korea,Sweden,6,5,1,South Korea,Sweden
+444,28,Germany,Russia,0,6,0,Russia,Germany
+445,28,Slovenia,Spain,6,3,0,Slovenia,Spain
+446,28,Austria,Canada,1,7,0,Canada,Austria
+447,29,China,South Korea,5,0,0,China,South Korea
+448,29,Hungary,Czech Republic,6,5,1,Hungary,Czech Republic
+449,29,Norway,Sweden,4,5,0,Sweden,Norway
+450,29,Slovakia,Lithuania,2,6,0,Lithuania,Slovakia
+451,29,Slovenia,Great Britain,5,4,1,Slovenia,Great Britain
+452,29,Austria,Denmark,3,4,0,Denmark,Austria
+453,29,Finland,Latvia,2,5,0,Latvia,Finland
+454,29,Canada,France,3,1,0,Canada,France
+455,29,Russia,Romania,4,0,0,Russia,Romania
+456,29,Germany,United States,2,3,0,United States,Germany
+457,29,Belarus,Japan,4,1,0,Belarus,Japan
+458,29,Kazakhstan,Belgium,2,5,0,Belgium,Kazakhstan
+459,29,Estonia,Ukraine,5,1,0,Estonia,Ukraine
+460,29,Netherlands,Spain,9,1,0,Netherlands,Spain
+461,29,Switzerland,Italy,7,5,0,Switzerland,Italy
+462,29,Croatia,Poland,2,6,0,Poland,Croatia
+463,30,China,Latvia,6,4,0,China,Latvia
+464,30,Czech Republic,Slovakia,1,2,1,Slovakia,Czech Republic
+465,30,Norway,Austria,3,1,0,Norway,Austria
+466,30,Denmark,Estonia,2,4,0,Estonia,Denmark
+467,30,Switzerland,Hungary,2,1,0,Switzerland,Hungary
+468,30,Great Britain,Slovenia,3,2,0,Great Britain,Slovenia
+469,30,Ukraine,France,2,3,1,France,Ukraine
+470,30,Kazakhstan,Romania,1,3,0,Romania,Kazakhstan
+471,30,Belgium,Canada,5,2,0,Belgium,Canada
+472,30,Finland,Sweden,7,6,0,Finland,Sweden
+473,30,Belarus,Croatia,4,6,0,Croatia,Belarus
+474,30,Lithuania,Netherlands,3,2,0,Lithuania,Netherlands
+475,30,United States,Russia,2,5,0,Russia,United States
+476,30,Japan,Germany,2,3,0,Germany,Japan
+477,30,South Korea,Poland,2,3,0,Poland,South Korea
+478,30,Italy,Spain,3,2,1,Italy,Spain
+479,31,Japan,China,4,5,1,China,Japan
+480,31,Netherlands,Norway,2,3,0,Norway,Netherlands
+481,31,Italy,Czech Republic,4,3,0,Italy,Czech Republic
+482,31,Denmark,United States,2,6,0,United States,Denmark
+483,31,Belgium,Slovakia,4,3,0,Belgium,Slovakia
+484,31,Great Britain,France,2,3,0,France,Great Britain
+485,31,Austria,Switzerland,1,5,0,Switzerland,Austria
+486,31,Slovenia,Lithuania,4,3,1,Slovenia,Lithuania
+487,31,Kazakhstan,Romania,1,2,0,Romania,Kazakhstan
+488,31,Spain,Ukraine,5,4,1,Spain,Ukraine
+489,31,Sweden,Estonia,7,6,0,Sweden,Estonia
+490,31,Hungary,Poland,1,3,0,Poland,Hungary
+491,31,Russia,Belarus,7,4,0,Russia,Belarus
+492,31,Germany,Finland,3,4,0,Finland,Germany
+493,31,South Korea,Latvia,4,3,1,South Korea,Latvia
+494,31,Canada,Croatia,4,2,0,Canada,Croatia
+495,32,China,South Korea,6,0,0,China,South Korea
+496,32,Russia,Czech Republic,6,7,0,Czech Republic,Russia
+497,32,Denmark,France,5,4,0,Denmark,France
+498,32,Canada,Slovakia,5,4,1,Canada,Slovakia
+499,32,Germany,Switzerland,2,8,0,Switzerland,Germany
+500,32,Poland,Kazakhstan,5,2,0,Poland,Kazakhstan
+501,32,Great Britain,Japan,2,1,0,Great Britain,Japan
+502,32,Norway,Spain,3,4,1,Spain,Norway
+503,32,Finland,Sweden,1,3,0,Sweden,Finland
+504,32,Hungary,Netherlands,2,3,0,Netherlands,Hungary
+505,32,Ukraine,Croatia,3,1,0,Ukraine,Croatia
+506,32,Belgium,Lithuania,6,3,0,Belgium,Lithuania
+507,32,Austria,Belarus,7,3,0,Austria,Belarus
+508,32,Latvia,Romania,3,2,1,Latvia,Romania
+509,32,Slovenia,United States,3,4,1,United States,Slovenia
+510,32,Estonia,Italy,3,4,0,Italy,Estonia
+511,33,China,Lithuania,3,2,1,China,Lithuania
+512,33,Czech Republic,Finland,5,3,0,Czech Republic,Finland
+513,33,Norway,Slovakia,4,2,0,Norway,Slovakia
+514,33,Denmark,Sweden,3,4,0,Sweden,Denmark
+515,33,Belarus,France,5,6,0,France,Belarus
+516,33,Canada,Switzerland,6,5,0,Canada,Switzerland
+517,33,Poland,Belgium,0,7,0,Belgium,Poland
+518,33,Russia,Estonia,5,1,0,Russia,Estonia
+519,33,Japan,Hungary,3,1,0,Japan,Hungary
+520,33,South Korea,Ukraine,2,5,0,Ukraine,South Korea
+521,33,Netherlands,Austria,2,3,0,Austria,Netherlands
+522,33,Italy,Kazakhstan,3,1,0,Italy,Kazakhstan
+523,33,Spain,Romania,1,5,0,Romania,Spain
+524,33,Germany,Latvia,3,4,0,Latvia,Germany
+525,33,United States,Croatia,3,4,1,Croatia,United States
+526,34,Czech Republic,Switzerland,8,4,0,Czech Republic,Switzerland
+527,34,France,Latvia,2,3,0,Latvia,France
+528,34,Slovakia,United States,4,3,1,Slovakia,United States
+529,34,Italy,Denmark,6,5,0,Italy,Denmark
+530,34,China,Croatia,3,7,0,Croatia,China
+531,34,Belgium,Spain,4,1,0,Belgium,Spain
+532,34,Great Britain,Belarus,2,1,0,Great Britain,Belarus
+533,34,Sweden,Ukraine,1,2,0,Ukraine,Sweden
+534,34,Finland,Romania,3,1,0,Finland,Romania
+535,34,Norway,Estonia,2,1,1,Norway,Estonia
+536,34,South Korea,Lithuania,3,7,0,Lithuania,South Korea
+537,34,Netherlands,Russia,4,3,1,Netherlands,Russia
+538,34,Kazakhstan,Slovenia,1,3,0,Slovenia,Kazakhstan
+539,34,Hungary,Austria,5,1,0,Hungary,Austria
+540,34,Japan,Poland,3,2,0,Japan,Poland
+541,34,Canada,Germany,3,2,1,Canada,Germany
+542,35,Finland,Czech Republic,5,4,1,Finland,Czech Republic
+543,35,France,Hungary,6,3,0,France,Hungary
+544,35,Netherlands,Slovakia,2,3,0,Slovakia,Netherlands
+545,35,Canada,Denmark,8,0,0,Canada,Denmark
+546,35,China,Russia,2,4,0,Russia,China
+547,35,Great Britain,Switzerland,4,5,1,Switzerland,Great Britain
+548,35,Japan,Belgium,3,2,0,Japan,Belgium
+549,35,Sweden,Norway,2,4,0,Norway,Sweden
+550,35,Latvia,Poland,2,1,0,Latvia,Poland
+551,35,United States,Lithuania,5,4,1,United States,Lithuania
+552,35,Italy,Ukraine,7,2,0,Italy,Ukraine
+553,35,Germany,Belarus,3,4,0,Belarus,Germany
+554,35,Spain,Kazakhstan,5,1,0,Spain,Kazakhstan
+555,35,South Korea,Estonia,1,2,0,Estonia,South Korea
+556,35,Romania,Croatia,1,3,0,Croatia,Romania
+557,35,Slovenia,Austria,6,0,0,Slovenia,Austria
+558,36,Czech Republic,Ukraine,1,2,1,Ukraine,Czech Republic
+559,36,Hungary,Denmark,4,2,0,Hungary,Denmark
+560,36,Netherlands,France,4,0,0,Netherlands,France
+561,36,Russia,Slovakia,1,2,0,Slovakia,Russia
+562,36,China,Japan,7,6,0,China,Japan
+563,36,Latvia,Belgium,3,4,0,Belgium,Latvia
+564,36,Lithuania,Great Britain,1,6,0,Great Britain,Lithuania
+565,36,Canada,Belarus,6,3,0,Canada,Belarus
+566,36,Finland,Italy,5,2,0,Finland,Italy
+567,36,Norway,Poland,7,2,0,Norway,Poland
+568,36,Romania,United States,4,2,0,Romania,United States
+569,36,Estonia,Kazakhstan,4,3,1,Estonia,Kazakhstan
+570,36,Switzerland,Austria,4,3,0,Switzerland,Austria
+571,36,Spain,Slovenia,3,5,0,Slovenia,Spain
+572,36,Sweden,Croatia,5,6,1,Croatia,Sweden
+573,37,Belarus,Czech Republic,1,2,0,Czech Republic,Belarus
+574,37,Denmark,Great Britain,3,4,0,Great Britain,Denmark
+575,37,France,Croatia,1,6,0,Croatia,France
+576,37,Slovakia,Italy,3,5,0,Italy,Slovakia
+577,37,China,Hungary,2,1,1,China,Hungary
+578,37,Belgium,Slovenia,2,3,1,Slovenia,Belgium
+579,37,Lithuania,Poland,6,3,0,Lithuania,Poland
+580,37,Netherlands,Romania,5,2,0,Netherlands,Romania
+581,37,Estonia,Canada,3,9,0,Canada,Estonia
+582,37,Japan,Ukraine,5,1,0,Japan,Ukraine
+583,37,Finland,Switzerland,5,3,0,Finland,Switzerland
+584,37,Austria,Russia,2,3,1,Russia,Austria
+585,37,Kazakhstan,United States,2,3,1,United States,Kazakhstan
+586,37,Germany,Sweden,4,3,1,Germany,Sweden
+587,37,Latvia,Spain,3,0,0,Latvia,Spain
+588,37,Norway,South Korea,6,0,0,Norway,South Korea
+589,38,Czech Republic,Sweden,3,2,1,Czech Republic,Sweden
+590,38,Denmark,Switzerland,1,7,0,Switzerland,Denmark
+591,38,France,South Korea,5,6,0,South Korea,France
+592,38,Russia,Slovakia,3,4,0,Slovakia,Russia
+593,38,China,Slovenia,1,5,0,Slovenia,China
+594,38,Canada,Belgium,3,1,0,Canada,Belgium
+595,38,Romania,Hungary,2,3,0,Hungary,Romania
+596,38,Germany,Lithuania,4,5,1,Lithuania,Germany
+597,38,Austria,Great Britain,5,2,0,Austria,Great Britain
+598,38,United States,Ukraine,4,3,0,United States,Ukraine
+599,38,Japan,Finland,2,1,0,Japan,Finland
+600,38,Norway,Netherlands,4,3,0,Norway,Netherlands
+601,38,Belarus,Spain,3,2,1,Belarus,Spain
+602,38,Poland,Latvia,1,6,0,Latvia,Poland
+603,38,Italy,Croatia,2,4,0,Croatia,Italy
+604,38,Kazakhstan,Estonia,1,0,0,Kazakhstan,Estonia
+605,39,Latvia,Czech Republic,4,2,0,Latvia,Czech Republic
+606,39,France,Great Britain,4,10,0,Great Britain,France
+607,39,Slovakia,Netherlands,6,3,0,Slovakia,Netherlands
+608,39,Denmark,Norway,5,4,1,Denmark,Norway
+609,39,China,Spain,5,1,0,China,Spain
+610,39,Belgium,Estonia,3,4,1,Estonia,Belgium
+611,39,Sweden,Hungary,6,3,0,Sweden,Hungary
+612,39,Lithuania,Ukraine,4,5,0,Ukraine,Lithuania
+613,39,Canada,Italy,3,1,0,Canada,Italy
+614,39,Belarus,Poland,1,2,1,Poland,Belarus
+615,39,Russia,Slovenia,2,3,0,Slovenia,Russia
+616,39,Austria,Finland,4,3,0,Austria,Finland
+617,39,Japan,South Korea,5,2,0,Japan,South Korea
+618,39,Romania,Croatia,2,3,0,Croatia,Romania
+619,39,Germany,Kazakhstan,7,5,0,Germany,Kazakhstan
+620,39,Switzerland,United States,3,4,0,United States,Switzerland
+621,40,Czech Republic,France,2,6,0,France,Czech Republic
+622,40,Slovakia,Poland,2,3,1,Poland,Slovakia
+623,40,Great Britain,Russia,4,2,0,Great Britain,Russia
+624,40,China,Latvia,5,4,1,China,Latvia
+625,40,Lithuania,Norway,3,2,0,Lithuania,Norway
+626,40,Belarus,Hungary,1,2,0,Hungary,Belarus
+627,40,Belgium,Netherlands,5,4,0,Belgium,Netherlands
+628,40,Croatia,Denmark,7,6,1,Croatia,Denmark
+629,40,Ukraine,Kazakhstan,3,1,0,Ukraine,Kazakhstan
+630,40,Romania,Canada,3,2,0,Romania,Canada
+631,40,Finland,Spain,3,2,1,Finland,Spain
+632,40,Sweden,Italy,2,3,0,Italy,Sweden
+633,40,Austria,Germany,3,4,0,Germany,Austria
+634,40,Switzerland,Japan,2,1,0,Switzerland,Japan
+635,40,United States,South Korea,2,5,0,South Korea,United States
+636,40,Slovenia,Estonia,2,1,0,Slovenia,Estonia
+637,41,France,Czech Republic,7,2,0,France,Czech Republic
+638,41,Slovakia,Switzerland,4,0,0,Slovakia,Switzerland
+639,41,Romania,China,1,4,0,China,Romania
+640,41,Norway,Hungary,4,3,1,Norway,Hungary
+641,41,Germany,Belgium,4,3,0,Germany,Belgium
+642,41,Japan,Lithuania,2,1,0,Japan,Lithuania
+643,41,Canada,Russia,4,5,1,Russia,Canada
+644,41,Belarus,Finland,2,3,0,Finland,Belarus
+645,41,Netherlands,Italy,3,2,0,Netherlands,Italy
+646,41,Ukraine,United States,4,3,1,Ukraine,United States
+647,41,Great Britain,Spain,6,4,0,Great Britain,Spain
+648,41,Kazakhstan,Denmark,5,6,1,Denmark,Kazakhstan
+649,41,Austria,Croatia,3,5,0,Croatia,Austria
+650,41,Sweden,Poland,3,2,0,Sweden,Poland
+651,41,Latvia,Slovenia,3,2,0,Latvia,Slovenia
+652,41,Estonia,South Korea,5,2,0,Estonia,South Korea
+653,42,Slovenia,Czech Republic,8,7,1,Slovenia,Czech Republic
+654,42,France,Canada,3,1,0,France,Canada
+655,42,Germany,Slovakia,3,4,1,Slovakia,Germany
+656,42,Estonia,Hungary,2,4,0,Hungary,Estonia
+657,42,Denmark,Norway,4,5,0,Norway,Denmark
+658,42,Lithuania,Spain,4,5,0,Spain,Lithuania
+659,42,China,Poland,3,4,1,Poland,China
+660,42,Belgium,South Korea,1,3,0,South Korea,Belgium
+661,42,Switzerland,Belarus,3,2,0,Switzerland,Belarus
+662,42,Great Britain,Sweden,4,3,0,Great Britain,Sweden
+663,42,Ukraine,Russia,4,3,0,Ukraine,Russia
+664,42,Japan,Latvia,5,4,1,Japan,Latvia
+665,42,Austria,Italy,5,3,0,Austria,Italy
+666,42,Kazakhstan,Netherlands,4,1,0,Kazakhstan,Netherlands
+667,42,Croatia,Romania,1,3,0,Romania,Croatia
+668,42,United States,Finland,2,3,0,Finland,United States
+669,43,Belgium,Czech Republic,2,3,0,Czech Republic,Belgium
+670,43,Austria,France,1,6,0,France,Austria
+671,43,Russia,Slovakia,4,5,1,Slovakia,Russia
+672,43,Hungary,Ukraine,5,1,0,Hungary,Ukraine
+673,43,Poland,Lithuania,2,3,1,Lithuania,Poland
+674,43,Norway,Japan,3,4,1,Japan,Norway
+675,43,Netherlands,China,1,3,0,China,Netherlands
+676,43,Italy,Belarus,5,2,0,Italy,Belarus
+677,43,Canada,United States,2,6,0,United States,Canada
+678,43,South Korea,Romania,2,3,0,Romania,South Korea
+679,43,Denmark,Spain,6,1,0,Denmark,Spain
+680,43,Great Britain,Kazakhstan,3,1,0,Great Britain,Kazakhstan
+681,43,Switzerland,Estonia,3,2,0,Switzerland,Estonia
+682,43,Croatia,Germany,1,5,0,Germany,Croatia
+683,43,Slovenia,Sweden,2,3,1,Sweden,Slovenia
+684,44,Canada,Czech Republic,4,1,0,Canada,Czech Republic
+685,44,France,Germany,3,2,1,France,Germany
+686,44,Norway,Slovakia,2,4,0,Slovakia,Norway
+687,44,Hungary,Lithuania,1,3,0,Lithuania,Hungary
+688,44,China,Romania,2,1,1,China,Romania
+689,44,Japan,Denmark,3,2,0,Japan,Denmark
+690,44,Belarus,Belgium,3,2,0,Belarus,Belgium
+691,44,Ukraine,Switzerland,3,4,0,Switzerland,Ukraine
+692,44,Russia,Kazakhstan,1,6,0,Kazakhstan,Russia
+693,44,South Korea,Great Britain,3,2,1,South Korea,Great Britain
+694,44,Netherlands,Poland,4,2,0,Netherlands,Poland
+695,44,Spain,United States,3,2,0,Spain,United States
+696,44,Austria,Latvia,2,4,0,Latvia,Austria
+697,44,Croatia,Finland,3,6,0,Finland,Croatia
+698,44,Italy,Slovenia,3,6,0,Slovenia,Italy
+699,45,Czech Republic,Netherlands,5,3,0,Czech Republic,Netherlands
+700,45,Belarus,Slovakia,3,5,0,Slovakia,Belarus
+701,45,France,Spain,4,5,1,Spain,France
+702,45,Germany,Ukraine,5,4,1,Germany,Ukraine
+703,45,Lithuania,Finland,1,2,0,Finland,Lithuania
+704,45,Slovenia,Hungary,1,2,0,Hungary,Slovenia
+705,45,China,Norway,3,2,0,China,Norway
+706,45,Italy,Canada,6,4,0,Italy,Canada
+707,45,Denmark,Japan,2,3,0,Japan,Denmark
+708,45,Belgium,Croatia,3,1,0,Belgium,Croatia
+709,45,Great Britain,Romania,2,3,1,Romania,Great Britain
+710,45,Poland,United States,2,7,0,United States,Poland
+711,45,Kazakhstan,Austria,3,4,1,Austria,Kazakhstan
+712,45,Switzerland,South Korea,2,3,0,South Korea,Switzerland
+713,45,Russia,Sweden,2,3,0,Sweden,Russia
+714,45,Latvia,Estonia,3,6,0,Estonia,Latvia
+715,46,Czech Republic,United States,2,4,0,United States,Czech Republic
+716,46,France,Ukraine,5,4,1,France,Ukraine
+717,46,Japan,Slovakia,1,3,0,Slovakia,Japan
+718,46,Lithuania,Germany,5,4,0,Lithuania,Germany
+719,46,Hungary,Canada,3,0,0,Hungary,Canada
+720,46,Belarus,Russia,1,3,0,Russia,Belarus
+721,46,Slovenia,China,5,2,0,Slovenia,China
+722,46,Denmark,Italy,5,6,1,Italy,Denmark
+723,46,Poland,Spain,4,5,1,Spain,Poland
+724,46,Netherlands,Latvia,5,3,0,Netherlands,Latvia
+725,46,Austria,Great Britain,0,7,0,Great Britain,Austria
+726,46,Belgium,Norway,3,2,0,Belgium,Norway
+727,46,Romania,South Korea,1,2,0,South Korea,Romania
+728,46,Switzerland,Finland,2,0,0,Switzerland,Finland
+729,46,Croatia,Estonia,6,1,0,Croatia,Estonia
+730,47,Czech Republic,Latvia,4,3,1,Czech Republic,Latvia
+731,47,United States,Slovakia,7,2,0,United States,Slovakia
+732,47,Sweden,France,0,9,0,France,Sweden
+733,47,Hungary,Japan,3,4,1,Japan,Hungary
+734,47,China,Spain,1,2,1,Spain,China
+735,47,Belarus,Denmark,6,1,0,Belarus,Denmark
+736,47,Austria,Lithuania,5,2,0,Austria,Lithuania
+737,47,Slovenia,Canada,5,7,0,Canada,Slovenia
+738,47,Russia,Croatia,6,1,0,Russia,Croatia
+739,47,Italy,Norway,6,7,1,Norway,Italy
+740,47,Belgium,Poland,3,1,0,Belgium,Poland
+741,47,Estonia,Netherlands,7,6,0,Estonia,Netherlands
+742,47,Finland,Great Britain,2,1,0,Finland,Great Britain
+743,47,Ukraine,South Korea,1,5,0,South Korea,Ukraine
+744,47,Switzerland,Germany,1,4,0,Germany,Switzerland
+745,47,Romania,Kazakhstan,4,3,1,Romania,Kazakhstan
+746,48,Czech Republic,Estonia,3,5,0,Estonia,Czech Republic
+747,48,Latvia,Slovakia,4,3,1,Latvia,Slovakia
+748,48,China,France,6,5,1,China,France
+749,48,Finland,Belarus,7,3,0,Finland,Belarus
+750,48,Belgium,Japan,1,2,0,Japan,Belgium
+751,48,Norway,United States,0,3,0,United States,Norway
+752,48,Croatia,Lithuania,2,1,0,Croatia,Lithuania
+753,48,Canada,Hungary,3,4,1,Hungary,Canada
+754,48,Austria,Ukraine,1,0,0,Austria,Ukraine
+755,48,Italy,Switzerland,7,8,1,Switzerland,Italy
+756,48,Netherlands,Sweden,4,3,1,Netherlands,Sweden
+757,48,Russia,Germany,4,3,1,Russia,Germany
+758,48,Romania,Slovenia,3,2,0,Romania,Slovenia
+759,48,Great Britain,South Korea,7,2,0,Great Britain,South Korea
+760,48,Poland,Denmark,4,5,0,Denmark,Poland
+761,48,Kazakhstan,Spain,5,3,0,Kazakhstan,Spain
+762,49,Czech Republic,Kazakhstan,3,4,0,Kazakhstan,Czech Republic
+763,49,Slovakia,Russia,2,1,0,Slovakia,Russia
+764,49,South Korea,France,3,2,1,South Korea,France
+765,49,Latvia,Lithuania,4,5,0,Lithuania,Latvia
+766,49,China,Denmark,4,3,1,China,Denmark
+767,49,Belarus,Ukraine,2,1,0,Belarus,Ukraine
+768,49,Canada,Romania,5,4,1,Canada,Romania
+769,49,Hungary,Slovenia,3,8,0,Slovenia,Hungary
+770,49,Poland,Japan,3,4,1,Japan,Poland
+771,49,Switzerland,Italy,3,2,0,Switzerland,Italy
+772,49,Netherlands,Spain,2,3,1,Spain,Netherlands
+773,49,Germany,Norway,0,6,0,Norway,Germany
+774,49,Sweden,United States,1,2,1,United States,Sweden
+775,49,Belgium,Croatia,2,1,0,Belgium,Croatia
+776,49,Estonia,Austria,6,1,0,Estonia,Austria
+777,49,Great Britain,Finland,4,6,0,Finland,Great Britain
+778,50,Czech Republic,Italy,3,2,0,Czech Republic,Italy
+779,50,Great Britain,Slovakia,7,1,0,Great Britain,Slovakia
+780,50,France,United States,2,5,0,United States,France
+781,50,Finland,Lithuania,3,4,1,Lithuania,Finland
+782,50,Sweden,Canada,3,4,1,Canada,Sweden
+783,50,Croatia,Ukraine,2,5,0,Ukraine,Croatia
+784,50,Slovenia,Belarus,2,3,0,Belarus,Slovenia
+785,50,Estonia,Hungary,2,5,0,Hungary,Estonia
+786,50,China,Germany,5,3,0,China,Germany
+787,50,Denmark,Austria,6,5,1,Denmark,Austria
+788,50,Russia,Poland,4,3,0,Russia,Poland
+789,50,South Korea,Japan,4,3,1,South Korea,Japan
+790,50,Belgium,Kazakhstan,1,2,0,Kazakhstan,Belgium
+791,50,Spain,Netherlands,1,5,0,Netherlands,Spain
+792,50,Romania,Latvia,1,2,0,Latvia,Romania
+793,50,Switzerland,Norway,3,4,1,Norway,Switzerland
+794,51,Romania,Czech Republic,1,3,0,Czech Republic,Romania
+795,51,Slovakia,Kazakhstan,1,3,0,Kazakhstan,Slovakia
+796,51,Lithuania,France,4,1,0,Lithuania,France
+797,51,China,United States,1,2,0,United States,China
+798,51,Japan,Ukraine,2,0,0,Japan,Ukraine
+799,51,Belarus,Sweden,3,0,0,Belarus,Sweden
+800,51,Norway,Canada,6,2,0,Norway,Canada
+801,51,Denmark,Croatia,4,5,0,Croatia,Denmark
+802,51,Finland,Russia,0,2,0,Russia,Finland
+803,51,Latvia,Great Britain,2,7,0,Great Britain,Latvia
+804,51,Germany,Austria,5,4,0,Germany,Austria
+805,51,Italy,Switzerland,3,0,0,Italy,Switzerland
+806,51,Hungary,South Korea,0,3,0,South Korea,Hungary
+807,51,Belgium,Netherlands,4,5,0,Netherlands,Belgium
+808,51,Slovenia,Poland,4,6,0,Poland,Slovenia
+809,51,Estonia,Spain,4,3,0,Estonia,Spain
+810,52,Czech Republic,Sweden,3,1,0,Czech Republic,Sweden
+811,52,France,Switzerland,2,3,0,Switzerland,France
+812,52,Lithuania,Belgium,1,7,0,Belgium,Lithuania
+813,52,Denmark,Slovakia,0,3,0,Slovakia,Denmark
+814,52,Estonia,Belarus,3,2,0,Estonia,Belarus
+815,52,Ukraine,Austria,2,3,1,Austria,Ukraine
+816,52,Kazakhstan,Hungary,5,6,1,Hungary,Kazakhstan
+817,52,Japan,Spain,4,2,0,Japan,Spain
+818,52,Canada,Great Britain,4,3,1,Canada,Great Britain
+819,52,China,Finland,2,3,1,Finland,China
+820,52,United States,Germany,3,5,0,Germany,United States
+821,52,Poland,Italy,2,7,0,Italy,Poland
+822,52,Russia,Netherlands,4,2,0,Russia,Netherlands
+823,52,Slovenia,Croatia,6,5,0,Slovenia,Croatia
+824,52,Norway,Latvia,1,2,1,Latvia,Norway
+825,52,Romania,South Korea,0,4,0,South Korea,Romania
+826,53,Sweden,Czech Republic,5,2,0,Sweden,Czech Republic
+827,53,Russia,France,0,1,0,France,Russia
+828,53,Lithuania,United States,3,2,0,Lithuania,United States
+829,53,Belarus,Switzerland,2,7,0,Switzerland,Belarus
+830,53,Austria,Canada,4,5,1,Canada,Austria
+831,53,China,Estonia,3,2,1,China,Estonia
+832,53,Denmark,Finland,5,1,0,Denmark,Finland
+833,53,Ukraine,Latvia,1,3,0,Latvia,Ukraine
+834,53,Germany,Japan,4,1,0,Germany,Japan
+835,53,Kazakhstan,Netherlands,3,2,1,Kazakhstan,Netherlands
+836,53,Croatia,Spain,4,5,1,Spain,Croatia
+837,53,Norway,Belgium,3,0,0,Norway,Belgium
+838,53,Slovakia,Hungary,2,3,0,Hungary,Slovakia
+839,53,Great Britain,Italy,4,5,0,Italy,Great Britain
+840,53,Slovenia,Romania,4,3,1,Slovenia,Romania
+841,53,Poland,South Korea,3,2,1,Poland,South Korea
+842,54,Czech Republic,Poland,7,3,0,Czech Republic,Poland
+843,54,France,Germany,4,5,1,Germany,France
+844,54,Sweden,Belarus,2,5,0,Belarus,Sweden
+845,54,Switzerland,Canada,1,6,0,Canada,Switzerland
+846,54,Lithuania,Estonia,1,2,0,Estonia,Lithuania
+847,54,United States,Denmark,5,1,0,United States,Denmark
+848,54,Austria,Kazakhstan,4,1,0,Austria,Kazakhstan
+849,54,Finland,Norway,2,3,1,Norway,Finland
+850,54,Russia,Ukraine,4,1,0,Russia,Ukraine
+851,54,Italy,Netherlands,4,6,0,Netherlands,Italy
+852,54,Croatia,China,2,6,0,China,Croatia
+853,54,South Korea,Japan,2,4,0,Japan,South Korea
+854,54,Romania,Hungary,5,4,1,Romania,Hungary
+855,54,Spain,Great Britain,0,8,0,Great Britain,Spain
+856,54,Slovenia,Belgium,3,4,1,Belgium,Slovenia
+857,55,Czech Republic,Hungary,2,3,0,Hungary,Czech Republic
+858,55,Croatia,France,2,8,0,France,Croatia
+859,55,Italy,Lithuania,4,1,0,Italy,Lithuania
+860,55,Belarus,Germany,5,4,1,Belarus,Germany
+861,55,Estonia,Ukraine,1,0,0,Estonia,Ukraine
+862,55,Poland,Canada,1,4,0,Canada,Poland
+863,55,Sweden,China,1,3,0,China,Sweden
+864,55,Great Britain,Switzerland,0,3,0,Switzerland,Great Britain
+865,55,Norway,Finland,2,3,0,Finland,Norway
+866,55,Kazakhstan,Russia,2,3,1,Russia,Kazakhstan
+867,55,Austria,Slovakia,0,3,0,Slovakia,Austria
+868,55,Spain,Japan,3,2,0,Spain,Japan
+869,55,Latvia,Denmark,5,4,0,Latvia,Denmark
+870,55,Netherlands,Belgium,1,2,0,Belgium,Netherlands
+871,55,Slovenia,South Korea,6,5,1,Slovenia,South Korea
+872,56,Czech Republic,Austria,4,5,1,Austria,Czech Republic
+873,56,France,Russia,0,4,0,Russia,France
+874,56,Belarus,Lithuania,6,7,1,Lithuania,Belarus
+875,56,Ukraine,Estonia,4,3,1,Ukraine,Estonia
+876,56,United States,Hungary,7,2,0,United States,Hungary
+877,56,Belgium,Sweden,2,1,1,Belgium,Sweden
+878,56,Romania,Germany,4,5,1,Germany,Romania
+879,56,Slovakia,Finland,4,2,0,Slovakia,Finland
+880,56,South Korea,China,2,4,0,China,South Korea
+881,56,Switzerland,Netherlands,2,5,0,Netherlands,Switzerland
+882,56,Croatia,Japan,7,4,0,Croatia,Japan
+883,56,Norway,Great Britain,2,3,0,Great Britain,Norway
+884,56,Canada,Denmark,2,1,1,Canada,Denmark
+885,56,Kazakhstan,Latvia,2,3,1,Latvia,Kazakhstan
+886,56,Poland,Slovenia,3,1,0,Poland,Slovenia
+887,57,Canada,Czech Republic,2,6,0,Czech Republic,Canada
+888,57,Belarus,Russia,1,0,1,Belarus,Russia
+889,57,Estonia,Lithuania,2,3,0,Lithuania,Estonia
+890,57,France,Finland,5,4,0,France,Finland
+891,57,Latvia,Ukraine,4,1,0,Latvia,Ukraine
+892,57,Hungary,Kazakhstan,4,3,1,Hungary,Kazakhstan
+893,57,Austria,Germany,6,4,0,Austria,Germany
+894,57,Denmark,China,1,2,1,China,Denmark
+895,57,Belgium,Switzerland,1,4,0,Switzerland,Belgium
+896,57,Great Britain,Netherlands,6,1,0,Great Britain,Netherlands
+897,57,Croatia,Slovakia,2,4,0,Slovakia,Croatia
+898,57,Japan,Norway,2,3,0,Norway,Japan
+899,57,Italy,United States,3,4,0,United States,Italy
+900,57,Romania,Spain,3,4,0,Spain,Romania
+901,57,Poland,Sweden,5,0,0,Poland,Sweden
+902,57,South Korea,Slovenia,1,4,0,Slovenia,South Korea
+903,58,Czech Republic,Italy,8,7,1,Czech Republic,Italy
+904,58,Canada,France,2,3,1,France,Canada
+905,58,Lithuania,Poland,1,4,0,Poland,Lithuania
+906,58,China,Estonia,1,2,1,Estonia,China
+907,58,United States,Belarus,2,5,0,Belarus,United States
+908,58,Spain,Ukraine,6,1,0,Spain,Ukraine
+909,58,Germany,Slovenia,3,2,1,Germany,Slovenia
+910,58,Belgium,Hungary,0,4,0,Hungary,Belgium
+911,58,Great Britain,Norway,5,3,0,Great Britain,Norway
+912,58,Switzerland,Russia,3,2,0,Switzerland,Russia
+913,58,Latvia,Sweden,3,1,0,Latvia,Sweden
+914,58,Finland,Kazakhstan,1,0,0,Finland,Kazakhstan
+915,58,Romania,Austria,0,1,0,Austria,Romania
+916,58,Croatia,Japan,0,3,0,Japan,Croatia
+917,58,South Korea,Denmark,3,2,0,South Korea,Denmark
+918,59,Czech Republic,Russia,1,5,0,Russia,Czech Republic
+919,59,Estonia,Germany,2,3,1,Germany,Estonia
+920,59,Belarus,Great Britain,3,6,0,Great Britain,Belarus
+921,59,Ukraine,China,0,4,0,China,Ukraine
+922,59,Hungary,Slovenia,3,4,1,Slovenia,Hungary
+923,59,Japan,France,5,3,0,Japan,France
+924,59,Finland,Italy,5,2,0,Finland,Italy
+925,59,Spain,Austria,5,3,0,Spain,Austria
+926,59,United States,Canada,6,12,0,Canada,United States
+927,59,Croatia,Belgium,4,3,0,Croatia,Belgium
+928,59,Netherlands,Poland,4,1,0,Netherlands,Poland
+929,59,Latvia,Switzerland,5,2,0,Latvia,Switzerland
+930,59,Lithuania,Kazakhstan,1,5,0,Kazakhstan,Lithuania
+931,59,Sweden,Romania,2,3,0,Romania,Sweden
+932,59,Denmark,Slovakia,0,2,0,Slovakia,Denmark
+933,60,United States,Czech Republic,2,3,0,Czech Republic,United States
+934,60,Belarus,Finland,0,1,1,Finland,Belarus
+935,60,France,Poland,3,4,0,Poland,France
+936,60,Lithuania,Hungary,2,1,0,Lithuania,Hungary
+937,60,Japan,Spain,1,6,0,Spain,Japan
+938,60,Slovakia,Germany,5,4,0,Slovakia,Germany
+939,60,Russia,China,2,0,0,Russia,China
+940,60,Netherlands,Ukraine,6,4,0,Netherlands,Ukraine
+941,60,South Korea,Canada,3,2,0,South Korea,Canada
+942,60,Croatia,Great Britain,5,4,0,Croatia,Great Britain
+943,60,Switzerland,Kazakhstan,3,0,0,Switzerland,Kazakhstan
+944,60,Denmark,Romania,3,2,1,Denmark,Romania
+945,60,Italy,Norway,5,2,0,Italy,Norway
+946,60,Belgium,Latvia,5,6,0,Latvia,Belgium
+947,60,Austria,Slovenia,2,3,0,Slovenia,Austria
+948,61,Czech Republic,Slovakia,1,5,0,Slovakia,Czech Republic
+949,61,Hungary,Latvia,4,3,0,Hungary,Latvia
+950,61,Canada,Finland,6,0,0,Canada,Finland
+951,61,China,Lithuania,0,5,0,Lithuania,China
+952,61,Belarus,Denmark,2,3,1,Denmark,Belarus
+953,61,Russia,Spain,4,5,0,Spain,Russia
+954,61,Japan,United States,1,7,0,United States,Japan
+955,61,Slovenia,Ukraine,2,3,0,Ukraine,Slovenia
+956,61,Belgium,France,3,2,0,Belgium,France
+957,61,Poland,Austria,2,1,0,Poland,Austria
+958,61,Italy,South Korea,4,2,0,Italy,South Korea
+959,61,Netherlands,Kazakhstan,4,3,0,Netherlands,Kazakhstan
+960,61,Sweden,Switzerland,3,2,0,Sweden,Switzerland
+961,61,Germany,Estonia,4,3,0,Germany,Estonia
+962,61,Croatia,Norway,4,5,1,Norway,Croatia
+963,62,Czech Republic,Norway,2,3,1,Norway,Czech Republic
+964,62,Great Britain,Hungary,5,7,0,Hungary,Great Britain
+965,62,Japan,Latvia,6,5,0,Japan,Latvia
+966,62,Ukraine,Slovakia,2,3,0,Slovakia,Ukraine
+967,62,Russia,Denmark,7,3,0,Russia,Denmark
+968,62,Spain,Switzerland,3,5,0,Switzerland,Spain
+969,62,Belarus,Austria,1,2,0,Austria,Belarus
+970,62,Finland,China,4,3,1,Finland,China
+971,62,Estonia,Lithuania,1,2,1,Lithuania,Estonia
+972,62,France,United States,4,9,0,United States,France
+973,62,Canada,Italy,3,2,0,Canada,Italy
+974,62,Kazakhstan,Slovenia,5,3,0,Kazakhstan,Slovenia
+975,62,Romania,Sweden,6,5,0,Romania,Sweden
+976,62,South Korea,Belgium,4,5,1,Belgium,South Korea
+977,62,Croatia,Netherlands,6,5,1,Croatia,Netherlands
+978,62,Poland,Germany,5,2,0,Poland,Germany
+979,63,Great Britain,Czech Republic,1,2,0,Czech Republic,Great Britain
+980,63,Hungary,Romania,1,2,1,Romania,Hungary
+981,63,Latvia,Japan,5,3,0,Latvia,Japan
+982,63,China,Poland,3,2,1,China,Poland
+983,63,Finland,Russia,2,6,0,Russia,Finland
+984,63,Germany,Denmark,3,0,0,Germany,Denmark
+985,63,Ukraine,Kazakhstan,0,2,0,Kazakhstan,Ukraine
+986,63,Spain,Lithuania,0,1,0,Lithuania,Spain
+987,63,France,Norway,4,1,0,France,Norway
+988,63,United States,Italy,4,5,1,Italy,United States
+989,63,Canada,Switzerland,1,4,0,Switzerland,Canada
+990,63,Belgium,Slovenia,0,1,1,Slovenia,Belgium
+991,63,Netherlands,Estonia,3,5,0,Estonia,Netherlands
+992,63,Slovakia,Belarus,3,2,0,Slovakia,Belarus
+993,63,Croatia,Sweden,6,3,0,Croatia,Sweden
+994,64,Czech Republic,Germany,3,1,0,Czech Republic,Germany
+995,64,Ukraine,Hungary,2,3,1,Hungary,Ukraine
+996,64,China,Italy,7,2,0,China,Italy
+997,64,France,Great Britain,2,6,0,Great Britain,France
+998,64,Latvia,Canada,4,5,1,Canada,Latvia
+999,64,Japan,Estonia,3,4,1,Estonia,Japan
+1000,64,Finland,Denmark,2,3,0,Denmark,Finland
+1001,64,Poland,Russia,2,5,0,Russia,Poland
+1002,64,Croatia,United States,5,4,0,Croatia,United States
+1003,64,Lithuania,Romania,3,2,1,Lithuania,Romania
+1004,64,Kazakhstan,Slovakia,2,5,0,Slovakia,Kazakhstan
+1005,64,Spain,Netherlands,7,1,0,Spain,Netherlands
+1006,64,Norway,Slovenia,3,2,0,Norway,Slovenia
+1007,64,South Korea,Switzerland,0,9,0,Switzerland,South Korea
+1008,64,Belarus,Sweden,2,5,0,Sweden,Belarus
+1009,64,Belgium,Austria,3,1,0,Belgium,Austria
+1010,65,Czech Republic,China,5,1,0,Czech Republic,China
+1011,65,Hungary,Croatia,4,5,1,Croatia,Hungary
+1012,65,Estonia,Russia,3,1,0,Estonia,Russia
+1013,65,Japan,Switzerland,3,0,0,Japan,Switzerland
+1014,65,Denmark,Germany,4,3,0,Denmark,Germany
+1015,65,Finland,France,4,3,1,Finland,France
+1016,65,Lithuania,Latvia,2,3,0,Latvia,Lithuania
+1017,65,Romania,Ukraine,2,3,0,Ukraine,Romania
+1018,65,Italy,Slovakia,1,4,0,Slovakia,Italy
+1019,65,United States,Great Britain,2,6,0,Great Britain,United States
+1020,65,Kazakhstan,Belarus,1,5,0,Belarus,Kazakhstan
+1021,65,Spain,Belgium,2,1,1,Spain,Belgium
+1022,65,Canada,Sweden,4,5,1,Sweden,Canada
+1023,65,Netherlands,Slovenia,1,6,0,Slovenia,Netherlands
+1024,65,Austria,Norway,3,4,0,Norway,Austria
+1025,66,Austria,Czech Republic,2,7,0,Czech Republic,Austria
+1026,66,Great Britain,China,3,2,1,Great Britain,China
+1027,66,Denmark,Hungary,3,2,1,Denmark,Hungary
+1028,66,Estonia,Japan,1,3,0,Japan,Estonia
+1029,66,Belgium,Ukraine,1,4,0,Ukraine,Belgium
+1030,66,South Korea,Finland,5,1,0,South Korea,Finland
+1031,66,Latvia,Russia,3,2,0,Latvia,Russia
+1032,66,Norway,United States,2,4,0,United States,Norway
+1033,66,Spain,Croatia,1,2,0,Croatia,Spain
+1034,66,Kazakhstan,France,3,2,0,Kazakhstan,France
+1035,66,Lithuania,Slovenia,3,5,0,Slovenia,Lithuania
+1036,66,Poland,Romania,0,2,0,Romania,Poland
+1037,66,Belarus,Canada,2,3,0,Canada,Belarus
+1038,66,Germany,Italy,3,4,0,Italy,Germany
+1039,66,Sweden,Netherlands,6,0,0,Sweden,Netherlands
+1040,66,Slovakia,Switzerland,1,2,0,Switzerland,Slovakia
+1041,67,Spain,Czech Republic,5,4,1,Spain,Czech Republic
+1042,67,Norway,China,3,2,1,Norway,China
+1043,67,Ukraine,Poland,2,1,0,Ukraine,Poland
+1044,67,Russia,Japan,3,2,1,Russia,Japan
+1045,67,Denmark,Lithuania,2,7,0,Lithuania,Denmark
+1046,67,United States,Austria,1,5,0,Austria,United States
+1047,67,Kazakhstan,Great Britain,6,2,0,Kazakhstan,Great Britain
+1048,67,Estonia,France,3,4,0,France,Estonia
+1049,67,Sweden,Finland,2,4,0,Finland,Sweden
+1050,67,Croatia,Canada,5,1,0,Croatia,Canada
+1051,67,Slovakia,Romania,1,0,1,Slovakia,Romania
+1052,67,Slovenia,Hungary,5,2,0,Slovenia,Hungary
+1053,67,Belarus,Netherlands,3,6,0,Netherlands,Belarus
+1054,67,Italy,Belgium,3,2,1,Italy,Belgium
+1055,67,Latvia,South Korea,6,3,0,Latvia,South Korea
+1056,67,Switzerland,Germany,3,4,0,Germany,Switzerland
+1057,68,Kazakhstan,Czech Republic,5,4,1,Kazakhstan,Czech Republic
+1058,68,China,Great Britain,3,4,0,Great Britain,China
+1059,68,Poland,Estonia,3,1,0,Poland,Estonia
+1060,68,Ukraine,Netherlands,1,2,1,Netherlands,Ukraine
+1061,68,France,Norway,6,4,0,France,Norway
+1062,68,Denmark,Sweden,0,3,0,Sweden,Denmark
+1063,68,Lithuania,Croatia,3,7,0,Croatia,Lithuania
+1064,68,Austria,United States,3,2,1,Austria,United States
+1065,68,Finland,Japan,5,1,0,Finland,Japan
+1066,68,Italy,Russia,3,2,0,Italy,Russia
+1067,68,Spain,Belarus,2,3,1,Belarus,Spain
+1068,68,Germany,Romania,0,1,0,Romania,Germany
+1069,68,Canada,South Korea,3,7,0,South Korea,Canada
+1070,68,Switzerland,Slovenia,2,5,0,Slovenia,Switzerland
+1071,68,Belgium,Latvia,3,2,1,Belgium,Latvia
+1072,69,Ukraine,Czech Republic,2,3,1,Czech Republic,Ukraine
+1073,69,Estonia,Poland,4,3,1,Estonia,Poland
+1074,69,Norway,Russia,4,0,0,Norway,Russia
+1075,69,Spain,Denmark,3,4,0,Denmark,Spain
+1076,69,Latvia,Lithuania,4,3,0,Latvia,Lithuania
+1077,69,Finland,Germany,4,1,0,Finland,Germany
+1078,69,Japan,Romania,3,0,0,Japan,Romania
+1079,69,Slovakia,Great Britain,1,3,0,Great Britain,Slovakia
+1080,69,South Korea,United States,1,6,0,United States,South Korea
+1081,69,Slovenia,Kazakhstan,7,4,0,Slovenia,Kazakhstan
+1082,69,Austria,China,1,2,0,China,Austria
+1083,69,Croatia,Hungary,1,5,0,Hungary,Croatia
+1084,69,Belarus,Switzerland,3,2,0,Belarus,Switzerland
+1085,69,Canada,France,5,6,1,France,Canada
+1086,69,Belgium,Netherlands,4,1,0,Belgium,Netherlands
+1087,70,Czech Republic,United States,1,8,0,United States,Czech Republic
+1088,70,Germany,Norway,3,4,1,Norway,Germany
+1089,70,Switzerland,Ukraine,1,5,0,Ukraine,Switzerland
+1090,70,Estonia,Lithuania,2,3,0,Lithuania,Estonia
+1091,70,Finland,Denmark,2,3,0,Denmark,Finland
+1092,70,Japan,Poland,2,1,0,Japan,Poland
+1093,70,Russia,Great Britain,3,4,1,Great Britain,Russia
+1094,70,Slovenia,France,4,5,0,France,Slovenia
+1095,70,Slovakia,China,2,3,0,China,Slovakia
+1096,70,Italy,Austria,4,3,0,Italy,Austria
+1097,70,Kazakhstan,Canada,4,1,0,Kazakhstan,Canada
+1098,70,Latvia,Romania,4,5,1,Romania,Latvia
+1099,70,Sweden,Spain,2,5,0,Spain,Sweden
+1100,70,Netherlands,Belarus,5,4,0,Netherlands,Belarus
+1101,70,South Korea,Hungary,4,7,0,Hungary,South Korea
+1102,71,Czech Republic,Norway,2,1,0,Czech Republic,Norway
+1103,71,Ukraine,South Korea,5,2,0,Ukraine,South Korea
+1104,71,Kazakhstan,Poland,0,2,0,Poland,Kazakhstan
+1105,71,Lithuania,Sweden,5,4,0,Lithuania,Sweden
+1106,71,Estonia,United States,1,4,0,United States,Estonia
+1107,71,Finland,Belgium,4,5,1,Belgium,Finland
+1108,71,Denmark,France,2,4,0,France,Denmark
+1109,71,Germany,Russia,1,3,0,Russia,Germany
+1110,71,Switzerland,Spain,2,3,0,Spain,Switzerland
+1111,71,Belarus,Great Britain,3,6,0,Great Britain,Belarus
+1112,71,China,Slovenia,6,3,0,China,Slovenia
+1113,71,Italy,Slovakia,8,6,0,Italy,Slovakia
+1114,71,Austria,Romania,3,5,0,Romania,Austria
+1115,71,Netherlands,Japan,5,3,0,Netherlands,Japan
+1116,71,Croatia,Latvia,3,4,0,Latvia,Croatia
+1117,72,Czech Republic,Belarus,2,1,1,Czech Republic,Belarus
+1118,72,Estonia,Norway,4,3,0,Estonia,Norway
+1119,72,Latvia,Poland,4,3,1,Latvia,Poland
+1120,72,Japan,Sweden,4,3,0,Japan,Sweden
+1121,72,Italy,Finland,2,3,0,Finland,Italy
+1122,72,Switzerland,United States,4,2,0,Switzerland,United States
+1123,72,Denmark,Germany,1,2,0,Germany,Denmark
+1124,72,Kazakhstan,Ukraine,3,2,0,Kazakhstan,Ukraine
+1125,72,Lithuania,China,4,2,0,Lithuania,China
+1126,72,Slovakia,Spain,3,4,1,Spain,Slovakia
+1127,72,Hungary,France,5,3,0,Hungary,France
+1128,72,Great Britain,Belgium,2,0,0,Great Britain,Belgium
+1129,72,Croatia,Slovenia,2,1,0,Croatia,Slovenia
+1130,72,Netherlands,Romania,4,5,1,Romania,Netherlands
+1131,72,Canada,Russia,1,2,0,Russia,Canada
+1132,73,Czech Republic,Finland,7,1,0,Czech Republic,Finland
+1133,73,Hungary,Norway,3,1,0,Hungary,Norway
+1134,73,Poland,Estonia,2,1,1,Poland,Estonia
+1135,73,France,Denmark,6,4,0,France,Denmark
+1136,73,South Korea,Ukraine,2,1,0,South Korea,Ukraine
+1137,73,Great Britain,Sweden,5,6,1,Sweden,Great Britain
+1138,73,Lithuania,Spain,0,4,0,Spain,Lithuania
+1139,73,Latvia,China,4,3,0,Latvia,China
+1140,73,United States,Belgium,3,2,0,United States,Belgium
+1141,73,Switzerland,Croatia,1,4,0,Croatia,Switzerland
+1142,73,Netherlands,Germany,3,2,1,Netherlands,Germany
+1143,73,Japan,Kazakhstan,2,1,0,Japan,Kazakhstan
+1144,73,Canada,Slovenia,6,4,0,Canada,Slovenia
+1145,73,Romania,Italy,2,3,0,Italy,Romania
+1146,73,Belarus,Slovakia,0,2,0,Slovakia,Belarus
+1147,74,Czech Republic,Croatia,5,2,0,Czech Republic,Croatia
+1148,74,Poland,Ukraine,2,3,1,Ukraine,Poland
+1149,74,Norway,Sweden,8,0,0,Norway,Sweden
+1150,74,Estonia,Switzerland,1,2,0,Switzerland,Estonia
+1151,74,Finland,Slovakia,5,6,1,Slovakia,Finland
+1152,74,United States,Spain,3,4,0,Spain,United States
+1153,74,Denmark,Kazakhstan,4,1,0,Denmark,Kazakhstan
+1154,74,Germany,Great Britain,1,3,0,Great Britain,Germany
+1155,74,Italy,Russia,4,3,1,Italy,Russia
+1156,74,Japan,Slovenia,0,3,0,Slovenia,Japan
+1157,74,Belarus,Canada,3,4,1,Canada,Belarus
+1158,74,Lithuania,South Korea,9,2,0,Lithuania,South Korea
+1159,74,China,Belgium,3,5,0,Belgium,China
+1160,74,Latvia,Austria,5,0,0,Latvia,Austria
+1161,74,Netherlands,Hungary,4,3,0,Netherlands,Hungary
+1162,75,Czech Republic,Belarus,2,5,0,Belarus,Czech Republic
+1163,75,Poland,China,4,0,0,Poland,China
+1164,75,Ukraine,Sweden,3,0,0,Ukraine,Sweden
+1165,75,Spain,Estonia,6,3,0,Spain,Estonia
+1166,75,Finland,Slovakia,4,3,1,Finland,Slovakia
+1167,75,Great Britain,Lithuania,1,0,0,Great Britain,Lithuania
+1168,75,Denmark,Latvia,1,3,0,Latvia,Denmark
+1169,75,United States,Japan,3,4,1,Japan,United States
+1170,75,Norway,Germany,6,3,0,Norway,Germany
+1171,75,Russia,Switzerland,3,1,0,Russia,Switzerland
+1172,75,Canada,Kazakhstan,5,3,0,Canada,Kazakhstan
+1173,75,Austria,Italy,1,5,0,Italy,Austria
+1174,75,Romania,Belgium,0,2,0,Belgium,Romania
+1175,75,Netherlands,Slovenia,6,7,1,Slovenia,Netherlands
+1176,75,Croatia,South Korea,11,2,0,Croatia,South Korea
+1177,76,Czech Republic,France,1,2,0,France,Czech Republic
+1178,76,Great Britain,Slovakia,4,2,0,Great Britain,Slovakia
+1179,76,Sweden,Denmark,5,4,1,Sweden,Denmark
+1180,76,Spain,Germany,6,5,0,Spain,Germany
+1181,76,Estonia,Croatia,2,6,0,Croatia,Estonia
+1182,76,Belarus,United States,4,3,0,Belarus,United States
+1183,76,Ukraine,Belgium,0,3,0,Belgium,Ukraine
+1184,76,Slovenia,Norway,3,2,0,Slovenia,Norway
+1185,76,Japan,Kazakhstan,3,4,0,Kazakhstan,Japan
+1186,76,Poland,Latvia,6,1,0,Poland,Latvia
+1187,76,Russia,Lithuania,3,4,0,Lithuania,Russia
+1188,76,China,Canada,2,1,0,China,Canada
+1189,76,Hungary,Finland,5,2,0,Hungary,Finland
+1190,77,Czech Republic,Slovenia,5,4,1,Czech Republic,Slovenia
+1191,77,Slovakia,France,3,2,0,Slovakia,France
+1192,77,Sweden,Norway,0,3,0,Norway,Sweden
+1193,77,Denmark,South Korea,4,2,0,Denmark,South Korea
+1194,77,Spain,China,3,2,0,Spain,China
+1195,77,Great Britain,Poland,2,3,0,Poland,Great Britain
+1196,77,Croatia,Estonia,4,1,0,Croatia,Estonia
+1197,77,Russia,United States,4,1,0,Russia,United States
+1198,77,Latvia,Ukraine,3,2,0,Latvia,Ukraine
+1199,77,Romania,Japan,0,4,0,Japan,Romania
+1200,77,Belgium,Italy,2,3,0,Italy,Belgium
+1201,77,Lithuania,Netherlands,2,1,1,Lithuania,Netherlands
+1202,77,Germany,Canada,1,2,1,Canada,Germany
+1203,77,Austria,Belarus,2,4,0,Belarus,Austria
+1204,77,Kazakhstan,Switzerland,2,5,0,Switzerland,Kazakhstan
+1205,77,Finland,Hungary,4,2,0,Finland,Hungary
+1206,78,Czech Republic,South Korea,7,6,1,Czech Republic,South Korea
+1207,78,Slovakia,Denmark,3,4,1,Denmark,Slovakia
+1208,78,Italy,United States,6,3,0,Italy,United States
+1209,78,Ukraine,Finland,0,4,0,Finland,Ukraine
+1210,78,Switzerland,France,1,4,0,France,Switzerland
+1211,78,Great Britain,Croatia,2,6,0,Croatia,Great Britain
+1212,78,Germany,Spain,2,4,0,Spain,Germany
+1213,78,Belgium,Russia,1,2,1,Russia,Belgium
+1214,78,Kazakhstan,Norway,4,1,0,Kazakhstan,Norway
+1215,78,Romania,Poland,2,1,1,Romania,Poland
+1216,78,Hungary,Sweden,4,0,0,Hungary,Sweden
+1217,78,Austria,Japan,7,0,0,Austria,Japan
+1218,78,Canada,Lithuania,2,3,1,Lithuania,Canada
+1219,78,Estonia,Slovenia,3,4,0,Slovenia,Estonia
+1220,78,Latvia,Netherlands,3,2,0,Latvia,Netherlands
+1221,79,Czech Republic,Denmark,5,3,0,Czech Republic,Denmark
+1222,79,South Korea,Slovakia,3,4,0,Slovakia,South Korea
+1223,79,Canada,United States,5,4,0,Canada,United States
+1224,79,Kazakhstan,Ukraine,2,1,1,Kazakhstan,Ukraine
+1225,79,Estonia,Great Britain,5,4,1,Estonia,Great Britain
+1226,79,Romania,Spain,1,3,0,Spain,Romania
+1227,79,Germany,China,3,4,1,China,Germany
+1228,79,Switzerland,Belgium,4,5,1,Belgium,Switzerland
+1229,79,Croatia,Italy,1,2,0,Italy,Croatia
+1230,79,Austria,Sweden,2,1,0,Austria,Sweden
+1231,79,France,Lithuania,3,4,0,Lithuania,France
+1232,79,Poland,Belarus,3,4,1,Belarus,Poland
+1233,79,Hungary,Russia,2,6,0,Russia,Hungary
+1234,79,Latvia,Norway,5,1,0,Latvia,Norway
+1235,80,Japan,Czech Republic,2,3,0,Czech Republic,Japan
+1236,80,Germany,United States,3,4,0,United States,Germany
+1237,80,Denmark,Finland,1,5,0,Finland,Denmark
+1238,80,Slovakia,South Korea,3,2,0,Slovakia,South Korea
+1239,80,Great Britain,Russia,4,1,0,Great Britain,Russia
+1240,80,Spain,Latvia,1,5,0,Latvia,Spain
+1241,80,Romania,Estonia,3,0,0,Romania,Estonia
+1242,80,Croatia,Switzerland,3,7,0,Switzerland,Croatia
+1243,80,China,Sweden,3,4,1,Sweden,China
+1244,80,Norway,Italy,6,2,0,Norway,Italy
+1245,80,Kazakhstan,Poland,2,3,1,Poland,Kazakhstan
+1246,80,France,Austria,5,6,1,Austria,France
+1247,80,Netherlands,Lithuania,3,6,0,Lithuania,Netherlands
+1248,80,Ukraine,Slovenia,2,5,0,Slovenia,Ukraine
+1249,81,South Korea,Czech Republic,4,5,0,Czech Republic,South Korea
+1250,81,United States,Norway,4,3,0,United States,Norway
+1251,81,Latvia,Germany,2,6,0,Germany,Latvia
+1252,81,Finland,Ukraine,2,4,0,Ukraine,Finland
+1253,81,Hungary,Great Britain,1,5,0,Great Britain,Hungary
+1254,81,Slovakia,Belarus,7,1,0,Slovakia,Belarus
+1255,81,Switzerland,Poland,5,4,0,Switzerland,Poland
+1256,81,Austria,Estonia,1,4,0,Estonia,Austria
+1257,81,Sweden,Slovenia,2,3,0,Slovenia,Sweden
+1258,81,China,Japan,3,0,0,China,Japan
+1259,81,Canada,Spain,1,3,0,Spain,Canada
+1260,81,Croatia,Lithuania,9,3,0,Croatia,Lithuania
+1261,81,Russia,Italy,6,5,0,Russia,Italy
+1262,81,Denmark,Netherlands,2,3,0,Netherlands,Denmark
+1263,81,Belgium,Romania,3,2,0,Belgium,Romania
+1264,82,Latvia,South Korea,2,4,0,South Korea,Latvia
+1265,82,Russia,United States,3,6,0,United States,Russia
+1266,82,Belgium,Finland,3,4,0,Finland,Belgium
+1267,82,Great Britain,Ukraine,3,2,0,Great Britain,Ukraine
+1268,82,Slovakia,Estonia,4,1,0,Slovakia,Estonia
+1269,82,Romania,Belarus,3,4,0,Belarus,Romania
+1270,82,Germany,Italy,2,1,0,Germany,Italy
+1271,82,Norway,Sweden,2,4,0,Sweden,Norway
+1272,82,Japan,Austria,2,3,1,Austria,Japan
+1273,82,Slovenia,Switzerland,6,1,0,Slovenia,Switzerland
+1274,82,Poland,Hungary,2,5,0,Hungary,Poland
+1275,82,Kazakhstan,Spain,3,2,1,Kazakhstan,Spain
+1276,82,China,Netherlands,5,1,0,China,Netherlands
+1277,83,France,United States,3,6,0,United States,France
+1278,83,Belarus,South Korea,3,2,0,Belarus,South Korea
+1279,83,Estonia,Romania,1,2,0,Romania,Estonia
+1280,83,Slovakia,Austria,3,2,0,Slovakia,Austria
+1281,83,Latvia,Kazakhstan,2,6,0,Kazakhstan,Latvia
+1282,83,Japan,Croatia,2,3,0,Croatia,Japan
+1283,83,Finland,Sweden,6,2,0,Finland,Sweden
+1284,83,Slovenia,Denmark,5,4,0,Slovenia,Denmark
+1285,83,Hungary,Italy,3,4,1,Italy,Hungary
+1286,83,Germany,Netherlands,8,2,0,Germany,Netherlands
+1287,83,Belgium,China,4,2,0,Belgium,China
+1288,83,Canada,Great Britain,2,3,1,Great Britain,Canada
+1289,84,Lithuania,South Korea,3,4,1,South Korea,Lithuania
+1290,84,Estonia,Kazakhstan,2,1,0,Estonia,Kazakhstan
+1291,84,Austria,Slovakia,3,4,0,Slovakia,Austria
+1292,84,Poland,Romania,2,3,0,Romania,Poland
+1293,84,France,Sweden,5,1,0,France,Sweden
+1294,84,Norway,Croatia,3,2,1,Norway,Croatia
+1295,84,Great Britain,United States,2,1,0,Great Britain,United States
+1296,84,Italy,Hungary,7,1,0,Italy,Hungary
+1297,84,Latvia,Netherlands,5,1,0,Latvia,Netherlands
+1298,85,Spain,South Korea,5,1,0,Spain,South Korea
+1299,85,Hungary,Romania,0,4,0,Romania,Hungary
+1300,85,Austria,Czech Republic,6,3,0,Austria,Czech Republic
+1301,85,Canada,Sweden,5,4,1,Canada,Sweden
+1302,85,France,Belgium,2,3,0,Belgium,France
+1303,85,Belarus,Italy,6,4,0,Belarus,Italy
+1304,85,Croatia,Latvia,3,2,1,Croatia,Latvia
+1305,86,South Korea,Russia,2,3,1,Russia,South Korea
+1306,86,Sweden,Austria,3,2,0,Sweden,Austria
+1307,86,Romania,Slovenia,3,2,1,Romania,Slovenia
+1308,86,Hungary,Netherlands,0,3,0,Netherlands,Hungary
+1309,86,France,Switzerland,5,6,1,Switzerland,France
+1310,86,Slovakia,Canada,2,3,1,Canada,Slovakia
+1311,87,Finland,South Korea,4,3,0,Finland,South Korea
+1312,88,South Korea,Kazakhstan,0,3,0,Kazakhstan,South Korea
