@@ -1,0 +1,353 @@
+team,coach,playstyle,player,position,creation,conversion,suppression,prevention,goalkeeping,stamina,discipline,total
+Canada,Lauren Cortez,complementary,Michael White,F,0.489,-0.148,-0.474,0.514,0.000,0.542,0.281,0.381
+Canada,Lauren Cortez,complementary,Michael Ali,F,-0.349,0.007,-0.095,0.254,0.000,-0.745,-0.518,-0.184
+Canada,Lauren Cortez,complementary,Nathan Brown,F,-0.294,0.838,1.763,1.684,0.000,-1.628,-0.786,3.991
+Canada,Lauren Cortez,complementary,Lawrence Valdez,F,1.252,-0.101,-1.385,-0.546,0.000,-0.635,1.677,-0.780
+Canada,Lauren Cortez,complementary,Kevin Stewart,F,-0.436,0.649,-1.741,0.026,0.000,-0.969,0.567,-1.501
+Canada,Lauren Cortez,complementary,Alan Martinez,F,-0.233,-0.069,0.173,0.936,0.000,-1.079,-0.297,0.807
+Canada,Lauren Cortez,complementary,Brian Todd,D,-0.268,1.047,0.687,-2.679,0.000,-0.421,0.330,-1.213
+Canada,Lauren Cortez,complementary,Scott Olsen,D,0.841,0.617,-1.374,1.504,0.000,0.874,0.995,1.588
+Canada,Lauren Cortez,complementary,Thomas Thompson,D,0.836,0.231,0.140,0.151,0.000,0.179,0.060,1.359
+Canada,Lauren Cortez,complementary,Jason Porter,D,-1.642,0.123,0.024,1.414,0.000,0.252,0.282,-0.081
+Canada,Lauren Cortez,complementary,Peter Long,G,0.000,0.000,0.000,0.000,-0.679,-1.407,-0.317,-0.679
+United States,Claudia Cox,hyper-defensive,David Hernandez,F,0.205,0.575,-1.194,0.557,0.000,-0.912,0.329,0.143
+United States,Claudia Cox,hyper-defensive,Jimmy Hernandez,F,-1.092,0.851,-0.408,1.183,0.000,1.512,-0.281,0.534
+United States,Claudia Cox,hyper-defensive,Craig Hansen,F,1.292,0.236,-0.608,0.774,0.000,0.070,1.043,1.695
+United States,Claudia Cox,hyper-defensive,Mark Smith,F,0.419,-0.984,0.093,0.233,0.000,0.399,0.234,-0.238
+United States,Claudia Cox,hyper-defensive,Cody Burke,F,-0.401,-0.416,1.926,-1.517,0.000,0.740,-1.748,-0.409
+United States,Claudia Cox,hyper-defensive,Shawn Stewart,F,0.977,0.009,1.147,-0.250,0.000,-1.128,0.633,1.883
+United States,Claudia Cox,hyper-defensive,Kevin Swanson,D,0.968,-0.944,2.497,-1.477,0.000,1.318,-0.671,1.044
+United States,Claudia Cox,hyper-defensive,Victor Cain,D,-0.230,-1.305,-0.495,-0.459,0.000,0.216,-0.305,-2.489
+United States,Claudia Cox,hyper-defensive,Jason Sullivan,D,-0.497,-0.837,-2.139,0.149,0.000,0.277,-1.082,-3.324
+United States,Claudia Cox,hyper-defensive,Justin Tyler,D,1.377,1.161,1.606,0.683,0.000,-0.696,0.336,4.826
+United States,Claudia Cox,hyper-defensive,Zachary Turner,G,0.000,0.000,0.000,0.000,-0.631,0.869,0.888,-0.631
+Great Britain,David Mcdaniel,hyper-defensive,Frank Conner,F,-0.075,0.866,1.260,-0.461,0.000,0.677,-1.073,1.591
+Great Britain,David Mcdaniel,hyper-defensive,Jesse Jimenez,F,0.556,1.296,-0.804,-0.034,0.000,0.433,-0.707,1.014
+Great Britain,David Mcdaniel,hyper-defensive,Aaron Duncan,F,0.347,0.269,-0.749,-0.166,0.000,1.637,-0.292,-0.299
+Great Britain,David Mcdaniel,hyper-defensive,Anthony Carroll,F,1.039,0.685,0.959,0.806,0.000,-0.413,-1.038,3.489
+Great Britain,David Mcdaniel,hyper-defensive,James Bass,F,0.257,0.737,0.380,-1.159,0.000,0.358,-0.220,0.215
+Great Britain,David Mcdaniel,hyper-defensive,Jacob Molina,F,-0.426,0.392,-0.064,-1.461,0.000,0.549,0.567,-1.559
+Great Britain,David Mcdaniel,hyper-defensive,Eric Davis,D,1.016,-0.375,1.586,0.525,0.000,-0.966,-0.651,2.752
+Great Britain,David Mcdaniel,hyper-defensive,Julian Hoover,D,1.265,0.889,0.182,0.870,0.000,-1.615,0.761,3.206
+Great Britain,David Mcdaniel,hyper-defensive,Tony Hodge,D,1.295,-1.701,-0.253,0.693,0.000,0.087,0.050,0.034
+Great Britain,David Mcdaniel,hyper-defensive,Eric Patrick,D,-0.413,0.192,0.526,-0.341,0.000,-1.859,-1.206,-0.037
+Great Britain,David Mcdaniel,hyper-defensive,Bradley Wise,G,0.000,0.000,0.000,0.000,0.217,0.255,0.117,0.217
+France,Diane Davidson,star-centric,Kevin Watson,F,-0.277,-0.296,-0.440,-1.164,0.000,0.447,0.032,-2.178
+France,Diane Davidson,star-centric,Daniel Wolf,F,0.404,-1.904,-1.222,-2.237,0.000,-0.349,0.468,-4.959
+France,Diane Davidson,star-centric,Gregory Brown,F,0.285,1.502,-1.021,1.433,0.000,-1.521,0.969,2.198
+France,Diane Davidson,star-centric,Hunter Carlson,F,-0.414,0.351,1.262,-0.239,0.000,1.696,0.257,0.959
+France,Diane Davidson,star-centric,Anthony Reynolds,F,-0.339,0.617,-1.329,0.311,0.000,0.411,0.756,-0.741
+France,Diane Davidson,star-centric,Walter Pierce,F,0.418,-0.593,1.967,-0.589,0.000,-0.624,-0.812,1.204
+France,Diane Davidson,star-centric,Aaron Turner,D,0.455,-0.554,-0.266,-0.283,0.000,-0.506,0.812,-0.649
+France,Diane Davidson,star-centric,Larry Wright,D,1.178,0.213,0.302,-0.103,0.000,-0.481,1.325,1.590
+France,Diane Davidson,star-centric,Michael Williams,D,0.793,1.209,-0.764,-0.986,0.000,0.622,0.589,0.252
+France,Diane Davidson,star-centric,Ryan Barnes,D,-0.573,-0.236,-1.109,-1.783,0.000,-0.550,-0.270,-3.702
+France,Diane Davidson,star-centric,Joseph Hubbard,G,0.000,0.000,0.000,0.000,-0.164,1.003,0.073,-0.164
+Sweden,Jeffrey Gray,balanced,Dean Finley,F,-0.500,-0.387,-0.230,0.128,0.000,-0.945,-0.778,-0.989
+Sweden,Jeffrey Gray,balanced,Glenn Miller,F,-0.560,0.310,-0.295,-2.974,0.000,2.191,-0.160,-3.519
+Sweden,Jeffrey Gray,balanced,Rodney White,F,1.048,0.332,-1.658,-0.834,0.000,-1.325,0.514,-1.112
+Sweden,Jeffrey Gray,balanced,Jonathan Gonzalez,F,-0.822,-0.957,-1.740,0.286,0.000,-0.564,-0.313,-3.233
+Sweden,Jeffrey Gray,balanced,Steven Nolan,F,-1.558,-2.157,0.418,0.127,0.000,-0.468,-0.660,-3.170
+Sweden,Jeffrey Gray,balanced,Scott Perez,F,0.413,-0.142,-0.412,-0.964,0.000,1.078,-0.057,-1.105
+Sweden,Jeffrey Gray,balanced,Joseph Scott,D,1.799,-0.381,0.966,0.669,0.000,0.273,-1.177,3.053
+Sweden,Jeffrey Gray,balanced,Randy Green,D,-1.651,-0.394,-1.366,-1.579,0.000,0.247,-1.037,-4.990
+Sweden,Jeffrey Gray,balanced,Frank Parks,D,0.985,-0.537,0.117,0.709,0.000,-0.237,-1.453,1.274
+Sweden,Jeffrey Gray,balanced,Andrew Levy,D,-0.655,0.504,0.851,0.064,0.000,0.913,1.695,0.763
+Sweden,Jeffrey Gray,balanced,Andrew Wood,G,0.000,0.000,0.000,0.000,-0.340,0.125,-1.202,-0.340
+Finland,Ryan Anderson,hyper-defensive,David Mendez,F,1.269,0.798,0.319,0.662,0.000,-1.105,-0.431,3.049
+Finland,Ryan Anderson,hyper-defensive,Robert Hall,F,1.224,0.587,1.882,1.760,0.000,1.315,-0.893,5.453
+Finland,Ryan Anderson,hyper-defensive,Jason Nelson,F,-1.379,-0.141,-0.116,0.464,0.000,-0.434,0.244,-1.172
+Finland,Ryan Anderson,hyper-defensive,Sergio White,F,-0.925,0.494,0.967,-1.228,0.000,1.381,-0.278,-0.692
+Finland,Ryan Anderson,hyper-defensive,Andrew Bean,F,-0.761,0.442,0.361,-0.271,0.000,0.836,0.370,-0.230
+Finland,Ryan Anderson,hyper-defensive,Daniel Wilson,F,-0.937,0.120,-1.329,0.288,0.000,0.547,-0.630,-1.858
+Finland,Ryan Anderson,hyper-defensive,Christopher Navarro,D,0.466,-0.453,-1.911,0.105,0.000,1.515,-0.096,-1.792
+Finland,Ryan Anderson,hyper-defensive,William King,D,-1.732,1.737,-0.059,0.251,0.000,0.874,-0.600,0.196
+Finland,Ryan Anderson,hyper-defensive,Richard Herrera 2,D,0.378,0.223,-1.729,1.788,0.000,1.067,-1.309,0.659
+Finland,Ryan Anderson,hyper-defensive,John Price,D,-0.112,1.096,1.510,-0.145,0.000,-0.248,-0.538,2.350
+Finland,Ryan Anderson,hyper-defensive,Logan Howard,G,0.000,0.000,0.000,0.000,-0.141,-0.444,0.722,-0.141
+Norway,Matthew Duncan,hyper-defensive,Matthew Jones,F,-2.074,0.316,-0.146,0.235,0.000,0.096,0.498,-1.670
+Norway,Matthew Duncan,hyper-defensive,Gregory Martin,F,-0.522,2.199,-1.778,-0.662,0.000,-2.155,0.835,-0.763
+Norway,Matthew Duncan,hyper-defensive,Jorge Malone,F,1.606,-0.694,0.736,-0.435,0.000,-1.546,0.954,1.212
+Norway,Matthew Duncan,hyper-defensive,Daniel Atkins,F,0.161,-0.182,0.054,0.618,0.000,-0.836,-0.763,0.650
+Norway,Matthew Duncan,hyper-defensive,Jonathan Lee,F,-0.197,0.174,-0.537,0.119,0.000,0.068,1.212,-0.441
+Norway,Matthew Duncan,hyper-defensive,Matthew Rice,F,-0.603,1.335,2.758,0.198,0.000,-2.605,0.488,3.688
+Norway,Matthew Duncan,hyper-defensive,John Hale,D,-0.281,-0.535,-1.107,-0.313,0.000,1.082,0.886,-2.235
+Norway,Matthew Duncan,hyper-defensive,William Boyer,D,0.719,0.208,0.376,0.781,0.000,-1.794,-0.453,2.084
+Norway,Matthew Duncan,hyper-defensive,Samuel Ball,D,0.016,0.888,-0.774,-0.407,0.000,0.208,1.364,-0.277
+Norway,Matthew Duncan,hyper-defensive,Ross Rodriguez,D,-0.178,-0.249,0.897,-0.552,0.000,-0.696,-0.785,-0.083
+Norway,Matthew Duncan,hyper-defensive,Brett Collins,G,0.000,0.000,0.000,0.000,0.579,0.081,-0.941,0.579
+Denmark,Angelica Watkins,hyper-defensive,Joshua Weaver,F,-0.600,-2.261,1.208,-0.302,0.000,1.098,0.831,-1.954
+Denmark,Angelica Watkins,hyper-defensive,James White,F,-1.133,-0.645,0.941,-0.270,0.000,1.174,-0.277,-1.107
+Denmark,Angelica Watkins,hyper-defensive,Shane Cole,F,0.688,0.997,-0.828,0.367,0.000,-1.229,-0.872,1.223
+Denmark,Angelica Watkins,hyper-defensive,Thomas Proctor,F,-0.620,2.443,0.157,-0.486,0.000,0.098,-0.871,1.495
+Denmark,Angelica Watkins,hyper-defensive,John Ball,F,1.339,-0.884,0.634,-0.794,0.000,0.805,1.624,0.295
+Denmark,Angelica Watkins,hyper-defensive,Christopher Charles,F,-0.557,-0.140,-2.649,-0.885,0.000,-0.071,-0.526,-4.230
+Denmark,Angelica Watkins,hyper-defensive,Michael Gray,D,-0.441,0.690,-1.916,1.504,0.000,1.030,0.070,-0.163
+Denmark,Angelica Watkins,hyper-defensive,William Thomas,D,0.623,-0.545,0.258,0.168,0.000,0.870,-1.501,0.504
+Denmark,Angelica Watkins,hyper-defensive,Larry Martinez,D,0.357,0.035,-2.250,-1.156,0.000,0.775,-1.375,-3.015
+Denmark,Angelica Watkins,hyper-defensive,Johnny Tucker,D,-1.633,-0.093,0.657,0.288,0.000,0.498,-1.545,-0.780
+Denmark,Angelica Watkins,hyper-defensive,Robert Williams,G,0.000,0.000,0.000,0.000,-0.500,-1.037,-0.694,-0.500
+Russia,Emily Carter,hyper-offensive,George Nguyen,F,-0.214,2.480,0.721,1.337,0.000,0.092,-1.598,4.324
+Russia,Emily Carter,hyper-offensive,Anthony Burton,F,-0.257,-0.417,0.961,0.988,0.000,-0.383,0.949,1.274
+Russia,Emily Carter,hyper-offensive,Jordan Sullivan,F,1.090,1.914,0.377,1.884,0.000,0.421,-1.215,5.265
+Russia,Emily Carter,hyper-offensive,Juan Bailey,F,-0.402,0.272,2.389,1.869,0.000,-0.087,0.063,4.127
+Russia,Emily Carter,hyper-offensive,Dean Bender,F,-0.526,1.019,1.300,1.223,0.000,0.532,-1.762,3.016
+Russia,Emily Carter,hyper-offensive,Jeffery Salazar,F,-1.301,1.848,0.056,1.191,0.000,1.355,0.325,1.793
+Russia,Emily Carter,hyper-offensive,Michael Cortez,D,0.299,-0.133,-0.922,-0.655,0.000,0.762,-0.837,-1.411
+Russia,Emily Carter,hyper-offensive,Michael Perez,D,-0.393,0.670,0.587,0.597,0.000,-0.693,0.535,1.461
+Russia,Emily Carter,hyper-offensive,John Davis,D,-0.273,1.033,1.038,-1.023,0.000,0.139,-0.058,0.775
+Russia,Emily Carter,hyper-offensive,Anthony Nguyen,D,-1.624,-0.015,-0.828,0.889,0.000,-0.651,0.852,-1.578
+Russia,Emily Carter,hyper-offensive,Eric Gonzalez,G,0.000,0.000,0.000,0.000,0.295,0.525,0.315,0.295
+Czech Republic,Jeanne Edwards,hyper-defensive,Brandon Martinez,F,-0.368,-0.341,0.658,0.664,0.000,-0.874,-1.170,0.613
+Czech Republic,Jeanne Edwards,hyper-defensive,Nathan Smith,F,1.038,-1.181,0.702,0.010,0.000,0.550,0.293,0.569
+Czech Republic,Jeanne Edwards,hyper-defensive,Christopher White,F,0.354,1.509,-0.394,-1.643,0.000,-1.652,1.147,-0.174
+Czech Republic,Jeanne Edwards,hyper-defensive,Eric Greer,F,-0.471,0.515,0.777,1.131,0.000,2.030,2.069,1.952
+Czech Republic,Jeanne Edwards,hyper-defensive,Charles Woods,F,-0.940,-0.684,0.670,-0.386,0.000,-2.001,1.100,-1.340
+Czech Republic,Jeanne Edwards,hyper-defensive,Juan Miller,F,1.935,-1.019,1.419,-2.023,0.000,-0.622,-1.093,0.313
+Czech Republic,Jeanne Edwards,hyper-defensive,Chris Lindsey,D,1.036,0.431,-0.976,0.393,0.000,0.262,-0.751,0.884
+Czech Republic,Jeanne Edwards,hyper-defensive,David Griffin,D,0.506,-0.003,1.326,-0.119,0.000,-0.140,-0.050,1.710
+Czech Republic,Jeanne Edwards,hyper-defensive,Jeffrey Banks,D,-0.364,0.495,-1.312,-0.265,0.000,0.670,0.151,-1.446
+Czech Republic,Jeanne Edwards,hyper-defensive,William Allen,D,0.894,-0.476,-0.029,1.010,0.000,-1.481,-1.046,1.398
+Czech Republic,Jeanne Edwards,hyper-defensive,Peter Duffy,G,0.000,0.000,0.000,0.000,-2.279,-1.160,0.074,-2.279
+Slovakia,Trevor Perez,hyper-defensive,Ronnie Williams,F,-0.431,1.153,0.902,-0.158,0.000,-0.137,-1.577,1.467
+Slovakia,Trevor Perez,hyper-defensive,Nathan Peterson,F,0.684,-0.367,-1.192,0.108,0.000,0.837,-1.612,-0.767
+Slovakia,Trevor Perez,hyper-defensive,Andrew Nicholson,F,-0.409,-0.502,2.704,-0.916,0.000,2.612,0.507,0.877
+Slovakia,Trevor Perez,hyper-defensive,Randy Wall,F,-0.854,-0.398,0.066,-0.986,0.000,-0.450,0.613,-2.172
+Slovakia,Trevor Perez,hyper-defensive,Robert Brown,F,-0.537,0.522,-0.497,1.416,0.000,-0.549,-1.170,0.904
+Slovakia,Trevor Perez,hyper-defensive,Joshua Pearson,F,-1.264,1.791,0.877,0.833,0.000,0.719,-1.335,2.238
+Slovakia,Trevor Perez,hyper-defensive,Philip Marshall,D,0.345,0.589,-1.032,0.471,0.000,-1.250,0.500,0.372
+Slovakia,Trevor Perez,hyper-defensive,Edward Cantrell,D,-0.562,0.414,-0.947,0.031,0.000,-1.313,0.831,-1.064
+Slovakia,Trevor Perez,hyper-defensive,Bryan Rios,D,-0.205,0.157,-0.447,-0.032,0.000,0.625,-0.801,-0.527
+Slovakia,Trevor Perez,hyper-defensive,Christian Johnson,D,0.335,-0.950,1.103,2.321,0.000,-0.750,-0.688,2.810
+Slovakia,Trevor Perez,hyper-defensive,Ryan Young,G,0.000,0.000,0.000,0.000,1.038,0.150,-1.799,1.038
+Belarus,Vincent Lucas,hyper-offensive,Jason Cook,F,-0.657,-0.083,0.472,0.042,0.000,0.247,-0.211,-0.226
+Belarus,Vincent Lucas,hyper-offensive,Michael Cooke,F,-1.705,-1.506,-0.281,0.638,0.000,-2.705,0.646,-2.854
+Belarus,Vincent Lucas,hyper-offensive,Brian Sanders,F,1.654,-1.056,0.398,-1.216,0.000,-1.437,1.385,-0.221
+Belarus,Vincent Lucas,hyper-offensive,Robert Jimenez,F,-0.307,0.987,1.402,-0.141,0.000,-1.836,-0.409,1.941
+Belarus,Vincent Lucas,hyper-offensive,Kevin Lewis,F,-0.985,-0.502,-0.209,0.028,0.000,0.431,-0.321,-1.667
+Belarus,Vincent Lucas,hyper-offensive,Johnny Hill,F,0.303,0.270,-0.306,-1.361,0.000,0.336,0.515,-1.095
+Belarus,Vincent Lucas,hyper-offensive,Tyler Booker,D,-2.936,-0.644,-1.318,1.935,0.000,-0.221,-1.111,-2.962
+Belarus,Vincent Lucas,hyper-offensive,Christopher Acevedo,D,0.276,-0.052,-0.638,0.194,0.000,-1.101,2.691,-0.219
+Belarus,Vincent Lucas,hyper-offensive,John Hayes,D,0.343,0.281,-0.906,-0.165,0.000,0.271,0.109,-0.446
+Belarus,Vincent Lucas,hyper-offensive,Randall Gillespie,D,-0.909,1.088,-0.351,1.602,0.000,0.207,-0.118,1.430
+Belarus,Vincent Lucas,hyper-offensive,Christopher Warren,G,0.000,0.000,0.000,0.000,-1.149,0.180,-3.353,-1.149
+Germany,Paul Leach,hyper-defensive,John Sutton,F,0.846,0.891,0.266,-1.176,0.000,0.569,-0.159,0.827
+Germany,Paul Leach,hyper-defensive,Roberto Wells,F,-1.206,-0.363,-1.240,-0.131,0.000,-0.331,0.010,-2.939
+Germany,Paul Leach,hyper-defensive,Gregory Fox,F,0.379,-0.172,0.205,-0.726,0.000,-1.209,-1.151,-0.314
+Germany,Paul Leach,hyper-defensive,Alexander Johnson,F,-2.080,-1.084,-1.025,1.405,0.000,-1.140,-0.910,-2.784
+Germany,Paul Leach,hyper-defensive,Daniel Chapman,F,0.157,-1.323,-0.967,-0.619,0.000,2.399,0.247,-2.752
+Germany,Paul Leach,hyper-defensive,Zachary Brennan,F,0.556,-0.824,-0.922,0.467,0.000,0.751,0.405,-0.724
+Germany,Paul Leach,hyper-defensive,Michael Mckinney,D,-0.362,-1.581,0.690,-1.833,0.000,-0.209,0.377,-3.086
+Germany,Paul Leach,hyper-defensive,Michael Vazquez,D,0.966,1.220,-0.180,-1.817,0.000,-0.131,0.776,0.189
+Germany,Paul Leach,hyper-defensive,Tyler Garza,D,0.199,0.969,2.161,0.581,0.000,0.510,-0.229,3.910
+Germany,Paul Leach,hyper-defensive,Andrew Kline,D,-2.162,0.361,-1.154,-0.787,0.000,-0.650,2.747,-3.743
+Germany,Paul Leach,hyper-defensive,Steven Acosta,G,0.000,0.000,0.000,0.000,0.104,-0.764,0.031,0.104
+Switzerland,Hayley Gutierrez,hyper-offensive,Mark Boone,F,0.582,-0.930,0.019,-0.646,0.000,-0.498,-1.989,-0.975
+Switzerland,Hayley Gutierrez,hyper-offensive,Taylor Lopez,F,1.025,-0.716,-0.704,1.072,0.000,-0.087,-0.481,0.677
+Switzerland,Hayley Gutierrez,hyper-offensive,Jason Tucker,F,0.264,2.664,-0.475,-0.193,0.000,-0.299,1.066,2.260
+Switzerland,Hayley Gutierrez,hyper-offensive,Steven Williams,F,-2.038,-0.775,0.427,-0.761,0.000,0.394,-0.227,-3.147
+Switzerland,Hayley Gutierrez,hyper-offensive,Leslie Tyler,F,0.336,0.558,0.425,-0.958,0.000,-1.728,0.772,0.361
+Switzerland,Hayley Gutierrez,hyper-offensive,Matthew Brown,F,-2.026,0.197,-0.143,-0.969,0.000,-1.071,-0.968,-2.941
+Switzerland,Hayley Gutierrez,hyper-offensive,Christopher Bowers,D,-0.522,-1.159,1.061,-1.845,0.000,-2.157,-0.157,-2.465
+Switzerland,Hayley Gutierrez,hyper-offensive,Justin Burke,D,0.254,1.380,0.211,0.959,0.000,-0.992,-0.439,2.804
+Switzerland,Hayley Gutierrez,hyper-offensive,Joseph Morris,D,-0.345,0.470,-0.358,0.465,0.000,-1.074,1.174,0.232
+Switzerland,Hayley Gutierrez,hyper-offensive,Richard Herrera,D,-0.411,0.668,0.126,0.662,0.000,-1.720,0.377,1.046
+Switzerland,Hayley Gutierrez,hyper-offensive,David Williams,G,0.000,0.000,0.000,0.000,0.379,2.690,0.499,0.379
+Austria,Kenneth Murray,balanced,Gerald Gray,F,0.129,0.306,0.227,0.531,0.000,-0.733,-0.899,1.194
+Austria,Kenneth Murray,balanced,Eric Smith,F,-0.384,-0.234,0.533,-0.943,0.000,0.897,0.410,-1.028
+Austria,Kenneth Murray,balanced,Joseph Molina,F,-2.069,-0.275,0.623,-0.975,0.000,1.149,1.354,-2.696
+Austria,Kenneth Murray,balanced,Matthew Smith,F,-0.652,-1.628,-1.093,-0.105,0.000,2.553,-0.566,-3.478
+Austria,Kenneth Murray,balanced,Robert Stokes,F,-0.409,1.586,0.465,-0.500,0.000,1.470,-0.665,1.142
+Austria,Kenneth Murray,balanced,Jeffrey Smith,F,-0.152,0.090,0.177,0.123,0.000,1.089,1.063,0.239
+Austria,Kenneth Murray,balanced,Stanley Brewer,D,0.669,-0.065,-0.615,-0.623,0.000,-0.053,2.774,-0.635
+Austria,Kenneth Murray,balanced,Alexander Mckinney,D,-0.131,-0.373,-0.339,0.157,0.000,0.677,-1.284,-0.686
+Austria,Kenneth Murray,balanced,Matthew Perkins,D,-0.077,-1.222,-0.594,0.805,0.000,0.466,-1.357,-1.087
+Austria,Kenneth Murray,balanced,Steven Griffin,D,-0.455,-0.811,-1.491,-0.719,0.000,0.832,-1.092,-3.477
+Austria,Kenneth Murray,balanced,Bradley Hansen,G,0.000,0.000,0.000,0.000,-0.979,1.172,0.454,-0.979
+Italy,Ryan Gibbs,star-centric,Ronald Price,F,-0.398,0.779,-0.337,0.535,0.000,1.991,-0.140,0.579
+Italy,Ryan Gibbs,star-centric,Richard Zamora,F,0.774,-0.271,-1.278,-2.156,0.000,-1.886,-0.071,-2.931
+Italy,Ryan Gibbs,star-centric,William Smith,F,-0.308,-0.518,0.792,0.587,0.000,-1.155,-0.857,0.554
+Italy,Ryan Gibbs,star-centric,Jacob Hernandez,F,-0.909,-0.240,0.637,-0.110,0.000,-0.003,-0.138,-0.622
+Italy,Ryan Gibbs,star-centric,Trevor Jones,F,-0.307,0.714,0.951,0.396,0.000,1.389,-1.035,1.754
+Italy,Ryan Gibbs,star-centric,Mark Harris,F,0.585,-0.228,-0.137,1.239,0.000,-0.687,0.867,1.460
+Italy,Ryan Gibbs,star-centric,Caleb Smith,D,-0.158,0.333,1.126,-1.214,0.000,1.186,1.102,0.087
+Italy,Ryan Gibbs,star-centric,Aaron Rice,D,0.323,-1.480,-1.288,-0.863,0.000,0.339,0.097,-3.308
+Italy,Ryan Gibbs,star-centric,Adam Pope,D,0.256,0.454,-0.914,0.416,0.000,-1.157,0.668,0.212
+Italy,Ryan Gibbs,star-centric,Brandon Williams,D,1.078,0.557,1.544,-0.240,0.000,-0.106,1.435,2.938
+Italy,Ryan Gibbs,star-centric,Michael Collins,G,0.000,0.000,0.000,0.000,-1.098,1.207,0.241,-1.098
+Latvia,Michael Sims,hyper-defensive,Daniel Doyle,F,0.341,0.627,0.678,-0.138,0.000,1.687,2.604,1.507
+Latvia,Michael Sims,hyper-defensive,Aaron Rivera,F,1.429,0.302,-0.907,-0.635,0.000,-1.148,-0.166,0.188
+Latvia,Michael Sims,hyper-defensive,Mark Holmes,F,0.887,-0.306,-0.098,-1.067,0.000,1.525,0.228,-0.584
+Latvia,Michael Sims,hyper-defensive,Zachary Jackson,F,-0.636,1.548,0.133,0.877,0.000,-0.897,-0.035,1.921
+Latvia,Michael Sims,hyper-defensive,Carlos Peterson,F,0.821,1.140,0.383,0.276,0.000,0.848,-1.851,2.620
+Latvia,Michael Sims,hyper-defensive,Guy Castillo,F,-1.009,1.431,0.369,0.433,0.000,-1.435,-0.489,1.225
+Latvia,Michael Sims,hyper-defensive,David Colon,D,-0.898,0.167,-0.133,2.161,0.000,0.940,0.349,1.297
+Latvia,Michael Sims,hyper-defensive,Daniel Sanders,D,0.613,-1.428,-0.273,0.813,0.000,-0.951,0.441,-0.275
+Latvia,Michael Sims,hyper-defensive,Ryan Butler,D,3.109,1.753,-0.256,0.144,0.000,-0.493,-1.675,4.750
+Latvia,Michael Sims,hyper-defensive,Paul Rodriguez,D,-0.880,-0.109,-0.330,-0.694,0.000,0.042,-1.060,-2.014
+Latvia,Michael Sims,hyper-defensive,Christopher Osborne,G,0.000,0.000,0.000,0.000,0.063,0.962,0.070,0.063
+Estonia,Danielle Miller,star-centric,Matthew Bradford,F,-0.535,0.766,0.028,-0.227,0.000,-0.889,-0.058,0.032
+Estonia,Danielle Miller,star-centric,Samuel Davis,F,-0.324,-0.896,0.016,-1.028,0.000,-0.876,-0.978,-2.232
+Estonia,Danielle Miller,star-centric,Ryan Johnson,F,-0.074,-1.216,0.514,0.715,0.000,0.124,-1.525,-0.061
+Estonia,Danielle Miller,star-centric,James Garcia,F,-0.709,0.447,-0.235,0.560,0.000,-0.190,-0.162,0.063
+Estonia,Danielle Miller,star-centric,Matthew Malone,F,0.300,-2.429,-1.595,0.080,0.000,0.470,0.532,-3.644
+Estonia,Danielle Miller,star-centric,Benjamin Clayton,F,0.098,0.508,-1.419,-0.392,0.000,1.391,-0.606,-1.205
+Estonia,Danielle Miller,star-centric,Christopher Flores 2,D,0.118,0.003,0.331,0.573,0.000,-0.398,0.149,1.025
+Estonia,Danielle Miller,star-centric,Kenneth Vasquez,D,1.064,0.621,0.945,1.103,0.000,0.785,-1.638,3.733
+Estonia,Danielle Miller,star-centric,Dakota Edwards,D,1.827,-0.145,-0.575,-0.325,0.000,-0.417,-0.132,0.783
+Estonia,Danielle Miller,star-centric,Benjamin Christensen,D,0.541,-0.142,-0.575,-0.525,0.000,0.458,1.082,-0.700
+Estonia,Danielle Miller,star-centric,Lawrence Phillips,G,0.000,0.000,0.000,0.000,0.749,1.746,-0.501,0.749
+Lithuania,Daryl Horton,star-centric,Michael Ramos,F,-0.588,0.801,0.192,1.028,0.000,-1.261,0.600,1.434
+Lithuania,Daryl Horton,star-centric,David Alvarez,F,-0.007,-0.528,1.854,-0.730,0.000,0.337,-1.830,0.588
+Lithuania,Daryl Horton,star-centric,Daniel Reed,F,-0.396,1.056,-0.934,1.915,0.000,-0.369,-0.941,1.641
+Lithuania,Daryl Horton,star-centric,Andrew Arnold,F,-2.146,-1.323,0.843,-0.833,0.000,1.282,0.752,-3.458
+Lithuania,Daryl Horton,star-centric,Ricky Stevens,F,0.353,0.686,1.917,-0.657,0.000,-0.974,-0.126,2.299
+Lithuania,Daryl Horton,star-centric,Eric Grant,F,-0.612,0.463,0.130,0.174,0.000,-0.192,1.125,0.156
+Lithuania,Daryl Horton,star-centric,Alexander Oconnor,D,0.347,0.599,-1.399,0.956,0.000,-1.189,-0.653,0.504
+Lithuania,Daryl Horton,star-centric,Matthew Guerrero,D,0.608,1.139,-0.048,-1.158,0.000,-0.163,0.171,0.542
+Lithuania,Daryl Horton,star-centric,Anthony Whitaker,D,0.193,-0.509,-0.581,1.089,0.000,-0.763,1.542,0.193
+Lithuania,Daryl Horton,star-centric,Eric Willis,D,-0.369,0.952,0.161,-0.248,0.000,-0.385,2.520,0.497
+Lithuania,Daryl Horton,star-centric,Jay Lopez,G,0.000,0.000,0.000,0.000,0.895,-0.061,0.849,0.895
+Poland,Sarah Holmes,complementary,Philip Jimenez,F,-1.142,-0.014,0.797,-0.707,0.000,-0.218,0.761,-1.066
+Poland,Sarah Holmes,complementary,Anthony Moreno,F,-0.742,0.994,-0.726,0.167,0.000,0.983,0.094,-0.306
+Poland,Sarah Holmes,complementary,Daniel Mayo,F,-1.496,-2.065,-0.782,-0.069,0.000,-1.124,-1.243,-4.413
+Poland,Sarah Holmes,complementary,Travis House,F,0.843,-1.065,0.198,-0.747,0.000,0.559,-1.664,-0.771
+Poland,Sarah Holmes,complementary,Steven Simmons,F,0.473,-0.634,0.681,0.076,0.000,-0.776,0.214,0.595
+Poland,Sarah Holmes,complementary,Mark Harris 2,F,-0.322,-0.205,1.140,-0.603,0.000,-1.088,0.944,0.010
+Poland,Sarah Holmes,complementary,Alexander Diaz,D,0.787,0.141,-0.941,0.298,0.000,-0.807,-1.549,0.286
+Poland,Sarah Holmes,complementary,Jonathan Hall,D,-0.412,-2.001,-2.497,0.403,0.000,1.207,1.191,-4.507
+Poland,Sarah Holmes,complementary,Steven Ibarra,D,-1.010,-0.123,-1.134,-0.508,0.000,-0.638,1.664,-2.774
+Poland,Sarah Holmes,complementary,Erik Atkins,D,1.968,-1.053,0.637,0.898,0.000,1.873,-1.561,2.450
+Poland,Sarah Holmes,complementary,Christopher Travis,G,0.000,0.000,0.000,0.000,-0.155,1.849,-0.183,-0.155
+Slovenia,Marilyn Ortega,star-centric,Michael Washington,F,2.183,-0.025,0.106,-0.371,0.000,-1.380,-0.867,1.893
+Slovenia,Marilyn Ortega,star-centric,Brandon Cox,F,-0.647,-0.591,1.259,-1.564,0.000,-0.613,1.527,-1.544
+Slovenia,Marilyn Ortega,star-centric,Brandon Brown,F,-0.489,0.291,-1.855,-2.230,0.000,0.512,0.866,-4.283
+Slovenia,Marilyn Ortega,star-centric,Christopher Cantrell,F,0.956,-0.034,-0.387,-0.705,0.000,0.177,0.895,-0.170
+Slovenia,Marilyn Ortega,star-centric,Timothy Ramos,F,1.755,-0.271,0.668,0.598,0.000,-0.062,0.842,2.750
+Slovenia,Marilyn Ortega,star-centric,Brian Reed,F,0.970,0.344,1.470,0.631,0.000,-0.802,-1.284,3.415
+Slovenia,Marilyn Ortega,star-centric,Christopher Mann,D,0.079,0.137,-2.386,0.101,0.000,-1.247,-1.303,-2.069
+Slovenia,Marilyn Ortega,star-centric,Brian Thomas,D,0.365,0.352,0.283,-0.179,0.000,0.572,0.445,0.820
+Slovenia,Marilyn Ortega,star-centric,Eric Thompson,D,1.617,1.524,1.627,-1.915,0.000,-0.067,0.743,2.854
+Slovenia,Marilyn Ortega,star-centric,Andrew Schmidt,D,-2.396,-0.058,-0.623,0.815,0.000,-0.111,0.328,-2.262
+Slovenia,Marilyn Ortega,star-centric,Patrick Hines,G,0.000,0.000,0.000,0.000,-1.194,-0.293,-2.258,-1.194
+Croatia,John Schmidt,hyper-offensive,Michael Lucas,F,0.021,-0.665,-0.284,1.901,0.000,-0.568,0.413,0.972
+Croatia,John Schmidt,hyper-offensive,Christopher Padilla,F,0.275,2.065,-0.773,-0.789,0.000,-2.260,0.440,0.778
+Croatia,John Schmidt,hyper-offensive,Adam Whitehead,F,-0.500,-0.765,-0.785,1.118,0.000,-0.070,2.071,-0.932
+Croatia,John Schmidt,hyper-offensive,Scott Rodriguez,F,-0.115,1.057,-0.021,-0.230,0.000,-0.970,-0.726,0.690
+Croatia,John Schmidt,hyper-offensive,Ricardo Preston,F,-0.254,1.694,-0.261,-1.867,0.000,-0.009,1.640,-0.688
+Croatia,John Schmidt,hyper-offensive,William Brown,F,1.435,0.661,-1.039,-0.158,0.000,-0.358,0.492,0.898
+Croatia,John Schmidt,hyper-offensive,Ricardo Ramirez,D,-1.523,0.217,-0.154,-0.423,0.000,-1.382,0.754,-1.883
+Croatia,John Schmidt,hyper-offensive,James Barnes,D,0.597,-0.086,0.360,-0.606,0.000,0.645,1.588,0.264
+Croatia,John Schmidt,hyper-offensive,Brian Stewart,D,-1.353,2.928,-0.772,0.440,0.000,0.520,-0.184,1.243
+Croatia,John Schmidt,hyper-offensive,Joseph Colon,D,-0.154,-0.665,1.869,1.835,0.000,0.169,-0.347,2.885
+Croatia,John Schmidt,hyper-offensive,Kevin Atkins,G,0.000,0.000,0.000,0.000,-0.909,0.035,1.914,-0.909
+Hungary,Steven George,star-centric,Gregory Davis,F,-0.421,0.691,-0.369,-0.483,0.000,0.768,0.504,-0.583
+Hungary,Steven George,star-centric,Michael Moore,F,-1.028,0.847,-0.640,0.118,0.000,0.149,-2.354,-0.703
+Hungary,Steven George,star-centric,Christopher Flores,F,-1.276,0.363,1.509,0.861,0.000,0.995,0.613,1.457
+Hungary,Steven George,star-centric,Clinton Lopez,F,1.100,0.744,-0.515,-1.759,0.000,-0.076,1.680,-0.430
+Hungary,Steven George,star-centric,Matthew Rodriguez,F,0.588,-1.339,1.374,0.555,0.000,1.724,0.380,1.179
+Hungary,Steven George,star-centric,Benjamin Smith,F,0.084,-0.838,-0.434,0.048,0.000,-1.214,-0.074,-1.140
+Hungary,Steven George,star-centric,Jeffery Strickland,D,-0.063,-0.814,-0.602,-0.460,0.000,0.749,0.386,-1.939
+Hungary,Steven George,star-centric,Kyle Johnson,D,-0.959,-0.683,-0.119,-0.214,0.000,0.082,-1.827,-1.974
+Hungary,Steven George,star-centric,Andrew Clayton,D,2.226,-0.794,-0.132,0.341,0.000,0.751,0.560,1.642
+Hungary,Steven George,star-centric,Dennis Gonzalez,D,-0.115,-0.045,-0.354,-0.138,0.000,2.087,-1.866,-0.651
+Hungary,Steven George,star-centric,James Murphy,G,0.000,0.000,0.000,0.000,-0.371,-0.044,-1.160,-0.371
+Romania,Ashley Waller,hyper-offensive,Harold Cortez,F,-0.935,-0.072,-0.062,-1.336,0.000,-0.432,-0.597,-2.406
+Romania,Ashley Waller,hyper-offensive,Matthew Campos,F,-0.374,-1.258,1.556,0.244,0.000,-0.685,0.792,0.168
+Romania,Ashley Waller,hyper-offensive,Timothy Murphy,F,1.019,-0.746,2.473,0.562,0.000,1.525,-0.204,3.308
+Romania,Ashley Waller,hyper-offensive,Anthony Hudson,F,-1.921,0.413,2.862,2.067,0.000,0.297,-1.007,3.422
+Romania,Ashley Waller,hyper-offensive,John Richards,F,-0.587,-2.003,1.116,0.838,0.000,-1.127,0.215,-0.636
+Romania,Ashley Waller,hyper-offensive,Jason Baxter,F,1.100,-1.054,0.974,-1.157,0.000,0.881,-0.458,-0.138
+Romania,Ashley Waller,hyper-offensive,Ryan Baker,D,-0.191,-1.573,1.063,1.193,0.000,0.328,0.478,0.492
+Romania,Ashley Waller,hyper-offensive,Theodore Moore,D,0.507,-0.122,-0.007,-1.391,0.000,0.373,0.510,-1.014
+Romania,Ashley Waller,hyper-offensive,Reginald Nelson,D,-1.035,-0.534,-0.606,-1.405,0.000,1.342,0.554,-3.580
+Romania,Ashley Waller,hyper-offensive,Dale Baker,D,-1.169,0.302,-0.329,-1.612,0.000,0.055,-0.522,-2.809
+Romania,Ashley Waller,hyper-offensive,Jacob Roth,G,0.000,0.000,0.000,0.000,0.749,-0.534,-1.028,0.749
+Kazakhstan,Michael Kelly,complementary,Trevor Figueroa,F,-1.206,-0.495,-0.468,-0.115,0.000,-0.270,-1.245,-2.284
+Kazakhstan,Michael Kelly,complementary,Jeffrey Aguilar,F,-0.016,-1.029,-0.160,0.053,0.000,1.318,0.002,-1.152
+Kazakhstan,Michael Kelly,complementary,Jonathan Burton,F,-1.437,-0.650,-0.537,-1.162,0.000,0.619,0.499,-3.786
+Kazakhstan,Michael Kelly,complementary,Jimmy King,F,0.693,-0.220,0.437,-0.807,0.000,0.286,0.899,0.103
+Kazakhstan,Michael Kelly,complementary,Chad Chen,F,1.076,0.850,0.245,1.089,0.000,0.299,1.153,3.260
+Kazakhstan,Michael Kelly,complementary,Allen Taylor,F,-1.068,0.789,-0.498,0.005,0.000,-1.664,-0.067,-0.772
+Kazakhstan,Michael Kelly,complementary,Isaac Cross,D,-1.298,-0.365,0.280,-2.498,0.000,-0.065,0.871,-3.881
+Kazakhstan,Michael Kelly,complementary,Ronald Love,D,0.194,-0.330,-0.383,-1.326,0.000,1.127,-0.841,-1.845
+Kazakhstan,Michael Kelly,complementary,Patrick Gomez,D,-0.763,0.188,-0.030,-0.150,0.000,-2.508,-1.424,-0.754
+Kazakhstan,Michael Kelly,complementary,Gerald Wells,D,0.327,-0.039,0.715,1.937,0.000,-0.382,0.037,2.939
+Kazakhstan,Michael Kelly,complementary,Damon Glover,G,0.000,0.000,0.000,0.000,0.810,-0.182,-2.167,0.810
+Ukraine,Robert Ramsey,balanced,Douglas Parks,F,0.458,0.090,-0.392,0.084,0.000,-0.305,0.249,0.241
+Ukraine,Robert Ramsey,balanced,Bernard Long,F,-1.198,0.158,0.704,0.113,0.000,0.218,0.229,-0.223
+Ukraine,Robert Ramsey,balanced,Kenneth Quinn,F,-0.879,0.337,-2.456,-0.267,0.000,-0.762,1.880,-3.264
+Ukraine,Robert Ramsey,balanced,Philip Mcguire,F,0.915,0.427,0.758,2.125,0.000,1.204,0.352,4.224
+Ukraine,Robert Ramsey,balanced,Donald Henderson,F,-0.857,-1.797,1.951,-0.960,0.000,-2.202,1.620,-1.663
+Ukraine,Robert Ramsey,balanced,Troy Walker,F,-0.171,0.122,-0.313,-1.464,0.000,-0.783,1.289,-1.826
+Ukraine,Robert Ramsey,balanced,Curtis Gordon,D,-1.070,-1.160,-0.966,1.943,0.000,-2.574,-0.719,-1.254
+Ukraine,Robert Ramsey,balanced,Mario Mendoza,D,-0.010,-0.541,0.369,0.608,0.000,-2.704,0.568,0.427
+Ukraine,Robert Ramsey,balanced,Victor Parker,D,0.471,-0.478,1.176,-0.485,0.000,-1.766,-0.277,0.683
+Ukraine,Robert Ramsey,balanced,David Bennett,D,0.798,-1.289,-1.338,-0.349,0.000,1.852,0.510,-2.177
+Ukraine,Robert Ramsey,balanced,Christopher Gonzalez,G,0.000,0.000,0.000,0.000,-0.403,-0.219,-1.462,-0.403
+Japan,Paige Lee,hyper-offensive,Dylan Hoffman,F,-2.461,-0.968,-1.318,0.374,0.000,-1.927,-1.275,-4.372
+Japan,Paige Lee,hyper-offensive,Jesse Jones,F,-1.787,-0.693,-1.571,3.047,0.000,-1.076,0.868,-1.004
+Japan,Paige Lee,hyper-offensive,Jeffrey Owen,F,-0.428,-0.779,-0.046,1.513,0.000,-0.894,0.224,0.260
+Japan,Paige Lee,hyper-offensive,Gregory Mendoza,F,0.232,0.902,-1.096,1.981,0.000,-0.023,-0.144,2.019
+Japan,Paige Lee,hyper-offensive,Jason Bryant,F,0.627,-0.955,0.724,0.309,0.000,-0.451,0.004,0.705
+Japan,Paige Lee,hyper-offensive,Douglas Harvey,F,0.651,-1.013,2.296,-1.011,0.000,2.137,-1.510,0.923
+Japan,Paige Lee,hyper-offensive,Charles Dennis,D,0.104,0.674,1.106,-0.096,0.000,-0.202,-0.467,1.789
+Japan,Paige Lee,hyper-offensive,Nicholas Gonzales,D,-1.454,-1.189,0.408,-2.266,0.000,-1.971,1.069,-4.502
+Japan,Paige Lee,hyper-offensive,Joel Reyes,D,1.630,-0.920,-1.154,0.967,0.000,0.910,0.024,0.523
+Japan,Paige Lee,hyper-offensive,Jason Jones,D,0.100,0.380,-1.677,-1.424,0.000,0.626,-0.330,-2.620
+Japan,Paige Lee,hyper-offensive,Craig Bentley,G,0.000,0.000,0.000,0.000,-0.638,0.543,0.270,-0.638
+South Korea,Steven Ward,complementary,Eric Hogan,F,-0.711,-0.276,-0.724,1.242,0.000,-1.492,0.887,-0.469
+South Korea,Steven Ward,complementary,Donald Lee,F,1.430,-0.402,-0.382,-0.436,0.000,-0.513,1.219,0.210
+South Korea,Steven Ward,complementary,Brian Meyers,F,0.145,-0.232,-0.209,0.013,0.000,0.277,-0.713,-0.283
+South Korea,Steven Ward,complementary,Edwin Brown,F,-0.899,-0.706,-1.617,0.854,0.000,2.271,-1.604,-2.369
+South Korea,Steven Ward,complementary,Eric May,F,-1.184,-0.200,0.206,-0.767,0.000,0.813,-0.825,-1.945
+South Korea,Steven Ward,complementary,Mark Davidson,F,1.053,0.427,-0.062,-3.485,0.000,-0.884,0.580,-2.067
+South Korea,Steven Ward,complementary,Jason Acevedo,D,-0.612,0.035,-0.661,0.581,0.000,-0.588,-0.272,-0.657
+South Korea,Steven Ward,complementary,Francis Clark,D,1.353,-0.837,-0.488,0.007,0.000,1.280,0.211,0.035
+South Korea,Steven Ward,complementary,Ronald Copeland,D,-0.766,0.047,-0.684,-0.753,0.000,1.825,0.463,-2.156
+South Korea,Steven Ward,complementary,Anthony Young,D,2.786,-0.988,-2.339,0.437,0.000,0.741,-2.095,-0.104
+South Korea,Steven Ward,complementary,James Watson,G,0.000,0.000,0.000,0.000,0.494,2.326,-0.290,0.494
+Netherlands,Timothy Williams,complementary,Kevin White,F,-0.021,0.291,-1.469,-0.968,0.000,0.436,0.709,-2.167
+Netherlands,Timothy Williams,complementary,Jason Wells,F,0.450,-0.754,0.588,-0.911,0.000,0.858,1.111,-0.627
+Netherlands,Timothy Williams,complementary,Joshua Price,F,-2.263,0.888,-0.344,-0.272,0.000,1.307,-0.989,-1.991
+Netherlands,Timothy Williams,complementary,Timothy Lewis,F,1.062,1.250,0.192,-0.001,0.000,0.399,1.902,2.503
+Netherlands,Timothy Williams,complementary,Christopher Bird,F,-0.630,-0.399,-2.347,0.425,0.000,-0.923,-0.738,-2.951
+Netherlands,Timothy Williams,complementary,Joseph Davis,F,0.104,0.502,-1.142,-0.846,0.000,1.402,-0.057,-1.382
+Netherlands,Timothy Williams,complementary,John Ortiz,D,-0.191,1.497,1.092,-0.689,0.000,-0.171,1.133,1.708
+Netherlands,Timothy Williams,complementary,Christopher Taylor,D,0.556,1.195,-1.057,-0.220,0.000,-0.676,-0.337,0.475
+Netherlands,Timothy Williams,complementary,Ryan Davis,D,1.260,-2.075,0.689,-1.059,0.000,-1.868,-0.047,-1.184
+Netherlands,Timothy Williams,complementary,Benjamin Harmon,D,-0.980,0.416,0.822,0.517,0.000,-0.470,0.513,0.775
+Netherlands,Timothy Williams,complementary,Andrew Skinner,G,0.000,0.000,0.000,0.000,-0.330,1.825,0.248,-0.330
+Belgium,Jenna Rollins,complementary,Larry Irwin,F,-1.086,-0.387,-0.428,-0.289,0.000,-0.324,0.468,-2.190
+Belgium,Jenna Rollins,complementary,Jamie Miller,F,0.045,2.234,-0.731,-0.538,0.000,-0.937,2.050,1.010
+Belgium,Jenna Rollins,complementary,Eric Luna,F,-1.321,-1.776,0.202,-0.798,0.000,-0.092,0.104,-3.693
+Belgium,Jenna Rollins,complementary,Andre Velasquez,F,1.385,0.064,2.190,0.615,0.000,1.400,0.673,4.255
+Belgium,Jenna Rollins,complementary,Eugene Weeks,F,0.913,-0.783,1.061,-0.968,0.000,0.969,0.012,0.224
+Belgium,Jenna Rollins,complementary,James Jones,F,-0.014,1.084,-0.161,0.548,0.000,-0.067,-0.075,1.457
+Belgium,Jenna Rollins,complementary,David Davis,D,0.325,-1.965,-0.193,0.064,0.000,-0.625,0.996,-1.768
+Belgium,Jenna Rollins,complementary,Eric Osborne,D,0.108,0.197,-0.743,-1.158,0.000,0.172,-0.020,-1.596
+Belgium,Jenna Rollins,complementary,Travis Webb,D,-1.056,-0.713,-1.045,0.696,0.000,0.124,-0.878,-2.118
+Belgium,Jenna Rollins,complementary,James Lee,D,-0.554,-2.046,-0.005,0.087,0.000,0.252,-0.313,-2.518
+Belgium,Jenna Rollins,complementary,John Martinez,G,0.000,0.000,0.000,0.000,0.763,0.786,-0.195,0.763
+Spain,Emily Burton,hyper-offensive,Eddie Thomas,F,0.561,-1.084,-0.447,-0.086,0.000,-0.045,0.272,-1.057
+Spain,Emily Burton,hyper-offensive,James Morgan,F,-0.953,-1.121,-0.873,0.585,0.000,-0.944,0.231,-2.361
+Spain,Emily Burton,hyper-offensive,Joseph Jimenez,F,0.809,0.421,-0.778,-0.294,0.000,-1.972,0.540,0.159
+Spain,Emily Burton,hyper-offensive,Adam Bowman,F,-1.935,-0.172,-1.011,0.565,0.000,-0.886,-0.608,-2.553
+Spain,Emily Burton,hyper-offensive,Michael Jackson,F,0.612,-0.012,-0.626,-0.064,0.000,-0.580,-0.146,-0.090
+Spain,Emily Burton,hyper-offensive,Nicholas Huynh,F,0.177,-0.804,0.344,-1.750,0.000,-0.717,0.339,-2.033
+Spain,Emily Burton,hyper-offensive,Daniel Nelson,D,-0.340,0.770,1.531,-0.278,0.000,1.138,-1.978,1.683
+Spain,Emily Burton,hyper-offensive,Daniel Brandt,D,0.822,-0.074,-1.811,-0.816,0.000,0.465,0.516,-1.879
+Spain,Emily Burton,hyper-offensive,David Harris,D,-0.179,1.826,-0.004,-1.022,0.000,0.429,-1.128,0.621
+Spain,Emily Burton,hyper-offensive,Caleb Mason,D,0.270,0.742,0.546,0.297,0.000,-0.126,-0.704,1.855
+Spain,Emily Burton,hyper-offensive,Robert Day,G,0.000,0.000,0.000,0.000,0.355,0.929,-0.428,0.355
+China,Anthony Carlson,hyper-defensive,Tyler Johns,F,-0.525,-1.702,-0.269,-0.322,0.000,-1.130,1.162,-2.818
+China,Anthony Carlson,hyper-defensive,Todd Bowman,F,-0.362,-0.461,-0.422,-0.023,0.000,-0.098,-0.896,-1.269
+China,Anthony Carlson,hyper-defensive,Logan Clay,F,0.757,0.599,0.474,-0.950,0.000,-0.566,-1.198,0.881
+China,Anthony Carlson,hyper-defensive,Nathan Johnson,F,-0.632,-0.288,-0.219,0.759,0.000,-0.434,-0.159,-0.380
+China,Anthony Carlson,hyper-defensive,Jeffrey Benson,F,-1.518,0.247,-0.342,-0.813,0.000,-0.495,0.016,-2.426
+China,Anthony Carlson,hyper-defensive,James Reyes,F,-0.010,-0.580,-0.715,1.414,0.000,0.119,0.031,0.108
+China,Anthony Carlson,hyper-defensive,Michael Clayton,D,-0.441,0.246,-0.198,-0.463,0.000,1.884,0.681,-0.856
+China,Anthony Carlson,hyper-defensive,Christopher Finley,D,-0.647,-0.649,0.585,1.204,0.000,0.820,-0.690,0.492
+China,Anthony Carlson,hyper-defensive,John Cooper,D,-0.938,1.561,0.142,-2.091,0.000,-1.649,-0.115,-1.326
+China,Anthony Carlson,hyper-defensive,Kenneth Smith,D,0.437,-0.299,0.317,0.622,0.000,0.447,-1.130,1.076
+China,Anthony Carlson,hyper-defensive,Jeremy Duncan,G,0.000,0.000,0.000,0.000,1.225,0.583,-0.746,1.225
