@@ -17,9 +17,6 @@ scripts/test-box-scores.py
 scripts/test-line-attribution.py
 scripts/tune-parameters.py
 
-# simulations for russ
-russ.py
-
 
 ##############
 ### PYTHON ###
