@@ -132,12 +132,12 @@ for season_num in range(1, NUM_SEASONS + 1):
         gd = s['GF'] - s['GA']
         rows.append({
             'team': team_name,
-            'GP': s['GP'], 'W': s['W'], 'OTW': s['OTW'], 'L': s['L'], 'OTL': s['OTL'],
+            'GP': s['GP'], 'W': s['W'], 'L': s['L'], 'OTL': s['OTL'],
             'PTS': s['PTS'], 'GF': s['GF'], 'GA': s['GA'], 'GD': gd
         })
     rows.sort(key=lambda r: (r['PTS'], r['GD'], r['GF']), reverse=True)
     with open(os.path.join(season_teams_dir, 'standings.csv'), 'w', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=['team','GP','W','OTW','L','OTL','PTS','GF','GA','GD'])
+        w = csv.DictWriter(f, fieldnames=['team','GP','W','L','OTL','PTS','GF','GA','GD'])
         w.writeheader()
         w.writerows(rows)
     
