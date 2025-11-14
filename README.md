@@ -7,29 +7,29 @@ Code and data for WSABI's 2026 High School Data Science Competition.
 ```
 .
 ├── data/
-│   ├── players/              # player data
-│   │   ├── rosters.csv       # all players with attributes
-│   │   ├── creation.csv      # top 50 players by creation
-│   │   ├── conversion.csv    # top 50 players by conversion
-│   │   ├── suppression.csv   # top 50 players by suppression
-│   │   ├── prevention.csv    # top 50 players by prevention
-│   │   ├── goalkeeping.csv   # top 50 players by goalkeeping
-│   │   ├── stamina.csv       # top 50 players by stamina
-│   │   └── discipline.csv    # top 50 players by discipline
-│   ├── teams/                # team data
-│   │   ├── teams.csv         # team attributes, HFA factors, conference/division
-│   │   └── standings.csv     # final season standings
-│   └── games/                # game data
-│       ├── schedule.csv      # full season schedule
-│       ├── game-results.csv  # game outcomes
-│       ├── play-by-play.csv  # detailed game events
-│       └── box-scores/       # box score data
-│           ├── lines.csv     # line-level matchups and stats
-│           └── games.csv     # game-level aggregated stats
+│   ├── players/                        # player data
+│   │   ├── rosters.csv                 # all players with attributes
+│   │   ├── creation.csv                # top 50 players by creation
+│   │   ├── conversion.csv              # top 50 players by conversion
+│   │   ├── suppression.csv             # top 50 players by suppression
+│   │   ├── prevention.csv              # top 50 players by prevention
+│   │   ├── goalkeeping.csv             # top 50 players by goalkeeping
+│   │   ├── stamina.csv                 # top 50 players by stamina
+│   │   └── discipline.csv              # top 50 players by discipline
+│   ├── teams/                          # team data
+│   │   ├── teams.csv                   # team attributes, HFA factors, conference/division
+│   │   └── standings.csv               # final season standings
+│   └── games/                          # game data
+│       ├── schedule.csv                # full season schedule
+│       ├── game-results.csv            # game outcomes
+│       ├── play-by-play.csv            # detailed game events
+│       └── box-scores/                 # box score data
+│           ├── lines.csv               # line-level matchups and stats
+│           └── games.csv               # game-level aggregated stats
 ├── scripts/
-│   ├── main.py               # entry point – generates the league, runs season, dumps outputs
-│   ├── classes.py            # core simulation classes (League, Game, Team, Player, etc.)
-│   └── functions.py          # helpers for building league data
+│   ├── main.py                         # entry point – generates the league, runs season, dumps outputs
+│   ├── classes.py                      # core simulation classes (League, Game, Team, Player, etc.)
+│   └── functions.py                    # helpers for building league data
 └── README.md
 ```
 
