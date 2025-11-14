@@ -8,47 +8,48 @@ import math
 
 # Shot rate baselines (per second) - shots on goal (SOG) per situation
 # Rates are per minute, converted to per second by dividing by 60
-# Format: a:b means team with a skaters / team with b skaters
-BASE_SHOTS_5V5 = 0.400 / 60.0             # 5v5: 0.400 / 0.400 per minute
-BASE_SHOTS_PP_5V4 = 0.754 / 60.0          # 5v4 PP: 0.754 per minute (team with 5)
-BASE_SHOTS_SH_4V5 = 0.221 / 60.0          # 4v5 PK: 0.221 per minute (team with 4)
-BASE_SHOTS_PP_5V3 = 1.353 / 60.0          # 5v3 PP: 1.353 per minute (team with 5)
-BASE_SHOTS_SH_3V5 = 0.115 / 60.0          # 3v5 PK: 0.115 per minute (team with 3)
-BASE_SHOTS_6V5_FOR = 0.900 / 60.0         # 6v5 pulled goalie: 0.900 per minute (team with 6)
-BASE_SHOTS_5V6_FOR = 0.174 / 60.0         # 5v6 empty net: 0.174 per minute (team with 5)
-BASE_SHOTS_6V4_FOR = 1.566 / 60.0         # 6v4 PP with pulled goalie: 1.566 per minute (team with 6)
-BASE_SHOTS_4V6_FOR = 0.104 / 60.0         # 4v6 PK vs pulled goalie: 0.104 per minute (team with 4)
-BASE_SHOTS_3V3 = 0.418 / 60.0             # 3v3: 0.418 / 0.418 per minute
-BASE_SHOTS_4V4 = 0.462 / 60.0             # 4v4: 0.462 / 0.462 per minute
-BASE_SHOTS_3V4 = 0.198 / 60.0             # 3v4: 0.198 per minute (team with 3)
-BASE_SHOTS_4V3 = 0.792 / 60.0             # 4v3: 0.792 per minute (team with 4)
-BASE_SHOTS_3V6 = 0.072 / 60.0             # 3v6: 0.072 per minute (team with 3)
-BASE_SHOTS_6V3 = 1.920 / 60.0             # 6v3: 1.920 per minute (team with 6)
+# Format: (a, b) -> (shot_rate_for_team_with_a_skaters, shot_rate_for_team_with_b_skaters)
+SHOT_RATE_BASELINES = {
+    (3, 3): (0.418 / 60.0, 0.418 / 60.0),
+    (3, 4): (0.198 / 60.0, 0.792 / 60.0),
+    (3, 5): (0.115 / 60.0, 1.353 / 60.0),
+    (3, 6): (0.072 / 60.0, 1.920 / 60.0),
+    (4, 3): (0.792 / 60.0, 0.198 / 60.0),
+    (4, 4): (0.462 / 60.0, 0.462 / 60.0),
+    (4, 5): (0.221 / 60.0, 0.754 / 60.0),
+    (4, 6): (0.104 / 60.0, 1.566 / 60.0),
+    (5, 3): (1.353 / 60.0, 0.115 / 60.0),
+    (5, 4): (0.754 / 60.0, 0.221 / 60.0),
+    (5, 5): (0.400 / 60.0, 0.400 / 60.0),
+    (5, 6): (0.174 / 60.0, 0.900 / 60.0),
+    (6, 3): (1.920 / 60.0, 0.072 / 60.0),
+    (6, 4): (1.566 / 60.0, 0.104 / 60.0),
+    (6, 5): (0.900 / 60.0, 0.174 / 60.0),
+}
 
 # xG baselines (per shot on goal) - expected goals per shot on goal (xGOT) by situation
-# Format: a:b means xG for team with a skaters / xG for team with b skaters
-BASE_XG_5V5 = 0.095             # 5v5: 0.095 / 0.095 per shot on goal
-BASE_XG_PP_5V4 = 0.146          # 5v4 PP: 0.146 per shot on goal (team with 5)
-BASE_XG_SH_4V5 = 0.076          # 4v5 PK: 0.076 per shot on goal (team with 4)
-BASE_XG_PP_5V3 = 0.218          # 5v3 PP: 0.218 per shot on goal (team with 5)
-BASE_XG_SH_3V5 = 0.061          # 3v5 PK: 0.061 per shot on goal (team with 3)
-BASE_XG_6V5_FOR = 0.163         # 6v5 pulled goalie: 0.163 per shot on goal (team with 6)
-BASE_XG_5V6_FOR = 0.117         # 5v6 empty net: 0.117 per shot on goal (team with 5)
-BASE_XG_6V4_FOR = 0.172         # 6v4 PP with pulled goalie: 0.172 per shot on goal (team with 6)
-BASE_XG_4V6_FOR = 0.071         # 4v6 PK vs pulled goalie: 0.071 per shot on goal (team with 4)
-BASE_XG_3V3 = 0.105             # 3v3: 0.105 / 0.105 per shot on goal
-BASE_XG_4V4 = 0.105             # 4v4: 0.105 / 0.105 per shot on goal
-BASE_XG_3V4 = 0.085             # 3v4: 0.085 per shot on goal (team with 3)
-BASE_XG_4V3 = 0.129             # 4v3: 0.129 per shot on goal (team with 4)
-BASE_XG_3V6 = 0.050             # 3v6: 0.050 per shot on goal (team with 3)
-BASE_XG_6V3 = 0.225             # 6v3: 0.225 per shot on goal (team with 6)
+# Format: (a, b) -> (xG_for_team_with_a_skaters, xG_for_team_with_b_skaters)
+XG_BASELINES = {
+    (3, 3): (0.105, 0.105),
+    (3, 4): (0.085, 0.129),
+    (3, 5): (0.061, 0.218),
+    (3, 6): (0.050, 0.225),
+    (4, 3): (0.129, 0.085),
+    (4, 4): (0.105, 0.105),
+    (4, 5): (0.076, 0.146),
+    (4, 6): (0.071, 0.172),
+    (5, 3): (0.218, 0.061),
+    (5, 4): (0.146, 0.076),
+    (5, 5): (0.095, 0.095),
+    (5, 6): (0.117, 0.163),
+    (6, 3): (0.225, 0.050),
+    (6, 4): (0.172, 0.071),
+    (6, 5): (0.163, 0.117),
+}
 
 # Home-ice advantage multipliers
-# A) Shot creation: multiply home team's baseline shot rate (e.g., 1.03-1.06)
-HFA_SHOT_CREATION_MULT = 1.04  # ~4% boost to home shot creation rate
-# B) xG quality: small additive bump to home team's xG (represents better matchups/zone starts)
-HFA_XG_BONUS = 0.005  # +0.005 to home team's xG per shot (small quality bump)
-# C) Penalty rate: boost home team's penalty draw rate (e.g., +5-10%)
+# Penalty rate: boost home team's penalty draw rate (e.g., +5-10%)
+# Note: Shot creation, xG bonus, and suppression are now team-specific (see Team.hfa_* attributes)
 HFA_PENALTY_MULT = 1.075  # ~7.5% boost to home team's penalty draw rate
 
 # Player influence scaling
@@ -63,6 +64,59 @@ PEN_BETA = 0.40
 PEN_NORM = math.exp(0.5 * PEN_BETA * PEN_BETA)
 PEN_CLAMP_LO = 0.5
 PEN_CLAMP_HI = 1.8
+
+# Assist distributions by manpower situation
+# Format: (a, b) -> ({prob_0_assists, prob_1_assist, prob_2_assists} for team with a skaters,
+#                    {prob_0_assists, prob_1_assist, prob_2_assists} for team with b skaters)
+ASSIST_DISTRIBUTIONS = {
+    (3, 3): ([0.12, 0.48, 0.40], [0.12, 0.48, 0.40]),
+    (3, 4): ([0.20, 0.50, 0.30], [0.10, 0.40, 0.50]),
+    (3, 5): ([0.28, 0.48, 0.24], [0.07, 0.35, 0.58]),
+    (3, 6): ([0.60, 0.32, 0.08], [0.05, 0.33, 0.62]),
+    (4, 3): ([0.10, 0.40, 0.50], [0.20, 0.50, 0.30]),
+    (4, 4): ([0.11, 0.31, 0.58], [0.11, 0.31, 0.58]),
+    (4, 5): ([0.25, 0.45, 0.30], [0.05, 0.25, 0.70]),
+    (4, 6): ([0.55, 0.35, 0.10], [0.02, 0.18, 0.80]),
+    (5, 3): ([0.07, 0.35, 0.58], [0.28, 0.48, 0.24]),
+    (5, 4): ([0.05, 0.25, 0.70], [0.25, 0.45, 0.30]),
+    (5, 5): ([0.09, 0.22, 0.69], [0.09, 0.22, 0.69]),
+    (5, 6): ([0.45, 0.37, 0.18], [0.07, 0.20, 0.73]),
+    (6, 3): ([0.05, 0.33, 0.62], [0.60, 0.32, 0.08]),
+    (6, 4): ([0.02, 0.18, 0.80], [0.55, 0.35, 0.10]),
+    (6, 5): ([0.07, 0.20, 0.73], [0.45, 0.37, 0.18]),
+}
+
+def sample_assists(n_scoring_team: int, n_opposing_team: int) -> int:
+    """Sample number of assists (0, 1, or 2) for a goal based on manpower situation.
+    
+    Args:
+        n_scoring_team: Number of skaters on the team that scored
+        n_opposing_team: Number of skaters on the opposing team
+    
+    Returns:
+        Number of assists: 0, 1, or 2
+    """
+    # Clamp to valid range (3-6 skaters)
+    n_scoring_team = max(3, min(6, n_scoring_team))
+    n_opposing_team = max(3, min(6, n_opposing_team))
+    
+    # Get distribution for scoring team
+    situation = (n_scoring_team, n_opposing_team)
+    if situation in ASSIST_DISTRIBUTIONS:
+        dist_for_scoring, dist_for_opposing = ASSIST_DISTRIBUTIONS[situation]
+        probs = dist_for_scoring
+    else:
+        # Fallback to 5v5 distribution
+        probs = ASSIST_DISTRIBUTIONS[(5, 5)][0]
+    
+    # Sample from distribution
+    r = random.random()
+    if r < probs[0]:
+        return 0
+    elif r < probs[0] + probs[1]:
+        return 1
+    else:
+        return 2
 
 
 class Player:
@@ -196,15 +250,24 @@ class Team:
     Attributes:
         name: Team name.
         roster: List of Player instances.
-        home_rink: Home rink advantage.
+        hfa_shot_creation_mult: Home-ice advantage multiplier for shot creation rate (league avg ~1.02).
+        hfa_xg_bonus: Home-ice advantage bonus to xG per shot (league avg ~0.0025).
+        hfa_shot_suppression_mult: Home-ice advantage multiplier to suppress opponent shot rate (league avg ~0.98).
+        hfa_xg_suppression: Home-ice advantage reduction to opponent xG per shot (league avg ~-0.0025).
         coach: Coach instance.
         lines: Forward lines created by coach.
         pairs: Defensive pairings created by coach.
     """
-    def __init__(self, name: str, roster: List[Player], home_rink: float, coach: 'Coach'):
+    def __init__(self, name: str, roster: List[Player], 
+                 hfa_shot_creation_mult: float, hfa_xg_bonus: float,
+                 hfa_shot_suppression_mult: float, hfa_xg_suppression: float,
+                 coach: 'Coach'):
         self.name = name
         self.roster = list(roster) if roster is not None else []
-        self.home_rink = home_rink
+        self.hfa_shot_creation_mult = hfa_shot_creation_mult
+        self.hfa_xg_bonus = hfa_xg_bonus
+        self.hfa_shot_suppression_mult = hfa_shot_suppression_mult
+        self.hfa_xg_suppression = hfa_xg_suppression
         self.coach = coach
         self.lines = coach.create_lines(self.forwards())
         self.pairs = coach.create_pairs(self.defensemen())
@@ -388,12 +451,107 @@ class Team:
         # Return sorted by defensive score for readability/consistency
         return sorted(selected, key=defensive_score, reverse=True)
 
+class Division:
+    """A division containing 4 teams."""
+    def __init__(self, name: str, teams: List[Team]):
+        self.name = name
+        self.teams = list(teams)
+        if len(self.teams) != 4:
+            raise ValueError(f"Division must have exactly 4 teams, got {len(self.teams)}")
+
+class Conference:
+    """A conference containing 4 divisions."""
+    def __init__(self, name: str, divisions: List[Division]):
+        self.name = name
+        self.divisions = list(divisions)
+        if len(self.divisions) != 4:
+            raise ValueError(f"Conference must have exactly 4 divisions, got {len(self.divisions)}")
+    
+    def get_teams(self) -> List[Team]:
+        """Return all teams in this conference."""
+        teams = []
+        for division in self.divisions:
+            teams.extend(division.teams)
+        return teams
+
 class League:
     """A collection of teams with basic management operations."""
-    def __init__(self, teams: List[Team]):
+    def __init__(self, teams: List[Team], divisions: Optional[List[Division]] = None, conferences: Optional[List[Conference]] = None):
         self.teams = list(teams) if teams is not None else []
+        self.divisions: List[Division] = divisions if divisions else []
+        self.conferences: List[Conference] = conferences if conferences else []
         self.schedule: List[Tuple[Team, Team]] = []
         self.weeks: List[List[Tuple[Team, Team]]] = []
+    
+    def organize_into_divisions_and_conferences(self, seed: Optional[int] = None) -> None:
+        """Organize 32 teams into 8 divisions (4 teams each) and 2 conferences (4 divisions each).
+        
+        Uses predefined geographic organization based on hockey-centric countries.
+        """
+        if len(self.teams) != 32:
+            raise ValueError(f"League must have exactly 32 teams, got {len(self.teams)}")
+        
+        # Predefined organization of hockey countries by division
+        # Eastern Conference (Traditional hockey powers)
+        EASTERN_ATLANTIC = ["Canada", "United States", "Great Britain", "France"]  # Atlantic/North America
+        EASTERN_NORDIC = ["Sweden", "Finland", "Norway", "Denmark"]  # Nordic countries
+        EASTERN_SLAVIC = ["Russia", "Czech Republic", "Slovakia", "Belarus"]  # Slavic/Eastern European
+        EASTERN_ALPINE = ["Germany", "Switzerland", "Austria", "Italy"]  # Alpine/Central European
+        
+        # Western Conference (Emerging hockey nations)
+        WESTERN_BALTIC = ["Latvia", "Estonia", "Lithuania", "Poland"]  # Baltic region
+        WESTERN_DANUBE = ["Slovenia", "Croatia", "Hungary", "Romania"]  # Danube/Central European
+        WESTERN_ASIA_PACIFIC = ["Kazakhstan", "Ukraine", "Japan", "South Korea"]  # Asia-Pacific/Eurasian
+        WESTERN_WESTERN_EUROPE = ["Netherlands", "Belgium", "Spain", "China"]  # Western Europe/Asia
+        
+        # Create a mapping from team name to team object
+        team_dict = {team.name: team for team in self.teams}
+        
+        # Helper function to get teams by name list
+        def get_teams_by_names(names: List[str]) -> List[Team]:
+            teams_list = []
+            for name in names:
+                if name not in team_dict:
+                    raise ValueError(f"Team '{name}' not found in league. Available teams: {list(team_dict.keys())}")
+                teams_list.append(team_dict[name])
+            return teams_list
+        
+        # Create divisions with predefined teams and geographic names
+        divisions = [
+            Division("Atlantic", get_teams_by_names(EASTERN_ATLANTIC)),
+            Division("Nordic", get_teams_by_names(EASTERN_NORDIC)),
+            Division("Slavic", get_teams_by_names(EASTERN_SLAVIC)),
+            Division("Alpine", get_teams_by_names(EASTERN_ALPINE)),
+            Division("Baltic", get_teams_by_names(WESTERN_BALTIC)),
+            Division("Danube", get_teams_by_names(WESTERN_DANUBE)),
+            Division("Asia-Pacific", get_teams_by_names(WESTERN_ASIA_PACIFIC)),
+            Division("Western Europe", get_teams_by_names(WESTERN_WESTERN_EUROPE))
+        ]
+        
+        # Create 2 conferences (4 divisions each)
+        conference1 = Conference("Eastern", divisions[0:4])
+        conference2 = Conference("Western", divisions[4:8])
+        
+        self.divisions = divisions
+        self.conferences = [conference1, conference2]
+    
+    def get_team_division(self, team: Team) -> Optional[Division]:
+        """Get the division for a given team."""
+        for division in self.divisions:
+            # Compare by name since team objects might be different instances
+            for div_team in division.teams:
+                if div_team.name == team.name:
+                    return division
+        return None
+    
+    def get_team_conference(self, team: Team) -> Optional[Conference]:
+        """Get the conference for a given team."""
+        for conference in self.conferences:
+            # Compare by name since team objects might be different instances
+            for conf_team in conference.get_teams():
+                if conf_team.name == team.name:
+                    return conference
+        return None
 
     def add_team(self, team: Team) -> None:
         self.teams.append(team)
@@ -402,16 +560,142 @@ class League:
         self.teams.remove(team)
 
     def build_schedule(self, shuffle: bool = True, seed: Optional[int] = None, group_weeks: bool = True) -> List[Tuple[Team, Team]]:
-        """Create a double round-robin schedule (home/away) for all teams."""
+        """Create an NHL-style imbalanced schedule (82 games per team).
+        
+        Schedule breakdown per team:
+        - Division opponents (3 teams): 2 teams × 5 games + 1 team × 4 games = 14 games
+        - Conference non-division opponents (12 teams): 12 teams × 3 games = 36 games
+        - Other conference opponents (16 teams): 16 teams × 2 games = 32 games
+        Total: 14 + 36 + 32 = 82 games
+        """
+        if len(self.teams) != 32:
+            raise ValueError(f"NHL-style schedule requires exactly 32 teams, got {len(self.teams)}")
+        
+        if not self.divisions or not self.conferences:
+            raise ValueError("League must have divisions and conferences. Call organize_into_divisions_and_conferences() first.")
+        
         games: List[Tuple[Team, Team]] = []
-        n = len(self.teams)
-        for i in range(n):
-            for j in range(i + 1, n):
-                games.append((self.teams[i], self.teams[j]))
-                games.append((self.teams[j], self.teams[i]))
+        rng = random.Random(seed) if seed is not None else random
+        
+        # Track games per team pair (symmetric)
+        pair_game_counts: Dict[Tuple[Team, Team], int] = {}
+        
+        # Assign division games symmetrically
+        # In each division (4 teams), each team plays 3 opponents and needs 14 games total
+        # Each team needs: 2 opponents × 5 games + 1 opponent × 4 games = 14 games
+        # Mathematical constraint: For 4 teams with 6 pairs, we need exactly 4 pairs at 5 games and 2 pairs at 4 games
+        # This ensures: 4 teams × (5+5+4) = 56 total game assignments, which equals (4×5 + 2×4) × 2 = 56 ✓
+        for division in self.divisions:
+            teams = sorted(division.teams, key=lambda t: t.name)  # Sort for consistency
+            rng_div = random.Random(seed + hash(division.name)) if seed is not None else random
+            
+            # Create all 6 pairs in division
+            pairs = []
+            for i, team1 in enumerate(teams):
+                for team2 in teams[i+1:]:
+                    pair_key = tuple(sorted([team1, team2], key=lambda t: t.name))
+                    pairs.append((team1, team2, pair_key))
+            
+            # Initialize all pairs to 5 games
+            for t1, t2, pk in pairs:
+                pair_game_counts[pk] = 5
+            
+            # Now we need to reduce 2 pairs to 4 games, ensuring each team still gets 14 games
+            # Strategy: For each team, ensure it has exactly 2 pairs at 5 and 1 pair at 4
+            # We'll assign which opponent each team plays 4 times
+            team_4_game_opponents = {}
+            for team in teams:
+                opponents = [t for t in teams if t != team]
+                # Randomly pick which opponent this team plays 4 times (others get 5)
+                opponent_4 = rng_div.choice(opponents)
+                team_4_game_opponents[team] = opponent_4
+            
+            # Convert team assignments to pair counts
+            # For each pair, if either team wants to play the other 4 times, set to 4
+            # Otherwise keep at 5
+            for t1, t2, pk in pairs:
+                # If team1 wants to play team2 4 times, or team2 wants to play team1 4 times
+                if team_4_game_opponents.get(t1) == t2 or team_4_game_opponents.get(t2) == t1:
+                    pair_game_counts[pk] = 4
+                else:
+                    pair_game_counts[pk] = 5
+            
+            # Verify each team has exactly 14 division games
+            team_totals = {team: 0 for team in teams}
+            for t1, t2, pk in pairs:
+                count = pair_game_counts[pk]
+                team_totals[t1] += count
+                team_totals[t2] += count
+            
+            # If verification fails, use a known valid pattern that guarantees 14 games per team
+            # Pattern for teams A, B, C, D (in sorted order):
+            #   (A,B)=5, (A,C)=5, (A,D)=4  → A: 5+5+4=14
+            #   (B,C)=4, (B,D)=5           → B: 5+4+5=14
+            #   (C,D)=5                    → C: 5+4+5=14, D: 4+5+5=14
+            if any(total != 14 for total in team_totals.values()):
+                # Reset all pairs
+                for t1, t2, pk in pairs:
+                    pair_game_counts[pk] = 5
+                
+                # Apply known valid pattern
+                # (teams[0], teams[3]) = 4 games
+                pair_key_0_3 = tuple(sorted([teams[0], teams[3]], key=lambda t: t.name))
+                pair_game_counts[pair_key_0_3] = 4
+                # (teams[1], teams[2]) = 4 games  
+                pair_key_1_2 = tuple(sorted([teams[1], teams[2]], key=lambda t: t.name))
+                pair_game_counts[pair_key_1_2] = 4
+                # All other pairs remain at 5 games
+        
+        # Now assign conference and other conference games (symmetric)
+        for team in self.teams:
+            team_division = self.get_team_division(team)
+            team_conference = self.get_team_conference(team)
+            
+            if not team_division or not team_conference:
+                continue
+            
+            # 2. Conference non-division opponents (12 teams): 3 games each = 36 games
+            conference_teams = team_conference.get_teams()
+            conference_non_division = [t for t in conference_teams if t != team and t not in team_division.teams]
+            
+            for opponent in conference_non_division:
+                pair_key = tuple(sorted([team, opponent], key=lambda t: t.name))
+                if pair_key not in pair_game_counts:
+                    pair_game_counts[pair_key] = 3
+            
+            # 3. Other conference opponents (16 teams): 2 games each = 32 games
+            other_conference = self.conferences[1] if team_conference == self.conferences[0] else self.conferences[0]
+            other_conference_teams = other_conference.get_teams()
+            
+            for opponent in other_conference_teams:
+                pair_key = tuple(sorted([team, opponent], key=lambda t: t.name))
+                if pair_key not in pair_game_counts:
+                    pair_game_counts[pair_key] = 2
+        
+        # Build games from pair_game_counts, ensuring home/away balance
+        for pair_key, total_games in pair_game_counts.items():
+            team1, team2 = pair_key
+            
+            # Determine which team should be home first (use team name as tiebreaker)
+            home_first = team1 if team1.name < team2.name else team2
+            away_first = team2 if home_first == team1 else team1
+            
+            # Create games with home/away balance
+            for i in range(total_games):
+                # Alternate home/away, starting with home_first
+                if i % 2 == 0:
+                    games.append((home_first, away_first))
+                else:
+                    games.append((away_first, home_first))
+        
+        # Shuffle the schedule if requested
         if shuffle:
-            rng = random.Random(seed)
-            rng.shuffle(games)
+            if seed is not None:
+                rng = random.Random(seed)
+                rng.shuffle(games)
+            else:
+                random.shuffle(games)
+        
         self.schedule = games
         if group_weeks:
             self.weeks = self.build_weeks(self.schedule)
@@ -444,7 +728,7 @@ class League:
         return rows[:top_n]
 
     def get_teams(self) -> List[Dict]:
-        """Return per-team summary: coach, playstyle, and sums of roster attributes."""
+        """Return per-team summary: coach, playstyle, sums of roster attributes, HFA factors, and division/conference."""
         out: List[Dict] = []
         for team in self.teams:
             creation_sum = sum(p.creation for p in team.roster)
@@ -454,10 +738,19 @@ class League:
             goalkeeping_sum = sum(p.goalkeeping for p in team.roster)
             sta = sum(p.stamina for p in team.roster)
             dis = sum(p.discipline for p in team.roster)
+            
+            # Get division and conference info
+            team_division = self.get_team_division(team)
+            team_conference = self.get_team_conference(team)
+            division_name = team_division.name if team_division else None
+            conference_name = team_conference.name if team_conference else None
+            
             out.append({
                 'team': team.name,
                 'coach': team.coach.name,
                 'playstyle': team.coach.playstyle,
+                'conference': conference_name,
+                'division': division_name,
                 'creation_sum': creation_sum,
                 'conversion_sum': conversion_sum,
                 'suppression_sum': suppression_sum,
@@ -465,7 +758,11 @@ class League:
                 'goalkeeping_sum': goalkeeping_sum,
                 'stamina_sum': sta,
                 'discipline_sum': dis,
-                'total_sum': creation_sum + conversion_sum + suppression_sum + prevention_sum + goalkeeping_sum
+                'total_sum': creation_sum + conversion_sum + suppression_sum + prevention_sum + goalkeeping_sum,
+                'hfa_shot_creation_mult': team.hfa_shot_creation_mult,
+                'hfa_xg_bonus': team.hfa_xg_bonus,
+                'hfa_shot_suppression_mult': team.hfa_shot_suppression_mult,
+                'hfa_xg_suppression': team.hfa_xg_suppression
             })
         return out
 
@@ -1079,61 +1376,18 @@ class Game:
         elif self.pulled_team == 'away':
             n_away = 6
 
-        # Determine shot rate baselines for both teams based on n_home:n_away situation
-        # Format: a:b means team with a skaters / team with b skaters
-        if n_home == 5 and n_away == 5:
-            base_home_shots = BASE_SHOTS_5V5
-            base_away_shots = BASE_SHOTS_5V5
-        elif n_home == 5 and n_away == 4:
-            base_home_shots = BASE_SHOTS_PP_5V4  # 5v4: 1.57 per min
-            base_away_shots = BASE_SHOTS_SH_4V5  # 4v5: 0.67 per min
-        elif n_home == 4 and n_away == 5:
-            base_home_shots = BASE_SHOTS_SH_4V5  # 4v5: 0.67 per min
-            base_away_shots = BASE_SHOTS_PP_5V4  # 5v4: 1.57 per min
-        elif n_home == 5 and n_away == 3:
-            base_home_shots = BASE_SHOTS_PP_5V3  # 5v3: 2.46 per min
-            base_away_shots = BASE_SHOTS_SH_3V5  # 3v5: 0.41 per min
-        elif n_home == 3 and n_away == 5:
-            base_home_shots = BASE_SHOTS_SH_3V5  # 3v5: 0.41 per min
-            base_away_shots = BASE_SHOTS_PP_5V3  # 5v3: 2.46 per min
-        elif n_home == 6 and n_away == 5:
-            base_home_shots = BASE_SHOTS_6V5_FOR  # 6v5: 1.73 per min
-            base_away_shots = BASE_SHOTS_5V6_FOR  # 5v6: 0.58 per min
-        elif n_home == 5 and n_away == 6:
-            base_home_shots = BASE_SHOTS_5V6_FOR  # 5v6: 0.58 per min
-            base_away_shots = BASE_SHOTS_6V5_FOR  # 6v5: 1.73 per min
-        elif n_home == 6 and n_away == 4:
-            base_home_shots = BASE_SHOTS_6V4_FOR  # 6v4: 2.70 per min
-            base_away_shots = BASE_SHOTS_4V6_FOR  # 4v6: 0.37 per min
-        elif n_home == 4 and n_away == 6:
-            base_home_shots = BASE_SHOTS_4V6_FOR  # 4v6: 0.37 per min
-            base_away_shots = BASE_SHOTS_6V4_FOR  # 6v4: 2.70 per min
-        elif n_home == 3 and n_away == 3:
-            base_home_shots = BASE_SHOTS_3V3  # 3v3: 0.95 per min
-            base_away_shots = BASE_SHOTS_3V3  # 3v3: 0.95 per min
-        elif n_home == 4 and n_away == 4:
-            base_home_shots = BASE_SHOTS_4V4  # 4v4: 1.10 per min
-            base_away_shots = BASE_SHOTS_4V4  # 4v4: 1.10 per min
-        elif n_home == 3 and n_away == 4:
-            base_home_shots = BASE_SHOTS_3V4  # 3v4: 0.60 per min
-            base_away_shots = BASE_SHOTS_4V3  # 4v3: 1.65 per min
-        elif n_home == 4 and n_away == 3:
-            base_home_shots = BASE_SHOTS_4V3  # 4v3: 1.65 per min
-            base_away_shots = BASE_SHOTS_3V4  # 3v4: 0.60 per min
-        elif n_home == 3 and n_away == 6:
-            base_home_shots = BASE_SHOTS_3V6  # 3v6: 0.30 per min
-            base_away_shots = BASE_SHOTS_6V3  # 6v3: 3.20 per min
-        elif n_home == 6 and n_away == 3:
-            base_home_shots = BASE_SHOTS_6V3  # 6v3: 3.20 per min
-            base_away_shots = BASE_SHOTS_3V6  # 3v6: 0.30 per min
+        # Get shot rate baselines for both teams based on n_home:n_away situation
+        situation = (n_home, n_away)
+        if situation in SHOT_RATE_BASELINES:
+            base_home_shots, base_away_shots = SHOT_RATE_BASELINES[situation]
         else:
             # Fallback to 5v5 if situation not covered
-            base_home_shots = BASE_SHOTS_5V5
-            base_away_shots = BASE_SHOTS_5V5
+            base_home_shots, base_away_shots = SHOT_RATE_BASELINES[(5, 5)]
 
-        # Apply home-ice advantage to shot creation: multiply home team's baseline
-        base_home_shots *= HFA_SHOT_CREATION_MULT
-        # Away team baseline stays at 1.0x (no suppression, just no boost)
+        # Apply home-ice advantage to shot creation: multiply home team's baseline with team-specific multiplier
+        base_home_shots *= self.home_team.hfa_shot_creation_mult
+        # Apply home team's shot suppression to opponent's baseline
+        base_away_shots *= self.home_team.hfa_shot_suppression_mult
 
         # Shot rate = baseline + (team creation - opponent suppression)
         lambda_home_shot = max(TINY, base_home_shots + SHOT_RATE_SCALE * home_creation - SHOT_RATE_SCALE * away_suppression)
@@ -1173,53 +1427,14 @@ class Game:
         elif self.pulled_team == 'away':
             n_away = 6
         
-        # Determine baseline xG based on situation
-        # Format: a:b means xG for team with a skaters / xG for team with b skaters
-        if n_home == 5 and n_away == 5:
-            base_xg = BASE_XG_5V5  # 0.038
-        elif n_home == 5 and n_away == 4:
-            # Home has advantage (5v4)
-            base_xg = BASE_XG_PP_5V4 if for_team == 'home' else BASE_XG_SH_4V5  # 0.070 / 0.025
-        elif n_home == 4 and n_away == 5:
-            # Away has advantage (5v4)
-            base_xg = BASE_XG_SH_4V5 if for_team == 'home' else BASE_XG_PP_5V4  # 0.025 / 0.070
-        elif n_home == 5 and n_away == 3:
-            # Home has advantage (5v3)
-            base_xg = BASE_XG_PP_5V3 if for_team == 'home' else BASE_XG_SH_3V5  # 0.120 / 0.017
-        elif n_home == 3 and n_away == 5:
-            # Away has advantage (5v3)
-            base_xg = BASE_XG_SH_3V5 if for_team == 'home' else BASE_XG_PP_5V3  # 0.017 / 0.120
-        elif n_home == 6 and n_away == 5:
-            # Home has pulled goalie (6v5)
-            base_xg = BASE_XG_6V5_FOR if for_team == 'home' else BASE_XG_5V6_FOR  # 0.085 / 0.035
-        elif n_home == 5 and n_away == 6:
-            # Away has pulled goalie (6v5)
-            base_xg = BASE_XG_5V6_FOR if for_team == 'home' else BASE_XG_6V5_FOR  # 0.035 / 0.085
-        elif n_home == 6 and n_away == 4:
-            # Home has pulled goalie on PP (6v4)
-            base_xg = BASE_XG_6V4_FOR if for_team == 'home' else BASE_XG_4V6_FOR  # 0.100 / 0.020
-        elif n_home == 4 and n_away == 6:
-            # Away has pulled goalie on PP (6v4)
-            base_xg = BASE_XG_4V6_FOR if for_team == 'home' else BASE_XG_6V4_FOR  # 0.020 / 0.100
-        elif n_home == 3 and n_away == 3:
-            base_xg = BASE_XG_3V3  # 0.046
-        elif n_home == 4 and n_away == 4:
-            base_xg = BASE_XG_4V4  # 0.044
-        elif n_home == 3 and n_away == 4:
-            # Away has advantage (4v3)
-            base_xg = BASE_XG_3V4 if for_team == 'home' else BASE_XG_4V3  # 0.028 / 0.062
-        elif n_home == 4 and n_away == 3:
-            # Home has advantage (4v3)
-            base_xg = BASE_XG_4V3 if for_team == 'home' else BASE_XG_3V4  # 0.062 / 0.028
-        elif n_home == 3 and n_away == 6:
-            # Away has extreme advantage (6v3)
-            base_xg = BASE_XG_3V6 if for_team == 'home' else BASE_XG_6V3  # 0.012 / 0.135
-        elif n_home == 6 and n_away == 3:
-            # Home has extreme advantage (6v3)
-            base_xg = BASE_XG_6V3 if for_team == 'home' else BASE_XG_3V6  # 0.135 / 0.012
+        # Get baseline xG based on situation
+        situation = (n_home, n_away)
+        if situation in XG_BASELINES:
+            xg_home, xg_away = XG_BASELINES[situation]
+            base_xg = xg_home if for_team == 'home' else xg_away
         else:
             # Fallback to 5v5 if situation not covered
-            base_xg = BASE_XG_5V5
+            base_xg = XG_BASELINES[(5, 5)][0] if for_team == 'home' else XG_BASELINES[(5, 5)][1]
         
         return base_xg
     
@@ -1248,8 +1463,8 @@ class Game:
                 goalie_modifier = GOALIE_SUPPRESSION_SCALE * self._away_goalie_goalkeeping
             else:
                 goalie_modifier = 0.0  # No goalie when pulled
-            # Apply home-ice advantage: small quality bump to xG
-            home_xg_bonus = HFA_XG_BONUS
+            # Apply home-ice advantage: team-specific xG bonus
+            home_xg_bonus = self.home_team.hfa_xg_bonus
         else:  # away
             conversion_modifier = XG_SCALE * self._away_conversion_sum
             prevention_modifier = XG_SCALE * self._home_prevention_sum
@@ -1257,8 +1472,8 @@ class Game:
                 goalie_modifier = GOALIE_SUPPRESSION_SCALE * self._home_goalie_goalkeeping
             else:
                 goalie_modifier = 0.0
-            # Away team gets no xG bonus
-            home_xg_bonus = 0.0
+            # Apply home team's xG suppression to away team's shots
+            home_xg_bonus = self.home_team.hfa_xg_suppression
         
         # Calculate final xG: baseline + modifiers + home advantage
         xg = base_xg + conversion_modifier - prevention_modifier - goalie_modifier + home_xg_bonus
@@ -1384,6 +1599,25 @@ class Game:
             elif boundary_kind == 'away_defense':
                 self._handle_line_change(team='away', unit='defense')
     
+    def _get_manpower_state(self) -> Tuple[int, int]:
+        """Get current manpower state (home_skaters, away_skaters).
+        
+        Returns:
+            Tuple of (home_skaters, away_skaters), accounting for penalties and pulled goalie
+        """
+        active_home = sum(1 for p in self.home_penalties if p['segment_end'] > self.current_time)
+        active_away = sum(1 for p in self.away_penalties if p['segment_end'] > self.current_time)
+        n_home = max(3, 5 - active_home)
+        n_away = max(3, 5 - active_away)
+        
+        # Pulled goalie overrides
+        if self.pulled_team == 'home':
+            n_home = 6
+        elif self.pulled_team == 'away':
+            n_away = 6
+        
+        return n_home, n_away
+    
     def _handle_event(self, event_type: str) -> None:
         """Handle a specific event type."""
         if event_type == 'home_shot':
@@ -1395,7 +1629,10 @@ class Game:
                 self.home_score += 1
                 context = 'home_pp_goal' if self.penalized_team == 'away' else ('away_pp_against' if self.penalized_team == 'home' else 'even')
                 h_oi, a_oi = self._current_on_ice_names()
-                self.events.append((self.current_time, 'goal', f'Home team scores! {self.home_score}-{self.away_score}', self.home_score, self.away_score, context, h_oi, a_oi))
+                # Get manpower state and sample assists
+                n_home, n_away = self._get_manpower_state()
+                assists = sample_assists(n_home, n_away)
+                self.events.append((self.current_time, 'goal', f'Home team scores! {self.home_score}-{self.away_score}', self.home_score, self.away_score, context, h_oi, a_oi, assists))
                 # If away was shorthanded, release oldest away minor (oldest-minor rule)
                 if self.penalized_team == 'away':
                     self._end_one_penalty('away')
@@ -1422,7 +1659,10 @@ class Game:
                 self.away_score += 1
                 context = 'away_pp_goal' if self.penalized_team == 'home' else ('home_pp_against' if self.penalized_team == 'away' else 'even')
                 h_oi, a_oi = self._current_on_ice_names()
-                self.events.append((self.current_time, 'goal', f'Away team scores! {self.home_score}-{self.away_score}', self.home_score, self.away_score, context, h_oi, a_oi))
+                # Get manpower state and sample assists
+                n_home, n_away = self._get_manpower_state()
+                assists = sample_assists(n_away, n_home)  # Note: scoring team is away, so n_away comes first
+                self.events.append((self.current_time, 'goal', f'Away team scores! {self.home_score}-{self.away_score}', self.home_score, self.away_score, context, h_oi, a_oi, assists))
                 # If home was shorthanded, release oldest home minor
                 if self.penalized_team == 'home':
                     self._end_one_penalty('home')
@@ -1633,6 +1873,13 @@ class Game:
         current_away_line_id = 1
         current_away_pair_id = 1
         
+        # Track current goalies (start with first goalie from each team's roster)
+        # Will be set to None when goalie is pulled
+        current_home_goalie = self.home_team.goalies()[0].name if self.home_team.goalies() else None
+        current_away_goalie = self.away_team.goalies()[0].name if self.away_team.goalies() else None
+        prev_home_goalie = current_home_goalie
+        prev_away_goalie = current_away_goalie
+        
         # Process events chronologically
         for i, event in enumerate(self.events):
             event_time = event[0]
@@ -1717,16 +1964,34 @@ class Game:
                         'away_max_xg': 0.0,
                         'home_goals': 0,
                         'away_goals': 0,
+                        'home_assists': 0,
+                        'away_assists': 0,
                         'home_penalties_taken': 0,
                         'away_penalties_taken': 0,
                         'home_penalties_drawn': 0,
                         'away_penalties_drawn': 0,
                         'home_penalty_minutes': 0,
                         'away_penalty_minutes': 0,
+                        'home_goalie': prev_home_goalie,  # Use previous goalie state during this time period
+                        'away_goalie': prev_away_goalie,
                     }
                 
                 # Attribute time to matchup
                 matchup_stats[matchup_to_credit]['toi'] += time_elapsed
+            
+            # Update goalie tracking based on goalie_pulled/goalie_in events
+            # Do this AFTER attributing time but BEFORE initializing current matchup
+            if event_type == 'goalie_pulled':
+                if 'home_pulled' in tag or 'Home' in str(event[2]):
+                    current_home_goalie = None
+                elif 'away_pulled' in tag or 'Away' in str(event[2]):
+                    current_away_goalie = None
+            elif event_type == 'goalie_in':
+                # When goalie returns, set back to the first goalie (since we don't track goalie rotation)
+                if 'home_in' in tag or 'Home' in str(event[2]):
+                    current_home_goalie = self.home_team.goalies()[0].name if self.home_team.goalies() else None
+                elif 'away_in' in tag or 'Away' in str(event[2]):
+                    current_away_goalie = self.away_team.goalies()[0].name if self.away_team.goalies() else None
             
             # Initialize matchup stats if needed
             if current_matchup not in matchup_stats:
@@ -1740,12 +2005,16 @@ class Game:
                     'away_max_xg': 0.0,
                     'home_goals': 0,
                     'away_goals': 0,
+                    'home_assists': 0,
+                    'away_assists': 0,
                     'home_penalties_taken': 0,
                     'away_penalties_taken': 0,
                     'home_penalties_drawn': 0,
                     'away_penalties_drawn': 0,
                     'home_penalty_minutes': 0,
                     'away_penalty_minutes': 0,
+                    'home_goalie': current_home_goalie,
+                    'away_goalie': current_away_goalie,
                 }
             
             # Process event types
@@ -1772,14 +2041,18 @@ class Game:
                 # Goal event - check which team scored
                 home_score = event[3] if len(event) > 3 else 0
                 away_score = event[4] if len(event) > 4 else 0
+                # Get assists from event (9th element, if present)
+                assists = event[8] if len(event) > 8 else 0
                 # Determine which team scored by comparing to previous scores
                 if i > 0:
                     prev_home = self.events[i-1][3] if len(self.events[i-1]) > 3 else 0
                     prev_away = self.events[i-1][4] if len(self.events[i-1]) > 4 else 0
                     if home_score > prev_home:
                         matchup_stats[current_matchup]['home_goals'] += 1
+                        matchup_stats[current_matchup]['home_assists'] += assists
                     elif away_score > prev_away:
                         matchup_stats[current_matchup]['away_goals'] += 1
+                        matchup_stats[current_matchup]['away_assists'] += assists
             
             elif event_type == 'penalty':
                 # Penalty event - track penalty minutes assessed
@@ -1798,6 +2071,8 @@ class Game:
             
             prev_time = event_time
             prev_matchup = current_matchup
+            prev_home_goalie = current_home_goalie
+            prev_away_goalie = current_away_goalie
         
         # Check if game went to OT
         went_ot = any(e[1] == 'overtime_start' for e in self.events)
@@ -1823,12 +2098,16 @@ class Game:
                         'away_max_xg': 0.0,
                         'home_goals': 0,
                         'away_goals': 0,
+                        'home_assists': 0,
+                        'away_assists': 0,
                         'home_penalties_taken': 0,
                         'away_penalties_taken': 0,
                         'home_penalties_drawn': 0,
                         'away_penalties_drawn': 0,
                         'home_penalty_minutes': 0,
                         'away_penalty_minutes': 0,
+                        'home_goalie': prev_home_goalie,  # Use previous goalie state during this time period
+                        'away_goalie': prev_away_goalie,
                     }
                 matchup_stats[prev_matchup]['toi'] += remaining_time
         
@@ -1845,6 +2124,8 @@ class Game:
                 'home_pairing_type': home_pair_type,
                 'away_line_type': away_line_type,
                 'away_pairing_type': away_pair_type,
+                'home_goalie': stats.get('home_goalie'),
+                'away_goalie': stats.get('away_goalie'),
                 'went_ot': 1 if went_ot else 0,
                 'toi': round(stats['toi'], 2),
                 'home_shots': stats['home_shots'],
@@ -1855,6 +2136,8 @@ class Game:
                 'away_max_xg': round(stats['away_max_xg'], 4),
                 'home_goals': stats['home_goals'],
                 'away_goals': stats['away_goals'],
+                'home_assists': stats['home_assists'],
+                'away_assists': stats['away_assists'],
                 'home_penalties_taken': stats['home_penalties_taken'],
                 'away_penalties_taken': stats['away_penalties_taken'],
                 'home_penalties_drawn': stats['home_penalties_drawn'],

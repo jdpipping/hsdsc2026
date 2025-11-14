@@ -3,6 +3,7 @@
 ################
 
 from classes import Player, Team, League, Coach
+from typing import List, Dict
 import numpy as np
 import random
 from faker import Faker
@@ -154,27 +155,33 @@ def draft_teams(n_teams: int, players: list[Player], n_lines: int, n_pairs: int,
     random.shuffle(available_defenders)
     random.shuffle(available_goalies)
 
-    # Prepare unique team city names via Faker
-    team_names: list[str] = []
-    fake = Faker()
-    # Seed faker deterministically based on Python RNG to honor random.seed in main
-    Faker.seed(random.randrange(1_000_000_000))
-    used = set()
-    tries = 0
-    while len(team_names) < n_teams and tries < n_teams * 200:
-        tries += 1
-        try:
-            name = fake.unique.city()
-        except Exception:
-            name = fake.city()
-        if name not in used:
-            used.add(name)
-            team_names.append(name)
-    # reset unique tracker for future calls
-    try:
-        fake.unique.clear()
-    except Exception:
-        pass
+    # Use predefined list of 32 most hockey-centric countries
+    # Organized by conference and division for geographic consistency
+    HOCKEY_COUNTRIES = [
+        # Eastern Conference
+        # Atlantic Division
+        "Canada", "United States", "Great Britain", "France",
+        # Metropolitan Division  
+        "Sweden", "Finland", "Norway", "Denmark",
+        # Central Division
+        "Russia", "Czech Republic", "Slovakia", "Belarus",
+        # Pacific Division (Europe)
+        "Germany", "Switzerland", "Austria", "Italy",
+        # Western Conference
+        # North Division
+        "Latvia", "Estonia", "Lithuania", "Poland",
+        # South Division
+        "Slovenia", "Croatia", "Hungary", "Romania",
+        # East Division
+        "Kazakhstan", "Ukraine", "Japan", "South Korea",
+        # West Division
+        "Netherlands", "Belgium", "Spain", "China"
+    ]
+    
+    if n_teams != len(HOCKEY_COUNTRIES):
+        raise ValueError(f"Number of teams ({n_teams}) must match number of hockey countries ({len(HOCKEY_COUNTRIES)})")
+    
+    team_names = HOCKEY_COUNTRIES[:n_teams]
 
     # Build each team
     for i in range(n_teams):
@@ -184,11 +191,26 @@ def draft_teams(n_teams: int, players: list[Player], n_lines: int, n_pairs: int,
         team_goalies = [available_goalies.pop() for _ in range(required_goalies_per_team)]
         # Compose roster
         roster = team_forwards + team_defenders + team_goalies
+        
+        # Sample team-specific home-ice advantage factors
+
+        # - shot_creation_mult: avg 1.02
+        # - xg_bonus: avg 0.0025
+        # - shot_suppression_mult: avg 0.98
+        # - xg_suppression: avg -0.0025
+        hfa_shot_creation_mult = random.gauss(1.02, 0.01)  # ~2% boost on average, with variation
+        hfa_xg_bonus = random.gauss(0.0025, 0.0005)  # ~0.0025 xG bonus on average
+        hfa_shot_suppression_mult = random.gauss(0.98, 0.005)  # ~2% reduction to opponent shot rate
+        hfa_xg_suppression = random.gauss(-0.0025, 0.0005)  # ~-0.0025 reduction to opponent xG
+        
         # Create team
         teams.append(Team(
             name = team_names[i] if i < len(team_names) else f"Team {i+1}", 
             roster = roster,
-            home_rink = random.gauss(0, 1),
+            hfa_shot_creation_mult = hfa_shot_creation_mult,
+            hfa_xg_bonus = hfa_xg_bonus,
+            hfa_shot_suppression_mult = hfa_shot_suppression_mult,
+            hfa_xg_suppression = hfa_xg_suppression,
             coach = coaches[i]
         ))
     # Return teams
@@ -205,33 +227,113 @@ def build_league(n_teams: int, n_lines: int, n_pairs: int, n_goalies: int) -> Le
 
 
 ##############################
-### SIMPLE GAME SIMULATION ###
+### DATA EXPORT HELPERS ###
 ##############################
 
-def _poisson_sample(lam: float) -> int:
-    """Sample Poisson(lam) from the central RNG."""
-    if lam <= 0:
-        return 0
-    return int(RNG.poisson(lam))
+def aggregate_team_box_scores(line_box_rows: List[Dict]) -> List[Dict]:
+    """Aggregate line-level box scores to team-level box scores.
+    
+    Args:
+        line_box_rows: List of dictionaries representing line-level box scores
+        
+    Returns:
+        List of dictionaries representing team-level box scores
+    """
+    from collections import defaultdict
+    
+    team_box_stats = defaultdict(lambda: {
+        'home_shots': 0, 'away_shots': 0, 'home_xg': 0.0, 'away_xg': 0.0,
+        'home_max_xg': 0.0, 'away_max_xg': 0.0, 'home_goals': 0, 'away_goals': 0,
+        'home_assists': 0, 'away_assists': 0,
+        'home_penalties_taken': 0, 'away_penalties_taken': 0,
+        'home_penalties_drawn': 0, 'away_penalties_drawn': 0,
+        'home_penalty_minutes': 0, 'away_penalty_minutes': 0
+    })
+    
+    # Aggregate line-level stats to team-level
+    for row in line_box_rows:
+        game_id = row['game_id']
+        if game_id not in team_box_stats:
+            team_box_stats[game_id] = {
+                'game_id': game_id,
+                'week': row['week'],
+                'home_team': row['home_team'],
+                'away_team': row['away_team'],
+                'went_ot': row['went_ot'],
+                'home_shots': 0, 'away_shots': 0, 'home_xg': 0.0, 'away_xg': 0.0,
+                'home_max_xg': 0.0, 'away_max_xg': 0.0, 'home_goals': 0, 'away_goals': 0,
+                'home_assists': 0, 'away_assists': 0,
+                'home_penalties_taken': 0, 'away_penalties_taken': 0,
+                'home_penalties_drawn': 0, 'away_penalties_drawn': 0,
+                'home_penalty_minutes': 0, 'away_penalty_minutes': 0
+            }
+        
+        team_box_stats[game_id]['home_shots'] += int(row['home_shots'])
+        team_box_stats[game_id]['away_shots'] += int(row['away_shots'])
+        team_box_stats[game_id]['home_xg'] += float(row['home_xg'])
+        team_box_stats[game_id]['away_xg'] += float(row['away_xg'])
+        team_box_stats[game_id]['home_max_xg'] = max(team_box_stats[game_id]['home_max_xg'], float(row['home_max_xg']))
+        team_box_stats[game_id]['away_max_xg'] = max(team_box_stats[game_id]['away_max_xg'], float(row['away_max_xg']))
+        team_box_stats[game_id]['home_goals'] += int(row['home_goals'])
+        team_box_stats[game_id]['away_goals'] += int(row['away_goals'])
+        team_box_stats[game_id]['home_assists'] += int(row['home_assists'])
+        team_box_stats[game_id]['away_assists'] += int(row['away_assists'])
+        team_box_stats[game_id]['home_penalties_taken'] += int(row['home_penalties_taken'])
+        team_box_stats[game_id]['away_penalties_taken'] += int(row['away_penalties_taken'])
+        team_box_stats[game_id]['home_penalties_drawn'] += int(row['home_penalties_drawn'])
+        team_box_stats[game_id]['away_penalties_drawn'] += int(row['away_penalties_drawn'])
+        team_box_stats[game_id]['home_penalty_minutes'] += int(row['home_penalty_minutes'])
+        team_box_stats[game_id]['away_penalty_minutes'] += int(row['away_penalty_minutes'])
+    
+    # Round and format team box scores
+    team_box_rows = []
+    for game_id in sorted(team_box_stats.keys()):
+        stats = team_box_stats[game_id]
+        team_box_rows.append({
+            'game_id': stats['game_id'],
+            'week': stats['week'],
+            'home_team': stats['home_team'],
+            'away_team': stats['away_team'],
+            'went_ot': stats['went_ot'],
+            'home_shots': stats['home_shots'],
+            'away_shots': stats['away_shots'],
+            'home_xg': round(stats['home_xg'], 4),
+            'away_xg': round(stats['away_xg'], 4),
+            'home_max_xg': round(stats['home_max_xg'], 4),
+            'away_max_xg': round(stats['away_max_xg'], 4),
+            'home_goals': stats['home_goals'],
+            'away_goals': stats['away_goals'],
+            'home_assists': stats['home_assists'],
+            'away_assists': stats['away_assists'],
+            'home_penalties_taken': stats['home_penalties_taken'],
+            'away_penalties_taken': stats['away_penalties_taken'],
+            'home_penalties_drawn': stats['home_penalties_drawn'],
+            'away_penalties_drawn': stats['away_penalties_drawn'],
+            'home_penalty_minutes': stats['home_penalty_minutes'],
+            'away_penalty_minutes': stats['away_penalty_minutes'],
+        })
+    
+    return team_box_rows
 
 
-def simulate_game_simple(home: Team, away: Team, mean_goals: float = 3.0) -> dict:
-    """Simulate a game from team-level strengths with a simple Poisson model."""
-    def team_strength(t: Team) -> float:
-        total = 0.0
-        for p in t.roster:
-            total += (p.creation + p.conversion + p.suppression + p.prevention + p.goalkeeping)
-        return total / len(t.roster)
-
-    lambda_home = mean_goals + team_strength(home) + getattr(home, "home_rink", 0.0)
-    lambda_away = mean_goals + team_strength(away)
-
-    home_goals = _poisson_sample(lambda_home)
-    away_goals = _poisson_sample(lambda_away)
-
-    return {
-        "home": home.name,
-        "away": away.name,
-        "score": {"home": home_goals, "away": away_goals},
-        "lambdas": {"home": lambda_home, "away": lambda_away},
-    }
+def write_rank_csv(league: League, rank_type: str, key: str, output_dir: str, n: int = 50) -> None:
+    """Write player rankings to a CSV file.
+    
+    Args:
+        league: League instance
+        rank_type: Name for the ranking type (used in filename)
+        key: Attribute to rank by ('creation', 'conversion', etc.)
+        output_dir: Directory to write the CSV file
+        n: Number of top players to include
+    """
+    import csv
+    import os
+    
+    rows = []
+    top = league.player_rankings(n, key)
+    for i, row in enumerate(top, start=1):
+        rows.append({ 'rank': i, **row })
+    with open(os.path.join(output_dir, f'{rank_type}.csv'), 'w', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=['rank','player','position','team','creation','conversion','suppression','prevention','goalkeeping','stamina','discipline','total'])
+        w.writeheader()
+        w.writerows(rows)
