@@ -1,3 +1,12 @@
+############
+### DATA ###
+############
+
+# too-large
+play-by-play.csv
+
+
+
 ########################
 ### INTERNAL SCRIPTS ###
 ########################
@@ -7,6 +16,14 @@ scripts/check-box-scores.py
 scripts/test-box-scores.py
 scripts/test-line-attribution.py
 scripts/tune-parameters.py
+
+# simulations for russ
+russ.py
+
+
+##############
+### PYTHON ###
+##############
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
